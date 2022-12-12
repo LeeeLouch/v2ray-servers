@@ -1,4 +1,4 @@
-mode: rule
+mode: global
 log-level: info
 ipv6: false
 dns:
@@ -93,6 +93,21 @@ proxies:
   - {"type":"vmess","name":"sshstores🇮🇩id 12-16 (022)","ws-opts":{"path":"/vmess","headers":{"host":"sni.cloudflare.com"}},"server":"id.vmess1.xservs.xyz","port":"443","uuid":"b17661a0-b0a6-4fc0-ab5b-d0fd0e0a01e0","alterId":"0","cipher":"auto","network":"ws","tls":true,"skip-cert-verify":true}
   - {"type":"vmess","name":"sshstores🇭🇰hk 12-16 (022)","ws-opts":{"path":"/vmess","headers":{"host":"sni.cloudflare.com"}},"server":"hk.vmess1.xservs.xyz","port":"443","uuid":"a45bb31c-2ffb-45e8-b778-40550ab6fd8b","alterId":"0","cipher":"auto","network":"ws","tls":true,"skip-cert-verify":true}
   - {"type":"vmess","name":"sshstores🇬🇧uk 12-16 (023)","ws-opts":{"path":"/vmess","headers":{"host":"sni.cloudflare.com"}},"server":"hk.vmess1.xservs.xyz","port":"443","uuid":"a45bb31c-2ffb-45e8-b778-40550ab6fd8b","alterId":"0","cipher":"auto","network":"ws","tls":true,"skip-cert-verify":true}
+  
+  - {"type":"vmess","name":"akunssh🇨🇦ca 12-19 (031)","ws-opts":{"path":"/vmess","headers":{"host":"sni.cloudflare.com"}},"server":"ca1.vmess.tunnel.cx","port":"443","uuid":"6e06650a-70d0-11ed-b681-df62e0f15cbb","alterId":"0","cipher":"auto","network":"ws","tls":true,"skip-cert-verify":true}
+  - {"type":"vmess","name":"akunssh🇩🇪de 12-19 (031)","ws-opts":{"path":"/vmess","headers":{"host":"sni.cloudflare.com"}},"server":"de1.vmess.tunnel.cx","port":"443","uuid":"40914cfe-7975-11ed-bbee-8b83fed8aa2f","alterId":"0","cipher":"auto","network":"ws","tls":true,"skip-cert-verify":true}
+  - {"type":"vmess","name":"akunssh🇮🇩id 12-19 (031)","ws-opts":{"path":"/vmess","headers":{"host":"sni.cloudflare.com"}},"server":"id1.vmess.tunnel.cx","port":"443","uuid":"40338e84-7975-11ed-b8ca-466cb58320bd","alterId":"0","cipher":"auto","network":"ws","tls":true,"skip-cert-verify":true}
+  - {"type":"vmess","name":"akunssh🇵🇱pl 12-19 (031)","ws-opts":{"path":"/vmess","headers":{"host":"sni.cloudflare.com"}},"server":"pl1.vmess.tunnel.cx","port":"443","uuid":"40b95e10-7975-11ed-8f5d-fb24ef9cde7f","alterId":"0","cipher":"auto","network":"ws","tls":true,"skip-cert-verify":true}
+  - {"type":"vmess","name":"akunssh🇸🇬sg 12-19 (031)","ws-opts":{"path":"/vmess","headers":{"host":"sni.cloudflare.com"}},"server":"sg1.vmess.tunnel.cx","port":"443","uuid":"a0904c24-5a06-11ed-8b49-5b381eee5850","alterId":"0","cipher":"auto","network":"ws","tls":true,"skip-cert-verify":true}
+  - {"type":"vmess","name":"akunssh🇺🇸us 12-19 (031)","ws-opts":{"path":"/vmess","headers":{"host":"sni.cloudflare.com"}},"server":"us1.vmess.tunnel.cx","port":"443","uuid":"6a40dedc-79f9-11ed-91c4-5695fe55cd5d","alterId":"0","cipher":"auto","network":"ws","tls":true,"skip-cert-verify":true}
+  - {"type":"vmess","name":"akunssh🇨🇦ca 12-19 (032)","ws-opts":{"path":"/vmess","headers":{"host":"sni.cloudflare.com"}},"server":"ca1.vmess.tunnel.cx","port":"443","uuid":"6e06650a-70d0-11ed-b681-df62e0f15cbb","alterId":"0","cipher":"auto","network":"ws","tls":true,"skip-cert-verify":true}
+  - {"type":"vmess","name":"akunssh🇩🇪de 12-19 (032)","ws-opts":{"path":"/vmess","headers":{"host":"sni.cloudflare.com"}},"server":"de1.vmess.tunnel.cx","port":"443","uuid":"40914cfe-7975-11ed-bbee-8b83fed8aa2f","alterId":"0","cipher":"auto","network":"ws","tls":true,"skip-cert-verify":true}
+  - {"type":"vmess","name":"akunssh🇵🇱pl 12-19 (032)","ws-opts":{"path":"/vmess","headers":{"host":"sni.cloudflare.com"}},"server":"pl1.vmess.tunnel.cx","port":"443","uuid":"40b95e10-7975-11ed-8f5d-fb24ef9cde7f","alterId":"0","cipher":"auto","network":"ws","tls":true,"skip-cert-verify":true}
+  - {"type":"vmess","name":"akunssh🇺🇸us 12-19 (032)","ws-opts":{"path":"/vmess","headers":{"host":"sni.cloudflare.com"}},"server":"us1.vmess.tunnel.cx","port":"443","uuid":"6a40dedc-79f9-11ed-91c4-5695fe55cd5d","alterId":"0","cipher":"auto","network":"ws","tls":true,"skip-cert-verify":true}
+  - {"type":"vmess","name":"akunssh🇸🇬sg 12-19 (032)","ws-opts":{"path":"/vmess","headers":{"host":"sni.cloudflare.com"}},"server":"sg1.vmess.tunnel.cx","port":"443","uuid":"a0904c24-5a06-11ed-8b49-5b381eee5850","alterId":"0","cipher":"auto","network":"ws","tls":true,"skip-cert-verify":true}
+  - {"type":"vmess","name":"akunssh🇨🇦ca 12-19 (033)","ws-opts":{"path":"/vmess","headers":{"host":"sni.cloudflare.com"}},"server":"ca1.vmess.tunnel.cx","port":"443","uuid":"6e06650a-70d0-11ed-b681-df62e0f15cbb","alterId":"0","cipher":"auto","network":"ws","tls":true,"skip-cert-verify":true}
+  - {"type":"vmess","name":"akunssh🇩🇪de 12-19 (033)","ws-opts":{"path":"/vmess","headers":{"host":"sni.cloudflare.com"}},"server":"de1.vmess.tunnel.cx","port":"443","uuid":"40914cfe-7975-11ed-bbee-8b83fed8aa2f","alterId":"0","cipher":"auto","network":"ws","tls":true,"skip-cert-verify":true}
+  - {"type":"vmess","name":"akunssh🇩🇪de 12-19 (034)","ws-opts":{"path":"/vmess","headers":{"host":"sni.cloudflare.com"}},"server":"de1.vmess.tunnel.cx","port":"443","uuid":"40914cfe-7975-11ed-bbee-8b83fed8aa2f","alterId":"0","cipher":"auto","network":"ws","tls":true,"skip-cert-verify":true}
 
 proxy-groups:
   - name: Select
