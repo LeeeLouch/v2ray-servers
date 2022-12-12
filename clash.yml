@@ -110,8 +110,10 @@ proxies:
   - {"type":"vmess","name":"akunssh🇩🇪de 12-19 (034)","ws-opts":{"path":"/vmess","headers":{"host":"sni.cloudflare.com"}},"server":"de1.vmess.tunnel.cx","port":"443","uuid":"40914cfe-7975-11ed-bbee-8b83fed8aa2f","alterId":"0","cipher":"auto","network":"ws","tls":true,"skip-cert-verify":true}
 
 proxy-groups:
-  - name: Select
-    type: select
+  - name: ⚡️Auto⚡️
+    type: url-test
+    url: cp.cloudflare.com
+    interval: 600
     proxies:
       - vpnjantit🇩🇪de 12-12 (031)
       - sshstores🇬🇧uk 12-16 (021)
@@ -131,6 +133,20 @@ proxy-groups:
       - sshstores🇮🇩id 12-16 (022)
       - sshstores🇭🇰hk 12-16 (022)
       - sshstores🇬🇧uk 12-16 (023)
+      - akunssh🇩🇪de 12-19 (031)
+      - akunssh🇮🇩id 12-19 (031)
+      - akunssh🇨🇦ca 12-19 (031)
+      - akunssh🇵🇱pl 12-19 (031)
+      - akunssh🇸🇬sg 12-19 (031)
+      - akunssh🇺🇸us 12-19 (031)
+      - akunssh🇨🇦ca 12-19 (032)
+      - akunssh🇩🇪de 12-19 (032)
+      - akunssh🇵🇱pl 12-19 (032)
+      - akunssh🇺🇸us 12-19 (032)
+      - akunssh🇸🇬sg 12-19 (032)
+      - akunssh🇨🇦ca 12-19 (033)
+      - akunssh🇩🇪de 12-19 (033)
+      - akunssh🇩🇪de 12-19 (034)
 
 rules:
-  - MATCH, Select
+  - MATCH, ⚡️Auto⚡️
