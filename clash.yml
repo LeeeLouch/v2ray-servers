@@ -111,6 +111,19 @@ proxies:
 
   - {"type":"vmess","name":"sshocean🇩🇪de 12-20 (011)","ws-opts":{"path":"/sshocean","headers":{"host":"sni.cloudflare.com"}},"server":"de2.v2rayserv.com","port":"443","uuid":"b9cbb0aa-3e0f-4965-8fca-292f027a8d8c","alterId":"0","cipher":"auto","network":"ws","udp":true,"tls":true,"skip-cert-verify":true}
 
+  - {"type":"vmess","name":"vpnjantit🇺🇸us 12-20 (041)","ws-opts":{"path":"/vpnjantit"},"server":"usa6.vpnjantit.com","port":"10000","uuid":"4f31f3a8-7c3b-11ed-9329-00163cce34e7","alterId":"0","cipher":"auto","udp":true,"network":"ws"}
+  - {"type":"vmess","name":"mainssh🇸🇬sg 12-22 (042)","ws-opts":{"path":"/v2raydns","headers":{"host":"sg1dns.mainssh.xyz"}},"server":"sg1dns.mainssh.xyz","port":"443","uuid":"8b54ad60-bbe3-4775-8560-2fbcb1065c51","alterId":"0","cipher":"auto","network":"ws","udp":true,"tls":true,"skip-cert-verify":true}
+  - {"type":"vmess","name":"mainssh🇸🇬sg 12-22 (041)","ws-opts":{"path":"/v2raydns","headers":{"host":"sg2dns.mainssh.xyz"}},"server":"sg2dns.mainssh.xyz","port":"443","uuid":"80bb8f1c-c7c7-44fa-ab0a-675d8b958857","alterId":"0","cipher":"auto","network":"ws","udp":true,"tls":true,"skip-cert-verify":true}
+  - {"type":"vmess","name":"mainssh🇫🇷fr 12-22 (041)","ws-opts":{"path":"/v2raydns","headers":{"host":"frdns.mainssh.xyz"}},"server":"frdns.mainssh.xyz","port":"443","uuid":"3128de01-4a12-4214-a628-cf0179848bd0","alterId":"0","cipher":"auto","network":"ws","udp":true,"tls":true,"skip-cert-verify":true}
+  - {"type":"vmess","name":"mainssh🇺🇸us 12-22 (041)","ws-opts":{"path":"/v2raydns","headers":{"host":"usdns.mainssh.xyz"}},"server":"usdns.mainssh.xyz","port":"443","uuid":"3b527c5c-1cf9-44ff-b786-7043a697177a","alterId":"0","cipher":"auto","network":"ws","udp":true,"tls":true,"skip-cert-verify":true}
+  - {"type":"vmess","name":"mainssh🇩🇪de 12-22 (041)","ws-opts":{"path":"/v2raydns","headers":{"host":"dedns.mainssh.xyz"}},"server":"dedns.mainssh.xyz","port":"443","uuid":"06a6468a-172b-4103-b14f-eaa47a698075","alterId":"0","cipher":"auto","network":"ws","udp":true,"tls":true,"skip-cert-verify":true}
+  - {"type":"vmess","name":"mainssh🇨🇦ca 12-22 (042)","ws-opts":{"path":"/v2raydns","headers":{"host":"cadns.mainssh.xyz"}},"server":"cadns.mainssh.xyz","port":"443","uuid":"50f44c95-1461-481c-a2aa-96cf5de4331e","alterId":"0","cipher":"auto","network":"ws","udp":true,"tls":true,"skip-cert-verify":true}
+  - {"type":"vmess","name":"mainssh🇨🇦ca 12-22 (041)","ws-opts":{"path":"/v2raydns","headers":{"host":"cadns.mainssh.xyz"}},"server":"cadns.mainssh.xyz","port":"443","uuid":"2828a238-ae67-4098-b7f9-2c9aed037a94","alterId":"0","cipher":"auto","network":"ws","udp":true,"tls":true,"skip-cert-verify":true}
+  - {"type":"vmess","name":"mainssh🇫🇷fr 12-22 (042)","ws-opts":{"path":"/v2raydns","headers":{"host":"frdns.mainssh.xyz"}},"server":"frdns.mainssh.xyz","port":"443","uuid":"70624459-90f2-42cc-846e-b4842a0d2853","alterId":"0","cipher":"auto","network":"ws","udp":true,"tls":true,"skip-cert-verify":true}
+  - {"type":"vmess","name":"mainssh🇺🇸us 12-22 (042)","ws-opts":{"path":"/v2raydns","headers":{"host":"usdns.mainssh.xyz"}},"server":"usdns.mainssh.xyz","port":"443","uuid":"056f14cd-a28f-415f-bbc0-2dd0d55963d9","alterId":"0","cipher":"auto","network":"ws","udp":true,"tls":true,"skip-cert-verify":true}
+  - {"type":"vmess","name":"mainssh🇩🇪de 12-22 (042)","ws-opts":{"path":"/v2raydns","headers":{"host":"dedns.mainssh.xyz"}},"server":"dedns.mainssh.xyz","port":"443","uuid":"fab4b9c5-f550-4319-9c5a-29f4a54c7181","alterId":"0","cipher":"auto","network":"ws","udp":true,"tls":true,"skip-cert-verify":true}
+  - {"type":"vmess","name":"mainssh🇩🇪de 12-22 (043)","ws-opts":{"path":"/v2raydns","headers":{"host":"dedns.mainssh.xyz"}},"server":"dedns.mainssh.xyz","port":"443","uuid":"9acd7e2f-25e7-418c-a2b4-6be2f493f27f","alterId":"0","cipher":"auto","network":"ws","udp":true,"tls":true,"skip-cert-verify":true}
+
 proxy-groups:
   - name: ⚡️Auto⚡️
     type: select
@@ -151,6 +164,18 @@ proxy-groups:
       - akunssh🇩🇪de 12-19 (033)
       - akunssh🇩🇪de 12-19 (034)
       - sshocean🇩🇪de 12-20 (011)
+      - vpnjantit🇺🇸us 12-20 (041)
+      - mainssh🇸🇬sg 12-22 (042)
+      - mainssh🇸🇬sg 12-22 (041)
+      - mainssh🇨🇦ca 12-22 (041)
+      - mainssh🇫🇷fr 12-22 (041)
+      - mainssh🇺🇸us 12-22 (041)
+      - mainssh🇩🇪de 12-22 (041)
+      - mainssh🇨🇦ca 12-22 (042)
+      - mainssh🇫🇷fr 12-22 (042)
+      - mainssh🇺🇸us 12-22 (042)
+      - mainssh🇩🇪de 12-22 (042)
+      - mainssh🇩🇪de 12-22 (043)
 
 rules:
   - MATCH, ⚡️Auto⚡️
