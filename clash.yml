@@ -73,44 +73,8 @@ dns:
     # - https://doh.opendns.com/dns-query
 
 ###flags###
-# de 🇩🇪 - id 🇮🇩 - ca 🇨🇦 - hk 🇭🇰 - my 🇲🇾 - jp 🇯🇵 - uk 🇬🇧 - ua 🇺🇦 - se 🇸🇪 - sp 🇪🇸 - us 🇺🇸 - za 🇿🇦 - sg 🇸🇬 - pl 🇵🇱 - fr 🇫🇷
+# de 🇩🇪 - id 🇮🇩 - ca 🇨🇦 - hk 🇭🇰 - my 🇲🇾 - jp 🇯🇵 - uk 🇬🇧 - ua 🇺🇦 - se 🇸🇪 - sp 🇪🇸 - us 🇺🇸 - za 🇿🇦 - sg 🇸🇬 - pl 🇵🇱 - fr 🇫🇷 - kr 🇰🇷 - nl 🇳🇱 - au 🇦🇺 - ae 🇦🇪 - th 🇹🇭
 proxies:
-  - {"type":"vmess","name":"vpnjantit🇩🇪de 12-12 (031)","ws-opts":{"path":"/vpnjantit"},"server":"gr5.vpnjantit.com","port":"10000","uuid":"2bed8ef2-77e5-11ed-9553-cf2ddea47719","alterId":"0","cipher":"auto","network":"ws"}
-  - {"type":"vmess","name":"sshstores🇬🇧uk 12-16 (021)","ws-opts":{"path":"/vmess","headers":{"host":"sni.cloudflare.com"}},"server":"ln.vmess1.xservs.xyz","port":"443","uuid":"4875ae08-7ed2-41d6-b1f2-399825b518b0","alterId":"0","cipher":"auto","network":"ws","udp":true,"tls":true,"skip-cert-verify":true}
-  - {"type":"vmess","name":"sshstores🇭🇰hk 12-16 (021)","ws-opts":{"path":"/vmess","headers":{"host":"sni.cloudflare.com"}},"server":"hk.vmess1.xservs.xyz","port":"443","uuid":"a65ca5a6-2ea3-4d21-8765-b47ed927ae21","alterId":"0","cipher":"auto","network":"ws","udp":true,"tls":true,"skip-cert-verify":true}
-  - {"type":"vmess","name":"sshstores🇸🇬sg 12-16 (021)","ws-opts":{"path":"/vmess","headers":{"host":"sni.cloudflare.com"}},"server":"sg.vmess2.xservs.xyz","port":"443","uuid":"43f1f1e0-dc3a-4349-b648-28e10f8178fe","alterId":"0","cipher":"auto","network":"ws","udp":true,"tls":true,"skip-cert-verify":true}
-  - {"type":"vmess","name":"sshstores🇸🇬sg 12-16 (022)","ws-opts":{"path":"/vmess","headers":{"host":"sni.cloudflare.com"}},"server":"sg.vmess3.xservs.xyz","port":"443","uuid":"895ab2c2-6e07-4ae9-b9c1-34602c0ff72d","alterId":"0","cipher":"auto","network":"ws","udp":true,"tls":true,"skip-cert-verify":true}
-  - {"type":"vmess","name":"sshstores🇸🇬sg 12-16 (023)","ws-opts":{"path":"/vmess","headers":{"host":"sni.cloudflare.com"}},"server":"sg.vmess4.xservs.xyz","port":"443","uuid":"053efe57-cb4d-426f-aca6-4e9ed113d9d5","alterId":"0","cipher":"auto","network":"ws","udp":true,"tls":true,"skip-cert-verify":true}
-  - {"type":"vmess","name":"sshstores🇸🇬sg 12-16 (024)","ws-opts":{"path":"/vmess","headers":{"host":"sni.cloudflare.com"}},"server":"sg.vmess7.xservs.xyz","port":"443","uuid":"11e204ed-598c-4e75-a0e7-62c4a63261af","alterId":"0","cipher":"auto","network":"ws","udp":true,"tls":true,"skip-cert-verify":true}
-  - {"type":"vmess","name":"sshstores🇬🇧uk 12-16 (022)","ws-opts":{"path":"/vmess","headers":{"host":"sni.cloudflare.com"}},"server":"ln.vmess1.xservs.xyz","port":"443","uuid":"b8740a01-bc60-4836-b9c5-0e7be8c3f515","alterId":"0","cipher":"auto","network":"ws","udp":true,"tls":true,"skip-cert-verify":true}
-  - {"type":"vmess","name":"sshstores🇨🇦ca 12-16 (021)","ws-opts":{"path":"/vmess","headers":{"host":"sni.cloudflare.com"}},"server":"ca.vmess1.xservs.xyz","port":"443","uuid":"6ad1d89f-8d82-4f39-9d51-bf5beee373c0","alterId":"0","cipher":"auto","network":"ws","udp":true,"tls":true,"skip-cert-verify":true}
-  - {"type":"vmess","name":"sshstores🇨🇦ca 12-16 (022)","ws-opts":{"path":"/vmess","headers":{"host":"sni.cloudflare.com"}},"server":"ca.vmess2.xservs.xyz","port":"443","uuid":"81f4af74-3f6b-40bd-92a5-f54c9635d0c6","alterId":"0","cipher":"auto","network":"ws","udp":true,"tls":true,"skip-cert-verify":true}
-  - {"type":"vmess","name":"sshstores🇵🇱pl 12-16 (021)","ws-opts":{"path":"/vmess","headers":{"host":"sni.cloudflare.com"}},"server":"pl.vmess1.xservs.xyz","port":"443","uuid":"c797997d-b4d6-4c8d-aa09-6fc6276543e3","alterId":"0","cipher":"auto","network":"ws","udp":true,"tls":true,"skip-cert-verify":true}
-  - {"type":"vmess","name":"sshstores🇮🇩id 12-16 (021)","ws-opts":{"path":"/vmess","headers":{"host":"sni.cloudflare.com"}},"server":"id.vmess2.xservs.xyz","port":"443","uuid":"ce6292d5-447d-4c30-a120-b1d3bed343fc","alterId":"0","cipher":"auto","network":"ws","udp":true,"tls":true,"skip-cert-verify":true}
-  - {"type":"vmess","name":"sshstores🇫🇷fr 12-16 (021)","ws-opts":{"path":"/vmess","headers":{"host":"sni.cloudflare.com"}},"server":"fr.vmess1.xservs.xyz","port":"443","uuid":"559ab16e-d0d8-4a0f-831e-14dc2b1ee301","alterId":"0","cipher":"auto","network":"ws","udp":true,"tls":true,"skip-cert-verify":true}
-  - {"type":"vmess","name":"sshstores🇫🇷fr 12-16 (022)","ws-opts":{"path":"/vmess","headers":{"host":"sni.cloudflare.com"}},"server":"fr.vmess2.xservs.xyz","port":"443","uuid":"da253225-899c-45f2-a140-5d612468ef5f","alterId":"0","cipher":"auto","network":"ws","udp":true,"tls":true,"skip-cert-verify":true}
-  - {"type":"vmess","name":"sshstores🇺🇸us 12-16 (021)","ws-opts":{"path":"/vmess","headers":{"host":"sni.cloudflare.com"}},"server":"us.vmess3.xservs.xyz","port":"443","uuid":"96c3c086-226f-4e62-9d9a-81dd847152c1","alterId":"0","cipher":"auto","network":"ws","udp":true,"tls":true,"skip-cert-verify":true}
-  - {"type":"vmess","name":"sshstores🇮🇩id 12-16 (022)","ws-opts":{"path":"/vmess","headers":{"host":"sni.cloudflare.com"}},"server":"id.vmess1.xservs.xyz","port":"443","uuid":"b17661a0-b0a6-4fc0-ab5b-d0fd0e0a01e0","alterId":"0","cipher":"auto","network":"ws","udp":true,"tls":true,"skip-cert-verify":true}
-  - {"type":"vmess","name":"sshstores🇭🇰hk 12-16 (022)","ws-opts":{"path":"/vmess","headers":{"host":"sni.cloudflare.com"}},"server":"hk.vmess1.xservs.xyz","port":"443","uuid":"a45bb31c-2ffb-45e8-b778-40550ab6fd8b","alterId":"0","cipher":"auto","network":"ws","udp":true,"tls":true,"skip-cert-verify":true}
-  - {"type":"vmess","name":"sshstores🇬🇧uk 12-16 (023)","ws-opts":{"path":"/vmess","headers":{"host":"sni.cloudflare.com"}},"server":"hk.vmess1.xservs.xyz","port":"443","uuid":"a45bb31c-2ffb-45e8-b778-40550ab6fd8b","alterId":"0","cipher":"auto","network":"ws","udp":true,"tls":true,"skip-cert-verify":true}
-  
-  - {"type":"vmess","name":"akunssh🇨🇦ca 12-19 (031)","ws-opts":{"path":"/vmess","headers":{"host":"sni.cloudflare.com"}},"server":"ca1.vmess.tunnel.cx","port":"443","uuid":"6e06650a-70d0-11ed-b681-df62e0f15cbb","alterId":"0","cipher":"auto","network":"ws","udp":true,"tls":true,"skip-cert-verify":true}
-  - {"type":"vmess","name":"akunssh🇩🇪de 12-19 (031)","ws-opts":{"path":"/vmess","headers":{"host":"sni.cloudflare.com"}},"server":"de1.vmess.tunnel.cx","port":"443","uuid":"40914cfe-7975-11ed-bbee-8b83fed8aa2f","alterId":"0","cipher":"auto","network":"ws","udp":true,"tls":true,"skip-cert-verify":true}
-  - {"type":"vmess","name":"akunssh🇮🇩id 12-19 (031)","ws-opts":{"path":"/vmess","headers":{"host":"sni.cloudflare.com"}},"server":"id1.vmess.tunnel.cx","port":"443","uuid":"40338e84-7975-11ed-b8ca-466cb58320bd","alterId":"0","cipher":"auto","network":"ws","udp":true,"tls":true,"skip-cert-verify":true}
-  - {"type":"vmess","name":"akunssh🇵🇱pl 12-19 (031)","ws-opts":{"path":"/vmess","headers":{"host":"sni.cloudflare.com"}},"server":"pl1.vmess.tunnel.cx","port":"443","uuid":"40b95e10-7975-11ed-8f5d-fb24ef9cde7f","alterId":"0","cipher":"auto","network":"ws","udp":true,"tls":true,"skip-cert-verify":true}
-  - {"type":"vmess","name":"akunssh🇸🇬sg 12-19 (031)","ws-opts":{"path":"/vmess","headers":{"host":"sni.cloudflare.com"}},"server":"sg1.vmess.tunnel.cx","port":"443","uuid":"a0904c24-5a06-11ed-8b49-5b381eee5850","alterId":"0","cipher":"auto","network":"ws","udp":true,"tls":true,"skip-cert-verify":true}
-  - {"type":"vmess","name":"akunssh🇺🇸us 12-19 (031)","ws-opts":{"path":"/vmess","headers":{"host":"sni.cloudflare.com"}},"server":"us1.vmess.tunnel.cx","port":"443","uuid":"6a40dedc-79f9-11ed-91c4-5695fe55cd5d","alterId":"0","cipher":"auto","network":"ws","udp":true,"tls":true,"skip-cert-verify":true}
-  - {"type":"vmess","name":"akunssh🇨🇦ca 12-19 (032)","ws-opts":{"path":"/vmess","headers":{"host":"sni.cloudflare.com"}},"server":"ca1.vmess.tunnel.cx","port":"443","uuid":"6e06650a-70d0-11ed-b681-df62e0f15cbb","alterId":"0","cipher":"auto","network":"ws","udp":true,"tls":true,"skip-cert-verify":true}
-  - {"type":"vmess","name":"akunssh🇩🇪de 12-19 (032)","ws-opts":{"path":"/vmess","headers":{"host":"sni.cloudflare.com"}},"server":"de1.vmess.tunnel.cx","port":"443","uuid":"40914cfe-7975-11ed-bbee-8b83fed8aa2f","alterId":"0","cipher":"auto","network":"ws","udp":true,"tls":true,"skip-cert-verify":true}
-  - {"type":"vmess","name":"akunssh🇵🇱pl 12-19 (032)","ws-opts":{"path":"/vmess","headers":{"host":"sni.cloudflare.com"}},"server":"pl1.vmess.tunnel.cx","port":"443","uuid":"40b95e10-7975-11ed-8f5d-fb24ef9cde7f","alterId":"0","cipher":"auto","network":"ws","udp":true,"tls":true,"skip-cert-verify":true}
-  - {"type":"vmess","name":"akunssh🇺🇸us 12-19 (032)","ws-opts":{"path":"/vmess","headers":{"host":"sni.cloudflare.com"}},"server":"us1.vmess.tunnel.cx","port":"443","uuid":"6a40dedc-79f9-11ed-91c4-5695fe55cd5d","alterId":"0","cipher":"auto","network":"ws","udp":true,"tls":true,"skip-cert-verify":true}
-  - {"type":"vmess","name":"akunssh🇸🇬sg 12-19 (032)","ws-opts":{"path":"/vmess","headers":{"host":"sni.cloudflare.com"}},"server":"sg1.vmess.tunnel.cx","port":"443","uuid":"a0904c24-5a06-11ed-8b49-5b381eee5850","alterId":"0","cipher":"auto","network":"ws","udp":true,"tls":true,"skip-cert-verify":true}
-  - {"type":"vmess","name":"akunssh🇨🇦ca 12-19 (033)","ws-opts":{"path":"/vmess","headers":{"host":"sni.cloudflare.com"}},"server":"ca1.vmess.tunnel.cx","port":"443","uuid":"6e06650a-70d0-11ed-b681-df62e0f15cbb","alterId":"0","cipher":"auto","network":"ws","udp":true,"tls":true,"skip-cert-verify":true}
-  - {"type":"vmess","name":"akunssh🇩🇪de 12-19 (033)","ws-opts":{"path":"/vmess","headers":{"host":"sni.cloudflare.com"}},"server":"de1.vmess.tunnel.cx","port":"443","uuid":"40914cfe-7975-11ed-bbee-8b83fed8aa2f","alterId":"0","cipher":"auto","network":"ws","udp":true,"tls":true,"skip-cert-verify":true}
-  - {"type":"vmess","name":"akunssh🇩🇪de 12-19 (034)","ws-opts":{"path":"/vmess","headers":{"host":"sni.cloudflare.com"}},"server":"de1.vmess.tunnel.cx","port":"443","uuid":"40914cfe-7975-11ed-bbee-8b83fed8aa2f","alterId":"0","cipher":"auto","network":"ws","udp":true,"tls":true,"skip-cert-verify":true}
-
-  - {"type":"vmess","name":"sshocean🇩🇪de 12-20 (011)","ws-opts":{"path":"/sshocean","headers":{"host":"sni.cloudflare.com"}},"server":"de2.v2rayserv.com","port":"443","uuid":"b9cbb0aa-3e0f-4965-8fca-292f027a8d8c","alterId":"0","cipher":"auto","network":"ws","udp":true,"tls":true,"skip-cert-verify":true}
-
   - {"type":"vmess","name":"vpnjantit🇺🇸us 12-20 (041)","ws-opts":{"path":"/vpnjantit"},"server":"usa6.vpnjantit.com","port":"10000","uuid":"4f31f3a8-7c3b-11ed-9329-00163cce34e7","alterId":"0","cipher":"auto","udp":true,"network":"ws"}
   - {"type":"vmess","name":"mainssh🇸🇬sg 12-22 (042)","ws-opts":{"path":"/v2raydns","headers":{"host":"sg1dns.mainssh.xyz"}},"server":"sg1dns.mainssh.xyz","port":"443","uuid":"8b54ad60-bbe3-4775-8560-2fbcb1065c51","alterId":"0","cipher":"auto","network":"ws","udp":true,"tls":true,"skip-cert-verify":true}
   - {"type":"vmess","name":"mainssh🇸🇬sg 12-22 (041)","ws-opts":{"path":"/v2raydns","headers":{"host":"sg2dns.mainssh.xyz"}},"server":"sg2dns.mainssh.xyz","port":"443","uuid":"80bb8f1c-c7c7-44fa-ab0a-675d8b958857","alterId":"0","cipher":"auto","network":"ws","udp":true,"tls":true,"skip-cert-verify":true}
@@ -124,46 +88,56 @@ proxies:
   - {"type":"vmess","name":"mainssh🇩🇪de 12-22 (042)","ws-opts":{"path":"/v2raydns","headers":{"host":"dedns.mainssh.xyz"}},"server":"dedns.mainssh.xyz","port":"443","uuid":"fab4b9c5-f550-4319-9c5a-29f4a54c7181","alterId":"0","cipher":"auto","network":"ws","udp":true,"tls":true,"skip-cert-verify":true}
   - {"type":"vmess","name":"mainssh🇩🇪de 12-22 (043)","ws-opts":{"path":"/v2raydns","headers":{"host":"dedns.mainssh.xyz"}},"server":"dedns.mainssh.xyz","port":"443","uuid":"9acd7e2f-25e7-418c-a2b4-6be2f493f27f","alterId":"0","cipher":"auto","network":"ws","udp":true,"tls":true,"skip-cert-verify":true}
 
+  - {"type":"vmess","name":"vpnjantit🇭🇰hk 12-23 (051)","ws-opts":{"path":"/vpnjantit"},"server":"hk3.vpnjantit.com","port":"10000","uuid":"c8bf2288-7fc2-11ed-86ad-00163e08689e","alterId":"0","cipher":"auto","network":"ws"}
+  - {"type":"vmess","name":"vpnjantit🇦🇺au 12-23 (051)","ws-opts":{"path":"/vpnjantit"},"server":"au2.vpnjantit.com","port":"10000","uuid":"dcb537be-7fc2-11ed-9753-bba57bc97501","alterId":"0","cipher":"auto","network":"ws"}
+  - {"type":"vmess","name":"vpnjantit🇮🇩id 12-22 (051)","ws-opts":{"path":"/vpnjantit"},"server":"indo5.vpnjantit.com","port":"10000","uuid":"eb439a3c-7fc2-11ed-bd58-00163e870a9c","alterId":"0","cipher":"auto","network":"ws"}
+  - {"type":"vmess","name":"vpnjantit🇮🇩id 12-24 (052)","ws-opts":{"path":"/vpnjantit"},"server":"indo7.vpnjantit.com","port":"10000","uuid":"f44ad24e-7fc2-11ed-b681-eb4c6c7f335a","alterId":"0","cipher":"auto","network":"ws"}
+  - {"type":"vmess","name":"vpnjantit🇮🇩id 12-25 (053)","ws-opts":{"path":"/vpnjantit"},"server":"indo6.vpnjantit.com","port":"10000","uuid":"0a40ed7c-7fc3-11ed-8b4c-176de415e90c","alterId":"0","cipher":"auto","network":"ws"}
+  - {"type":"vmess","name":"vpnjantit🇯🇵jp 12-22 (051)","ws-opts":{"path":"/vpnjantit"},"server":"jp4.vpnjantit.com","port":"10000","uuid":"127a026c-7fc3-11ed-aa4c-00163e004cc3","alterId":"0","cipher":"auto","network":"ws"}
+  - {"type":"vmess","name":"vpnjantit🇰🇷kr 12-22 (051)","ws-opts":{"path":"/vpnjantit"},"server":"kr2.vpnjantit.com","port":"10000","uuid":"7323a10e-7fc3-11ed-b5d9-00163c2e7c56","alterId":"0","cipher":"auto","network":"ws"}
+  - {"type":"vmess","name":"vpnjantit🇦🇪ae 12-22 (051)","ws-opts":{"path":"/vpnjantit"},"server":"ae3.vpnjantit.com","port":"10000","uuid":"2db1f51c-7fc3-11ed-912a-00163c92f9c3","alterId":"0","cipher":"auto","network":"ws"}
+  - {"type":"vmess","name":"vpnjantit🇹🇭th 12-24 (051)","ws-opts":{"path":"/vpnjantit"},"server":"th2.vpnjantit.com","port":"10000","uuid":"37f01cc0-7fc3-11ed-8f55-00163ed178a4","alterId":"0","cipher":"auto","network":"ws"}
+  - {"type":"vmess","name":"vpnjantit🇩🇪de 12-23 (051)","ws-opts":{"path":"/vpnjantit"},"server":"gr6.vpnjantit.com","port":"10000","uuid":"432a9e26-7fc3-11ed-8331-00163c082f65","alterId":"0","cipher":"auto","network":"ws"}
+  - {"type":"vmess","name":"vpnjantit🇩🇪de 12-23 (052)","ws-opts":{"path":"/vpnjantit"},"server":"gr4.vpnjantit.com","port":"10000","uuid":"4cd9fa5c-7fc3-11ed-b7ad-a78232e5fd23","alterId":"0","cipher":"auto","network":"ws"}
+  - {"type":"vmess","name":"vpnjantit🇩🇪de 12-23 (053)","ws-opts":{"path":"/vpnjantit"},"server":"gr5.vpnjantit.com","port":"10000","uuid":"5d1e3446-7fc3-11ed-8626-4b0a17dbb766","alterId":"0","cipher":"auto","network":"ws"}
+  - {"type":"vmess","name":"vpnjantit🇬🇧uk 12-24 (051)","ws-opts":{"path":"/vpnjantit"},"server":"uk2.vpnjantit.com","port":"10000","uuid":"6cbc1918-7fc3-11ed-a8a2-00163ea0a2ba","alterId":"0","cipher":"auto","network":"ws"}
+  - {"type":"vmess","name":"vpnjantit🇬🇧uk 12-24 (052)","ws-opts":{"path":"/vpnjantit"},"server":"uk.vpnjantit.com","port":"10000","uuid":"78652aca-7fc3-11ed-832b-2b1fd65d0ca1","alterId":"0","cipher":"auto","network":"ws"}
+  - {"type":"vmess","name":"vpnjantit🇵🇱pl 12-23 (051)","ws-opts":{"path":"/vpnjantit"},"server":"pl1.vpnjantit.com","port":"10000","uuid":"8f76197c-7fc3-11ed-9a02-1786c63b9919","alterId":"0","cipher":"auto","network":"ws"}
+  - {"type":"vmess","name":"vpnjantit🇺🇦ua 12-24 (052)","ws-opts":{"path":"/vpnjantit"},"server":"ua2.vpnjantit.com","port":"10000","uuid":"ce103410-7fc3-11ed-8b21-171c8c292486","alterId":"0","cipher":"auto","network":"ws"}
+  - {"type":"vmess","name":"vpnjantit🇺🇦ua 12-24 (051)","ws-opts":{"path":"/vpnjantit"},"server":"ua4.vpnjantit.com","port":"10000","uuid":"98e1d8e8-7fc3-11ed-8f37-1bdf32407e78","alterId":"0","cipher":"auto","network":"ws"}
+  - {"type":"vmess","name":"vpnjantit🇳🇱nl 12-22 (051)","ws-opts":{"path":"/vpnjantit"},"server":"nl3.vpnjantit.com","port":"443","uuid":"ea1fb036-7fc3-11ed-9a6c-eb43f3fd5322","alterId":"0","cipher":"auto","network":"ws"}
+  - {"type":"vmess","name":"vpnjantit🇺🇸us 12-24 (051)","ws-opts":{"path":"/vpnjantit"},"server":"usa5.vpnjantit.com","port":"10000","uuid":"ef7bbccc-7fbf-11ed-9e45-00163ee33c46","alterId":"0","cipher":"auto","network":"ws"}
+  - {"type":"vmess","name":"vpnjantit🇺🇸us 12-24 (052)","ws-opts":{"path":"/vpnjantit"},"server":"usa4.vpnjantit.com","port":"10000","uuid":"3ad6a71e-7fc4-11ed-be20-63104d3a38d6","alterId":"0","cipher":"auto","network":"ws"}
+  - {"type":"vmess","name":"vpnjantit🇺🇸us 12-25 (053)","ws-opts":{"path":"/vpnjantit"},"server":"usa3.vpnjantit.com","port":"10000","uuid":"59d972e0-7fc4-11ed-906e-52ac0064f50a","alterId":"0","cipher":"auto","network":"ws"}
+  - {"type":"vmess","name":"vpnjantit🇨🇦ca 12-23 (051)","ws-opts":{"path":"/vpnjantit"},"server":"ca2.vpnjantit.com","port":"10000","uuid":"60001d04-7fc4-11ed-8a8d-f7ba730546af","alterId":"0","cipher":"auto","network":"ws"}
 proxy-groups:
   - name: ⚡️Auto⚡️
-    type: select
+    type: url-test
     url: cp.cloudflare.com
     interval: 600
-    disable-udp: true
     proxies:
-      - vpnjantit🇩🇪de 12-12 (031)
-      - sshstores🇬🇧uk 12-16 (021)
-      - sshstores🇭🇰hk 12-16 (021)
-      - sshstores🇸🇬sg 12-16 (021)
-      - sshstores🇸🇬sg 12-16 (022)
-      - sshstores🇸🇬sg 12-16 (023)
-      - sshstores🇸🇬sg 12-16 (024)
-      - sshstores🇬🇧uk 12-16 (022)
-      - sshstores🇨🇦ca 12-16 (021)
-      - sshstores🇨🇦ca 12-16 (022)
-      - sshstores🇵🇱pl 12-16 (021)
-      - sshstores🇮🇩id 12-16 (021)
-      - sshstores🇫🇷fr 12-16 (021)
-      - sshstores🇫🇷fr 12-16 (022)
-      - sshstores🇺🇸us 12-16 (021)
-      - sshstores🇮🇩id 12-16 (022)
-      - sshstores🇭🇰hk 12-16 (022)
-      - sshstores🇬🇧uk 12-16 (023)
-      - akunssh🇩🇪de 12-19 (031)
-      - akunssh🇮🇩id 12-19 (031)
-      - akunssh🇨🇦ca 12-19 (031)
-      - akunssh🇵🇱pl 12-19 (031)
-      - akunssh🇸🇬sg 12-19 (031)
-      - akunssh🇺🇸us 12-19 (031)
-      - akunssh🇨🇦ca 12-19 (032)
-      - akunssh🇩🇪de 12-19 (032)
-      - akunssh🇵🇱pl 12-19 (032)
-      - akunssh🇺🇸us 12-19 (032)
-      - akunssh🇸🇬sg 12-19 (032)
-      - akunssh🇨🇦ca 12-19 (033)
-      - akunssh🇩🇪de 12-19 (033)
-      - akunssh🇩🇪de 12-19 (034)
-      - sshocean🇩🇪de 12-20 (011)
+      - vpnjantit🇭🇰hk 12-23 (051)
+      - vpnjantit🇦🇺au 12-23 (051)
+      - vpnjantit🇮🇩id 12-22 (051)
+      - vpnjantit🇮🇩id 12-24 (052)
+      - vpnjantit🇮🇩id 12-25 (053)
+      - vpnjantit🇯🇵jp 12-22 (051)
+      - vpnjantit🇰🇷kr 12-22 (051)
+      - vpnjantit🇦🇪ae 12-22 (051)
+      - vpnjantit🇹🇭th 12-24 (051)
+      - vpnjantit🇩🇪de 12-23 (051)
+      - vpnjantit🇩🇪de 12-23 (052)
+      - vpnjantit🇩🇪de 12-23 (053)
+      - vpnjantit🇬🇧uk 12-24 (051)
+      - vpnjantit🇬🇧uk 12-24 (052)
+      - vpnjantit🇵🇱pl 12-23 (051)
+      - vpnjantit🇺🇦ua 12-24 (052)
+      - vpnjantit🇺🇦ua 12-24 (051)
+      - vpnjantit🇳🇱nl 12-22 (051)
+      - vpnjantit🇺🇸us 12-24 (051)
+      - vpnjantit🇺🇸us 12-24 (052)
+      - vpnjantit🇺🇸us 12-25 (053)
+      - vpnjantit🇨🇦ca 12-23 (051)
       - vpnjantit🇺🇸us 12-20 (041)
       - mainssh🇸🇬sg 12-22 (042)
       - mainssh🇸🇬sg 12-22 (041)
