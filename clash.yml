@@ -88,34 +88,99 @@ proxies:
   - {"type":"vmess","name":"mainssh🇩🇪de 12-22 (042)","ws-opts":{"path":"/v2raydns","headers":{"host":"dedns.mainssh.xyz"}},"server":"dedns.mainssh.xyz","port":"443","uuid":"fab4b9c5-f550-4319-9c5a-29f4a54c7181","alterId":"0","cipher":"auto","network":"ws","udp":true,"tls":true,"skip-cert-verify":true}
   - {"type":"vmess","name":"mainssh🇩🇪de 12-22 (043)","ws-opts":{"path":"/v2raydns","headers":{"host":"dedns.mainssh.xyz"}},"server":"dedns.mainssh.xyz","port":"443","uuid":"9acd7e2f-25e7-418c-a2b4-6be2f493f27f","alterId":"0","cipher":"auto","network":"ws","udp":true,"tls":true,"skip-cert-verify":true}
 
-  - {"type":"vmess","name":"vpnjantit🇭🇰hk 12-23 (051)","ws-opts":{"path":"/vpnjantit"},"server":"hk3.vpnjantit.com","port":"10000","uuid":"c8bf2288-7fc2-11ed-86ad-00163e08689e","alterId":"0","cipher":"auto","network":"ws"}
-  - {"type":"vmess","name":"vpnjantit🇦🇺au 12-23 (051)","ws-opts":{"path":"/vpnjantit"},"server":"au2.vpnjantit.com","port":"10000","uuid":"dcb537be-7fc2-11ed-9753-bba57bc97501","alterId":"0","cipher":"auto","network":"ws"}
-  - {"type":"vmess","name":"vpnjantit🇮🇩id 12-22 (051)","ws-opts":{"path":"/vpnjantit"},"server":"indo5.vpnjantit.com","port":"10000","uuid":"eb439a3c-7fc2-11ed-bd58-00163e870a9c","alterId":"0","cipher":"auto","network":"ws"}
-  - {"type":"vmess","name":"vpnjantit🇮🇩id 12-24 (052)","ws-opts":{"path":"/vpnjantit"},"server":"indo7.vpnjantit.com","port":"10000","uuid":"f44ad24e-7fc2-11ed-b681-eb4c6c7f335a","alterId":"0","cipher":"auto","network":"ws"}
-  - {"type":"vmess","name":"vpnjantit🇮🇩id 12-25 (053)","ws-opts":{"path":"/vpnjantit"},"server":"indo6.vpnjantit.com","port":"10000","uuid":"0a40ed7c-7fc3-11ed-8b4c-176de415e90c","alterId":"0","cipher":"auto","network":"ws"}
-  - {"type":"vmess","name":"vpnjantit🇯🇵jp 12-22 (051)","ws-opts":{"path":"/vpnjantit"},"server":"jp4.vpnjantit.com","port":"10000","uuid":"127a026c-7fc3-11ed-aa4c-00163e004cc3","alterId":"0","cipher":"auto","network":"ws"}
-  - {"type":"vmess","name":"vpnjantit🇰🇷kr 12-22 (051)","ws-opts":{"path":"/vpnjantit"},"server":"kr2.vpnjantit.com","port":"10000","uuid":"7323a10e-7fc3-11ed-b5d9-00163c2e7c56","alterId":"0","cipher":"auto","network":"ws"}
-  - {"type":"vmess","name":"vpnjantit🇦🇪ae 12-22 (051)","ws-opts":{"path":"/vpnjantit"},"server":"ae3.vpnjantit.com","port":"10000","uuid":"2db1f51c-7fc3-11ed-912a-00163c92f9c3","alterId":"0","cipher":"auto","network":"ws"}
-  - {"type":"vmess","name":"vpnjantit🇹🇭th 12-24 (051)","ws-opts":{"path":"/vpnjantit"},"server":"th2.vpnjantit.com","port":"10000","uuid":"37f01cc0-7fc3-11ed-8f55-00163ed178a4","alterId":"0","cipher":"auto","network":"ws"}
-  - {"type":"vmess","name":"vpnjantit🇩🇪de 12-23 (051)","ws-opts":{"path":"/vpnjantit"},"server":"gr6.vpnjantit.com","port":"10000","uuid":"432a9e26-7fc3-11ed-8331-00163c082f65","alterId":"0","cipher":"auto","network":"ws"}
-  - {"type":"vmess","name":"vpnjantit🇩🇪de 12-23 (052)","ws-opts":{"path":"/vpnjantit"},"server":"gr4.vpnjantit.com","port":"10000","uuid":"4cd9fa5c-7fc3-11ed-b7ad-a78232e5fd23","alterId":"0","cipher":"auto","network":"ws"}
-  - {"type":"vmess","name":"vpnjantit🇩🇪de 12-23 (053)","ws-opts":{"path":"/vpnjantit"},"server":"gr5.vpnjantit.com","port":"10000","uuid":"5d1e3446-7fc3-11ed-8626-4b0a17dbb766","alterId":"0","cipher":"auto","network":"ws"}
-  - {"type":"vmess","name":"vpnjantit🇬🇧uk 12-24 (051)","ws-opts":{"path":"/vpnjantit"},"server":"uk2.vpnjantit.com","port":"10000","uuid":"6cbc1918-7fc3-11ed-a8a2-00163ea0a2ba","alterId":"0","cipher":"auto","network":"ws"}
-  - {"type":"vmess","name":"vpnjantit🇬🇧uk 12-24 (052)","ws-opts":{"path":"/vpnjantit"},"server":"uk.vpnjantit.com","port":"10000","uuid":"78652aca-7fc3-11ed-832b-2b1fd65d0ca1","alterId":"0","cipher":"auto","network":"ws"}
-  - {"type":"vmess","name":"vpnjantit🇵🇱pl 12-23 (051)","ws-opts":{"path":"/vpnjantit"},"server":"pl1.vpnjantit.com","port":"10000","uuid":"8f76197c-7fc3-11ed-9a02-1786c63b9919","alterId":"0","cipher":"auto","network":"ws"}
-  - {"type":"vmess","name":"vpnjantit🇺🇦ua 12-24 (052)","ws-opts":{"path":"/vpnjantit"},"server":"ua2.vpnjantit.com","port":"10000","uuid":"ce103410-7fc3-11ed-8b21-171c8c292486","alterId":"0","cipher":"auto","network":"ws"}
-  - {"type":"vmess","name":"vpnjantit🇺🇦ua 12-24 (051)","ws-opts":{"path":"/vpnjantit"},"server":"ua4.vpnjantit.com","port":"10000","uuid":"98e1d8e8-7fc3-11ed-8f37-1bdf32407e78","alterId":"0","cipher":"auto","network":"ws"}
-  - {"type":"vmess","name":"vpnjantit🇳🇱nl 12-22 (051)","ws-opts":{"path":"/vpnjantit"},"server":"nl3.vpnjantit.com","port":"443","uuid":"ea1fb036-7fc3-11ed-9a6c-eb43f3fd5322","alterId":"0","cipher":"auto","network":"ws"}
-  - {"type":"vmess","name":"vpnjantit🇺🇸us 12-24 (051)","ws-opts":{"path":"/vpnjantit"},"server":"usa5.vpnjantit.com","port":"10000","uuid":"ef7bbccc-7fbf-11ed-9e45-00163ee33c46","alterId":"0","cipher":"auto","network":"ws"}
-  - {"type":"vmess","name":"vpnjantit🇺🇸us 12-24 (052)","ws-opts":{"path":"/vpnjantit"},"server":"usa4.vpnjantit.com","port":"10000","uuid":"3ad6a71e-7fc4-11ed-be20-63104d3a38d6","alterId":"0","cipher":"auto","network":"ws"}
-  - {"type":"vmess","name":"vpnjantit🇺🇸us 12-25 (053)","ws-opts":{"path":"/vpnjantit"},"server":"usa3.vpnjantit.com","port":"10000","uuid":"59d972e0-7fc4-11ed-906e-52ac0064f50a","alterId":"0","cipher":"auto","network":"ws"}
-  - {"type":"vmess","name":"vpnjantit🇨🇦ca 12-23 (051)","ws-opts":{"path":"/vpnjantit"},"server":"ca2.vpnjantit.com","port":"10000","uuid":"60001d04-7fc4-11ed-8a8d-f7ba730546af","alterId":"0","cipher":"auto","network":"ws"}
+  - {"type":"vmess","name":"vpnjantit🇭🇰hk 12-23 (051)","ws-opts":{"path":"/vpnjantit"},"server":"hk3.vpnjantit.com","port":"10000","uuid":"c8bf2288-7fc2-11ed-86ad-00163e08689e","udp":true,"alterId":"0","cipher":"auto","network":"ws"}
+  - {"type":"vmess","name":"vpnjantit🇦🇺au 12-23 (051)","ws-opts":{"path":"/vpnjantit"},"server":"au2.vpnjantit.com","port":"10000","uuid":"dcb537be-7fc2-11ed-9753-bba57bc97501","udp":true,"alterId":"0","cipher":"auto","network":"ws"}
+  - {"type":"vmess","name":"vpnjantit🇮🇩id 12-22 (051)","ws-opts":{"path":"/vpnjantit"},"server":"indo5.vpnjantit.com","port":"10000","uuid":"eb439a3c-7fc2-11ed-bd58-00163e870a9c","udp":true,"alterId":"0","cipher":"auto","network":"ws"}
+  - {"type":"vmess","name":"vpnjantit🇮🇩id 12-24 (052)","ws-opts":{"path":"/vpnjantit"},"server":"indo7.vpnjantit.com","port":"10000","uuid":"f44ad24e-7fc2-11ed-b681-eb4c6c7f335a","udp":true,"alterId":"0","cipher":"auto","network":"ws"}
+  - {"type":"vmess","name":"vpnjantit🇮🇩id 12-25 (053)","ws-opts":{"path":"/vpnjantit"},"server":"indo6.vpnjantit.com","port":"10000","uuid":"0a40ed7c-7fc3-11ed-8b4c-176de415e90c","udp":true,"alterId":"0","cipher":"auto","network":"ws"}
+  - {"type":"vmess","name":"vpnjantit🇯🇵jp 12-22 (051)","ws-opts":{"path":"/vpnjantit"},"server":"jp4.vpnjantit.com","port":"10000","uuid":"127a026c-7fc3-11ed-aa4c-00163e004cc3","udp":true,"alterId":"0","cipher":"auto","network":"ws"}
+  - {"type":"vmess","name":"vpnjantit🇰🇷kr 12-22 (051)","ws-opts":{"path":"/vpnjantit"},"server":"kr2.vpnjantit.com","port":"10000","uuid":"7323a10e-7fc3-11ed-b5d9-00163c2e7c56","udp":true,"alterId":"0","cipher":"auto","network":"ws"}
+  - {"type":"vmess","name":"vpnjantit🇦🇪ae 12-22 (051)","ws-opts":{"path":"/vpnjantit"},"server":"ae3.vpnjantit.com","port":"10000","uuid":"2db1f51c-7fc3-11ed-912a-00163c92f9c3","udp":true,"alterId":"0","cipher":"auto","network":"ws"}
+  - {"type":"vmess","name":"vpnjantit🇹🇭th 12-24 (051)","ws-opts":{"path":"/vpnjantit"},"server":"th2.vpnjantit.com","port":"10000","uuid":"37f01cc0-7fc3-11ed-8f55-00163ed178a4","udp":true,"alterId":"0","cipher":"auto","network":"ws"}
+  - {"type":"vmess","name":"vpnjantit🇩🇪de 12-23 (051)","ws-opts":{"path":"/vpnjantit"},"server":"gr6.vpnjantit.com","port":"10000","uuid":"432a9e26-7fc3-11ed-8331-00163c082f65","udp":true,"alterId":"0","cipher":"auto","network":"ws"}
+  - {"type":"vmess","name":"vpnjantit🇩🇪de 12-23 (052)","ws-opts":{"path":"/vpnjantit"},"server":"gr4.vpnjantit.com","port":"10000","uuid":"4cd9fa5c-7fc3-11ed-b7ad-a78232e5fd23","udp":true,"alterId":"0","cipher":"auto","network":"ws"}
+  - {"type":"vmess","name":"vpnjantit🇩🇪de 12-23 (053)","ws-opts":{"path":"/vpnjantit"},"server":"gr5.vpnjantit.com","port":"10000","uuid":"5d1e3446-7fc3-11ed-8626-4b0a17dbb766","udp":true,"alterId":"0","cipher":"auto","network":"ws"}
+  - {"type":"vmess","name":"vpnjantit🇬🇧uk 12-24 (051)","ws-opts":{"path":"/vpnjantit"},"server":"uk2.vpnjantit.com","port":"10000","uuid":"6cbc1918-7fc3-11ed-a8a2-00163ea0a2ba","udp":true,"alterId":"0","cipher":"auto","network":"ws"}
+  - {"type":"vmess","name":"vpnjantit🇬🇧uk 12-24 (052)","ws-opts":{"path":"/vpnjantit"},"server":"uk.vpnjantit.com","port":"10000","uuid":"78652aca-7fc3-11ed-832b-2b1fd65d0ca1","udp":true,"alterId":"0","cipher":"auto","network":"ws"}
+  - {"type":"vmess","name":"vpnjantit🇵🇱pl 12-23 (051)","ws-opts":{"path":"/vpnjantit"},"server":"pl1.vpnjantit.com","port":"10000","uuid":"8f76197c-7fc3-11ed-9a02-1786c63b9919","udp":true,"alterId":"0","cipher":"auto","network":"ws"}
+  - {"type":"vmess","name":"vpnjantit🇺🇦ua 12-24 (052)","ws-opts":{"path":"/vpnjantit"},"server":"ua2.vpnjantit.com","port":"10000","uuid":"ce103410-7fc3-11ed-8b21-171c8c292486","udp":true,"alterId":"0","cipher":"auto","network":"ws"}
+  - {"type":"vmess","name":"vpnjantit🇺🇦ua 12-24 (051)","ws-opts":{"path":"/vpnjantit"},"server":"ua4.vpnjantit.com","port":"10000","uuid":"98e1d8e8-7fc3-11ed-8f37-1bdf32407e78","udp":true,"alterId":"0","cipher":"auto","network":"ws"}
+  - {"type":"vmess","name":"vpnjantit🇳🇱nl 12-22 (051)","ws-opts":{"path":"/vpnjantit"},"server":"nl3.vpnjantit.com","port":"443","uuid":"ea1fb036-7fc3-11ed-9a6c-eb43f3fd5322","udp":true,"alterId":"0","cipher":"auto","network":"ws"}
+  - {"type":"vmess","name":"vpnjantit🇺🇸us 12-24 (051)","ws-opts":{"path":"/vpnjantit"},"server":"usa5.vpnjantit.com","port":"10000","uuid":"ef7bbccc-7fbf-11ed-9e45-00163ee33c46","udp":true,"alterId":"0","cipher":"auto","network":"ws"}
+  - {"type":"vmess","name":"vpnjantit🇺🇸us 12-24 (052)","ws-opts":{"path":"/vpnjantit"},"server":"usa4.vpnjantit.com","port":"10000","uuid":"3ad6a71e-7fc4-11ed-be20-63104d3a38d6","udp":true,"alterId":"0","cipher":"auto","network":"ws"}
+  - {"type":"vmess","name":"vpnjantit🇺🇸us 12-25 (053)","ws-opts":{"path":"/vpnjantit"},"server":"usa3.vpnjantit.com","port":"10000","uuid":"59d972e0-7fc4-11ed-906e-52ac0064f50a","udp":true,"alterId":"0","cipher":"auto","network":"ws"}
+  - {"type":"vmess","name":"vpnjantit🇨🇦ca 12-23 (051)","ws-opts":{"path":"/vpnjantit"},"server":"ca2.vpnjantit.com","port":"10000","uuid":"60001d04-7fc4-11ed-8a8d-f7ba730546af","udp":true,"alterId":"0","cipher":"auto","network":"ws"}
+
+  - {"type":"vmess","name":"sshstores🇬🇧uk 12-27 (031)","ws-opts":{"path":"/vmess","headers":{"host":"sni.cloudflare.com"}},"server":"ln.vmess1.xservs.xyz","port":"443","uuid":"a6a9b6c6-959a-4e84-b6de-037d967acf67","alterId":"0","cipher":"auto","network":"ws","udp":true,"tls":true,"skip-cert-verify":true}
+  - {"type":"vmess","name":"sshstores🇫🇷fr 12-27 (031)","ws-opts":{"path":"/vmess","headers":{"host":"sni.cloudflare.com"}},"server":"fr.vmess2.xservs.xyz","port":"443","uuid":"0e8cf45d-9670-4e7b-9892-e851af4f84bf","alterId":"0","cipher":"auto","network":"ws","udp":true,"tls":true,"skip-cert-verify":true}
+  - {"type":"vmess","name":"sshstores🇺🇸us 12-27 (031)","ws-opts":{"path":"/vmess","headers":{"host":"sni.cloudflare.com"}},"server":"us.vmess2.xservs.xyz","port":"443","uuid":"6ea9ae72-c696-4845-81bb-c5a7a53c1761","alterId":"0","cipher":"auto","network":"ws","udp":true,"tls":true,"skip-cert-verify":true}
+  - {"type":"vmess","name":"sshstores🇬🇧uk 12-27 (032)","ws-opts":{"path":"/vmess","headers":{"host":"sni.cloudflare.com"}},"server":"ln.vmess2.xservs.xyz","port":"443","uuid":"b05103fb-0fec-4bfa-b3ff-9dae46ff11ab","alterId":"0","cipher":"auto","network":"ws","udp":true,"tls":true,"skip-cert-verify":true}
+  - {"type":"vmess","name":"sshstores🇬🇧uk 12-27 (033)","ws-opts":{"path":"/vmess","headers":{"host":"sni.cloudflare.com"}},"server":"ln.vmess1.xservs.xyz","port":"443","uuid":"fd6f3935-2a11-4fe3-a563-5d11e6caf4e2","alterId":"0","cipher":"auto","network":"ws","udp":true,"tls":true,"skip-cert-verify":true}
+  - {"type":"vmess","name":"sshstores🇺🇸us 12-27 (032)","ws-opts":{"path":"/vmess","headers":{"host":"sni.cloudflare.com"}},"server":"us.vmess1.xservs.xyz","port":"443","uuid":"ef5caa48-5dc4-4b13-b113-5d1abf5a5fa9","alterId":"0","cipher":"auto","network":"ws","udp":true,"tls":true,"skip-cert-verify":true}
+  - {"type":"vmess","name":"sshstores🇯🇵jp 12-27 (031)","ws-opts":{"path":"/vmess","headers":{"host":"sni.cloudflare.com"}},"server":"jp.vmess1.xservs.xyz","port":"443","uuid":"b58d6d19-72ec-4c2d-b9cb-03dab61c6d0f","alterId":"0","cipher":"auto","network":"ws","udp":true,"tls":true,"skip-cert-verify":true}
+  - {"type":"vmess","name":"sshstores🇵🇱pl 12-27 (031)","ws-opts":{"path":"/vmess","headers":{"host":"sni.cloudflare.com"}},"server":"pl.vmess1.xservs.xyz","port":"443","uuid":"b19b8d6c-a599-4853-b5c6-5034a27dc4c0","alterId":"0","cipher":"auto","network":"ws","udp":true,"tls":true,"skip-cert-verify":true}
+
 proxy-groups:
   - name: ⚡️Auto⚡️
     type: url-test
     url: cp.cloudflare.com
     interval: 600
     proxies:
+      - sshstores🇬🇧uk 12-27 (031)
+      - sshstores🇫🇷fr 12-27 (031)
+      - sshstores🇺🇸us 12-27 (031)
+      - sshstores🇬🇧uk 12-27 (032)
+      - sshstores🇬🇧uk 12-27 (033)
+      - sshstores🇺🇸us 12-27 (032)
+      - sshstores🇯🇵jp 12-27 (031)
+      - sshstores🇵🇱pl 12-27 (031)
+      - vpnjantit🇭🇰hk 12-23 (051)
+      - vpnjantit🇦🇺au 12-23 (051)
+      - vpnjantit🇮🇩id 12-22 (051)
+      - vpnjantit🇮🇩id 12-24 (052)
+      - vpnjantit🇮🇩id 12-25 (053)
+      - vpnjantit🇯🇵jp 12-22 (051)
+      - vpnjantit🇰🇷kr 12-22 (051)
+      - vpnjantit🇦🇪ae 12-22 (051)
+      - vpnjantit🇹🇭th 12-24 (051)
+      - vpnjantit🇩🇪de 12-23 (051)
+      - vpnjantit🇩🇪de 12-23 (052)
+      - vpnjantit🇩🇪de 12-23 (053)
+      - vpnjantit🇬🇧uk 12-24 (051)
+      - vpnjantit🇬🇧uk 12-24 (052)
+      - vpnjantit🇵🇱pl 12-23 (051)
+      - vpnjantit🇺🇦ua 12-24 (052)
+      - vpnjantit🇺🇦ua 12-24 (051)
+      - vpnjantit🇳🇱nl 12-22 (051)
+      - vpnjantit🇺🇸us 12-24 (051)
+      - vpnjantit🇺🇸us 12-24 (052)
+      - vpnjantit🇺🇸us 12-25 (053)
+      - vpnjantit🇨🇦ca 12-23 (051)
+      - vpnjantit🇺🇸us 12-20 (041)
+      - mainssh🇸🇬sg 12-22 (042)
+      - mainssh🇸🇬sg 12-22 (041)
+      - mainssh🇨🇦ca 12-22 (041)
+      - mainssh🇫🇷fr 12-22 (041)
+      - mainssh🇺🇸us 12-22 (041)
+      - mainssh🇩🇪de 12-22 (041)
+      - mainssh🇨🇦ca 12-22 (042)
+      - mainssh🇫🇷fr 12-22 (042)
+      - mainssh🇺🇸us 12-22 (042)
+      - mainssh🇩🇪de 12-22 (042)
+      - mainssh🇩🇪de 12-22 (043)
+
+  - name: TCP
+    type: select
+    disable-udp: true
+    proxies:
+      - sshstores🇬🇧uk 12-27 (031)
+      - sshstores🇫🇷fr 12-27 (031)
+      - sshstores🇺🇸us 12-27 (031)
+      - sshstores🇬🇧uk 12-27 (032)
+      - sshstores🇬🇧uk 12-27 (033)
+      - sshstores🇺🇸us 12-27 (032)
+      - sshstores🇯🇵jp 12-27 (031)
+      - sshstores🇵🇱pl 12-27 (031)
       - vpnjantit🇭🇰hk 12-23 (051)
       - vpnjantit🇦🇺au 12-23 (051)
       - vpnjantit🇮🇩id 12-22 (051)
@@ -152,4 +217,4 @@ proxy-groups:
       - mainssh🇩🇪de 12-22 (043)
 
 rules:
-  - MATCH, ⚡️Auto⚡️
+  - MATCH, ⚡️Auto⚡️, TCP
