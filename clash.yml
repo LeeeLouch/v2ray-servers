@@ -123,16 +123,7 @@ proxies:
   - {"type":"trojan","name":"mainssh🇩🇪de 01-06 (075)","server":"getws.mainssh.xyz","port":443,"password":"mainssh-vqwdasvb","udp":true,"skip-cert-verify":true,"sni":"getws.mainssh.xyz","network":"ws","ws-opts":{"path":"/trojan","headers":{"host":"getws.mainssh.xyz"}}}
   - {"type":"trojan","name":"mainssh🇩🇪de 01-06 (076)","server":"getws.mainssh.xyz","port":443,"password":"mainssh-rwqrqvbxzc","udp":true,"skip-cert-verify":true,"sni":"getws.mainssh.xyz","network":"ws","ws-opts":{"path":"/trojan","headers":{"host":"getws.mainssh.xyz"}}}
 proxy-groups:
-  - name: Mode
-    type: select
-    # url: cp.cloudflare.com
-    # interval: 600
-    proxies:
-    - UDP
-    - TCP
-    - ⚡️Auto⚡️
-
-  - name: UDP
+  - name: Select
     type: select
     # disable-udp: true
     proxies:
@@ -181,6 +172,8 @@ proxy-groups:
       - mainssh🇩🇪de 01-06 (074)
       - mainssh🇩🇪de 01-06 (075)
       - mainssh🇩🇪de 01-06 (076)
+      - TCP
+      - ⚡️Auto⚡️
 
   - name: TCP
     type: select
@@ -284,4 +277,4 @@ proxy-groups:
       - mainssh🇩🇪de 01-06 (076)
 
 rules:
-  - MATCH, Mode
+  - MATCH, Select
