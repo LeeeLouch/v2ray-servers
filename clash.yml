@@ -1,6 +1,6 @@
 mode: rule
 log-level: info
-ignore-resolve-fail: false
+# ignore-resolve-fail: false
 ipv6: false
 dns:
   enable: true
@@ -9,10 +9,10 @@ dns:
   fallback-filter:
     geoip: true
     geoip-code: IR
-    ipcidr:
-      - 240.0.0.0/4
-      - 0.0.0.0/32
-      - 127.0.0.1/32
+    # ipcidr:
+    #   - 240.0.0.0/4
+    #   - 0.0.0.0/32
+    #   - 127.0.0.1/32
   #   domain:
   #     - +.google.com
   #     - +.facebook.com
@@ -101,7 +101,7 @@ proxies:
   - {"type":"vmess","name":"sshstores🇨🇦ca 01-07 (061)","ws-opts":{"path":"/vmess","headers":{"host":"sni.cloudflare.com"}},"server":"ca.vmess1.xservs.xyz","port":"443","uuid":"0e92d2e7-f325-4693-8988-45a07332989a","alterId":"0","cipher":"auto","network":"ws","udp":true,"tls":true,"skip-cert-verify":true}
   - {"type":"vmess","name":"sshstores🇨🇦ca 01-07 (062)","ws-opts":{"path":"/vmess","headers":{"host":"sni.cloudflare.com"}},"server":"ca.vmess1.xservs.xyz","port":"443","uuid":"bce57c91-6c2d-4ae5-8906-795b6cfeaf20","alterId":"0","cipher":"auto","network":"ws","udp":true,"tls":true,"skip-cert-verify":true}
   - {"type":"vmess","name":"sshstores🇨🇦ca 01-07 (063)","ws-opts":{"path":"/vmess","headers":{"host":"sni.cloudflare.com"}},"server":"ca.vmess1.xservs.xyz","port":"443","uuid":"dbddf714-9c49-4c7c-98f0-bd10e9922be8","alterId":"0","cipher":"auto","network":"ws","udp":true,"tls":true,"skip-cert-verify":true}
-
+  - {"type":"vmess","name":"sshstores🇬🇧uk 01-07 (063)","ws-opts":{"path":"/vmess","headers":{"host":"sni.cloudflare.com"}},"server":"ln.vmess1.xservs.xyz","port":"443","uuid":"d1f482f0-285a-49d1-97f8-a47affd749c5","alterId":"0","cipher":"auto","network":"ws","udp":true,"tls":true,"skip-cert-verify":true}
 proxy-groups:
   - name: Select
     type: select
@@ -128,6 +128,7 @@ proxy-groups:
       - sshstores🇩🇪de 01-07 (065)
       - sshstores🇬🇧uk 01-07 (062)
       - sshstores🇬🇧uk 01-07 (061)
+      - sshstores🇬🇧uk 01-07 (063)
       - sshstores🇨🇦ca 01-07 (061)
       - sshstores🇨🇦ca 01-07 (062)
       - sshstores🇨🇦ca 01-07 (063)
@@ -159,6 +160,7 @@ proxy-groups:
       - sshstores🇩🇪de 01-07 (065)
       - sshstores🇬🇧uk 01-07 (062)
       - sshstores🇬🇧uk 01-07 (061)
+      - sshstores🇬🇧uk 01-07 (063)
       - sshstores🇨🇦ca 01-07 (061)
       - sshstores🇨🇦ca 01-07 (062)
       - sshstores🇨🇦ca 01-07 (063)
@@ -189,6 +191,7 @@ proxy-groups:
       - sshstores🇩🇪de 01-07 (065)
       - sshstores🇬🇧uk 01-07 (062)
       - sshstores🇬🇧uk 01-07 (061)
+      - sshstores🇬🇧uk 01-07 (063)
       - sshstores🇨🇦ca 01-07 (061)
       - sshstores🇨🇦ca 01-07 (062)
       - sshstores🇨🇦ca 01-07 (063)
