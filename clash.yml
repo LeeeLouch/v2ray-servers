@@ -101,12 +101,49 @@ proxies:
   - {"type":"vmess","name":"sshstores🇨🇦ca 01-07 (061)","ws-opts":{"path":"/vmess","headers":{"host":"sni.cloudflare.com"}},"server":"ca.vmess1.xservs.xyz","port":"443","uuid":"0e92d2e7-f325-4693-8988-45a07332989a","alterId":"0","cipher":"auto","network":"ws","udp":true,"tls":true,"skip-cert-verify":true}
   - {"type":"vmess","name":"sshstores🇨🇦ca 01-07 (062)","ws-opts":{"path":"/vmess","headers":{"host":"sni.cloudflare.com"}},"server":"ca.vmess1.xservs.xyz","port":"443","uuid":"bce57c91-6c2d-4ae5-8906-795b6cfeaf20","alterId":"0","cipher":"auto","network":"ws","udp":true,"tls":true,"skip-cert-verify":true}
   - {"type":"vmess","name":"sshstores🇨🇦ca 01-07 (063)","ws-opts":{"path":"/vmess","headers":{"host":"sni.cloudflare.com"}},"server":"ca.vmess1.xservs.xyz","port":"443","uuid":"dbddf714-9c49-4c7c-98f0-bd10e9922be8","alterId":"0","cipher":"auto","network":"ws","udp":true,"tls":true,"skip-cert-verify":true}
-  - {"type":"vmess","name":"sshstores🇬🇧uk 01-07 (063)","ws-opts":{"path":"/vmess","headers":{"host":"sni.cloudflare.com"}},"server":"ln.vmess1.xservs.xyz","port":"443","uuid":"d1f482f0-285a-49d1-97f8-a47affd749c5","alterId":"0","cipher":"auto","network":"ws","udp":true,"tls":true,"skip-cert-verify":true}
+
+  - {"type":"vmess","name":"vpnjantit🇬🇧uk 01-12 (062)","ws-opts":{"path":"/vpnjantit"},"server":"uk.vpnjantit.com","port":"10000","uuid":"c2749d3a-8dd8-11ed-a745-1f5c7ea3fd3d","alterId":"0","cipher":"auto","udp":true,"network":"ws"}
+  - {"type":"vmess","name":"vpnjantit🇬🇧uk 01-12 (061)","ws-opts":{"path":"/vpnjantit"},"server":"uk.vpnjantit.com","port":"10000","uuid":"751b95b4-8dda-11ed-932a-f32b34e4916a","alterId":"0","cipher":"auto","udp":true,"network":"ws"}
+  - {"type":"vmess","name":"vpnjantit🇬🇧uk 01-12 (063)","ws-opts":{"path":"/vpnjantit"},"server":"uk.vpnjantit.com","port":"10000","uuid":"8b7cacb4-8dd8-11ed-93f2-27701306128b","alterId":"0","cipher":"auto","udp":true,"network":"ws"}
+  - {"type":"vmess","name":"vpnjantit🇬🇧uk 01-10 (064)","ws-opts":{"path":"/vpnjantit"},"server":"premiuk2.vpnjantit.com","port":"10000","uuid":"cff90f86-8dd8-11ed-9cae-8f37455a609d","alterId":"0","cipher":"auto","udp":true,"network":"ws"}
+  - {"type":"vmess","name":"vpnjantit🇫🇷fr 01-09 (061)","ws-opts":{"path":"/vpnjantit"},"server":"premifr1.vpnjantit.com","port":"10000","uuid":"e1038090-8dd8-11ed-bd55-52540000fc66","alterId":"0","cipher":"auto","udp":true,"network":"ws"}
+  - {"type":"vmess","name":"vpnjantit🇨🇦ca 01-10 (061)","ws-opts":{"path":"/vpnjantit"},"server":"ca1.vpnjantit.com","port":"10000","uuid":"e97934e0-8dd8-11ed-827e-771c08821ce5","alterId":"0","cipher":"auto","udp":true,"network":"ws"}
+  - {"type":"vmess","name":"vpnjantit🇺🇦ua 01-10 (061)","ws-opts":{"path":"/vpnjantit"},"server":"ua3.vpnjantit.com","port":"10000","uuid":"f10df40c-8dd8-11ed-8433-c710cb617135","alterId":"0","cipher":"auto","udp":true,"network":"ws"}
+  - {"type":"vmess","name":"vpnjantit🇺🇦ua 01-12 (062)","ws-opts":{"path":"/vpnjantit"},"server":"ua2.vpnjantit.com","port":"10000","uuid":"f95106ea-8dd8-11ed-a4d6-7775f26cee6a","alterId":"0","cipher":"auto","udp":true,"network":"ws"}
+  - {"type":"vmess","name":"vpnjantit🇺🇦ua 01-12 (064)","ws-opts":{"path":"/vpnjantit"},"server":"ua2.vpnjantit.com","port":"10000","uuid":"5f5a12a0-8dda-11ed-83e1-4350c92fffe8","alterId":"0","cipher":"auto","udp":true,"network":"ws"}
+  - {"type":"vmess","name":"vpnjantit🇳🇱nl 01-09 (061)","ws-opts":{"path":"/vpnjantit"},"server":"nl3.vpnjantit.com","port":"443","uuid":"72b1fabc-8dd9-11ed-81d2-4f0f642354a8","alterId":"0","cipher":"auto","udp":true,"network":"ws"}
+  - {"type":"vmess","name":"vpnjantit🇮🇩id 01-09 (061)","ws-opts":{"path":"/vpnjantit"},"server":"premiindo.vpnjantit.com","port":"10000","uuid":"85ac3c72-8dd9-11ed-83bc-00163cea8bfa","alterId":"0","cipher":"auto","udp":true,"network":"ws"}
+  - {"type":"vmess","name":"vpnjantit🇮🇩id 01-09 (062)","ws-opts":{"path":"/vpnjantit"},"server":"indo7.vpnjantit.com","port":"10000","uuid":"883daee4-8dd9-11ed-959d-4f073863e9d2","alterId":"0","cipher":"auto","udp":true,"network":"ws"}
+  - {"type":"vmess","name":"vpnjantit🇯🇵jp 01-08 (061)","ws-opts":{"path":"/vpnjantit"},"server":"jp5.vpnjantit.com","port":"10000","uuid":"994a33ec-8dd9-11ed-affa-00163e0041da","alterId":"0","cipher":"auto","udp":true,"network":"ws"}
+  - {"type":"vmess","name":"vpnjantit🇩🇪de 01-09 (061)","ws-opts":{"path":"/vpnjantit"},"server":"gr4.vpnjantit.com","port":"10000","uuid":"358ebc14-8dda-11ed-8cad-73ecb1a0092d","alterId":"0","cipher":"auto","udp":true,"network":"ws"}
+  - {"type":"vmess","name":"vpnjantit🇩🇪de 01-10 (062)","ws-opts":{"path":"/vpnjantit"},"server":"gr5.vpnjantit.com","port":"10000","uuid":"2dbe27c2-8dda-11ed-8f95-0701dc3906cf","alterId":"0","cipher":"auto","udp":true,"network":"ws"}
+  - {"type":"vmess","name":"vpnjantit🇩🇪de 01-10 (063)","ws-opts":{"path":"/vpnjantit"},"server":"gr5.vpnjantit.com","port":"10000","uuid":"cb3e9c6c-8dd9-11ed-baef-dfa29216280c","alterId":"0","cipher":"auto","udp":true,"network":"ws"}
+  - {"type":"vmess","name":"vpnjantit🇩🇪de 01-10 (064)","ws-opts":{"path":"/vpnjantit"},"server":"gr5.vpnjantit.com","port":"10000","uuid":"69fb4f44-8dda-11ed-a399-8b91c2aaa597","alterId":"0","cipher":"auto","udp":true,"network":"ws"}
+  - {"type":"vmess","name":"vpnjantit🇩🇪de 01-09 (065)","ws-opts":{"path":"/vpnjantit"},"server":"gr3.vpnjantit.com","port":"10000","uuid":"e7816cf6-8dd9-11ed-b150-575f428b0c94","alterId":"0","cipher":"auto","udp":true,"network":"ws"}
+
 proxy-groups:
   - name: Select
     type: select
     # disable-udp: true
     proxies:
+      - vpnjantit🇬🇧uk 01-12 (062)
+      - vpnjantit🇬🇧uk 01-12 (061)
+      - vpnjantit🇬🇧uk 01-12 (063)
+      - vpnjantit🇬🇧uk 01-10 (064)
+      - vpnjantit🇫🇷fr 01-09 (061)
+      - vpnjantit🇨🇦ca 01-10 (061)
+      - vpnjantit🇺🇦ua 01-10 (061)
+      - vpnjantit🇺🇦ua 01-12 (062)
+      - vpnjantit🇺🇦ua 01-12 (064)
+      - vpnjantit🇳🇱nl 01-09 (061)
+      - vpnjantit🇮🇩id 01-09 (061)
+      - vpnjantit🇮🇩id 01-09 (062)
+      - vpnjantit🇯🇵jp 01-08 (061)
+      - vpnjantit🇩🇪de 01-09 (061)
+      - vpnjantit🇩🇪de 01-10 (062)
+      - vpnjantit🇩🇪de 01-10 (063)
+      - vpnjantit🇩🇪de 01-10 (064)
+      - vpnjantit🇩🇪de 01-09 (065)
       - mainssh🇸🇬sg 01-06 (071)
       - mainssh🇫🇷fr 01-06 (071)
       - mainssh🇨🇦ca 01-06 (072)
@@ -128,7 +165,6 @@ proxy-groups:
       - sshstores🇩🇪de 01-07 (065)
       - sshstores🇬🇧uk 01-07 (062)
       - sshstores🇬🇧uk 01-07 (061)
-      - sshstores🇬🇧uk 01-07 (063)
       - sshstores🇨🇦ca 01-07 (061)
       - sshstores🇨🇦ca 01-07 (062)
       - sshstores🇨🇦ca 01-07 (063)
@@ -139,6 +175,24 @@ proxy-groups:
     type: select
     disable-udp: true
     proxies:
+      - vpnjantit🇬🇧uk 01-12 (062)
+      - vpnjantit🇬🇧uk 01-12 (061)
+      - vpnjantit🇬🇧uk 01-12 (063)
+      - vpnjantit🇬🇧uk 01-10 (064)
+      - vpnjantit🇫🇷fr 01-09 (061)
+      - vpnjantit🇨🇦ca 01-10 (061)
+      - vpnjantit🇺🇦ua 01-10 (061)
+      - vpnjantit🇺🇦ua 01-12 (062)
+      - vpnjantit🇺🇦ua 01-12 (064)
+      - vpnjantit🇳🇱nl 01-09 (061)
+      - vpnjantit🇮🇩id 01-09 (061)
+      - vpnjantit🇮🇩id 01-09 (062)
+      - vpnjantit🇯🇵jp 01-08 (061)
+      - vpnjantit🇩🇪de 01-09 (061)
+      - vpnjantit🇩🇪de 01-10 (062)
+      - vpnjantit🇩🇪de 01-10 (063)
+      - vpnjantit🇩🇪de 01-10 (064)
+      - vpnjantit🇩🇪de 01-09 (065)
       - mainssh🇸🇬sg 01-06 (071)
       - mainssh🇫🇷fr 01-06 (071)
       - mainssh🇨🇦ca 01-06 (072)
@@ -160,7 +214,6 @@ proxy-groups:
       - sshstores🇩🇪de 01-07 (065)
       - sshstores🇬🇧uk 01-07 (062)
       - sshstores🇬🇧uk 01-07 (061)
-      - sshstores🇬🇧uk 01-07 (063)
       - sshstores🇨🇦ca 01-07 (061)
       - sshstores🇨🇦ca 01-07 (062)
       - sshstores🇨🇦ca 01-07 (063)
@@ -170,6 +223,24 @@ proxy-groups:
     url: http://www.gstatic.com/generate_204
     interval: 600
     proxies:
+      - vpnjantit🇬🇧uk 01-12 (062)
+      - vpnjantit🇬🇧uk 01-12 (061)
+      - vpnjantit🇬🇧uk 01-12 (063)
+      - vpnjantit🇬🇧uk 01-10 (064)
+      - vpnjantit🇫🇷fr 01-09 (061)
+      - vpnjantit🇨🇦ca 01-10 (061)
+      - vpnjantit🇺🇦ua 01-10 (061)
+      - vpnjantit🇺🇦ua 01-12 (062)
+      - vpnjantit🇺🇦ua 01-12 (064)
+      - vpnjantit🇳🇱nl 01-09 (061)
+      - vpnjantit🇮🇩id 01-09 (061)
+      - vpnjantit🇮🇩id 01-09 (062)
+      - vpnjantit🇯🇵jp 01-08 (061)
+      - vpnjantit🇩🇪de 01-09 (061)
+      - vpnjantit🇩🇪de 01-10 (062)
+      - vpnjantit🇩🇪de 01-10 (063)
+      - vpnjantit🇩🇪de 01-10 (064)
+      - vpnjantit🇩🇪de 01-09 (065)
       - mainssh🇸🇬sg 01-06 (071)
       - mainssh🇫🇷fr 01-06 (071)
       - mainssh🇨🇦ca 01-06 (072)
@@ -191,7 +262,6 @@ proxy-groups:
       - sshstores🇩🇪de 01-07 (065)
       - sshstores🇬🇧uk 01-07 (062)
       - sshstores🇬🇧uk 01-07 (061)
-      - sshstores🇬🇧uk 01-07 (063)
       - sshstores🇨🇦ca 01-07 (061)
       - sshstores🇨🇦ca 01-07 (062)
       - sshstores🇨🇦ca 01-07 (063)
