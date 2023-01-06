@@ -58,11 +58,14 @@ dns:
     # - 8.8.8.8
     # - 9.9.9.9
     # - 208.67.222.222
+    - https://basic.rethinkdns.com/dns-query
     # - https://dns.google/dns-query
     # - https://cloudflare-dns.com/dns-query
     # - https://dns.quad9.net/dns-query
     # - https://doh.opendns.com/dns-query
-    - https://basic.rethinkdns.com/dns-query
+    # - https://dns.controld.com/
+    - https://nsc.torgues.net/dns-query
+    - https://ipv4-zepto-mci-1.edge.nextdns.io/dns-query
   fallback:
     # - 1.1.1.1
     # - 8.8.8.8
@@ -72,6 +75,9 @@ dns:
     # - https://doh.dns.sb/dns-query
     # - https://dns.quad9.net/dns-query
     # - https://doh.opendns.com/dns-query
+    # - https://dns.controld.com/
+    - https://nsc.torgues.net/dns-query
+    - https://ipv4-zepto-mci-1.edge.nextdns.io/dns-query
 
 ###flags###
 # de 🇩🇪 - id 🇮🇩 - ca 🇨🇦 - hk 🇭🇰 - my 🇲🇾 - jp 🇯🇵 - uk 🇬🇧 - ua 🇺🇦 - se 🇸🇪 - sp 🇪🇸 - us 🇺🇸 - za 🇿🇦 - sg 🇸🇬 - pl 🇵🇱 - fr 🇫🇷 - kr 🇰🇷 - nl 🇳🇱 - au 🇦🇺 - ae 🇦🇪 - th 🇹🇭
@@ -198,7 +204,7 @@ proxy-groups:
       - sshstores🇨🇦ca 01-07 (061)
       - sshstores🇨🇦ca 01-07 (062)
       - sshstores🇨🇦ca 01-07 (063)
-      - TCP
+      - UDP
       - ⚡️Auto⚡️
 
   - name: UDP
