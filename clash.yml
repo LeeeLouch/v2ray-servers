@@ -82,32 +82,6 @@ dns:
 ###flags###
 # de 🇩🇪 - id 🇮🇩 - ca 🇨🇦 - hk 🇭🇰 - my 🇲🇾 - jp 🇯🇵 - uk 🇬🇧 - ua 🇺🇦 - se 🇸🇪 - sp 🇪🇸 - us 🇺🇸 - za 🇿🇦 - sg 🇸🇬 - pl 🇵🇱 - fr 🇫🇷 - kr 🇰🇷 - nl 🇳🇱 - au 🇦🇺 - ae 🇦🇪 - th 🇹🇭
 proxies: 
-  - {"type":"trojan","name":"mainssh🇸🇬sg 01-06 (071)","server":"sgtws.mainssh.xyz","port":443,"password":"mainssh-gdsfgwefs","udp":true,"skip-cert-verify":true,"sni":"sgtws.mainssh.xyz","network":"ws","ws-opts":{"path":"/trojan","headers":{"host":"sgtws.mainssh.xyz"}}}
-  - {"type":"trojan","name":"mainssh🇫🇷fr 01-06 (071)","server":"frtws.mainssh.xyz","port":443,"password":"mainssh-nkjnnkjn","udp":true,"skip-cert-verify":true,"sni":"frtws.mainssh.xyz","network":"ws","ws-opts":{"path":"/trojan","headers":{"host":"frtws.mainssh.xyz"}}}
-  - {"type":"trojan","name":"mainssh🇨🇦ca 01-06 (072)","server":"catws.mainssh.xyz","port":443,"password":"mainssh-vxcwdadsa","udp":true,"skip-cert-verify":true,"sni":"catws.mainssh.xyz","network":"ws","ws-opts":{"path":"/trojan","headers":{"host":"catws.mainssh.xyz"}}}
-  - {"type":"trojan","name":"mainssh🇨🇦ca 01-06 (071)","server":"catws.mainssh.xyz","port":443,"password":"mainssh-fsdvxczv","udp":true,"skip-cert-verify":true,"sni":"catws.mainssh.xyz","network":"ws","ws-opts":{"path":"/trojan","headers":{"host":"catws.mainssh.xyz"}}}
-  - {"type":"trojan","name":"mainssh🇬🇧uk 01-06 (071)","server":"uktws.mainssh.xyz","port":443,"password":"mainssh-cnxxmccx","udp":true,"skip-cert-verify":true,"sni":"uktws.mainssh.xyz","network":"ws","ws-opts":{"path":"/trojan","headers":{"host":"uktws.mainssh.xyz"}}}
-  - {"type":"trojan","name":"mainssh🇬🇧uk 01-06 (072)","server":"uktws.mainssh.xyz","port":443,"password":"mainssh-vxczvsdas","udp":true,"skip-cert-verify":true,"sni":"uktws.mainssh.xyz","network":"ws","ws-opts":{"path":"/trojan","headers":{"host":"uktws.mainssh.xyz"}}}
-  - {"type":"trojan","name":"mainssh🇫🇷fr 01-06 (072)","server":"frtws.mainssh.xyz","port":443,"password":"mainssh-fsdfqwqsd","udp":true,"skip-cert-verify":true,"sni":"frtws.mainssh.xyz","network":"ws","ws-opts":{"path":"/trojan","headers":{"host":"frtws.mainssh.xyz"}}}
-  - {"type":"trojan","name":"mainssh🇸🇬sg 01-06 (073)","server":"frtws.mainssh.xyz","port":443,"password":"mainssh-rwwqwqd","udp":true,"skip-cert-verify":true,"sni":"frtws.mainssh.xyz","network":"ws","ws-opts":{"path":"/trojan","headers":{"host":"frtws.mainssh.xyz"}}}
-  - {"type":"trojan","name":"mainssh🇩🇪de 01-06 (071)","server":"getws.mainssh.xyz","port":443,"password":"mainssh-fdsfsfvx","udp":true,"skip-cert-verify":true,"sni":"getws.mainssh.xyz","network":"ws","ws-opts":{"path":"/trojan","headers":{"host":"getws.mainssh.xyz"}}}
-  - {"type":"trojan","name":"mainssh🇩🇪de 01-06 (072)","server":"getws.mainssh.xyz","port":443,"password":"mainssh-ewfsdfsda","udp":true,"skip-cert-verify":true,"sni":"getws.mainssh.xyz","network":"ws","ws-opts":{"path":"/trojan","headers":{"host":"getws.mainssh.xyz"}}}
-  - {"type":"trojan","name":"mainssh🇩🇪de 01-06 (073)","server":"getws.mainssh.xyz","port":443,"password":"mainssh-vcxzvwdwqd","udp":true,"skip-cert-verify":true,"sni":"getws.mainssh.xyz","network":"ws","ws-opts":{"path":"/trojan","headers":{"host":"getws.mainssh.xyz"}}}
-  - {"type":"trojan","name":"mainssh🇩🇪de 01-06 (074)","server":"getws.mainssh.xyz","port":443,"password":"mainssh-gdsfwqdsa","udp":true,"skip-cert-verify":true,"sni":"getws.mainssh.xyz","network":"ws","ws-opts":{"path":"/trojan","headers":{"host":"getws.mainssh.xyz"}}}
-  - {"type":"trojan","name":"mainssh🇩🇪de 01-06 (075)","server":"getws.mainssh.xyz","port":443,"password":"mainssh-vqwdasvb","udp":true,"skip-cert-verify":true,"sni":"getws.mainssh.xyz","network":"ws","ws-opts":{"path":"/trojan","headers":{"host":"getws.mainssh.xyz"}}}
-  - {"type":"trojan","name":"mainssh🇩🇪de 01-06 (076)","server":"getws.mainssh.xyz","port":443,"password":"mainssh-rwqrqvbxzc","udp":true,"skip-cert-verify":true,"sni":"getws.mainssh.xyz","network":"ws","ws-opts":{"path":"/trojan","headers":{"host":"getws.mainssh.xyz"}}}
-  
-  - {"type":"vmess","name":"sshstores🇩🇪de 01-07 (061)","ws-opts":{"path":"/vmess","headers":{"host":"sni.cloudflare.com"}},"server":"de.vmess2.xservs.xyz","port":"443","uuid":"9199a2f4-e79a-4627-83b5-e23e9b0e3c6c","alterId":"0","cipher":"auto","network":"ws","tls":true,"skip-cert-verify":true}
-  - {"type":"vmess","name":"sshstores🇩🇪de 01-07 (062)","ws-opts":{"path":"/vmess","headers":{"host":"sni.cloudflare.com"}},"server":"de.vmess2.xservs.xyz","port":"443","uuid":"c8d78506-6f0d-46ff-9ef4-8ddfafe4095b","alterId":"0","cipher":"auto","network":"ws","tls":true,"skip-cert-verify":true}
-  - {"type":"vmess","name":"sshstores🇩🇪de 01-07 (063)","ws-opts":{"path":"/vmess","headers":{"host":"sni.cloudflare.com"}},"server":"de.vmess2.xservs.xyz","port":"443","uuid":"6528ade7-27c4-4ed6-97af-62cace682a50","alterId":"0","cipher":"auto","network":"ws","tls":true,"skip-cert-verify":true}
-  - {"type":"vmess","name":"sshstores🇩🇪de 01-07 (064)","ws-opts":{"path":"/vmess","headers":{"host":"sni.cloudflare.com"}},"server":"de.vmess2.xservs.xyz","port":"443","uuid":"a2505b38-7b84-4096-9ca2-7a71fcd4ea03","alterId":"0","cipher":"auto","network":"ws","tls":true,"skip-cert-verify":true}
-  - {"type":"vmess","name":"sshstores🇩🇪de 01-07 (065)","ws-opts":{"path":"/vmess","headers":{"host":"sni.cloudflare.com"}},"server":"de.vmess2.xservs.xyz","port":"443","uuid":"b8f34836-8461-4e52-9f48-980958e4c4f1","alterId":"0","cipher":"auto","network":"ws","tls":true,"skip-cert-verify":true}
-  - {"type":"vmess","name":"sshstores🇬🇧uk 01-07 (062)","ws-opts":{"path":"/vmess","headers":{"host":"sni.cloudflare.com"}},"server":"ln.vmess1.xservs.xyz","port":"443","uuid":"52387287-2d45-4cc4-855f-b421b32da9ee","alterId":"0","cipher":"auto","network":"ws","tls":true,"skip-cert-verify":true}
-  - {"type":"vmess","name":"sshstores🇬🇧uk 01-07 (061)","ws-opts":{"path":"/vmess","headers":{"host":"sni.cloudflare.com"}},"server":"ln.vmess1.xservs.xyz","port":"443","uuid":"ccd97e88-1831-4315-9d84-dbd31981f66c","alterId":"0","cipher":"auto","network":"ws","tls":true,"skip-cert-verify":true}
-  - {"type":"vmess","name":"sshstores🇨🇦ca 01-07 (061)","ws-opts":{"path":"/vmess","headers":{"host":"sni.cloudflare.com"}},"server":"ca.vmess1.xservs.xyz","port":"443","uuid":"0e92d2e7-f325-4693-8988-45a07332989a","alterId":"0","cipher":"auto","network":"ws","tls":true,"skip-cert-verify":true}
-  - {"type":"vmess","name":"sshstores🇨🇦ca 01-07 (062)","ws-opts":{"path":"/vmess","headers":{"host":"sni.cloudflare.com"}},"server":"ca.vmess1.xservs.xyz","port":"443","uuid":"bce57c91-6c2d-4ae5-8906-795b6cfeaf20","alterId":"0","cipher":"auto","network":"ws","tls":true,"skip-cert-verify":true}
-  - {"type":"vmess","name":"sshstores🇨🇦ca 01-07 (063)","ws-opts":{"path":"/vmess","headers":{"host":"sni.cloudflare.com"}},"server":"ca.vmess1.xservs.xyz","port":"443","uuid":"dbddf714-9c49-4c7c-98f0-bd10e9922be8","alterId":"0","cipher":"auto","network":"ws","tls":true,"skip-cert-verify":true}
-
   - {"type":"vmess","name":"vpnjantit🇬🇧uk 01-12 (062)","ws-opts":{"path":"/vpnjantit"},"server":"uk.vpnjantit.com","port":"10000","uuid":"c2749d3a-8dd8-11ed-a745-1f5c7ea3fd3d","alterId":"0","cipher":"auto","network":"ws"}
   - {"type":"vmess","name":"vpnjantit🇬🇧uk 01-12 (061)","ws-opts":{"path":"/vpnjantit"},"server":"uk.vpnjantit.com","port":"10000","uuid":"751b95b4-8dda-11ed-932a-f32b34e4916a","alterId":"0","cipher":"auto","network":"ws"}
   - {"type":"vmess","name":"vpnjantit🇬🇧uk 01-12 (063)","ws-opts":{"path":"/vpnjantit"},"server":"uk.vpnjantit.com","port":"10000","uuid":"8b7cacb4-8dd8-11ed-93f2-27701306128b","alterId":"0","cipher":"auto","network":"ws"}
@@ -127,16 +101,38 @@ proxies:
   - {"type":"vmess","name":"vpnjantit🇩🇪de 01-10 (064)","ws-opts":{"path":"/vpnjantit"},"server":"gr5.vpnjantit.com","port":"10000","uuid":"69fb4f44-8dda-11ed-a399-8b91c2aaa597","alterId":"0","cipher":"auto","network":"ws"}
   - {"type":"vmess","name":"vpnjantit🇩🇪de 01-09 (065)","ws-opts":{"path":"/vpnjantit"},"server":"gr3.vpnjantit.com","port":"10000","uuid":"e7816cf6-8dd9-11ed-b150-575f428b0c94","alterId":"0","cipher":"auto","network":"ws"}
 
-  - {"type":"vmess","name":"sshstores🇩🇪de 01-07 (061)[UDP]","ws-opts":{"path":"/vmess","headers":{"host":"sni.cloudflare.com"}},"server":"de.vmess2.xservs.xyz","port":"443","uuid":"9199a2f4-e79a-4627-83b5-e23e9b0e3c6c","alterId":"0","cipher":"auto","udp":true,"network":"ws","tls":true,"skip-cert-verify":true}
-  - {"type":"vmess","name":"sshstores🇩🇪de 01-07 (062)[UDP]","ws-opts":{"path":"/vmess","headers":{"host":"sni.cloudflare.com"}},"server":"de.vmess2.xservs.xyz","port":"443","uuid":"c8d78506-6f0d-46ff-9ef4-8ddfafe4095b","alterId":"0","cipher":"auto","udp":true,"network":"ws","tls":true,"skip-cert-verify":true}
-  - {"type":"vmess","name":"sshstores🇩🇪de 01-07 (063)[UDP]","ws-opts":{"path":"/vmess","headers":{"host":"sni.cloudflare.com"}},"server":"de.vmess2.xservs.xyz","port":"443","uuid":"6528ade7-27c4-4ed6-97af-62cace682a50","alterId":"0","cipher":"auto","udp":true,"network":"ws","tls":true,"skip-cert-verify":true}
-  - {"type":"vmess","name":"sshstores🇩🇪de 01-07 (064)[UDP]","ws-opts":{"path":"/vmess","headers":{"host":"sni.cloudflare.com"}},"server":"de.vmess2.xservs.xyz","port":"443","uuid":"a2505b38-7b84-4096-9ca2-7a71fcd4ea03","alterId":"0","cipher":"auto","udp":true,"network":"ws","tls":true,"skip-cert-verify":true}
-  - {"type":"vmess","name":"sshstores🇩🇪de 01-07 (065)[UDP]","ws-opts":{"path":"/vmess","headers":{"host":"sni.cloudflare.com"}},"server":"de.vmess2.xservs.xyz","port":"443","uuid":"b8f34836-8461-4e52-9f48-980958e4c4f1","alterId":"0","cipher":"auto","udp":true,"network":"ws","tls":true,"skip-cert-verify":true}
-  - {"type":"vmess","name":"sshstores🇬🇧uk 01-07 (062)[UDP]","ws-opts":{"path":"/vmess","headers":{"host":"sni.cloudflare.com"}},"server":"ln.vmess1.xservs.xyz","port":"443","uuid":"52387287-2d45-4cc4-855f-b421b32da9ee","alterId":"0","cipher":"auto","udp":true,"network":"ws","tls":true,"skip-cert-verify":true}
-  - {"type":"vmess","name":"sshstores🇬🇧uk 01-07 (061)[UDP]","ws-opts":{"path":"/vmess","headers":{"host":"sni.cloudflare.com"}},"server":"ln.vmess1.xservs.xyz","port":"443","uuid":"ccd97e88-1831-4315-9d84-dbd31981f66c","alterId":"0","cipher":"auto","udp":true,"network":"ws","tls":true,"skip-cert-verify":true}
-  - {"type":"vmess","name":"sshstores🇨🇦ca 01-07 (061)[UDP]","ws-opts":{"path":"/vmess","headers":{"host":"sni.cloudflare.com"}},"server":"ca.vmess1.xservs.xyz","port":"443","uuid":"0e92d2e7-f325-4693-8988-45a07332989a","alterId":"0","cipher":"auto","udp":true,"network":"ws","tls":true,"skip-cert-verify":true}
-  - {"type":"vmess","name":"sshstores🇨🇦ca 01-07 (062)[UDP]","ws-opts":{"path":"/vmess","headers":{"host":"sni.cloudflare.com"}},"server":"ca.vmess1.xservs.xyz","port":"443","uuid":"bce57c91-6c2d-4ae5-8906-795b6cfeaf20","alterId":"0","cipher":"auto","udp":true,"network":"ws","tls":true,"skip-cert-verify":true}
-  - {"type":"vmess","name":"sshstores🇨🇦ca 01-07 (063)[UDP]","ws-opts":{"path":"/vmess","headers":{"host":"sni.cloudflare.com"}},"server":"ca.vmess1.xservs.xyz","port":"443","uuid":"dbddf714-9c49-4c7c-98f0-bd10e9922be8","alterId":"0","cipher":"auto","udp":true,"network":"ws","tls":true,"skip-cert-verify":true}
+  - {"type":"vmess","name":"sshstores🇩🇪de 01-16 (077)","ws-opts":{"path":"/vmess","headers":{"host":"www.google.com"}},"server":"de.vmess2.xservs.xyz","port":"443","uuid":"4fe2f476-fa08-4839-8d29-933c7be6bf99","alterId":"0","cipher":"auto","network":"ws","tls":true,"skip-cert-verify":true}
+  - {"type":"vmess","name":"sshstores🇬🇧uk 01-16 (071)","ws-opts":{"path":"/vmess","headers":{"host":"www.google.com"}},"server":"ln.vmess1.xservs.xyz","port":"443","uuid":"5a8d6ed4-460f-46fb-8677-8f9ed8339c23","alterId":"0","cipher":"auto","network":"ws","tls":true,"skip-cert-verify":true}
+  - {"type":"vmess","name":"sshstores🇬🇧uk 01-16 (072)","ws-opts":{"path":"/vmess","headers":{"host":"www.google.com"}},"server":"ln.vmess1.xservs.xyz","port":"443","uuid":"b14b42bf-a328-4e4a-b9bd-ed8f55d2e2c2","alterId":"0","cipher":"auto","network":"ws","tls":true,"skip-cert-verify":true}
+  - {"type":"vmess","name":"sshstores🇬🇧uk 01-16 (073)","ws-opts":{"path":"/vmess","headers":{"host":"www.google.com"}},"server":"ln.vmess1.xservs.xyz","port":"443","uuid":"e3e608f9-e36a-4310-b825-af5bb17cf897","alterId":"0","cipher":"auto","network":"ws","tls":true,"skip-cert-verify":true}
+  - {"type":"vmess","name":"sshstores🇬🇧uk 01-16 (074)","ws-opts":{"path":"/vmess","headers":{"host":"www.google.com"}},"server":"ln.vmess1.xservs.xyz","port":"443","uuid":"aaa1f983-9e15-4d4c-93b8-3e04c61e52ed","alterId":"0","cipher":"auto","network":"ws","tls":true,"skip-cert-verify":true}
+  - {"type":"vmess","name":"sshstores🇵🇱pl 01-16 (071)","ws-opts":{"path":"/vmess","headers":{"host":"www.google.com"}},"server":"pl.vmess1.xservs.xyz","port":"443","uuid":"9b2d716c-f27a-49a1-b4c7-fd51197908be","alterId":"0","cipher":"auto","network":"ws","tls":true,"skip-cert-verify":true}
+  - {"type":"vmess","name":"sshstores🇵🇱pl 01-16 (072)","ws-opts":{"path":"/vmess","headers":{"host":"www.google.com"}},"server":"pl.vmess1.xservs.xyz","port":"443","uuid":"e1884a06-ffee-411f-84c0-765b6dfb627d","alterId":"0","cipher":"auto","network":"ws","tls":true,"skip-cert-verify":true}
+  - {"type":"vmess","name":"sshstores🇮🇩id 01-16 (071)","ws-opts":{"path":"/vmess","headers":{"host":"www.google.com"}},"server":"id.vmess2.xservs.xyz","port":"443","uuid":"3f61e79b-04a5-46fd-9b2c-832bc6da095e","alterId":"0","cipher":"auto","network":"ws","tls":true,"skip-cert-verify":true}
+  - {"type":"vmess","name":"sshstores🇯🇵jp 01-16 (071)","ws-opts":{"path":"/vmess","headers":{"host":"www.google.com"}},"server":"jp.vmess2.xservs.xyz","port":"443","uuid":"e3871926-f8eb-4b8a-8dfa-65012ed076ab","alterId":"0","cipher":"auto","network":"ws","tls":true,"skip-cert-verify":true}
+  - {"type":"vmess","name":"sshstores🇯🇵jp 01-16 (072)","ws-opts":{"path":"/vmess","headers":{"host":"www.google.com"}},"server":"jp.vmess1.xservs.xyz","port":"443","uuid":"c21e6343-5da7-4028-81d8-7760018235a7","alterId":"0","cipher":"auto","network":"ws","tls":true,"skip-cert-verify":true}
+  - {"type":"vmess","name":"sshstores🇳🇱nl 01-16 (071)","ws-opts":{"path":"/vmess","headers":{"host":"www.google.com"}},"server":"nl.vmess1.xservs.xyz","port":"443","uuid":"0fbb2c4a-2375-46ae-b434-545a92303524","alterId":"0","cipher":"auto","network":"ws","tls":true,"skip-cert-verify":true}
+  - {"type":"vmess","name":"sshstores🇳🇱nl 01-16 (072)","ws-opts":{"path":"/vmess","headers":{"host":"www.google.com"}},"server":"nl.vmess1.xservs.xyz","port":"443","uuid":"e4dabb99-3c46-4325-8c76-a2dbfe23c68b","alterId":"0","cipher":"auto","network":"ws","tls":true,"skip-cert-verify":true}
+  - {"type":"vmess","name":"sshstores🇳🇱nl 01-16 (073)","ws-opts":{"path":"/vmess","headers":{"host":"www.google.com"}},"server":"nl.vmess1.xservs.xyz","port":"443","uuid":"f28b5cd3-e39a-4a52-84b2-c842b43a87b7","alterId":"0","cipher":"auto","network":"ws","tls":true,"skip-cert-verify":true}
+  - {"type":"vmess","name":"sshstores🇩🇪de 01-16 (071)","ws-opts":{"path":"/vmess","headers":{"host":"www.google.com"}},"server":"de.vmess2.xservs.xyz","port":"443","uuid":"ffb909e6-a8af-4752-8819-1d57915810c4","alterId":"0","cipher":"auto","network":"ws","tls":true,"skip-cert-verify":true}
+  - {"type":"vmess","name":"sshstores🇩🇪de 01-16 (072)","ws-opts":{"path":"/vmess","headers":{"host":"www.google.com"}},"server":"de.vmess2.xservs.xyz","port":"443","uuid":"79a8de00-59aa-478e-8903-82f539347365","alterId":"0","cipher":"auto","network":"ws","tls":true,"skip-cert-verify":true}
+  - {"type":"vmess","name":"sshstores🇩🇪de 01-16 (073)","ws-opts":{"path":"/vmess","headers":{"host":"www.google.com"}},"server":"de.vmess2.xservs.xyz","port":"443","uuid":"4fe2f476-fa08-4839-8d29-933c7be6bf99","alterId":"0","cipher":"auto","network":"ws","tls":true,"skip-cert-verify":true}
+  - {"type":"vmess","name":"sshstores🇩🇪de 01-16 (074)","ws-opts":{"path":"/vmess","headers":{"host":"www.google.com"}},"server":"de.vmess2.xservs.xyz","port":"443","uuid":"a3597199-f96d-48b0-b478-1fea3528f42d","alterId":"0","cipher":"auto","network":"ws","tls":true,"skip-cert-verify":true}
+  - {"type":"vmess","name":"sshstores🇩🇪de 01-16 (075)","ws-opts":{"path":"/vmess","headers":{"host":"www.google.com"}},"server":"de.vmess2.xservs.xyz","port":"443","uuid":"4481c4bb-5b92-453a-bd1b-90bde5a28774","alterId":"0","cipher":"auto","network":"ws","tls":true,"skip-cert-verify":true}
+  - {"type":"vmess","name":"sshstores🇩🇪de 01-16 (076)","ws-opts":{"path":"/vmess","headers":{"host":"www.google.com"}},"server":"de.vmess2.xservs.xyz","port":"443","uuid":"4fe2f476-fa08-4839-8d29-933c7be6bf99","alterId":"0","cipher":"auto","network":"ws","tls":true,"skip-cert-verify":true}
+  - {"type":"vmess","name":"sshstores🇺🇸us 01-16 (071)","ws-opts":{"path":"/vmess","headers":{"host":"www.google.com"}},"server":"us.vmess2.xservs.xyz","port":"443","uuid":"7c4224cd-4eab-441f-a7c4-21b06ef5236c","alterId":"0","cipher":"auto","network":"ws","tls":true,"skip-cert-verify":true}
+  - {"type":"vmess","name":"sshstores🇺🇸us 01-16 (072)","ws-opts":{"path":"/vmess","headers":{"host":"www.google.com"}},"server":"us.vmess3.xservs.xyz","port":"443","uuid":"b31c00c9-29bf-4a5b-82a4-7dafbb7fb583","alterId":"0","cipher":"auto","network":"ws","tls":true,"skip-cert-verify":true}
+  - {"type":"vmess","name":"sshstores🇺🇸us 01-16 (073)","ws-opts":{"path":"/vmess","headers":{"host":"www.google.com"}},"server":"us.vmess4.xservs.xyz","port":"443","uuid":"29e52779-4779-4c52-a106-86fb6f4300cd","alterId":"0","cipher":"auto","network":"ws","tls":true,"skip-cert-verify":true}
+  - {"type":"vmess","name":"sshstores🇫🇷fr 01-16 (071)","ws-opts":{"path":"/vmess","headers":{"host":"www.google.com"}},"server":"fr.vmess2.xservs.xyz","port":"443","uuid":"03cde5f2-812b-4f15-9c4f-66234e6bb64b","alterId":"0","cipher":"auto","network":"ws","tls":true,"skip-cert-verify":true}
+  - {"type":"vmess","name":"sshstores🇫🇷fr 01-16 (072)","ws-opts":{"path":"/vmess","headers":{"host":"www.google.com"}},"server":"fr.vmess1.xservs.xyz","port":"443","uuid":"a809c383-30a6-496e-9b5d-c7d498884712","alterId":"0","cipher":"auto","network":"ws","tls":true,"skip-cert-verify":true}
+  - {"type":"vmess","name":"sshstores🇫🇷fr 01-16 (073)","ws-opts":{"path":"/vmess","headers":{"host":"www.google.com"}},"server":"fr.vmess1.xservs.xyz","port":"443","uuid":"9fa92310-dd6b-48a9-a942-69c5c0b8a7cf","alterId":"0","cipher":"auto","network":"ws","tls":true,"skip-cert-verify":true}
+  - {"type":"vmess","name":"sshstores🇸🇬sg 01-16 (071)","ws-opts":{"path":"/vmess","headers":{"host":"www.google.com"}},"server":"sg.vmess7.xservs.xyz","port":"443","uuid":"04d6b6d7-89a4-4c42-9138-e550e3cb3ea2","alterId":"0","cipher":"auto","network":"ws","tls":true,"skip-cert-verify":true}
+  - {"type":"vmess","name":"akunssh🇩🇪de 01-16 (071)","ws-opts":{"path":"/vmess","headers":{"host":"www.google.com"}},"server":"de1.vmess.tunnel.cx","port":"443","uuid":"e3ca39d8-8f75-11ed-89fa-071341c16d93","alterId":"0","cipher":"auto","network":"ws","tls":true,"skip-cert-verify":true}
+  - {"type":"vmess","name":"akunssh🇨🇦ca 01-16 (071)","ws-opts":{"path":"/vmess","headers":{"host":"www.google.com"}},"server":"ca1.vmess.tunnel.cx","port":"443","uuid":"e4369a74-8f75-11ed-aba7-c7ebedd0d4d8","alterId":"0","cipher":"auto","network":"ws","tls":true,"skip-cert-verify":true}
+  - {"type":"vmess","name":"akunssh🇺🇸us 01-16 (071)","ws-opts":{"path":"/vmess","headers":{"host":"www.google.com"}},"server":"us1.vmess.tunnel.cx","port":"443","uuid":"b9b2e380-8eac-11ed-896e-5695fe55cd5d","alterId":"0","cipher":"auto","network":"ws","tls":true,"skip-cert-verify":true}
+  - {"type":"vmess","name":"akunssh🇨🇦ca 01-16 (072)","ws-opts":{"path":"/vmess","headers":{"host":"www.google.com"}},"server":"ca1.vmess.tunnel.cx","port":"443","uuid":"e4369a74-8f75-11ed-aba7-c7ebedd0d4d8","alterId":"0","cipher":"auto","network":"ws","tls":true,"skip-cert-verify":true}
+
+
 
   - {"type":"vmess","name":"vpnjantit🇬🇧uk 01-12 (062)[UDP]","ws-opts":{"path":"/vpnjantit"},"server":"uk.vpnjantit.com","port":"10000","uuid":"c2749d3a-8dd8-11ed-a745-1f5c7ea3fd3d","alterId":"0","cipher":"auto","udp":true,"network":"ws"}
   - {"type":"vmess","name":"vpnjantit🇬🇧uk 01-12 (061)[UDP]","ws-opts":{"path":"/vpnjantit"},"server":"uk.vpnjantit.com","port":"10000","uuid":"751b95b4-8dda-11ed-932a-f32b34e4916a","alterId":"0","cipher":"auto","udp":true,"network":"ws"}
@@ -156,6 +152,37 @@ proxies:
   - {"type":"vmess","name":"vpnjantit🇩🇪de 01-10 (063)[UDP]","ws-opts":{"path":"/vpnjantit"},"server":"gr5.vpnjantit.com","port":"10000","uuid":"cb3e9c6c-8dd9-11ed-baef-dfa29216280c","alterId":"0","cipher":"auto","udp":true,"network":"ws"}
   - {"type":"vmess","name":"vpnjantit🇩🇪de 01-10 (064)[UDP]","ws-opts":{"path":"/vpnjantit"},"server":"gr5.vpnjantit.com","port":"10000","uuid":"69fb4f44-8dda-11ed-a399-8b91c2aaa597","alterId":"0","cipher":"auto","udp":true,"network":"ws"}
   - {"type":"vmess","name":"vpnjantit🇩🇪de 01-09 (065)[UDP]","ws-opts":{"path":"/vpnjantit"},"server":"gr3.vpnjantit.com","port":"10000","uuid":"e7816cf6-8dd9-11ed-b150-575f428b0c94","alterId":"0","cipher":"auto","udp":true,"network":"ws"}
+
+  - {"type":"vmess","name":"sshstores🇩🇪de 01-16 (077)[UDP]","ws-opts":{"path":"/vmess","headers":{"host":"www.google.com"}},"server":"de.vmess2.xservs.xyz","port":"443","uuid":"4fe2f476-fa08-4839-8d29-933c7be6bf99","alterId":"0","cipher":"auto","network":"ws","tls":true,"skip-cert-verify":true,"udp":true}
+  - {"type":"vmess","name":"sshstores🇬🇧uk 01-16 (071)[UDP]","ws-opts":{"path":"/vmess","headers":{"host":"www.google.com"}},"server":"ln.vmess1.xservs.xyz","port":"443","uuid":"5a8d6ed4-460f-46fb-8677-8f9ed8339c23","alterId":"0","cipher":"auto","network":"ws","tls":true,"skip-cert-verify":true,"udp":true}
+  - {"type":"vmess","name":"sshstores🇬🇧uk 01-16 (072)[UDP]","ws-opts":{"path":"/vmess","headers":{"host":"www.google.com"}},"server":"ln.vmess1.xservs.xyz","port":"443","uuid":"b14b42bf-a328-4e4a-b9bd-ed8f55d2e2c2","alterId":"0","cipher":"auto","network":"ws","tls":true,"skip-cert-verify":true,"udp":true}
+  - {"type":"vmess","name":"sshstores🇬🇧uk 01-16 (073)[UDP]","ws-opts":{"path":"/vmess","headers":{"host":"www.google.com"}},"server":"ln.vmess1.xservs.xyz","port":"443","uuid":"e3e608f9-e36a-4310-b825-af5bb17cf897","alterId":"0","cipher":"auto","network":"ws","tls":true,"skip-cert-verify":true,"udp":true}
+  - {"type":"vmess","name":"sshstores🇬🇧uk 01-16 (074)[UDP]","ws-opts":{"path":"/vmess","headers":{"host":"www.google.com"}},"server":"ln.vmess1.xservs.xyz","port":"443","uuid":"aaa1f983-9e15-4d4c-93b8-3e04c61e52ed","alterId":"0","cipher":"auto","network":"ws","tls":true,"skip-cert-verify":true,"udp":true}
+  - {"type":"vmess","name":"sshstores🇵🇱pl 01-16 (071)[UDP]","ws-opts":{"path":"/vmess","headers":{"host":"www.google.com"}},"server":"pl.vmess1.xservs.xyz","port":"443","uuid":"9b2d716c-f27a-49a1-b4c7-fd51197908be","alterId":"0","cipher":"auto","network":"ws","tls":true,"skip-cert-verify":true,"udp":true}
+  - {"type":"vmess","name":"sshstores🇵🇱pl 01-16 (072)[UDP]","ws-opts":{"path":"/vmess","headers":{"host":"www.google.com"}},"server":"pl.vmess1.xservs.xyz","port":"443","uuid":"e1884a06-ffee-411f-84c0-765b6dfb627d","alterId":"0","cipher":"auto","network":"ws","tls":true,"skip-cert-verify":true,"udp":true}
+  - {"type":"vmess","name":"sshstores🇮🇩id 01-16 (071)[UDP]","ws-opts":{"path":"/vmess","headers":{"host":"www.google.com"}},"server":"id.vmess2.xservs.xyz","port":"443","uuid":"3f61e79b-04a5-46fd-9b2c-832bc6da095e","alterId":"0","cipher":"auto","network":"ws","tls":true,"skip-cert-verify":true,"udp":true}
+  - {"type":"vmess","name":"sshstores🇯🇵jp 01-16 (071)[UDP]","ws-opts":{"path":"/vmess","headers":{"host":"www.google.com"}},"server":"jp.vmess2.xservs.xyz","port":"443","uuid":"e3871926-f8eb-4b8a-8dfa-65012ed076ab","alterId":"0","cipher":"auto","network":"ws","tls":true,"skip-cert-verify":true,"udp":true}
+  - {"type":"vmess","name":"sshstores🇯🇵jp 01-16 (072)[UDP]","ws-opts":{"path":"/vmess","headers":{"host":"www.google.com"}},"server":"jp.vmess1.xservs.xyz","port":"443","uuid":"c21e6343-5da7-4028-81d8-7760018235a7","alterId":"0","cipher":"auto","network":"ws","tls":true,"skip-cert-verify":true,"udp":true}
+  - {"type":"vmess","name":"sshstores🇳🇱nl 01-16 (071)[UDP]","ws-opts":{"path":"/vmess","headers":{"host":"www.google.com"}},"server":"nl.vmess1.xservs.xyz","port":"443","uuid":"0fbb2c4a-2375-46ae-b434-545a92303524","alterId":"0","cipher":"auto","network":"ws","tls":true,"skip-cert-verify":true,"udp":true}
+  - {"type":"vmess","name":"sshstores🇳🇱nl 01-16 (072)[UDP]","ws-opts":{"path":"/vmess","headers":{"host":"www.google.com"}},"server":"nl.vmess1.xservs.xyz","port":"443","uuid":"e4dabb99-3c46-4325-8c76-a2dbfe23c68b","alterId":"0","cipher":"auto","network":"ws","tls":true,"skip-cert-verify":true,"udp":true}
+  - {"type":"vmess","name":"sshstores🇳🇱nl 01-16 (073)[UDP]","ws-opts":{"path":"/vmess","headers":{"host":"www.google.com"}},"server":"nl.vmess1.xservs.xyz","port":"443","uuid":"f28b5cd3-e39a-4a52-84b2-c842b43a87b7","alterId":"0","cipher":"auto","network":"ws","tls":true,"skip-cert-verify":true,"udp":true}
+  - {"type":"vmess","name":"sshstores🇩🇪de 01-16 (071)[UDP]","ws-opts":{"path":"/vmess","headers":{"host":"www.google.com"}},"server":"de.vmess2.xservs.xyz","port":"443","uuid":"ffb909e6-a8af-4752-8819-1d57915810c4","alterId":"0","cipher":"auto","network":"ws","tls":true,"skip-cert-verify":true,"udp":true}
+  - {"type":"vmess","name":"sshstores🇩🇪de 01-16 (072)[UDP]","ws-opts":{"path":"/vmess","headers":{"host":"www.google.com"}},"server":"de.vmess2.xservs.xyz","port":"443","uuid":"79a8de00-59aa-478e-8903-82f539347365","alterId":"0","cipher":"auto","network":"ws","tls":true,"skip-cert-verify":true,"udp":true}
+  - {"type":"vmess","name":"sshstores🇩🇪de 01-16 (073)[UDP]","ws-opts":{"path":"/vmess","headers":{"host":"www.google.com"}},"server":"de.vmess2.xservs.xyz","port":"443","uuid":"4fe2f476-fa08-4839-8d29-933c7be6bf99","alterId":"0","cipher":"auto","network":"ws","tls":true,"skip-cert-verify":true,"udp":true}
+  - {"type":"vmess","name":"sshstores🇩🇪de 01-16 (074)[UDP]","ws-opts":{"path":"/vmess","headers":{"host":"www.google.com"}},"server":"de.vmess2.xservs.xyz","port":"443","uuid":"a3597199-f96d-48b0-b478-1fea3528f42d","alterId":"0","cipher":"auto","network":"ws","tls":true,"skip-cert-verify":true,"udp":true}
+  - {"type":"vmess","name":"sshstores🇩🇪de 01-16 (075)[UDP]","ws-opts":{"path":"/vmess","headers":{"host":"www.google.com"}},"server":"de.vmess2.xservs.xyz","port":"443","uuid":"4481c4bb-5b92-453a-bd1b-90bde5a28774","alterId":"0","cipher":"auto","network":"ws","tls":true,"skip-cert-verify":true,"udp":true}
+  - {"type":"vmess","name":"sshstores🇩🇪de 01-16 (076)[UDP]","ws-opts":{"path":"/vmess","headers":{"host":"www.google.com"}},"server":"de.vmess2.xservs.xyz","port":"443","uuid":"4fe2f476-fa08-4839-8d29-933c7be6bf99","alterId":"0","cipher":"auto","network":"ws","tls":true,"skip-cert-verify":true,"udp":true}
+  - {"type":"vmess","name":"sshstores🇺🇸us 01-16 (071)[UDP]","ws-opts":{"path":"/vmess","headers":{"host":"www.google.com"}},"server":"us.vmess2.xservs.xyz","port":"443","uuid":"7c4224cd-4eab-441f-a7c4-21b06ef5236c","alterId":"0","cipher":"auto","network":"ws","tls":true,"skip-cert-verify":true,"udp":true}
+  - {"type":"vmess","name":"sshstores🇺🇸us 01-16 (072)[UDP]","ws-opts":{"path":"/vmess","headers":{"host":"www.google.com"}},"server":"us.vmess3.xservs.xyz","port":"443","uuid":"b31c00c9-29bf-4a5b-82a4-7dafbb7fb583","alterId":"0","cipher":"auto","network":"ws","tls":true,"skip-cert-verify":true,"udp":true}
+  - {"type":"vmess","name":"sshstores🇺🇸us 01-16 (073)[UDP]","ws-opts":{"path":"/vmess","headers":{"host":"www.google.com"}},"server":"us.vmess4.xservs.xyz","port":"443","uuid":"29e52779-4779-4c52-a106-86fb6f4300cd","alterId":"0","cipher":"auto","network":"ws","tls":true,"skip-cert-verify":true,"udp":true}
+  - {"type":"vmess","name":"sshstores🇫🇷fr 01-16 (071)[UDP]","ws-opts":{"path":"/vmess","headers":{"host":"www.google.com"}},"server":"fr.vmess2.xservs.xyz","port":"443","uuid":"03cde5f2-812b-4f15-9c4f-66234e6bb64b","alterId":"0","cipher":"auto","network":"ws","tls":true,"skip-cert-verify":true,"udp":true}
+  - {"type":"vmess","name":"sshstores🇫🇷fr 01-16 (072)[UDP]","ws-opts":{"path":"/vmess","headers":{"host":"www.google.com"}},"server":"fr.vmess1.xservs.xyz","port":"443","uuid":"a809c383-30a6-496e-9b5d-c7d498884712","alterId":"0","cipher":"auto","network":"ws","tls":true,"skip-cert-verify":true,"udp":true}
+  - {"type":"vmess","name":"sshstores🇫🇷fr 01-16 (073)[UDP]","ws-opts":{"path":"/vmess","headers":{"host":"www.google.com"}},"server":"fr.vmess1.xservs.xyz","port":"443","uuid":"9fa92310-dd6b-48a9-a942-69c5c0b8a7cf","alterId":"0","cipher":"auto","network":"ws","tls":true,"skip-cert-verify":true,"udp":true}
+  - {"type":"vmess","name":"sshstores🇸🇬sg 01-16 (071)[UDP]","ws-opts":{"path":"/vmess","headers":{"host":"www.google.com"}},"server":"sg.vmess7.xservs.xyz","port":"443","uuid":"04d6b6d7-89a4-4c42-9138-e550e3cb3ea2","alterId":"0","cipher":"auto","network":"ws","tls":true,"skip-cert-verify":true,"udp":true}
+  - {"type":"vmess","name":"akunssh🇩🇪de 01-16 (071)[UDP]","ws-opts":{"path":"/vmess","headers":{"host":"www.google.com"}},"server":"de1.vmess.tunnel.cx","port":"443","uuid":"e3ca39d8-8f75-11ed-89fa-071341c16d93","alterId":"0","cipher":"auto","network":"ws","tls":true,"skip-cert-verify":true,"udp":true}
+  - {"type":"vmess","name":"akunssh🇨🇦ca 01-16 (071)[UDP]","ws-opts":{"path":"/vmess","headers":{"host":"www.google.com"}},"server":"ca1.vmess.tunnel.cx","port":"443","uuid":"e4369a74-8f75-11ed-aba7-c7ebedd0d4d8","alterId":"0","cipher":"auto","network":"ws","tls":true,"skip-cert-verify":true,"udp":true}
+  - {"type":"vmess","name":"akunssh🇺🇸us 01-16 (071)[UDP]","ws-opts":{"path":"/vmess","headers":{"host":"www.google.com"}},"server":"us1.vmess.tunnel.cx","port":"443","uuid":"b9b2e380-8eac-11ed-896e-5695fe55cd5d","alterId":"0","cipher":"auto","network":"ws","tls":true,"skip-cert-verify":true,"udp":true}
+  - {"type":"vmess","name":"akunssh🇨🇦ca 01-16 (072)[UDP]","ws-opts":{"path":"/vmess","headers":{"host":"www.google.com"}},"server":"ca1.vmess.tunnel.cx","port":"443","uuid":"e4369a74-8f75-11ed-aba7-c7ebedd0d4d8","alterId":"0","cipher":"auto","network":"ws","tls":true,"skip-cert-verify":true,"udp":true}
 
 proxy-groups:
   - name: Select
@@ -180,30 +207,36 @@ proxy-groups:
       - vpnjantit🇩🇪de 01-10 (063)
       - vpnjantit🇩🇪de 01-10 (064)
       - vpnjantit🇩🇪de 01-09 (065)
-      - mainssh🇸🇬sg 01-06 (071)
-      - mainssh🇫🇷fr 01-06 (071)
-      - mainssh🇨🇦ca 01-06 (072)
-      - mainssh🇨🇦ca 01-06 (071)
-      - mainssh🇬🇧uk 01-06 (071)
-      - mainssh🇬🇧uk 01-06 (072)
-      - mainssh🇫🇷fr 01-06 (072)
-      - mainssh🇸🇬sg 01-06 (073)
-      - mainssh🇩🇪de 01-06 (071)
-      - mainssh🇩🇪de 01-06 (072)
-      - mainssh🇩🇪de 01-06 (073)
-      - mainssh🇩🇪de 01-06 (074)
-      - mainssh🇩🇪de 01-06 (075)
-      - mainssh🇩🇪de 01-06 (076)
-      - sshstores🇩🇪de 01-07 (061)
-      - sshstores🇩🇪de 01-07 (062)
-      - sshstores🇩🇪de 01-07 (063)
-      - sshstores🇩🇪de 01-07 (064)
-      - sshstores🇩🇪de 01-07 (065)
-      - sshstores🇬🇧uk 01-07 (062)
-      - sshstores🇬🇧uk 01-07 (061)
-      - sshstores🇨🇦ca 01-07 (061)
-      - sshstores🇨🇦ca 01-07 (062)
-      - sshstores🇨🇦ca 01-07 (063)
+      - sshstores🇩🇪de 01-16 (077)
+      - sshstores🇬🇧uk 01-16 (071)
+      - sshstores🇬🇧uk 01-16 (072)
+      - sshstores🇬🇧uk 01-16 (073)
+      - sshstores🇬🇧uk 01-16 (074)
+      - sshstores🇵🇱pl 01-16 (071)
+      - sshstores🇵🇱pl 01-16 (072)
+      - sshstores🇮🇩id 01-16 (071)
+      - sshstores🇯🇵jp 01-16 (071)
+      - sshstores🇯🇵jp 01-16 (072)
+      - sshstores🇳🇱nl 01-16 (071)
+      - sshstores🇳🇱nl 01-16 (072)
+      - sshstores🇳🇱nl 01-16 (073)
+      - sshstores🇩🇪de 01-16 (071)
+      - sshstores🇩🇪de 01-16 (072)
+      - sshstores🇩🇪de 01-16 (073)
+      - sshstores🇩🇪de 01-16 (074)
+      - sshstores🇩🇪de 01-16 (075)
+      - sshstores🇩🇪de 01-16 (076)
+      - sshstores🇺🇸us 01-16 (071)
+      - sshstores🇺🇸us 01-16 (072)
+      - sshstores🇺🇸us 01-16 (073)
+      - sshstores🇫🇷fr 01-16 (071)
+      - sshstores🇫🇷fr 01-16 (072)
+      - sshstores🇫🇷fr 01-16 (073)
+      - sshstores🇸🇬sg 01-16 (071)
+      - akunssh🇩🇪de 01-16 (071)
+      - akunssh🇨🇦ca 01-16 (071)
+      - akunssh🇺🇸us 01-16 (071)
+      - akunssh🇨🇦ca 01-16 (072)
       - UDP
       - ⚡️Auto⚡️
 
@@ -211,16 +244,6 @@ proxy-groups:
     type: select
     # disable-udp: true
     proxies:
-      - sshstores🇩🇪de 01-07 (061)[UDP]
-      - sshstores🇩🇪de 01-07 (062)[UDP]
-      - sshstores🇩🇪de 01-07 (063)[UDP]
-      - sshstores🇩🇪de 01-07 (064)[UDP]
-      - sshstores🇩🇪de 01-07 (065)[UDP]
-      - sshstores🇬🇧uk 01-07 (062)[UDP]
-      - sshstores🇬🇧uk 01-07 (061)[UDP]
-      - sshstores🇨🇦ca 01-07 (061)[UDP]
-      - sshstores🇨🇦ca 01-07 (062)[UDP]
-      - sshstores🇨🇦ca 01-07 (063)[UDP]
       - vpnjantit🇬🇧uk 01-12 (062)[UDP]
       - vpnjantit🇬🇧uk 01-12 (061)[UDP]
       - vpnjantit🇬🇧uk 01-12 (063)[UDP]
@@ -239,6 +262,36 @@ proxy-groups:
       - vpnjantit🇩🇪de 01-10 (063)[UDP]
       - vpnjantit🇩🇪de 01-10 (064)[UDP]
       - vpnjantit🇩🇪de 01-09 (065)[UDP]
+      - sshstores🇩🇪de 01-16 (077)[UDP]
+      - sshstores🇬🇧uk 01-16 (071)[UDP]
+      - sshstores🇬🇧uk 01-16 (072)[UDP]
+      - sshstores🇬🇧uk 01-16 (073)[UDP]
+      - sshstores🇬🇧uk 01-16 (074)[UDP]
+      - sshstores🇵🇱pl 01-16 (071)[UDP]
+      - sshstores🇵🇱pl 01-16 (072)[UDP]
+      - sshstores🇮🇩id 01-16 (071)[UDP]
+      - sshstores🇯🇵jp 01-16 (071)[UDP]
+      - sshstores🇯🇵jp 01-16 (072)[UDP]
+      - sshstores🇳🇱nl 01-16 (071)[UDP]
+      - sshstores🇳🇱nl 01-16 (072)[UDP]
+      - sshstores🇳🇱nl 01-16 (073)[UDP]
+      - sshstores🇩🇪de 01-16 (071)[UDP]
+      - sshstores🇩🇪de 01-16 (072)[UDP]
+      - sshstores🇩🇪de 01-16 (073)[UDP]
+      - sshstores🇩🇪de 01-16 (074)[UDP]
+      - sshstores🇩🇪de 01-16 (075)[UDP]
+      - sshstores🇩🇪de 01-16 (076)[UDP]
+      - sshstores🇺🇸us 01-16 (071)[UDP]
+      - sshstores🇺🇸us 01-16 (072)[UDP]
+      - sshstores🇺🇸us 01-16 (073)[UDP]
+      - sshstores🇫🇷fr 01-16 (071)[UDP]
+      - sshstores🇫🇷fr 01-16 (072)[UDP]
+      - sshstores🇫🇷fr 01-16 (073)[UDP]
+      - sshstores🇸🇬sg 01-16 (071)[UDP]
+      - akunssh🇩🇪de 01-16 (071)[UDP]
+      - akunssh🇨🇦ca 01-16 (071)[UDP]
+      - akunssh🇺🇸us 01-16 (071)[UDP]
+      - akunssh🇨🇦ca 01-16 (072)[UDP]
 
   - name: ⚡️Auto⚡️
     type: url-test
@@ -263,30 +316,84 @@ proxy-groups:
       - vpnjantit🇩🇪de 01-10 (063)
       - vpnjantit🇩🇪de 01-10 (064)
       - vpnjantit🇩🇪de 01-09 (065)
-      - mainssh🇸🇬sg 01-06 (071)
-      - mainssh🇫🇷fr 01-06 (071)
-      - mainssh🇨🇦ca 01-06 (072)
-      - mainssh🇨🇦ca 01-06 (071)
-      - mainssh🇬🇧uk 01-06 (071)
-      - mainssh🇬🇧uk 01-06 (072)
-      - mainssh🇫🇷fr 01-06 (072)
-      - mainssh🇸🇬sg 01-06 (073)
-      - mainssh🇩🇪de 01-06 (071)
-      - mainssh🇩🇪de 01-06 (072)
-      - mainssh🇩🇪de 01-06 (073)
-      - mainssh🇩🇪de 01-06 (074)
-      - mainssh🇩🇪de 01-06 (075)
-      - mainssh🇩🇪de 01-06 (076)
-      - sshstores🇩🇪de 01-07 (061)
-      - sshstores🇩🇪de 01-07 (062)
-      - sshstores🇩🇪de 01-07 (063)
-      - sshstores🇩🇪de 01-07 (064)
-      - sshstores🇩🇪de 01-07 (065)
-      - sshstores🇬🇧uk 01-07 (062)
-      - sshstores🇬🇧uk 01-07 (061)
-      - sshstores🇨🇦ca 01-07 (061)
-      - sshstores🇨🇦ca 01-07 (062)
-      - sshstores🇨🇦ca 01-07 (063)
+      - sshstores🇩🇪de 01-16 (077)
+      - sshstores🇬🇧uk 01-16 (071)
+      - sshstores🇬🇧uk 01-16 (072)
+      - sshstores🇬🇧uk 01-16 (073)
+      - sshstores🇬🇧uk 01-16 (074)
+      - sshstores🇵🇱pl 01-16 (071)
+      - sshstores🇵🇱pl 01-16 (072)
+      - sshstores🇮🇩id 01-16 (071)
+      - sshstores🇯🇵jp 01-16 (071)
+      - sshstores🇯🇵jp 01-16 (072)
+      - sshstores🇳🇱nl 01-16 (071)
+      - sshstores🇳🇱nl 01-16 (072)
+      - sshstores🇳🇱nl 01-16 (073)
+      - sshstores🇩🇪de 01-16 (071)
+      - sshstores🇩🇪de 01-16 (072)
+      - sshstores🇩🇪de 01-16 (073)
+      - sshstores🇩🇪de 01-16 (074)
+      - sshstores🇩🇪de 01-16 (075)
+      - sshstores🇩🇪de 01-16 (076)
+      - sshstores🇺🇸us 01-16 (071)
+      - sshstores🇺🇸us 01-16 (072)
+      - sshstores🇺🇸us 01-16 (073)
+      - sshstores🇫🇷fr 01-16 (071)
+      - sshstores🇫🇷fr 01-16 (072)
+      - sshstores🇫🇷fr 01-16 (073)
+      - sshstores🇸🇬sg 01-16 (071)
+      - akunssh🇩🇪de 01-16 (071)
+      - akunssh🇨🇦ca 01-16 (071)
+      - akunssh🇺🇸us 01-16 (071)
+      - akunssh🇨🇦ca 01-16 (072)
+      - vpnjantit🇬🇧uk 01-12 (062)[UDP]
+      - vpnjantit🇬🇧uk 01-12 (061)[UDP]
+      - vpnjantit🇬🇧uk 01-12 (063)[UDP]
+      - vpnjantit🇬🇧uk 01-10 (064)[UDP]
+      - vpnjantit🇫🇷fr 01-09 (061)[UDP]
+      - vpnjantit🇨🇦ca 01-10 (061)[UDP]
+      - vpnjantit🇺🇦ua 01-10 (061)[UDP]
+      - vpnjantit🇺🇦ua 01-12 (062)[UDP]
+      - vpnjantit🇺🇦ua 01-12 (064)[UDP]
+      - vpnjantit🇳🇱nl 01-09 (061)[UDP]
+      - vpnjantit🇮🇩id 01-09 (061)[UDP]
+      - vpnjantit🇮🇩id 01-09 (062)[UDP]
+      - vpnjantit🇯🇵jp 01-08 (061)[UDP]
+      - vpnjantit🇩🇪de 01-09 (061)[UDP]
+      - vpnjantit🇩🇪de 01-10 (062)[UDP]
+      - vpnjantit🇩🇪de 01-10 (063)[UDP]
+      - vpnjantit🇩🇪de 01-10 (064)[UDP]
+      - vpnjantit🇩🇪de 01-09 (065)[UDP]
+      - sshstores🇩🇪de 01-16 (077)[UDP]
+      - sshstores🇬🇧uk 01-16 (071)[UDP]
+      - sshstores🇬🇧uk 01-16 (072)[UDP]
+      - sshstores🇬🇧uk 01-16 (073)[UDP]
+      - sshstores🇬🇧uk 01-16 (074)[UDP]
+      - sshstores🇵🇱pl 01-16 (071)[UDP]
+      - sshstores🇵🇱pl 01-16 (072)[UDP]
+      - sshstores🇮🇩id 01-16 (071)[UDP]
+      - sshstores🇯🇵jp 01-16 (071)[UDP]
+      - sshstores🇯🇵jp 01-16 (072)[UDP]
+      - sshstores🇳🇱nl 01-16 (071)[UDP]
+      - sshstores🇳🇱nl 01-16 (072)[UDP]
+      - sshstores🇳🇱nl 01-16 (073)[UDP]
+      - sshstores🇩🇪de 01-16 (071)[UDP]
+      - sshstores🇩🇪de 01-16 (072)[UDP]
+      - sshstores🇩🇪de 01-16 (073)[UDP]
+      - sshstores🇩🇪de 01-16 (074)[UDP]
+      - sshstores🇩🇪de 01-16 (075)[UDP]
+      - sshstores🇩🇪de 01-16 (076)[UDP]
+      - sshstores🇺🇸us 01-16 (071)[UDP]
+      - sshstores🇺🇸us 01-16 (072)[UDP]
+      - sshstores🇺🇸us 01-16 (073)[UDP]
+      - sshstores🇫🇷fr 01-16 (071)[UDP]
+      - sshstores🇫🇷fr 01-16 (072)[UDP]
+      - sshstores🇫🇷fr 01-16 (073)[UDP]
+      - sshstores🇸🇬sg 01-16 (071)[UDP]
+      - akunssh🇩🇪de 01-16 (071)[UDP]
+      - akunssh🇨🇦ca 01-16 (071)[UDP]
+      - akunssh🇺🇸us 01-16 (071)[UDP]
+      - akunssh🇨🇦ca 01-16 (072)[UDP]
 
 rules:
   - MATCH, Select
