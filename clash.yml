@@ -9,10 +9,10 @@ dns:
   fallback-filter:
     geoip: true
     geoip-code: IR
-    # ipcidr:
-    #   - 240.0.0.0/4
-    #   - 0.0.0.0/32
-    #   - 127.0.0.1/32
+    ipcidr:
+      - 240.0.0.0/4
+      - 0.0.0.0/32
+      - 127.0.0.1/32
   #   domain:
   #     - +.google.com
   #     - +.facebook.com
@@ -60,7 +60,7 @@ dns:
     # - 208.67.222.222
     # - https://basic.rethinkdns.com/dns-query
     # - https://dns.google/dns-query
-    - https://cloudflare-dns.com/dns-query
+    # - https://cloudflare-dns.com/dns-query
     # - https://dns.quad9.net/dns-query
     # - https://doh.opendns.com/dns-query
     # - https://dns.controld.com/
@@ -72,7 +72,7 @@ dns:
     - 9.9.9.9
     # - https://basic.rethinkdns.com/dns-query
     # - https://dns.google/dns-query
-    - https://cloudflare-dns.com/dns-query
+    # - https://cloudflare-dns.com/dns-query
     # - https://doh.dns.sb/dns-query
     # - https://dns.quad9.net/dns-query
     # - https://doh.opendns.com/dns-query
