@@ -139,6 +139,35 @@ proxies:
   - {"type":"vmess","name":"akunssh🇮🇩id 01-31 (021)","ws-opts":{"path":"/vmess","headers":{"host":"www.google.com"}},"server":"103.136.18.195","port":"443","uuid":"61c165bc-9b3f-11ed-b447-466cb58320bd","alterId":"0","cipher":"auto","network":"ws","tls":true,"skip-cert-verify":true}
   - {"type":"vmess","name":"akunssh🇩🇪de 01-31 (023)","ws-opts":{"path":"/vmess","headers":{"host":"www.bing.com"}},"server":"168.119.174.242","port":"443","uuid":"602e7c80-9b3f-11ed-ad71-d71dac2b692c","alterId":"0","cipher":"auto","network":"ws","tls":true,"skip-cert-verify":true}
 
+  - {"type":"vmess","name":"akunssh🇩🇪de 02-02 (021)","ws-opts":{"path":"/vmess","headers":{"host":"www.google.com"}},"server":"168.119.174.242","port":"443","uuid":"b531d900-9cd1-11ed-9020-eb80a648cbcf","alterId":"0","cipher":"auto","network":"ws","tls":true,"skip-cert-verify":true}
+  - {"type":"vmess","name":"akunssh🇩🇪de 02-02 (022)","ws-opts":{"path":"/vmess","headers":{"host":"www.google.com"}},"server":"168.119.174.242","port":"443","uuid":"b531d900-9cd1-11ed-9020-eb80a648cbcf","alterId":"0","cipher":"auto","network":"ws","tls":true,"skip-cert-verify":true}
+  - {"type":"vmess","name":"akunssh🇩🇪de 02-02 (023)","ws-opts":{"path":"/vmess","headers":{"host":"www.google.com"}},"server":"168.119.174.242","port":"443","uuid":"b531d900-9cd1-11ed-9020-eb80a648cbcf","alterId":"0","cipher":"auto","network":"ws","tls":true,"skip-cert-verify":true}
+  - {"type":"vmess","name":"akunssh🇩🇪de 02-02 (024)","ws-opts":{"path":"/vmess","headers":{"host":"www.google.com"}},"server":"168.119.174.242","port":"443","uuid":"b531d900-9cd1-11ed-9020-eb80a648cbcf","alterId":"0","cipher":"auto","network":"ws","tls":true,"skip-cert-verify":true}
+  - {"type":"vmess","name":"akunssh🇮🇩id 02-02 (021)","ws-opts":{"path":"/vmess","headers":{"host":"www.google.com"}},"server":"103.136.18.195","port":"443","uuid":"b5059a8e-9cd1-11ed-b917-466cb58320bd","alterId":"0","cipher":"auto","network":"ws","tls":true,"skip-cert-verify":true}
+  - {"type":"vmess","name":"akunssh🇮🇩id 02-02 (022)","ws-opts":{"path":"/vmess","headers":{"host":"www.google.com"}},"server":"103.136.18.195","port":"443","uuid":"b5059a8e-9cd1-11ed-b917-466cb58320bd","alterId":"0","cipher":"auto","network":"ws","tls":true,"skip-cert-verify":true}
+  - {"type":"vmess","name":"akunssh🇮🇩id 02-02 (023)","ws-opts":{"path":"/vmess","headers":{"host":"www.google.com"}},"server":"103.136.18.195","port":"443","uuid":"b5059a8e-9cd1-11ed-b917-466cb58320bd","alterId":"0","cipher":"auto","network":"ws","tls":true,"skip-cert-verify":true}
+  - {"type":"vmess","name":"akunssh🇮🇩id 02-02 (024)","ws-opts":{"path":"/vmess","headers":{"host":"www.google.com"}},"server":"103.136.18.195","port":"443","uuid":"b5059a8e-9cd1-11ed-b917-466cb58320bd","alterId":"0","cipher":"auto","network":"ws","tls":true,"skip-cert-verify":true}
+  - {"type":"vmess","name":"akunssh🇵🇱pl 02-02 (021)","ws-opts":{"path":"/vmess","headers":{"host":"www.google.com"}},"server":"51.83.131.145","port":"443","uuid":"b5117962-9cd1-11ed-89b4-b32363a527f0","alterId":"0","cipher":"auto","network":"ws","tls":true,"skip-cert-verify":true}
+  - {"type":"vmess","name":"akunssh🇵🇱pl 02-02 (022)","ws-opts":{"path":"/vmess","headers":{"host":"www.google.com"}},"server":"51.83.131.145","port":"443","uuid":"b5117962-9cd1-11ed-89b4-b32363a527f0","alterId":"0","cipher":"auto","network":"ws","tls":true,"skip-cert-verify":true}
+  - {"type":"vmess","name":"akunssh🇵🇱pl 02-02 (023)","ws-opts":{"path":"/vmess","headers":{"host":"www.google.com"}},"server":"51.83.131.145","port":"443","uuid":"b5117962-9cd1-11ed-89b4-b32363a527f0","alterId":"0","cipher":"auto","network":"ws","tls":true,"skip-cert-verify":true}
+  - {"type":"vmess","name":"akunssh🇸🇬sg 02-02 (021)","ws-opts":{"path":"/vmess","headers":{"host":"www.google.com"}},"server":"51.79.223.202","port":"443","uuid":"b51fa514-9cd1-11ed-9c18-eba856833543","alterId":"0","cipher":"auto","network":"ws","tls":true,"skip-cert-verify":true}
+  - {"type":"vmess","name":"akunssh🇸🇬sg 02-02 (022)","ws-opts":{"path":"/vmess","headers":{"host":"www.google.com"}},"server":"51.79.223.202","port":"443","uuid":"b51fa514-9cd1-11ed-9c18-eba856833543","alterId":"0","cipher":"auto","network":"ws","tls":true,"skip-cert-verify":true}
+  - {"type":"vmess","name":"akunssh🇸🇬sg 02-02 (023)","ws-opts":{"path":"/vmess","headers":{"host":"www.google.com"}},"server":"51.79.223.202","port":"443","uuid":"b51fa514-9cd1-11ed-9c18-eba856833543","alterId":"0","cipher":"auto","network":"ws","tls":true,"skip-cert-verify":true}
+  - {"type":"vmess","name":"akunssh🇸🇬sg 02-02 (024)","ws-opts":{"path":"/vmess","headers":{"host":"www.google.com"}},"server":"51.79.223.202","port":"443","uuid":"b51fa514-9cd1-11ed-9c18-eba856833543","alterId":"0","cipher":"auto","network":"ws","tls":true,"skip-cert-verify":true}
+  - {"type":"vmess","name":"akunssh🇸🇬sg 02-02 (025)","ws-opts":{"path":"/vmess","headers":{"host":"www.google.com"}},"server":"51.79.223.202","port":"443","uuid":"b51fa514-9cd1-11ed-9c18-eba856833543","alterId":"0","cipher":"auto","network":"ws","tls":true,"skip-cert-verify":true}
+  - {"type":"vmess","name":"akunssh🇺🇸us 02-02 (021)","ws-opts":{"path":"/vmess","headers":{"host":"www.google.com"}},"server":"104.193.255.7","port":"443","uuid":"b4c09d30-9cd1-11ed-91b8-5695fe55cd5d","alterId":"0","cipher":"auto","network":"ws","tls":true,"skip-cert-verify":true}
+  - {"type":"vmess","name":"akunssh🇺🇸us 02-02 (022)","ws-opts":{"path":"/vmess","headers":{"host":"www.google.com"}},"server":"104.193.255.7","port":"443","uuid":"b4c09d30-9cd1-11ed-91b8-5695fe55cd5d","alterId":"0","cipher":"auto","network":"ws","tls":true,"skip-cert-verify":true}
+  - {"type":"vmess","name":"akunssh🇨🇦ca 02-02 (021)","ws-opts":{"path":"/vmess","headers":{"host":"www.google.com"}},"server":"158.69.1.79","port":"443","uuid":"b546a560-9cd1-11ed-b30c-1f9cb2d20381","alterId":"0","cipher":"auto","network":"ws","tls":true,"skip-cert-verify":true}
+  - {"type":"vmess","name":"akunssh🇨🇦ca 02-02 (022)","ws-opts":{"path":"/vmess","headers":{"host":"www.google.com"}},"server":"158.69.1.79","port":"443","uuid":"b546a560-9cd1-11ed-b30c-1f9cb2d20381","alterId":"0","cipher":"auto","network":"ws","tls":true,"skip-cert-verify":true}
+  - {"type":"vmess","name":"akunssh🇨🇦ca 02-02 (023)","ws-opts":{"path":"/vmess","headers":{"host":"www.google.com"}},"server":"158.69.1.79","port":"443","uuid":"b546a560-9cd1-11ed-b30c-1f9cb2d20381","alterId":"0","cipher":"auto","network":"ws","tls":true,"skip-cert-verify":true}
+
+  - {"type":"vmess","name":"mainssh🇸🇬sg 02-02 (031)","ws-opts":{"path":"/vmess","headers":{"host":"sg2mws.mainssh.xyz"}},"server":"103.83.159.248","port":"443","uuid":"07ada534-497e-47d7-a03a-dd562f5d93de","alterId":"0","cipher":"auto","network":"ws","tls":true,"skip-cert-verify":true}
+  - {"type":"vmess","name":"mainssh🇸🇬sg 02-02 (032)","ws-opts":{"path":"/vmess","headers":{"host":"sg3mws.mainssh.xyz"}},"server":"103.83.159.252","port":"443","uuid":"4b55de27-7435-4b3c-bd76-48e6ba314504","alterId":"0","cipher":"auto","network":"ws","tls":true,"skip-cert-verify":true}
+  - {"type":"vmess","name":"mainssh🇫🇷fr 02-02 (031)","ws-opts":{"path":"/vmess","headers":{"host":"frmws.mainssh.xyz"}},"server":"51.77.200.137","port":"443","uuid":"5ae44191-5760-441f-baf6-0ad0c336f8b6","alterId":"0","cipher":"auto","network":"ws","tls":true,"skip-cert-verify":true}
+  - {"type":"vmess","name":"mainssh🇨🇦ca 02-02 (031)","ws-opts":{"path":"/vmess","headers":{"host":"camws.mainssh.xyz"}},"server":"51.222.156.142","port":"443","uuid":"047fbef6-b3f5-4b01-87cd-78e38eb145f5","alterId":"0","cipher":"auto","network":"ws","tls":true,"skip-cert-verify":true}
+  - {"type":"vmess","name":"mainssh🇬🇧uk 02-02 (031)","ws-opts":{"path":"/vmess","headers":{"host":"ukmws.mainssh.xyz"}},"server":"51.89.139.59","port":"443","uuid":"a1456947-1bd9-40af-9c65-977958a4464f","alterId":"0","cipher":"auto","network":"ws","tls":true,"skip-cert-verify":true}
+  - {"type":"vmess","name":"mainssh🇩🇪de 02-02 (031)","ws-opts":{"path":"/vmess","headers":{"host":"gemws.mainssh.xyz"}},"server":"51.68.188.150","port":"443","uuid":"9730e0bd-b093-4d84-bf7c-7cf069c2189b","alterId":"0","cipher":"auto","network":"ws","tls":true,"skip-cert-verify":true}
+
 proxy-groups:
   - name: Select
     type: select
@@ -198,6 +227,33 @@ proxy-groups:
       - akunssh🇵🇱pl 01-31 (022)
       - akunssh🇮🇩id 01-31 (021)
       - akunssh🇩🇪de 01-31 (023)
+      - akunssh🇩🇪de 02-02 (022)
+      - akunssh🇩🇪de 02-02 (021)
+      - akunssh🇩🇪de 02-02 (023)
+      - akunssh🇩🇪de 02-02 (024)
+      - akunssh🇮🇩id 02-02 (021)
+      - akunssh🇮🇩id 02-02 (022)
+      - akunssh🇮🇩id 02-02 (023)
+      - akunssh🇮🇩id 02-02 (024)
+      - akunssh🇵🇱pl 02-02 (021)
+      - akunssh🇵🇱pl 02-02 (022)
+      - akunssh🇵🇱pl 02-02 (023)
+      - akunssh🇸🇬sg 02-02 (021)
+      - akunssh🇸🇬sg 02-02 (022)
+      - akunssh🇸🇬sg 02-02 (023)
+      - akunssh🇸🇬sg 02-02 (024)
+      - akunssh🇸🇬sg 02-02 (025)
+      - akunssh🇺🇸us 02-02 (021)
+      - akunssh🇺🇸us 02-02 (022)
+      - akunssh🇨🇦ca 02-02 (021)
+      - akunssh🇨🇦ca 02-02 (022)
+      - akunssh🇨🇦ca 02-02 (023)
+      - mainssh🇸🇬sg 02-02 (031)
+      - mainssh🇸🇬sg 02-02 (032)
+      - mainssh🇫🇷fr 02-02 (031)
+      - mainssh🇨🇦ca 02-02 (031)
+      - mainssh🇬🇧uk 02-02 (031)
+      - mainssh🇩🇪de 02-02 (031)
       - ⚡️Auto⚡️
 
   - name: ⚡️Auto⚡️
@@ -259,6 +315,33 @@ proxy-groups:
       - akunssh🇵🇱pl 01-31 (022)
       - akunssh🇮🇩id 01-31 (021)
       - akunssh🇩🇪de 01-31 (023)
+      - akunssh🇩🇪de 02-02 (022)
+      - akunssh🇩🇪de 02-02 (021)
+      - akunssh🇩🇪de 02-02 (023)
+      - akunssh🇩🇪de 02-02 (024)
+      - akunssh🇮🇩id 02-02 (021)
+      - akunssh🇮🇩id 02-02 (022)
+      - akunssh🇮🇩id 02-02 (023)
+      - akunssh🇮🇩id 02-02 (024)
+      - akunssh🇵🇱pl 02-02 (021)
+      - akunssh🇵🇱pl 02-02 (022)
+      - akunssh🇵🇱pl 02-02 (023)
+      - akunssh🇸🇬sg 02-02 (021)
+      - akunssh🇸🇬sg 02-02 (022)
+      - akunssh🇸🇬sg 02-02 (023)
+      - akunssh🇸🇬sg 02-02 (024)
+      - akunssh🇸🇬sg 02-02 (025)
+      - akunssh🇺🇸us 02-02 (021)
+      - akunssh🇺🇸us 02-02 (022)
+      - akunssh🇨🇦ca 02-02 (021)
+      - akunssh🇨🇦ca 02-02 (022)
+      - akunssh🇨🇦ca 02-02 (023)
+      - mainssh🇸🇬sg 02-02 (031)
+      - mainssh🇸🇬sg 02-02 (032)
+      - mainssh🇫🇷fr 02-02 (031)
+      - mainssh🇨🇦ca 02-02 (031)
+      - mainssh🇬🇧uk 02-02 (031)
+      - mainssh🇩🇪de 02-02 (031)
 
 rules:
   - MATCH, Select
