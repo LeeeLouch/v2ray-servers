@@ -168,6 +168,42 @@ proxies:
   - {"type":"vmess","name":"mainssh🇬🇧uk 02-02 (031)","ws-opts":{"path":"/vmess","headers":{"host":"ukmws.mainssh.xyz"}},"server":"51.89.139.59","port":"443","uuid":"a1456947-1bd9-40af-9c65-977958a4464f","alterId":"0","cipher":"auto","network":"ws","tls":true,"skip-cert-verify":true}
   - {"type":"vmess","name":"mainssh🇩🇪de 02-02 (031)","ws-opts":{"path":"/vmess","headers":{"host":"gemws.mainssh.xyz"}},"server":"51.68.188.150","port":"443","uuid":"9730e0bd-b093-4d84-bf7c-7cf069c2189b","alterId":"0","cipher":"auto","network":"ws","tls":true,"skip-cert-verify":true}
 
+  - {"type":"vmess","name":"serverssh🇸🇬sg 02-04 (011)","ws-opts":{"path":"/serverssh.net","headers":{"host":"sg1ray.serverip.my.id"}},"server":"51.79.221.255","port":"443","uuid":"95c1460f-ead9-45f6-9ca2-3275915a6498","alterId":"0","cipher":"auto","network":"ws","tls":true,"skip-cert-verify":true}
+  - {"type":"vmess","name":"serverssh🇸🇬sg 02-04 (012)","ws-opts":{"path":"/serverssh.net","headers":{"host":"sg2ray.serverip.my.id"}},"server":"51.79.221.59","port":"443","uuid":"e3d4b251-1e2d-411c-a1ad-16eedeb1de9a","alterId":"0","cipher":"auto","network":"ws","tls":true,"skip-cert-verify":true}
+  - {"type":"vmess","name":"serverssh🇬🇧uk 02-04 (013)","ws-opts":{"path":"/serverssh.net","headers":{"host":"ukray.serverip.my.id"}},"server":"51.89.151.107","port":"443","uuid":"3d87bf01-1eeb-4ed1-baa6-f0f50ef0a01f","alterId":"0","cipher":"auto","network":"ws","tls":true,"skip-cert-verify":true}
+  - {"type":"vmess","name":"serverssh🇬🇧uk 02-04 (014)","ws-opts":{"path":"/serverssh.net","headers":{"host":"ukray.serverip.my.id"}},"server":"51.89.151.107","port":"443","uuid":"64dc8290-e448-496d-bc3b-43254de9f592","alterId":"0","cipher":"auto","network":"ws","tls":true,"skip-cert-verify":true}
+  - {"type":"vmess","name":"serverssh🇨🇦ca 02-04 (015)","ws-opts":{"path":"/serverssh.net","headers":{"host":"caray.serverip.my.id"}},"server":"149.56.12.107","port":"443","uuid":"efdd93a5-672a-489c-b365-f1d7c1e578a9","alterId":"0","cipher":"auto","network":"ws","tls":true,"skip-cert-verify":true}
+  - {"type":"vmess","name":"serverssh🇩🇪de 02-04 (016)","ws-opts":{"path":"/serverssh.net","headers":{"host":"geray.serverip.my.id"}},"server":"51.75.67.118","port":"443","uuid":"48d7f3b6-5ee7-4dfc-9fa6-ac1a7e78ceae","alterId":"0","cipher":"auto","network":"ws","tls":true,"skip-cert-verify":true}
+  - {"type":"vmess","name":"serverssh🇩🇪de 02-04 (017)","ws-opts":{"path":"/serverssh.net","headers":{"host":"geray.serverip.my.id"}},"server":"51.75.67.118","port":"443","uuid":"f8130400-b91e-4a53-9e10-7ff8afdee2f0","alterId":"0","cipher":"auto","network":"ws","tls":true,"skip-cert-verify":true}
+  - {"type":"vmess","name":"serverssh🇩🇪de 02-04 (018)","ws-opts":{"path":"/serverssh.net","headers":{"host":"geray.serverip.my.id"}},"server":"51.75.67.118","port":"443","uuid":"42764dc4-acdd-46f9-b806-2a454f0decc7","alterId":"0","cipher":"auto","network":"ws","tls":true,"skip-cert-verify":true}
+  - {"type":"vmess","name":"sshstores🇩🇪de 02-04 (019)","ws-opts":{"path":"/vmess","headers":{"host":"www.google.com"}},"server":"162.19.224.175","port":"443","uuid":"09b68b23-579d-46ae-bb7a-9690fc35e46f","alterId":"0","cipher":"auto","network":"ws","tls":true,"skip-cert-verify":true}
+  - {"type":"vmess","name":"sshstores🇵🇱pl 02-04 (020)","ws-opts":{"path":"/vmess","headers":{"host":"www.google.com"}},"server":"51.68.139.22","port":"443","uuid":"33276941-f0ff-4479-b3e6-b1420c58f8d7","alterId":"0","cipher":"auto","network":"ws","tls":true,"skip-cert-verify":true}
+  - {"type":"vmess","name":"sshstores🇬🇧uk 02-04 (021)","ws-opts":{"path":"/vmess","headers":{"host":"www.google.com"}},"server":"51.68.214.0","port":"443","uuid":"1b897e6e-7ef2-43de-98d9-2c5389eee71f","alterId":"0","cipher":"auto","network":"ws","tls":true,"skip-cert-verify":true}
+  - {"type":"vmess","name":"sshstores🇯🇵jp 02-04 (022)","ws-opts":{"path":"/vmess","headers":{"host":"www.google.com"}},"server":"139.162.104.56","port":"443","uuid":"d164cc4a-98e6-477c-9fc8-3d2566d704c4","alterId":"0","cipher":"auto","network":"ws","tls":true,"skip-cert-verify":true}
+  - {"type":"vmess","name":"sshstores🇳🇱nl 02-04 (023)","ws-opts":{"path":"/vmess","headers":{"host":"www.google.com"}},"server":"195.54.174.18","port":"443","uuid":"f1240de5-64aa-47f8-8214-8136b32ca1b5","alterId":"0","cipher":"auto","network":"ws","tls":true,"skip-cert-verify":true}
+  - {"type":"vmess","name":"sshstores🇨🇦ca 02-04 (024)","ws-opts":{"path":"/vmess","headers":{"host":"www.google.com"}},"server":"144.217.241.183","port":"443","uuid":"1bde2644-9625-43b0-8690-cba785a9487a","alterId":"0","cipher":"auto","network":"ws","tls":true,"skip-cert-verify":true}
+  - {"type":"vmess","name":"sshstores🇸🇬sg 02-04 (025)","ws-opts":{"path":"/vmess","headers":{"host":"www.google.com"}},"server":"139.99.45.193","port":"443","uuid":"f63a293f-fb3d-4bc0-947f-749877e5ee63","alterId":"0","cipher":"auto","network":"ws","tls":true,"skip-cert-verify":true}
+  - {"type":"vmess","name":"sshstores🇸🇬sg 02-04 (026)","ws-opts":{"path":"/vmess","headers":{"host":"www.google.com"}},"server":"15.235.202.196","port":"443","uuid":"ad693c61-ee06-4e3d-adc0-76cbf7673f15","alterId":"0","cipher":"auto","network":"ws","tls":true,"skip-cert-verify":true}
+  - {"type":"vmess","name":"sshstores🇩🇪de 02-04 (027)","ws-opts":{"path":"/vmess","headers":{"host":"www.google.com"}},"server":"162.19.224.176","port":"443","uuid":"8b94ef06-6fd8-436b-a580-841af47e40ba","alterId":"0","cipher":"auto","network":"ws","tls":true,"skip-cert-verify":true}
+
+  - {"type":"vmess","name":"serverssh🇸🇬sg 02-04 (101)","ws-opts":{"path":"/serverssh.net","headers":{"host":"www.google.com"}},"server":"51.79.221.255","port":"443","uuid":"95c1460f-ead9-45f6-9ca2-3275915a6498","alterId":"0","cipher":"auto","network":"ws","tls":true,"skip-cert-verify":true}
+  - {"type":"vmess","name":"serverssh🇸🇬sg 02-04 (102)","ws-opts":{"path":"/serverssh.net","headers":{"host":"www.google.com"}},"server":"51.79.221.59","port":"443","uuid":"e3d4b251-1e2d-411c-a1ad-16eedeb1de9a","alterId":"0","cipher":"auto","network":"ws","tls":true,"skip-cert-verify":true}
+  - {"type":"vmess","name":"serverssh🇬🇧uk 02-04 (103)","ws-opts":{"path":"/serverssh.net","headers":{"host":"www.google.com"}},"server":"51.89.151.107","port":"443","uuid":"3d87bf01-1eeb-4ed1-baa6-f0f50ef0a01f","alterId":"0","cipher":"auto","network":"ws","tls":true,"skip-cert-verify":true}
+  - {"type":"vmess","name":"serverssh🇬🇧uk 02-04 (104)","ws-opts":{"path":"/serverssh.net","headers":{"host":"www.google.com"}},"server":"51.89.151.107","port":"443","uuid":"64dc8290-e448-496d-bc3b-43254de9f592","alterId":"0","cipher":"auto","network":"ws","tls":true,"skip-cert-verify":true}
+  - {"type":"vmess","name":"serverssh🇨🇦ca 02-04 (105)","ws-opts":{"path":"/serverssh.net","headers":{"host":"www.google.com"}},"server":"149.56.12.107","port":"443","uuid":"efdd93a5-672a-489c-b365-f1d7c1e578a9","alterId":"0","cipher":"auto","network":"ws","tls":true,"skip-cert-verify":true}
+  - {"type":"vmess","name":"serverssh🇩🇪de 02-04 (106)","ws-opts":{"path":"/serverssh.net","headers":{"host":"www.google.com"}},"server":"51.75.67.118","port":"443","uuid":"48d7f3b6-5ee7-4dfc-9fa6-ac1a7e78ceae","alterId":"0","cipher":"auto","network":"ws","tls":true,"skip-cert-verify":true}
+  - {"type":"vmess","name":"serverssh🇩🇪de 02-04 (107)","ws-opts":{"path":"/serverssh.net","headers":{"host":"www.google.com"}},"server":"51.75.67.118","port":"443","uuid":"f8130400-b91e-4a53-9e10-7ff8afdee2f0","alterId":"0","cipher":"auto","network":"ws","tls":true,"skip-cert-verify":true}
+  - {"type":"vmess","name":"serverssh🇩🇪de 02-04 (108)","ws-opts":{"path":"/serverssh.net","headers":{"host":"www.google.com"}},"server":"51.75.67.118","port":"443","uuid":"42764dc4-acdd-46f9-b806-2a454f0decc7","alterId":"0","cipher":"auto","network":"ws","tls":true,"skip-cert-verify":true}
+  - {"type":"vmess","name":"sshstores🇩🇪de 02-04 (109)","ws-opts":{"path":"/vmess","headers":{"host":"www.google.com"}},"server":"162.19.224.175","port":"443","uuid":"09b68b23-579d-46ae-bb7a-9690fc35e46f","alterId":"0","cipher":"auto","network":"ws","tls":true,"skip-cert-verify":true}
+  - {"type":"vmess","name":"sshstores🇵🇱pl 02-04 (110)","ws-opts":{"path":"/vmess","headers":{"host":"www.google.com"}},"server":"51.68.139.22","port":"443","uuid":"33276941-f0ff-4479-b3e6-b1420c58f8d7","alterId":"0","cipher":"auto","network":"ws","tls":true,"skip-cert-verify":true}
+  - {"type":"vmess","name":"sshstores🇬🇧uk 02-04 (111)","ws-opts":{"path":"/vmess","headers":{"host":"www.google.com"}},"server":"51.68.214.0","port":"443","uuid":"1b897e6e-7ef2-43de-98d9-2c5389eee71f","alterId":"0","cipher":"auto","network":"ws","tls":true,"skip-cert-verify":true}
+  - {"type":"vmess","name":"sshstores🇯🇵jp 02-04 (112)","ws-opts":{"path":"/vmess","headers":{"host":"www.google.com"}},"server":"139.162.104.56","port":"443","uuid":"d164cc4a-98e6-477c-9fc8-3d2566d704c4","alterId":"0","cipher":"auto","network":"ws","tls":true,"skip-cert-verify":true}
+  - {"type":"vmess","name":"sshstores🇳🇱nl 02-04 (113)","ws-opts":{"path":"/vmess","headers":{"host":"www.google.com"}},"server":"195.54.174.18","port":"443","uuid":"f1240de5-64aa-47f8-8214-8136b32ca1b5","alterId":"0","cipher":"auto","network":"ws","tls":true,"skip-cert-verify":true}
+  - {"type":"vmess","name":"sshstores🇨🇦ca 02-04 (114)","ws-opts":{"path":"/vmess","headers":{"host":"www.google.com"}},"server":"144.217.241.183","port":"443","uuid":"1bde2644-9625-43b0-8690-cba785a9487a","alterId":"0","cipher":"auto","network":"ws","tls":true,"skip-cert-verify":true}
+  - {"type":"vmess","name":"sshstores🇸🇬sg 02-04 (115)","ws-opts":{"path":"/vmess","headers":{"host":"www.google.com"}},"server":"139.99.45.193","port":"443","uuid":"f63a293f-fb3d-4bc0-947f-749877e5ee63","alterId":"0","cipher":"auto","network":"ws","tls":true,"skip-cert-verify":true}
+  - {"type":"vmess","name":"sshstores🇸🇬sg 02-04 (116)","ws-opts":{"path":"/vmess","headers":{"host":"www.google.com"}},"server":"15.235.202.196","port":"443","uuid":"ad693c61-ee06-4e3d-adc0-76cbf7673f15","alterId":"0","cipher":"auto","network":"ws","tls":true,"skip-cert-verify":true}
+  - {"type":"vmess","name":"sshstores🇩🇪de 02-04 (117)","ws-opts":{"path":"/vmess","headers":{"host":"www.google.com"}},"server":"162.19.224.176","port":"443","uuid":"8b94ef06-6fd8-436b-a580-841af47e40ba","alterId":"0","cipher":"auto","network":"ws","tls":true,"skip-cert-verify":true}
+
 proxy-groups:
   - name: Select
     type: select
@@ -254,6 +290,23 @@ proxy-groups:
       - mainssh🇨🇦ca 02-02 (031)
       - mainssh🇬🇧uk 02-02 (031)
       - mainssh🇩🇪de 02-02 (031)
+      - serverssh🇸🇬sg 02-04 (101)
+      - serverssh🇸🇬sg 02-04 (102)
+      - serverssh🇬🇧uk 02-04 (103)
+      - serverssh🇬🇧uk 02-04 (104)
+      - serverssh🇨🇦ca 02-04 (105)
+      - serverssh🇩🇪de 02-04 (106)
+      - serverssh🇩🇪de 02-04 (107)
+      - serverssh🇩🇪de 02-04 (108)
+      - sshstores🇩🇪de 02-04 (109)
+      - sshstores🇵🇱pl 02-04 (110)
+      - sshstores🇬🇧uk 02-04 (111)
+      - sshstores🇯🇵jp 02-04 (112)
+      - sshstores🇳🇱nl 02-04 (113)
+      - sshstores🇨🇦ca 02-04 (114)
+      - sshstores🇸🇬sg 02-04 (115)
+      - sshstores🇸🇬sg 02-04 (116)
+      - sshstores🇩🇪de 02-04 (117)
       - ⚡️Auto⚡️
 
   - name: ⚡️Auto⚡️
@@ -342,6 +395,23 @@ proxy-groups:
       - mainssh🇨🇦ca 02-02 (031)
       - mainssh🇬🇧uk 02-02 (031)
       - mainssh🇩🇪de 02-02 (031)
+      - serverssh🇸🇬sg 02-04 (101)
+      - serverssh🇸🇬sg 02-04 (102)
+      - serverssh🇬🇧uk 02-04 (103)
+      - serverssh🇬🇧uk 02-04 (104)
+      - serverssh🇨🇦ca 02-04 (105)
+      - serverssh🇩🇪de 02-04 (106)
+      - serverssh🇩🇪de 02-04 (107)
+      - serverssh🇩🇪de 02-04 (108)
+      - sshstores🇩🇪de 02-04 (109)
+      - sshstores🇵🇱pl 02-04 (110)
+      - sshstores🇬🇧uk 02-04 (111)
+      - sshstores🇯🇵jp 02-04 (112)
+      - sshstores🇳🇱nl 02-04 (113)
+      - sshstores🇨🇦ca 02-04 (114)
+      - sshstores🇸🇬sg 02-04 (115)
+      - sshstores🇸🇬sg 02-04 (116)
+      - sshstores🇩🇪de 02-04 (117)
 
 rules:
   - MATCH, Select
