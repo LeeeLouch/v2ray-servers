@@ -170,6 +170,25 @@ proxies:
   - {name: "jagoanssh🇩🇪de 02-07 (172)", type: vmess, server: 162.19.226.84, port: 443, uuid: 85259005-0e7c-42b6-a347-3923453f286f, alterId: 0, cipher: auto, network: ws, tls: true, skip-cert-verify: true, ws-opts: {path: /JAGOANSSH/, headers: {host: www.google.com}}}
   - {name: "jagoanssh🇩🇪de 02-07 (173)", type: vmess, server: 162.19.226.84, port: 443, uuid: fe2dfc4f-0c8e-4d20-a8b2-03ce71049455, alterId: 0, cipher: auto, network: ws, tls: true, skip-cert-verify: true, ws-opts: {path: /JAGOANSSH/, headers: {host: www.google.com}}}
 
+  - {name: "vpnjantit🇯🇵jp 02-04 (219)", type: vmess, server: 8.209.241.25, port: 10000, uuid: 9a2dd9be-a25e-11ed-8b09-00163e004cc3, alterId: 0, cipher: auto, network: ws, ws-opts: {path: /vpnjantit}}
+  - {name: "vpnjantit🇯🇵jp 02-04 (220)", type: vmess, server: 8.209.245.117, port: 10000, uuid: ba70f1ca-a25e-11ed-ac9e-00163e0061d4, alterId: 0, cipher: auto, network: ws, ws-opts: {path: /vpnjantit}}
+  - {name: "vpnjantit🇮🇩id 02-04 (221)", type: vmess, server: 103.77.107.138, port: 10000, uuid: c43f3ba8-a25e-11ed-8a34-00163c31c501, alterId: 0, cipher: auto, network: ws, ws-opts: {path: /vpnjantit}}
+  - {name: "vpnjantit🇮🇩id 02-04 (222)", type: vmess, server: 103.150.196.183, port: 10000, uuid: ecd55a8e-a25e-11ed-8144-27658b3ed0e7, alterId: 0, cipher: auto, network: ws, ws-opts: {path: /vpnjantit}}
+  - {name: "vpnjantit🇮🇩id 02-04 (223)", type: vmess, server: 103.150.197.217, port: 10000, uuid: 042f3c90-a25f-11ed-ae26-b3870b9ab9bc, alterId: 0, cipher: auto, network: ws, ws-opts: {path: /vpnjantit}}
+  - {name: "vpnjantit🇩🇪de 02-04 (224)", type: vmess, server: 51.68.172.194, port: 10000, uuid: 0ce117c8-a25f-11ed-ae4e-0b7673e7e6f5, alterId: 0, cipher: auto, network: ws, ws-opts: {path: /vpnjantit}}
+  - {name: "vpnjantit🇩🇪de 02-04 (225)", type: vmess, server: 87.106.198.110, port: 10000, uuid: 13095818-a25f-11ed-bb05-6b16eddf3477, alterId: 0, cipher: auto, network: ws, ws-opts: {path: /vpnjantit}}
+  - {name: "vpnjantit🇩🇪de 02-04 (226)", type: vmess, server: 213.202.216.212, port: 10000, uuid: 1a057b42-a25f-11ed-b031-00163c082f65, alterId: 0, cipher: auto, network: ws, ws-opts: {path: /vpnjantit}}
+  - {name: "vpnjantit🇬🇧uk 02-04 (227)", type: vmess, server: 194.146.49.166, port: 10000, uuid: 675df392-a25f-11ed-ad81-00163e7a9696, alterId: 0, cipher: auto, network: ws, ws-opts: {path: /vpnjantit}}
+  - {name: "vpnjantit🇬🇧uk 02-04 (228)", type: vmess, server: 77.68.12.207, port: 10000, uuid: 723b9774-a25f-11ed-840a-53b5cd2968bf, alterId: 0, cipher: auto, network: ws, ws-opts: {path: /vpnjantit}}
+  - {name: "vpnjantit🇬🇧uk 02-04 (229)", type: vmess, server: 194.146.44.14, port: 10000, uuid: 997ea4c0-a25f-11ed-be7e-00163ea0a2ba, alterId: 0, cipher: auto, network: ws, ws-opts: {path: /vpnjantit}}
+  - {name: "vpnjantit🇺🇦ua 02-04 (230)", type: vmess, server: 5.34.182.12, port: 10000, uuid: a35c5c6c-a25f-11ed-be8b-4b008d4754ba, alterId: 0, cipher: auto, network: ws, ws-opts: {path: /vpnjantit}}
+  - {name: "vpnjantit🇺🇦ua 02-04 (231)", type: vmess, server: 5.34.182.153, port: 10000, uuid: be241c92-a25f-11ed-b539-8fb6c9d156d0, alterId: 0, cipher: auto, network: ws, ws-opts: {path: /vpnjantit}}
+  - {name: "vpnjantit🇺🇦ua 02-04 (232)", type: vmess, server: 193.238.153.61, port: 10000, uuid: b7273a64-a25f-11ed-8768-236bad1dafc8, alterId: 0, cipher: auto, network: ws, ws-opts: {path: /vpnjantit}}
+  - {name: "vpnjantit🇵🇱pl 02-04 (233)", type: vmess, server: 146.59.44.159, port: 10000, uuid: d6195fa6-a25f-11ed-9bcd-37c1cfb07da0, alterId: 0, cipher: auto, network: ws, ws-opts: {path: /vpnjantit}}
+  - {name: "vpnjantit🇪🇸sp 02-04 (234)", type: vmess, server: 212.227.228.91, port: 10000, uuid: e373f2ba-a25f-11ed-982a-037e49da2fc3, alterId: 0, cipher: auto, network: ws, ws-opts: {path: /vpnjantit}}
+  - {name: "vpnjantit🇳🇱nl 02-04 (235)", type: vmess, server: 195.123.217.74, port: 443, uuid: ce5ab4cc-a25f-11ed-8ab5-b310def7f2ec, alterId: 0, cipher: auto, network: ws, ws-opts: {path: /vpnjantit}}
+  - {name: "vpnjantit🇳🇱nl 02-04 (236)", type: vmess, server: 195.123.219.71, port: 10000, uuid: f213c1b0-a25f-11ed-9320-eb5c4679f2f1, alterId: 0, cipher: auto, network: ws, ws-opts: {path: /vpnjantit}}
+
 proxy-groups:
   - name: Select
     type: select
@@ -240,6 +259,24 @@ proxy-groups:
       - jagoanssh🇩🇪de 02-07 (171)
       - jagoanssh🇩🇪de 02-07 (172)
       - jagoanssh🇩🇪de 02-07 (173)
+      - vpnjantit🇯🇵jp 02-04 (219)
+      - vpnjantit🇯🇵jp 02-04 (220)
+      - vpnjantit🇮🇩id 02-04 (221)
+      - vpnjantit🇮🇩id 02-04 (222)
+      - vpnjantit🇮🇩id 02-04 (223)
+      - vpnjantit🇩🇪de 02-04 (224)
+      - vpnjantit🇩🇪de 02-04 (225)
+      - vpnjantit🇩🇪de 02-04 (226)
+      - vpnjantit🇬🇧uk 02-04 (227)
+      - vpnjantit🇬🇧uk 02-04 (228)
+      - vpnjantit🇬🇧uk 02-04 (229)
+      - vpnjantit🇺🇦ua 02-04 (230)
+      - vpnjantit🇺🇦ua 02-04 (231)
+      - vpnjantit🇺🇦ua 02-04 (232)
+      - vpnjantit🇵🇱pl 02-04 (233)
+      - vpnjantit🇪🇸sp 02-04 (234)
+      - vpnjantit🇳🇱nl 02-04 (235)
+      - vpnjantit🇳🇱nl 02-04 (236)
       - ⚡️Auto⚡️
 
   - name: ⚡️Auto⚡️
@@ -312,6 +349,24 @@ proxy-groups:
       - jagoanssh🇩🇪de 02-07 (171)
       - jagoanssh🇩🇪de 02-07 (172)
       - jagoanssh🇩🇪de 02-07 (173)
+      - vpnjantit🇯🇵jp 02-04 (219)
+      - vpnjantit🇯🇵jp 02-04 (220)
+      - vpnjantit🇮🇩id 02-04 (221)
+      - vpnjantit🇮🇩id 02-04 (222)
+      - vpnjantit🇮🇩id 02-04 (223)
+      - vpnjantit🇩🇪de 02-04 (224)
+      - vpnjantit🇩🇪de 02-04 (225)
+      - vpnjantit🇩🇪de 02-04 (226)
+      - vpnjantit🇬🇧uk 02-04 (227)
+      - vpnjantit🇬🇧uk 02-04 (228)
+      - vpnjantit🇬🇧uk 02-04 (229)
+      - vpnjantit🇺🇦ua 02-04 (230)
+      - vpnjantit🇺🇦ua 02-04 (231)
+      - vpnjantit🇺🇦ua 02-04 (232)
+      - vpnjantit🇵🇱pl 02-04 (233)
+      - vpnjantit🇪🇸sp 02-04 (234)
+      - vpnjantit🇳🇱nl 02-04 (235)
+      - vpnjantit🇳🇱nl 02-04 (236)
 
 rules:
   - MATCH, Select
