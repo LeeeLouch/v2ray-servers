@@ -6,13 +6,13 @@ dns:
   enable: true
   ipv6: false
   # enhanced-mode: redir-host
-  fallback-filter:
-    geoip: true
-    geoip-code: IR
-    ipcidr:
-      - 240.0.0.0/4
-      - 0.0.0.0/32
-      - 127.0.0.1/32
+  # fallback-filter:
+  #   geoip: true
+  #   geoip-code: IR
+  #   ipcidr:
+  #     - 240.0.0.0/4
+  #     - 0.0.0.0/32
+  #     - 127.0.0.1/32
   #   domain:
   #     - +.google.com
   #     - +.facebook.com
@@ -66,19 +66,19 @@ dns:
     # - https://dns.controld.com/
     - https://nsc.torgues.net/dns-query
     - https://ipv4-zepto-mci-1.edge.nextdns.io/dns-query
-  fallback:
-    - 1.1.1.1
-    - 8.8.8.8
-    # - 9.9.9.9
-    # - https://basic.rethinkdns.com/dns-query
-    # - https://dns.google/dns-query
-    # - https://cloudflare-dns.com/dns-query
-    # - https://doh.dns.sb/dns-query
-    # - https://dns.quad9.net/dns-query
-    # - https://doh.opendns.com/dns-query
-    # - https://dns.controld.com/
-    - https://nsc.torgues.net/dns-query
-    - https://ipv4-zepto-mci-1.edge.nextdns.io/dns-query
+  # fallback:
+  #   - 1.1.1.1
+  #   - 8.8.8.8
+  #   # - 9.9.9.9
+  #   # - https://basic.rethinkdns.com/dns-query
+  #   # - https://dns.google/dns-query
+  #   # - https://cloudflare-dns.com/dns-query
+  #   # - https://doh.dns.sb/dns-query
+  #   # - https://dns.quad9.net/dns-query
+  #   # - https://doh.opendns.com/dns-query
+  #   # - https://dns.controld.com/
+  #   - https://nsc.torgues.net/dns-query
+  #   - https://ipv4-zepto-mci-1.edge.nextdns.io/dns-query
 
 ###flags###
 # de 🇩🇪 - id 🇮🇩 - ca 🇨🇦 - hk 🇭🇰 - my 🇲🇾 - jp 🇯🇵 - uk 🇬🇧 - ua 🇺🇦 - se 🇸🇪 - sp 🇪🇸 - us 🇺🇸 - za 🇿🇦 - sg 🇸🇬 - pl 🇵🇱 - fr 🇫🇷 - kr 🇰🇷 - nl 🇳🇱 - au 🇦🇺 - ae 🇦🇪 - th 🇹🇭 - vn 🇻🇳
@@ -147,8 +147,8 @@ proxies:
   - {"type":"vmess","name":"sshstores🇸🇬sg 02-04 (115)","ws-opts":{"path":"/vmess","headers":{"host":"www.google.com"}},"server":"139.99.45.193","port":"443","uuid":"f63a293f-fb3d-4bc0-947f-749877e5ee63","alterId":"0","cipher":"auto","network":"ws","tls":true,"skip-cert-verify":true}
   - {"type":"vmess","name":"sshstores🇸🇬sg 02-04 (116)","ws-opts":{"path":"/vmess","headers":{"host":"www.google.com"}},"server":"15.235.202.196","port":"443","uuid":"ad693c61-ee06-4e3d-adc0-76cbf7673f15","alterId":"0","cipher":"auto","network":"ws","tls":true,"skip-cert-verify":true}
   - {"type":"vmess","name":"sshstores🇩🇪de 02-04 (117)","ws-opts":{"path":"/vmess","headers":{"host":"www.google.com"}},"server":"162.19.224.176","port":"443","uuid":"8b94ef06-6fd8-436b-a580-841af47e40ba","alterId":"0","cipher":"auto","network":"ws","tls":true,"skip-cert-verify":true}
-  
-  - {name: "opentunnel🇳🇱nl 02-07 (153)", type: vmess, server: 195.123.218.94, port: 443, uuid: a40d34c6-b77c-4648-9210-3e8d2f4226b5, alterId: 16, cipher: auto, network: ws, tls: true, skip-cert-verify: true, ws-opts: {path: /opentunnel?user=opentunnel.net-fdsafndskafl, headers: {host: www.google.com}}}
+
+  - {"name": "opentunnel🇳🇱nl 02-07 (153)", "type": "vmess", "server": "195.123.218.94", "port": "443", "uuid": "a40d34c6-b77c-4648-9210-3e8d2f4226b5", "alterId": "16", "cipher": "auto", "network": "ws", "tls": true, "skip-cert-verify": true, "ws-opts": {"path": "/opentunnel?user=opentunnel.net-fdsafndskafl", "headers": {"host": "www.google.com"}}}
   - {name: "opentunnel🇳🇱nl 02-07 (154)", type: vmess, server: 195.123.217.224, port: 443, uuid: a40d34c6-b77c-4648-9210-3e8d2f4226b5, alterId: 16, cipher: auto, network: ws, tls: true, skip-cert-verify: true, ws-opts: {path: /opentunnel?user=opentunnel.net-vcxzvnkafnas, headers: {host: www.google.com}}}
   - {name: "opentunnel🇮🇩id 02-07 (155)", type: vmess, server: 103.150.84.190, port: 443, uuid: a40d34c6-b77c-4648-9210-3e8d2f4226b5, alterId: 16, cipher: auto, network: ws, tls: true, skip-cert-verify: true, ws-opts: {path: /opentunnel?user=opentunnel.net-bcxwaf2qws, headers: {host: www.google.com}}}
   - {name: "opentunnel🇦🇺au 02-07 (156)", type: vmess, server: 51.161.204.239, port: 443, uuid: a40d34c6-b77c-4648-9210-3e8d2f4226b5, alterId: 16, cipher: auto, network: ws, tls: true, skip-cert-verify: true, ws-opts: {path: /opentunnel?user=opentunnel.net-vxzwafswww, headers: {host: www.google.com}}}
