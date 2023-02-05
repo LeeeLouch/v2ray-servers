@@ -64,7 +64,7 @@ dns:
     # - https://dns.quad9.net/dns-query
     # - https://doh.opendns.com/dns-query
     # - https://dns.controld.com/
-    - https://nsc.torgues.net/dns-query
+    # - https://nsc.torgues.net/dns-query
     - https://ipv4-zepto-mci-1.edge.nextdns.io/dns-query
   # fallback:
   #   - 1.1.1.1
@@ -83,71 +83,6 @@ dns:
 ###flags###
 # de 🇩🇪 - id 🇮🇩 - ca 🇨🇦 - hk 🇭🇰 - my 🇲🇾 - jp 🇯🇵 - uk 🇬🇧 - ua 🇺🇦 - se 🇸🇪 - sp 🇪🇸 - us 🇺🇸 - za 🇿🇦 - sg 🇸🇬 - pl 🇵🇱 - fr 🇫🇷 - kr 🇰🇷 - nl 🇳🇱 - au 🇦🇺 - ae 🇦🇪 - th 🇹🇭 - vn 🇻🇳
 proxies: 
-  - {"type":"vmess","name":"akunssh🇩🇪de 02-02 (021)","ws-opts":{"path":"/vmess","headers":{"host":"www.google.com"}},"server":"168.119.174.242","port":"443","uuid":"b531d900-9cd1-11ed-9020-eb80a648cbcf","alterId":"0","cipher":"auto","network":"ws","tls":true,"skip-cert-verify":true}
-  - {"type":"vmess","name":"akunssh🇩🇪de 02-02 (022)","ws-opts":{"path":"/vmess","headers":{"host":"www.google.com"}},"server":"168.119.174.242","port":"443","uuid":"b531d900-9cd1-11ed-9020-eb80a648cbcf","alterId":"0","cipher":"auto","network":"ws","tls":true,"skip-cert-verify":true}
-  - {"type":"vmess","name":"akunssh🇩🇪de 02-02 (023)","ws-opts":{"path":"/vmess","headers":{"host":"www.google.com"}},"server":"168.119.174.242","port":"443","uuid":"b531d900-9cd1-11ed-9020-eb80a648cbcf","alterId":"0","cipher":"auto","network":"ws","tls":true,"skip-cert-verify":true}
-  - {"type":"vmess","name":"akunssh🇩🇪de 02-02 (024)","ws-opts":{"path":"/vmess","headers":{"host":"www.google.com"}},"server":"168.119.174.242","port":"443","uuid":"b531d900-9cd1-11ed-9020-eb80a648cbcf","alterId":"0","cipher":"auto","network":"ws","tls":true,"skip-cert-verify":true}
-  - {"type":"vmess","name":"akunssh🇮🇩id 02-02 (021)","ws-opts":{"path":"/vmess","headers":{"host":"www.google.com"}},"server":"103.136.18.195","port":"443","uuid":"b5059a8e-9cd1-11ed-b917-466cb58320bd","alterId":"0","cipher":"auto","network":"ws","tls":true,"skip-cert-verify":true}
-  - {"type":"vmess","name":"akunssh🇮🇩id 02-02 (022)","ws-opts":{"path":"/vmess","headers":{"host":"www.google.com"}},"server":"103.136.18.195","port":"443","uuid":"b5059a8e-9cd1-11ed-b917-466cb58320bd","alterId":"0","cipher":"auto","network":"ws","tls":true,"skip-cert-verify":true}
-  - {"type":"vmess","name":"akunssh🇮🇩id 02-02 (023)","ws-opts":{"path":"/vmess","headers":{"host":"www.google.com"}},"server":"103.136.18.195","port":"443","uuid":"b5059a8e-9cd1-11ed-b917-466cb58320bd","alterId":"0","cipher":"auto","network":"ws","tls":true,"skip-cert-verify":true}
-  - {"type":"vmess","name":"akunssh🇮🇩id 02-02 (024)","ws-opts":{"path":"/vmess","headers":{"host":"www.google.com"}},"server":"103.136.18.195","port":"443","uuid":"b5059a8e-9cd1-11ed-b917-466cb58320bd","alterId":"0","cipher":"auto","network":"ws","tls":true,"skip-cert-verify":true}
-  - {"type":"vmess","name":"akunssh🇵🇱pl 02-02 (021)","ws-opts":{"path":"/vmess","headers":{"host":"www.google.com"}},"server":"51.83.131.145","port":"443","uuid":"b5117962-9cd1-11ed-89b4-b32363a527f0","alterId":"0","cipher":"auto","network":"ws","tls":true,"skip-cert-verify":true}
-  - {"type":"vmess","name":"akunssh🇵🇱pl 02-02 (022)","ws-opts":{"path":"/vmess","headers":{"host":"www.google.com"}},"server":"51.83.131.145","port":"443","uuid":"b5117962-9cd1-11ed-89b4-b32363a527f0","alterId":"0","cipher":"auto","network":"ws","tls":true,"skip-cert-verify":true}
-  - {"type":"vmess","name":"akunssh🇵🇱pl 02-02 (023)","ws-opts":{"path":"/vmess","headers":{"host":"www.google.com"}},"server":"51.83.131.145","port":"443","uuid":"b5117962-9cd1-11ed-89b4-b32363a527f0","alterId":"0","cipher":"auto","network":"ws","tls":true,"skip-cert-verify":true}
-  - {"type":"vmess","name":"akunssh🇸🇬sg 02-02 (021)","ws-opts":{"path":"/vmess","headers":{"host":"www.google.com"}},"server":"51.79.223.202","port":"443","uuid":"b51fa514-9cd1-11ed-9c18-eba856833543","alterId":"0","cipher":"auto","network":"ws","tls":true,"skip-cert-verify":true}
-  - {"type":"vmess","name":"akunssh🇸🇬sg 02-02 (022)","ws-opts":{"path":"/vmess","headers":{"host":"www.google.com"}},"server":"51.79.223.202","port":"443","uuid":"b51fa514-9cd1-11ed-9c18-eba856833543","alterId":"0","cipher":"auto","network":"ws","tls":true,"skip-cert-verify":true}
-  - {"type":"vmess","name":"akunssh🇸🇬sg 02-02 (023)","ws-opts":{"path":"/vmess","headers":{"host":"www.google.com"}},"server":"51.79.223.202","port":"443","uuid":"b51fa514-9cd1-11ed-9c18-eba856833543","alterId":"0","cipher":"auto","network":"ws","tls":true,"skip-cert-verify":true}
-  - {"type":"vmess","name":"akunssh🇸🇬sg 02-02 (024)","ws-opts":{"path":"/vmess","headers":{"host":"www.google.com"}},"server":"51.79.223.202","port":"443","uuid":"b51fa514-9cd1-11ed-9c18-eba856833543","alterId":"0","cipher":"auto","network":"ws","tls":true,"skip-cert-verify":true}
-  - {"type":"vmess","name":"akunssh🇸🇬sg 02-02 (025)","ws-opts":{"path":"/vmess","headers":{"host":"www.google.com"}},"server":"51.79.223.202","port":"443","uuid":"b51fa514-9cd1-11ed-9c18-eba856833543","alterId":"0","cipher":"auto","network":"ws","tls":true,"skip-cert-verify":true}
-  - {"type":"vmess","name":"akunssh🇺🇸us 02-02 (021)","ws-opts":{"path":"/vmess","headers":{"host":"www.google.com"}},"server":"104.193.255.7","port":"443","uuid":"b4c09d30-9cd1-11ed-91b8-5695fe55cd5d","alterId":"0","cipher":"auto","network":"ws","tls":true,"skip-cert-verify":true}
-  - {"type":"vmess","name":"akunssh🇺🇸us 02-02 (022)","ws-opts":{"path":"/vmess","headers":{"host":"www.google.com"}},"server":"104.193.255.7","port":"443","uuid":"b4c09d30-9cd1-11ed-91b8-5695fe55cd5d","alterId":"0","cipher":"auto","network":"ws","tls":true,"skip-cert-verify":true}
-  - {"type":"vmess","name":"akunssh🇨🇦ca 02-02 (021)","ws-opts":{"path":"/vmess","headers":{"host":"www.google.com"}},"server":"158.69.1.79","port":"443","uuid":"b546a560-9cd1-11ed-b30c-1f9cb2d20381","alterId":"0","cipher":"auto","network":"ws","tls":true,"skip-cert-verify":true}
-  - {"type":"vmess","name":"akunssh🇨🇦ca 02-02 (022)","ws-opts":{"path":"/vmess","headers":{"host":"www.google.com"}},"server":"158.69.1.79","port":"443","uuid":"b546a560-9cd1-11ed-b30c-1f9cb2d20381","alterId":"0","cipher":"auto","network":"ws","tls":true,"skip-cert-verify":true}
-  - {"type":"vmess","name":"akunssh🇨🇦ca 02-02 (023)","ws-opts":{"path":"/vmess","headers":{"host":"www.google.com"}},"server":"158.69.1.79","port":"443","uuid":"b546a560-9cd1-11ed-b30c-1f9cb2d20381","alterId":"0","cipher":"auto","network":"ws","tls":true,"skip-cert-verify":true}
-
-  - {"type":"vmess","name":"mainssh🇸🇬sg 02-02 (031)","ws-opts":{"path":"/vmess","headers":{"host":"sg2mws.mainssh.xyz"}},"server":"103.83.159.248","port":"443","uuid":"07ada534-497e-47d7-a03a-dd562f5d93de","alterId":"0","cipher":"auto","network":"ws","tls":true,"skip-cert-verify":true}
-  - {"type":"vmess","name":"mainssh🇸🇬sg 02-02 (032)","ws-opts":{"path":"/vmess","headers":{"host":"sg3mws.mainssh.xyz"}},"server":"103.83.159.252","port":"443","uuid":"4b55de27-7435-4b3c-bd76-48e6ba314504","alterId":"0","cipher":"auto","network":"ws","tls":true,"skip-cert-verify":true}
-  - {"type":"vmess","name":"mainssh🇫🇷fr 02-02 (031)","ws-opts":{"path":"/vmess","headers":{"host":"frmws.mainssh.xyz"}},"server":"51.77.200.137","port":"443","uuid":"5ae44191-5760-441f-baf6-0ad0c336f8b6","alterId":"0","cipher":"auto","network":"ws","tls":true,"skip-cert-verify":true}
-  - {"type":"vmess","name":"mainssh🇨🇦ca 02-02 (031)","ws-opts":{"path":"/vmess","headers":{"host":"camws.mainssh.xyz"}},"server":"51.222.156.142","port":"443","uuid":"047fbef6-b3f5-4b01-87cd-78e38eb145f5","alterId":"0","cipher":"auto","network":"ws","tls":true,"skip-cert-verify":true}
-  - {"type":"vmess","name":"mainssh🇬🇧uk 02-02 (031)","ws-opts":{"path":"/vmess","headers":{"host":"ukmws.mainssh.xyz"}},"server":"51.89.139.59","port":"443","uuid":"a1456947-1bd9-40af-9c65-977958a4464f","alterId":"0","cipher":"auto","network":"ws","tls":true,"skip-cert-verify":true}
-  - {"type":"vmess","name":"mainssh🇩🇪de 02-02 (031)","ws-opts":{"path":"/vmess","headers":{"host":"gemws.mainssh.xyz"}},"server":"51.68.188.150","port":"443","uuid":"9730e0bd-b093-4d84-bf7c-7cf069c2189b","alterId":"0","cipher":"auto","network":"ws","tls":true,"skip-cert-verify":true}
-
-  - {"type":"vmess","name":"serverssh🇸🇬sg 02-04 (011)","ws-opts":{"path":"/serverssh.net","headers":{"host":"sg1ray.serverip.my.id"}},"server":"51.79.221.255","port":"443","uuid":"95c1460f-ead9-45f6-9ca2-3275915a6498","alterId":"0","cipher":"auto","network":"ws","tls":true,"skip-cert-verify":true}
-  - {"type":"vmess","name":"serverssh🇸🇬sg 02-04 (012)","ws-opts":{"path":"/serverssh.net","headers":{"host":"sg2ray.serverip.my.id"}},"server":"51.79.221.59","port":"443","uuid":"e3d4b251-1e2d-411c-a1ad-16eedeb1de9a","alterId":"0","cipher":"auto","network":"ws","tls":true,"skip-cert-verify":true}
-  - {"type":"vmess","name":"serverssh🇬🇧uk 02-04 (013)","ws-opts":{"path":"/serverssh.net","headers":{"host":"ukray.serverip.my.id"}},"server":"51.89.151.107","port":"443","uuid":"3d87bf01-1eeb-4ed1-baa6-f0f50ef0a01f","alterId":"0","cipher":"auto","network":"ws","tls":true,"skip-cert-verify":true}
-  - {"type":"vmess","name":"serverssh🇬🇧uk 02-04 (014)","ws-opts":{"path":"/serverssh.net","headers":{"host":"ukray.serverip.my.id"}},"server":"51.89.151.107","port":"443","uuid":"64dc8290-e448-496d-bc3b-43254de9f592","alterId":"0","cipher":"auto","network":"ws","tls":true,"skip-cert-verify":true}
-  - {"type":"vmess","name":"serverssh🇨🇦ca 02-04 (015)","ws-opts":{"path":"/serverssh.net","headers":{"host":"caray.serverip.my.id"}},"server":"149.56.12.107","port":"443","uuid":"efdd93a5-672a-489c-b365-f1d7c1e578a9","alterId":"0","cipher":"auto","network":"ws","tls":true,"skip-cert-verify":true}
-  - {"type":"vmess","name":"serverssh🇩🇪de 02-04 (016)","ws-opts":{"path":"/serverssh.net","headers":{"host":"geray.serverip.my.id"}},"server":"51.75.67.118","port":"443","uuid":"48d7f3b6-5ee7-4dfc-9fa6-ac1a7e78ceae","alterId":"0","cipher":"auto","network":"ws","tls":true,"skip-cert-verify":true}
-  - {"type":"vmess","name":"serverssh🇩🇪de 02-04 (017)","ws-opts":{"path":"/serverssh.net","headers":{"host":"geray.serverip.my.id"}},"server":"51.75.67.118","port":"443","uuid":"f8130400-b91e-4a53-9e10-7ff8afdee2f0","alterId":"0","cipher":"auto","network":"ws","tls":true,"skip-cert-verify":true}
-  - {"type":"vmess","name":"serverssh🇩🇪de 02-04 (018)","ws-opts":{"path":"/serverssh.net","headers":{"host":"geray.serverip.my.id"}},"server":"51.75.67.118","port":"443","uuid":"42764dc4-acdd-46f9-b806-2a454f0decc7","alterId":"0","cipher":"auto","network":"ws","tls":true,"skip-cert-verify":true}
-  - {"type":"vmess","name":"sshstores🇩🇪de 02-04 (019)","ws-opts":{"path":"/vmess","headers":{"host":"www.google.com"}},"server":"162.19.224.175","port":"443","uuid":"09b68b23-579d-46ae-bb7a-9690fc35e46f","alterId":"0","cipher":"auto","network":"ws","tls":true,"skip-cert-verify":true}
-  - {"type":"vmess","name":"sshstores🇵🇱pl 02-04 (020)","ws-opts":{"path":"/vmess","headers":{"host":"www.google.com"}},"server":"51.68.139.22","port":"443","uuid":"33276941-f0ff-4479-b3e6-b1420c58f8d7","alterId":"0","cipher":"auto","network":"ws","tls":true,"skip-cert-verify":true}
-  - {"type":"vmess","name":"sshstores🇬🇧uk 02-04 (021)","ws-opts":{"path":"/vmess","headers":{"host":"www.google.com"}},"server":"51.68.214.0","port":"443","uuid":"1b897e6e-7ef2-43de-98d9-2c5389eee71f","alterId":"0","cipher":"auto","network":"ws","tls":true,"skip-cert-verify":true}
-  - {"type":"vmess","name":"sshstores🇯🇵jp 02-04 (022)","ws-opts":{"path":"/vmess","headers":{"host":"www.google.com"}},"server":"139.162.104.56","port":"443","uuid":"d164cc4a-98e6-477c-9fc8-3d2566d704c4","alterId":"0","cipher":"auto","network":"ws","tls":true,"skip-cert-verify":true}
-  - {"type":"vmess","name":"sshstores🇳🇱nl 02-04 (023)","ws-opts":{"path":"/vmess","headers":{"host":"www.google.com"}},"server":"195.54.174.18","port":"443","uuid":"f1240de5-64aa-47f8-8214-8136b32ca1b5","alterId":"0","cipher":"auto","network":"ws","tls":true,"skip-cert-verify":true}
-  - {"type":"vmess","name":"sshstores🇨🇦ca 02-04 (024)","ws-opts":{"path":"/vmess","headers":{"host":"www.google.com"}},"server":"144.217.241.183","port":"443","uuid":"1bde2644-9625-43b0-8690-cba785a9487a","alterId":"0","cipher":"auto","network":"ws","tls":true,"skip-cert-verify":true}
-  - {"type":"vmess","name":"sshstores🇸🇬sg 02-04 (025)","ws-opts":{"path":"/vmess","headers":{"host":"www.google.com"}},"server":"139.99.45.193","port":"443","uuid":"f63a293f-fb3d-4bc0-947f-749877e5ee63","alterId":"0","cipher":"auto","network":"ws","tls":true,"skip-cert-verify":true}
-  - {"type":"vmess","name":"sshstores🇸🇬sg 02-04 (026)","ws-opts":{"path":"/vmess","headers":{"host":"www.google.com"}},"server":"15.235.202.196","port":"443","uuid":"ad693c61-ee06-4e3d-adc0-76cbf7673f15","alterId":"0","cipher":"auto","network":"ws","tls":true,"skip-cert-verify":true}
-  - {"type":"vmess","name":"sshstores🇩🇪de 02-04 (027)","ws-opts":{"path":"/vmess","headers":{"host":"www.google.com"}},"server":"162.19.224.176","port":"443","uuid":"8b94ef06-6fd8-436b-a580-841af47e40ba","alterId":"0","cipher":"auto","network":"ws","tls":true,"skip-cert-verify":true}
-
-  - {"type":"vmess","name":"serverssh🇸🇬sg 02-04 (101)","ws-opts":{"path":"/serverssh.net","headers":{"host":"www.google.com"}},"server":"51.79.221.255","port":"443","uuid":"95c1460f-ead9-45f6-9ca2-3275915a6498","alterId":"0","cipher":"auto","network":"ws","tls":true,"skip-cert-verify":true}
-  - {"type":"vmess","name":"serverssh🇸🇬sg 02-04 (102)","ws-opts":{"path":"/serverssh.net","headers":{"host":"www.google.com"}},"server":"51.79.221.59","port":"443","uuid":"e3d4b251-1e2d-411c-a1ad-16eedeb1de9a","alterId":"0","cipher":"auto","network":"ws","tls":true,"skip-cert-verify":true}
-  - {"type":"vmess","name":"serverssh🇬🇧uk 02-04 (103)","ws-opts":{"path":"/serverssh.net","headers":{"host":"www.google.com"}},"server":"51.89.151.107","port":"443","uuid":"3d87bf01-1eeb-4ed1-baa6-f0f50ef0a01f","alterId":"0","cipher":"auto","network":"ws","tls":true,"skip-cert-verify":true}
-  - {"type":"vmess","name":"serverssh🇬🇧uk 02-04 (104)","ws-opts":{"path":"/serverssh.net","headers":{"host":"www.google.com"}},"server":"51.89.151.107","port":"443","uuid":"64dc8290-e448-496d-bc3b-43254de9f592","alterId":"0","cipher":"auto","network":"ws","tls":true,"skip-cert-verify":true}
-  - {"type":"vmess","name":"serverssh🇨🇦ca 02-04 (105)","ws-opts":{"path":"/serverssh.net","headers":{"host":"www.google.com"}},"server":"149.56.12.107","port":"443","uuid":"efdd93a5-672a-489c-b365-f1d7c1e578a9","alterId":"0","cipher":"auto","network":"ws","tls":true,"skip-cert-verify":true}
-  - {"type":"vmess","name":"serverssh🇩🇪de 02-04 (106)","ws-opts":{"path":"/serverssh.net","headers":{"host":"www.google.com"}},"server":"51.75.67.118","port":"443","uuid":"48d7f3b6-5ee7-4dfc-9fa6-ac1a7e78ceae","alterId":"0","cipher":"auto","network":"ws","tls":true,"skip-cert-verify":true}
-  - {"type":"vmess","name":"serverssh🇩🇪de 02-04 (107)","ws-opts":{"path":"/serverssh.net","headers":{"host":"www.google.com"}},"server":"51.75.67.118","port":"443","uuid":"f8130400-b91e-4a53-9e10-7ff8afdee2f0","alterId":"0","cipher":"auto","network":"ws","tls":true,"skip-cert-verify":true}
-  - {"type":"vmess","name":"serverssh🇩🇪de 02-04 (108)","ws-opts":{"path":"/serverssh.net","headers":{"host":"www.google.com"}},"server":"51.75.67.118","port":"443","uuid":"42764dc4-acdd-46f9-b806-2a454f0decc7","alterId":"0","cipher":"auto","network":"ws","tls":true,"skip-cert-verify":true}
-  - {"type":"vmess","name":"sshstores🇩🇪de 02-04 (109)","ws-opts":{"path":"/vmess","headers":{"host":"www.google.com"}},"server":"162.19.224.175","port":"443","uuid":"09b68b23-579d-46ae-bb7a-9690fc35e46f","alterId":"0","cipher":"auto","network":"ws","tls":true,"skip-cert-verify":true}
-  - {"type":"vmess","name":"sshstores🇵🇱pl 02-04 (110)","ws-opts":{"path":"/vmess","headers":{"host":"www.google.com"}},"server":"51.68.139.22","port":"443","uuid":"33276941-f0ff-4479-b3e6-b1420c58f8d7","alterId":"0","cipher":"auto","network":"ws","tls":true,"skip-cert-verify":true}
-  - {"type":"vmess","name":"sshstores🇬🇧uk 02-04 (111)","ws-opts":{"path":"/vmess","headers":{"host":"www.google.com"}},"server":"51.68.214.0","port":"443","uuid":"1b897e6e-7ef2-43de-98d9-2c5389eee71f","alterId":"0","cipher":"auto","network":"ws","tls":true,"skip-cert-verify":true}
-  - {"type":"vmess","name":"sshstores🇯🇵jp 02-04 (112)","ws-opts":{"path":"/vmess","headers":{"host":"www.google.com"}},"server":"139.162.104.56","port":"443","uuid":"d164cc4a-98e6-477c-9fc8-3d2566d704c4","alterId":"0","cipher":"auto","network":"ws","tls":true,"skip-cert-verify":true}
-  - {"type":"vmess","name":"sshstores🇳🇱nl 02-04 (113)","ws-opts":{"path":"/vmess","headers":{"host":"www.google.com"}},"server":"195.54.174.18","port":"443","uuid":"f1240de5-64aa-47f8-8214-8136b32ca1b5","alterId":"0","cipher":"auto","network":"ws","tls":true,"skip-cert-verify":true}
-  - {"type":"vmess","name":"sshstores🇨🇦ca 02-04 (114)","ws-opts":{"path":"/vmess","headers":{"host":"www.google.com"}},"server":"144.217.241.183","port":"443","uuid":"1bde2644-9625-43b0-8690-cba785a9487a","alterId":"0","cipher":"auto","network":"ws","tls":true,"skip-cert-verify":true}
-  - {"type":"vmess","name":"sshstores🇸🇬sg 02-04 (115)","ws-opts":{"path":"/vmess","headers":{"host":"www.google.com"}},"server":"139.99.45.193","port":"443","uuid":"f63a293f-fb3d-4bc0-947f-749877e5ee63","alterId":"0","cipher":"auto","network":"ws","tls":true,"skip-cert-verify":true}
-  - {"type":"vmess","name":"sshstores🇸🇬sg 02-04 (116)","ws-opts":{"path":"/vmess","headers":{"host":"www.google.com"}},"server":"15.235.202.196","port":"443","uuid":"ad693c61-ee06-4e3d-adc0-76cbf7673f15","alterId":"0","cipher":"auto","network":"ws","tls":true,"skip-cert-verify":true}
-  - {"type":"vmess","name":"sshstores🇩🇪de 02-04 (117)","ws-opts":{"path":"/vmess","headers":{"host":"www.google.com"}},"server":"162.19.224.176","port":"443","uuid":"8b94ef06-6fd8-436b-a580-841af47e40ba","alterId":"0","cipher":"auto","network":"ws","tls":true,"skip-cert-verify":true}
-
   - {"name": "opentunnel🇳🇱nl 02-07 (153)", "type": "vmess", "server": "195.123.218.94", "port": "443", "uuid": "a40d34c6-b77c-4648-9210-3e8d2f4226b5", "alterId": "16", "cipher": "auto", "network": "ws", "tls": true, "skip-cert-verify": true, "ws-opts": {"path": "/opentunnel?user=opentunnel.net-fdsafndskafl", "headers": {"host": "www.google.com"}}}
   - {name: "opentunnel🇳🇱nl 02-07 (154)", type: "vmess", server: 195.123.217.224, port: 443, uuid: "a40d34c6-b77c-4648-9210-3e8d2f4226b5", alterId: 16, cipher: "auto", network: "ws", tls: true, skip-cert-verify: true, ws-opts: {path: "/opentunnel?user=opentunnel.net-vcxzvnkafnas", headers: {host: "www.google.com"}}}
   - {name: "opentunnel🇮🇩id 02-07 (155)", type: "vmess", server: 103.150.84.190, port: 443, uuid: "a40d34c6-b77c-4648-9210-3e8d2f4226b5", alterId: 16, cipher: "auto", network: "ws", tls: true, skip-cert-verify: true, ws-opts: {path: "/opentunnel?user=opentunnel.net-bcxwaf2qws", headers: {host: "www.google.com"}}}
@@ -189,55 +124,52 @@ proxies:
   - {name: "vpnjantit🇳🇱nl 02-04 (235)", type: "vmess", server: 195.123.217.74, port: 443, uuid: "ce5ab4cc-a25f-11ed-8ab5-b310def7f2ec", alterId: 0, cipher: "auto", network: "ws", ws-opts: {path: "/vpnjantit"}}
   - {name: "vpnjantit🇳🇱nl 02-04 (236)", type: "vmess", server: 195.123.219.71, port: 10000, uuid: "f213c1b0-a25f-11ed-9320-eb5c4679f2f1", alterId: 0, cipher: "auto", network: "ws", ws-opts: {path: "/vpnjantit"}}
 
+  - {name: "jagoanssh🇩🇪 02-13 (251)", type: "vmess", server: "ge-ray.ipservers.xyz", port: 443, uuid: "24659644-913a-4527-a1d7-99bba10c2908", alterId: 0, cipher: "auto", network: "ws", tls: true, skip-cert-verify: true, ws-opts: {path: "/JAGOANSSH/", headers: {host: "www.bing.com"}}}
+  - {name: "akunssh🇨🇦 02-13 (252)", type: "vmess", server: "ca1-vmess.tunnel.cx", port: 443, uuid: "8786227e-a576-11ed-a867-8384f36aa730", alterId: 0, cipher: "auto", network: "ws", tls: true, skip-cert-verify: true, ws-opts: {path: "/vmess", headers: {host: "www.bing.com"}}}
+  - {name: "akunssh🇩🇪 02-13 (253)", type: "vmess", server: "de1-vmess.tunnel.cx", port: 443, uuid: "877469da-a576-11ed-8271-5fbbaa3ad1dd", alterId: 0, cipher: "auto", network: "ws", tls: true, skip-cert-verify: true, ws-opts: {path: "/vmess", headers: {host: "www.bing.com"}}}
+  - {name: "akunssh🇮🇩 02-13 (254)", type: "vmess", server: "id1-vmess.tunnel.cx", port: 443, uuid: "879fb860-a576-11ed-8f97-77047d36321b", alterId: 0, cipher: "auto", network: "ws", tls: true, skip-cert-verify: true, ws-opts: {path: "/vmess", headers: {host: "www.bing.com"}}}
+  - {name: "akunssh🇩🇪 02-13 (255)", type: "vmess", server: "de1-vmess.tunnel.cx", port: 443, uuid: "877469da-a576-11ed-8271-5fbbaa3ad1dd", alterId: 0, cipher: "auto", network: "ws", tls: true, skip-cert-verify: true, ws-opts: {path: "/vmess", headers: {host: "www.bing.com"}}}
+  - {name: "akunssh🇩🇪 02-13 (256)", type: "vmess", server: "de1-vmess.tunnel.cx", port: 443, uuid: "877469da-a576-11ed-8271-5fbbaa3ad1dd", alterId: 0, cipher: "auto", network: "ws", tls: true, skip-cert-verify: true, ws-opts: {path: "/vmess", headers: {host: "www.bing.com"}}}
+  - {name: "akunssh🇩🇪 02-13 (257)", type: "vmess", server: "de1-vmess.tunnel.cx", port: 443, uuid: "877469da-a576-11ed-8271-5fbbaa3ad1dd", alterId: 0, cipher: "auto", network: "ws", tls: true, skip-cert-verify: true, ws-opts: {path: "/vmess", headers: {host: "www.bing.com"}}}
+  - {name: "akunssh🇸🇬 02-13 (258)", type: "vmess", server: "sg1-vmess.tunnel.cx", port: 443, uuid: "87e735e6-a576-11ed-b36b-8b897f84732c", alterId: 0, cipher: "auto", network: "ws", tls: true, skip-cert-verify: true, ws-opts: {path: "/vmess", headers: {host: "www.bing.com"}}}
+  - {name: "mainssh🇨🇦 02-13 (259)", type: "vmess", server: "camws.mainssh.xyz", port: 443, uuid: "e3e1b16c-19c7-4d17-b49f-8b8bd642347d", alterId: 0, cipher: "auto", network: "ws", tls: true, skip-cert-verify: true, ws-opts: {path: "/vmess", headers: {host: "www.bing.com"}}}
+  - {name: "mainssh🇬🇧 02-13 (260)", type: "vmess", server: "ukmws.mainssh.xyz", port: 443, uuid: "cc6ae524-f013-492d-98d7-55beb72a8e87", alterId: 0, cipher: "auto", network: "ws", tls: true, skip-cert-verify: true, ws-opts: {path: "/vmess", headers: {host: "www.bing.com"}}}
+  - {name: "mainssh🇬🇧 02-13 (261)", type: "vmess", server: "ukmws.mainssh.xyz", port: 443, uuid: "2b3fb753-7dd5-4338-8de3-611ae68ee986", alterId: 0, cipher: "auto", network: "ws", tls: true, skip-cert-verify: true, ws-opts: {path: "/vmess", headers: {host: "www.bing.com"}}}
+  - {name: "mainssh🇬🇧 02-13 (262)", type: "vmess", server: "ukmws.mainssh.xyz", port: 443, uuid: "5ae1586f-8c27-4088-aab5-153f39e567d1", alterId: 0, cipher: "auto", network: "ws", tls: true, skip-cert-verify: true, ws-opts: {path: "/vmess", headers: {host: "www.bing.com"}}}
+  - {name: "mainssh🇨🇦 02-13 (263)", type: "vmess", server: "camws.mainssh.xyz", port: 443, uuid: "f78d1762-ff5a-425a-ad1f-ce2189ace10f", alterId: 0, cipher: "auto", network: "ws", tls: true, skip-cert-verify: true, ws-opts: {path: "/vmess", headers: {host: "www.bing.com"}}}
+  - {name: "mainssh🇩🇪 02-13 (264)", type: "vmess", server: "gemws.mainssh.xyz", port: 443, uuid: "46558fa6-50cf-409e-819e-110e812e29d2", alterId: 0, cipher: "auto", network: "ws", tls: true, skip-cert-verify: true, ws-opts: {path: "/vmess", headers: {host: "www.bing.com"}}}
+  - {name: "mainssh🇩🇪 02-13 (265)", type: "vmess", server: "gemws.mainssh.xyz", port: 443, uuid: "1324c0a0-a669-4e90-9f76-fc93b8004f78", alterId: 0, cipher: "auto", network: "ws", tls: true, skip-cert-verify: true, ws-opts: {path: "/vmess", headers: {host: "www.bing.com"}}}
+  - {name: "mainssh🇩🇪 02-13 (266)", type: "vmess", server: "gemws.mainssh.xyz", port: 443, uuid: "12430786-18c7-4d2c-9ede-2c75d92c71ac", alterId: 0, cipher: "auto", network: "ws", tls: true, skip-cert-verify: true, ws-opts: {path: "/vmess", headers: {host: "www.bing.com"}}}
+  - {name: "mainssh🇩🇪 02-13 (267)", type: "vmess", server: "gemws.mainssh.xyz", port: 443, uuid: "80e89769-21ec-43ed-9ffe-700d5819a1e7", alterId: 0, cipher: "auto", network: "ws", tls: true, skip-cert-verify: true, ws-opts: {path: "/vmess", headers: {host: "www.bing.com"}}}
+  - {name: "mainssh🇸🇬 02-13 (268)", type: "vmess", server: "sg2mws.mainssh.xyz", port: 443, uuid: "ac7605d8-de98-4db3-9098-bbf2d954a1a0", alterId: 0, cipher: "auto", network: "ws", tls: true, skip-cert-verify: true, ws-opts: {path: "/vmess", headers: {host: "www.bing.com"}}}
+  - {name: "mainssh🇫🇷 02-13 (269)", type: "vmess", server: "frmws.mainssh.xyz", port: 443, uuid: "914d7205-8577-4061-a84f-97da043933f3", alterId: 0, cipher: "auto", network: "ws", tls: true, skip-cert-verify: true, ws-opts: {path: "/vmess", headers: {host: "www.bing.com"}}}
+  - {name: "mainssh🇫🇷 02-13 (270)", type: "vmess", server: "frmws.mainssh.xyz", port: 443, uuid: "e6542c1e-1f9d-40be-9c15-e2701762fc61", alterId: 0, cipher: "auto", network: "ws", tls: true, skip-cert-verify: true, ws-opts: {path: "/vmess", headers: {host: "www.bing.com"}}}
+  - {name: "jagoanssh🇩🇪 02-13 (251)[IP]", type: "vmess", server: "162.19.226.84", port: 443, uuid: "24659644-913a-4527-a1d7-99bba10c2908", alterId: 0, cipher: "auto", network: "ws", tls: true, skip-cert-verify: true, ws-opts: {path: "/JAGOANSSH/", headers: {host: "www.bing.com"}}}
+  - {name: "akunssh🇨🇦 02-13 (252)[IP]", type: "vmess", server: "158.69.1.79", port: 443, uuid: "8786227e-a576-11ed-a867-8384f36aa730", alterId: 0, cipher: "auto", network: "ws", tls: true, skip-cert-verify: true, ws-opts: {path: "/vmess", headers: {host: "www.bing.com"}}}
+  - {name: "akunssh🇩🇪 02-13 (253)[IP]", type: "vmess", server: "168.119.174.242", port: 443, uuid: "877469da-a576-11ed-8271-5fbbaa3ad1dd", alterId: 0, cipher: "auto", network: "ws", tls: true, skip-cert-verify: true, ws-opts: {path: "/vmess", headers: {host: "www.bing.com"}}}
+  - {name: "akunssh🇮🇩 02-13 (254)[IP]", type: "vmess", server: "103.227.255.25", port: 443, uuid: "879fb860-a576-11ed-8f97-77047d36321b", alterId: 0, cipher: "auto", network: "ws", tls: true, skip-cert-verify: true, ws-opts: {path: "/vmess", headers: {host: "www.bing.com"}}}
+  - {name: "akunssh🇩🇪 02-13 (255)[IP]", type: "vmess", server: "168.119.174.242", port: 443, uuid: "877469da-a576-11ed-8271-5fbbaa3ad1dd", alterId: 0, cipher: "auto", network: "ws", tls: true, skip-cert-verify: true, ws-opts: {path: "/vmess", headers: {host: "www.bing.com"}}}
+  - {name: "akunssh🇩🇪 02-13 (256)[IP]", type: "vmess", server: "168.119.174.242", port: 443, uuid: "877469da-a576-11ed-8271-5fbbaa3ad1dd", alterId: 0, cipher: "auto", network: "ws", tls: true, skip-cert-verify: true, ws-opts: {path: "/vmess", headers: {host: "www.bing.com"}}}
+  - {name: "akunssh🇩🇪 02-13 (257)[IP]", type: "vmess", server: "168.119.174.242", port: 443, uuid: "877469da-a576-11ed-8271-5fbbaa3ad1dd", alterId: 0, cipher: "auto", network: "ws", tls: true, skip-cert-verify: true, ws-opts: {path: "/vmess", headers: {host: "www.bing.com"}}}
+  - {name: "akunssh🇸🇬 02-13 (258)[IP]", type: "vmess", server: "51.79.223.202", port: 443, uuid: "87e735e6-a576-11ed-b36b-8b897f84732c", alterId: 0, cipher: "auto", network: "ws", tls: true, skip-cert-verify: true, ws-opts: {path: "/vmess", headers: {host: "www.bing.com"}}}
+  - {name: "mainssh🇨🇦 02-13 (259)[IP]", type: "vmess", server: "51.222.156.142", port: 443, uuid: "e3e1b16c-19c7-4d17-b49f-8b8bd642347d", alterId: 0, cipher: "auto", network: "ws", tls: true, skip-cert-verify: true, ws-opts: {path: "/vmess", headers: {host: "www.bing.com"}}}
+  - {name: "mainssh🇬🇧 02-13 (260)[IP]", type: "vmess", server: "51.89.139.59", port: 443, uuid: "cc6ae524-f013-492d-98d7-55beb72a8e87", alterId: 0, cipher: "auto", network: "ws", tls: true, skip-cert-verify: true, ws-opts: {path: "/vmess", headers: {host: "www.bing.com"}}}
+  - {name: "mainssh🇬🇧 02-13 (261)[IP]", type: "vmess", server: "51.89.139.59", port: 443, uuid: "2b3fb753-7dd5-4338-8de3-611ae68ee986", alterId: 0, cipher: "auto", network: "ws", tls: true, skip-cert-verify: true, ws-opts: {path: "/vmess", headers: {host: "www.bing.com"}}}
+  - {name: "mainssh🇬🇧 02-13 (262)[IP]", type: "vmess", server: "51.89.139.59", port: 443, uuid: "5ae1586f-8c27-4088-aab5-153f39e567d1", alterId: 0, cipher: "auto", network: "ws", tls: true, skip-cert-verify: true, ws-opts: {path: "/vmess", headers: {host: "www.bing.com"}}}
+  - {name: "mainssh🇨🇦 02-13 (263)[IP]", type: "vmess", server: "51.222.156.142", port: 443, uuid: "f78d1762-ff5a-425a-ad1f-ce2189ace10f", alterId: 0, cipher: "auto", network: "ws", tls: true, skip-cert-verify: true, ws-opts: {path: "/vmess", headers: {host: "www.bing.com"}}}
+  - {name: "mainssh🇩🇪 02-13 (264)[IP]", type: "vmess", server: "51.68.188.150", port: 443, uuid: "46558fa6-50cf-409e-819e-110e812e29d2", alterId: 0, cipher: "auto", network: "ws", tls: true, skip-cert-verify: true, ws-opts: {path: "/vmess", headers: {host: "www.bing.com"}}}
+  - {name: "mainssh🇩🇪 02-13 (265)[IP]", type: "vmess", server: "51.68.188.150", port: 443, uuid: "1324c0a0-a669-4e90-9f76-fc93b8004f78", alterId: 0, cipher: "auto", network: "ws", tls: true, skip-cert-verify: true, ws-opts: {path: "/vmess", headers: {host: "www.bing.com"}}}
+  - {name: "mainssh🇩🇪 02-13 (266)[IP]", type: "vmess", server: "51.68.188.150", port: 443, uuid: "12430786-18c7-4d2c-9ede-2c75d92c71ac", alterId: 0, cipher: "auto", network: "ws", tls: true, skip-cert-verify: true, ws-opts: {path: "/vmess", headers: {host: "www.bing.com"}}}
+  - {name: "mainssh🇩🇪 02-13 (267)[IP]", type: "vmess", server: "51.68.188.150", port: 443, uuid: "80e89769-21ec-43ed-9ffe-700d5819a1e7", alterId: 0, cipher: "auto", network: "ws", tls: true, skip-cert-verify: true, ws-opts: {path: "/vmess", headers: {host: "www.bing.com"}}}
+  - {name: "mainssh🇸🇬 02-13 (268)[IP]", type: "vmess", server: "103.83.159.248", port: 443, uuid: "ac7605d8-de98-4db3-9098-bbf2d954a1a0", alterId: 0, cipher: "auto", network: "ws", tls: true, skip-cert-verify: true, ws-opts: {path: "/vmess", headers: {host: "www.bing.com"}}}
+  - {name: "mainssh🇫🇷 02-13 (269)[IP]", type: "vmess", server: "51.77.200.137", port: 443, uuid: "914d7205-8577-4061-a84f-97da043933f3", alterId: 0, cipher: "auto", network: "ws", tls: true, skip-cert-verify: true, ws-opts: {path: "/vmess", headers: {host: "www.bing.com"}}}
+  - {name: "mainssh🇫🇷 02-13 (270)[IP]", type: "vmess", server: "51.77.200.137", port: 443, uuid: "e6542c1e-1f9d-40be-9c15-e2701762fc61", alterId: 0, cipher: "auto", network: "ws", tls: true, skip-cert-verify: true, ws-opts: {path: "/vmess", headers: {host: "www.bing.com"}}}
+
 proxy-groups:
   - name: Select
     type: select
     # disable-udp: true
     proxies:
-      - akunssh🇩🇪de 02-02 (022)
-      - akunssh🇩🇪de 02-02 (021)
-      - akunssh🇩🇪de 02-02 (023)
-      - akunssh🇩🇪de 02-02 (024)
-      - akunssh🇮🇩id 02-02 (021)
-      - akunssh🇮🇩id 02-02 (022)
-      - akunssh🇮🇩id 02-02 (023)
-      - akunssh🇮🇩id 02-02 (024)
-      - akunssh🇵🇱pl 02-02 (021)
-      - akunssh🇵🇱pl 02-02 (022)
-      - akunssh🇵🇱pl 02-02 (023)
-      - akunssh🇸🇬sg 02-02 (021)
-      - akunssh🇸🇬sg 02-02 (022)
-      - akunssh🇸🇬sg 02-02 (023)
-      - akunssh🇸🇬sg 02-02 (024)
-      - akunssh🇸🇬sg 02-02 (025)
-      - akunssh🇺🇸us 02-02 (021)
-      - akunssh🇺🇸us 02-02 (022)
-      - akunssh🇨🇦ca 02-02 (021)
-      - akunssh🇨🇦ca 02-02 (022)
-      - akunssh🇨🇦ca 02-02 (023)
-      - mainssh🇸🇬sg 02-02 (031)
-      - mainssh🇸🇬sg 02-02 (032)
-      - mainssh🇫🇷fr 02-02 (031)
-      - mainssh🇨🇦ca 02-02 (031)
-      - mainssh🇬🇧uk 02-02 (031)
-      - mainssh🇩🇪de 02-02 (031)
-      - serverssh🇸🇬sg 02-04 (101)
-      - serverssh🇸🇬sg 02-04 (102)
-      - serverssh🇬🇧uk 02-04 (103)
-      - serverssh🇬🇧uk 02-04 (104)
-      - serverssh🇨🇦ca 02-04 (105)
-      - serverssh🇩🇪de 02-04 (106)
-      - serverssh🇩🇪de 02-04 (107)
-      - serverssh🇩🇪de 02-04 (108)
-      - sshstores🇩🇪de 02-04 (109)
-      - sshstores🇵🇱pl 02-04 (110)
-      - sshstores🇬🇧uk 02-04 (111)
-      - sshstores🇯🇵jp 02-04 (112)
-      - sshstores🇳🇱nl 02-04 (113)
-      - sshstores🇨🇦ca 02-04 (114)
-      - sshstores🇸🇬sg 02-04 (115)
-      - sshstores🇸🇬sg 02-04 (116)
-      - sshstores🇩🇪de 02-04 (117)
       - opentunnel🇳🇱nl 02-07 (153)
       - opentunnel🇳🇱nl 02-07 (154)
       - opentunnel🇮🇩id 02-07 (155)
@@ -277,57 +209,59 @@ proxy-groups:
       - vpnjantit🇪🇸sp 02-04 (234)
       - vpnjantit🇳🇱nl 02-04 (235)
       - vpnjantit🇳🇱nl 02-04 (236)
+      - jagoanssh🇩🇪 02-13 (251)
+      - akunssh🇨🇦 02-13 (252)
+      - akunssh🇩🇪 02-13 (253)
+      - akunssh🇮🇩 02-13 (254)
+      - akunssh🇩🇪 02-13 (255)
+      - akunssh🇩🇪 02-13 (256)
+      - akunssh🇩🇪 02-13 (257)
+      - akunssh🇸🇬 02-13 (258)
+      - mainssh🇨🇦 02-13 (259)
+      - mainssh🇬🇧 02-13 (260)
+      - mainssh🇬🇧 02-13 (261)
+      - mainssh🇬🇧 02-13 (262)
+      - mainssh🇨🇦 02-13 (263)
+      - mainssh🇩🇪 02-13 (264)
+      - mainssh🇩🇪 02-13 (265)
+      - mainssh🇩🇪 02-13 (266)
+      - mainssh🇩🇪 02-13 (267)
+      - mainssh🇸🇬 02-13 (268)
+      - mainssh🇫🇷 02-13 (269)
+      - mainssh🇫🇷 02-13 (270)
+      - IP
       - ⚡️Auto⚡️
+
+  - name: IP
+    type: select
+    proxies:
+      - jagoanssh🇩🇪 02-13 (251)[IP]
+      - akunssh🇨🇦 02-13 (252)[IP]
+      - akunssh🇩🇪 02-13 (253)[IP]
+      - akunssh🇮🇩 02-13 (254)[IP]
+      - akunssh🇩🇪 02-13 (255)[IP]
+      - akunssh🇩🇪 02-13 (256)[IP]
+      - akunssh🇩🇪 02-13 (257)[IP]
+      - akunssh🇸🇬 02-13 (258)[IP]
+      - mainssh🇨🇦 02-13 (259)[IP]
+      - mainssh🇬🇧 02-13 (260)[IP]
+      - mainssh🇬🇧 02-13 (261)[IP]
+      - mainssh🇬🇧 02-13 (262)[IP]
+      - mainssh🇨🇦 02-13 (263)[IP]
+      - mainssh🇩🇪 02-13 (264)[IP]
+      - mainssh🇩🇪 02-13 (265)[IP]
+      - mainssh🇩🇪 02-13 (266)[IP]
+      - mainssh🇩🇪 02-13 (267)[IP]
+      - mainssh🇸🇬 02-13 (268)[IP]
+      - mainssh🇫🇷 02-13 (269)[IP]
+      - mainssh🇫🇷 02-13 (270)[IP]
+
 
   - name: ⚡️Auto⚡️
     type: url-test
     url: http://www.gstatic.com/generate_204
     interval: 600
     proxies:
-      - akunssh🇩🇪de 02-02 (022)
-      - akunssh🇩🇪de 02-02 (021)
-      - akunssh🇩🇪de 02-02 (023)
-      - akunssh🇩🇪de 02-02 (024)
-      - akunssh🇮🇩id 02-02 (021)
-      - akunssh🇮🇩id 02-02 (022)
-      - akunssh🇮🇩id 02-02 (023)
-      - akunssh🇮🇩id 02-02 (024)
-      - akunssh🇵🇱pl 02-02 (021)
-      - akunssh🇵🇱pl 02-02 (022)
-      - akunssh🇵🇱pl 02-02 (023)
-      - akunssh🇸🇬sg 02-02 (021)
-      - akunssh🇸🇬sg 02-02 (022)
-      - akunssh🇸🇬sg 02-02 (023)
-      - akunssh🇸🇬sg 02-02 (024)
-      - akunssh🇸🇬sg 02-02 (025)
-      - akunssh🇺🇸us 02-02 (021)
-      - akunssh🇺🇸us 02-02 (022)
-      - akunssh🇨🇦ca 02-02 (021)
-      - akunssh🇨🇦ca 02-02 (022)
-      - akunssh🇨🇦ca 02-02 (023)
-      - mainssh🇸🇬sg 02-02 (031)
-      - mainssh🇸🇬sg 02-02 (032)
-      - mainssh🇫🇷fr 02-02 (031)
-      - mainssh🇨🇦ca 02-02 (031)
-      - mainssh🇬🇧uk 02-02 (031)
-      - mainssh🇩🇪de 02-02 (031)
-      - serverssh🇸🇬sg 02-04 (101)
-      - serverssh🇸🇬sg 02-04 (102)
-      - serverssh🇬🇧uk 02-04 (103)
-      - serverssh🇬🇧uk 02-04 (104)
-      - serverssh🇨🇦ca 02-04 (105)
-      - serverssh🇩🇪de 02-04 (106)
-      - serverssh🇩🇪de 02-04 (107)
-      - serverssh🇩🇪de 02-04 (108)
-      - sshstores🇩🇪de 02-04 (109)
-      - sshstores🇵🇱pl 02-04 (110)
-      - sshstores🇬🇧uk 02-04 (111)
-      - sshstores🇯🇵jp 02-04 (112)
-      - sshstores🇳🇱nl 02-04 (113)
-      - sshstores🇨🇦ca 02-04 (114)
-      - sshstores🇸🇬sg 02-04 (115)
-      - sshstores🇸🇬sg 02-04 (116)
-      - sshstores🇩🇪de 02-04 (117)
       - opentunnel🇳🇱nl 02-07 (153)
       - opentunnel🇳🇱nl 02-07 (154)
       - opentunnel🇮🇩id 02-07 (155)
@@ -367,6 +301,46 @@ proxy-groups:
       - vpnjantit🇪🇸sp 02-04 (234)
       - vpnjantit🇳🇱nl 02-04 (235)
       - vpnjantit🇳🇱nl 02-04 (236)
+      - jagoanssh🇩🇪 02-13 (251)
+      - akunssh🇨🇦 02-13 (252)
+      - akunssh🇩🇪 02-13 (253)
+      - akunssh🇮🇩 02-13 (254)
+      - akunssh🇩🇪 02-13 (255)
+      - akunssh🇩🇪 02-13 (256)
+      - akunssh🇩🇪 02-13 (257)
+      - akunssh🇸🇬 02-13 (258)
+      - mainssh🇨🇦 02-13 (259)
+      - mainssh🇬🇧 02-13 (260)
+      - mainssh🇬🇧 02-13 (261)
+      - mainssh🇬🇧 02-13 (262)
+      - mainssh🇨🇦 02-13 (263)
+      - mainssh🇩🇪 02-13 (264)
+      - mainssh🇩🇪 02-13 (265)
+      - mainssh🇩🇪 02-13 (266)
+      - mainssh🇩🇪 02-13 (267)
+      - mainssh🇸🇬 02-13 (268)
+      - mainssh🇫🇷 02-13 (269)
+      - mainssh🇫🇷 02-13 (270)
+      - jagoanssh🇩🇪 02-13 (251)[IP]
+      - akunssh🇨🇦 02-13 (252)[IP]
+      - akunssh🇩🇪 02-13 (253)[IP]
+      - akunssh🇮🇩 02-13 (254)[IP]
+      - akunssh🇩🇪 02-13 (255)[IP]
+      - akunssh🇩🇪 02-13 (256)[IP]
+      - akunssh🇩🇪 02-13 (257)[IP]
+      - akunssh🇸🇬 02-13 (258)[IP]
+      - mainssh🇨🇦 02-13 (259)[IP]
+      - mainssh🇬🇧 02-13 (260)[IP]
+      - mainssh🇬🇧 02-13 (261)[IP]
+      - mainssh🇬🇧 02-13 (262)[IP]
+      - mainssh🇨🇦 02-13 (263)[IP]
+      - mainssh🇩🇪 02-13 (264)[IP]
+      - mainssh🇩🇪 02-13 (265)[IP]
+      - mainssh🇩🇪 02-13 (266)[IP]
+      - mainssh🇩🇪 02-13 (267)[IP]
+      - mainssh🇸🇬 02-13 (268)[IP]
+      - mainssh🇫🇷 02-13 (269)[IP]
+      - mainssh🇫🇷 02-13 (270)[IP]
 
 rules:
   - MATCH, Select
