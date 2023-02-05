@@ -260,7 +260,7 @@ proxy-groups:
   - name: ⚡️Auto⚡️
     type: url-test
     url: http://www.gstatic.com/generate_204
-    interval: 600
+    interval: 300
     proxies:
       - opentunnel🇳🇱nl 02-07 (153)
       - opentunnel🇳🇱nl 02-07 (154)
@@ -342,5 +342,50 @@ proxy-groups:
       - mainssh🇫🇷 02-13 (269)[IP]
       - mainssh🇫🇷 02-13 (270)[IP]
 
+  - name: Ad-Block
+    type: select
+    proxies:
+    - ON
+    - OFF
+
+  - name: Bypass-IR
+    type: select
+    proxies:
+    - On
+    - OFF
+
+  - name: ON
+    type: select
+    proxies:
+    - REJECT
+
+  - name: On
+    type: select
+    proxies:
+    - DIRECT
+  
+  - name: OFF
+    type: select
+    proxies:
+    - Select
+
+rule-providers:
+  ad:
+    type: http
+    behavior: classical
+    path: ./customRules/rejectLinks.yaml
+    url: https://raw.githubusercontent.com/LeeeLouch/v2ray-servers/master/rules/reject.yaml
+    interval: 259200
+
+  ir:
+    type: http
+    behavior: domain
+    path: ./customRules/irLinks.yaml
+    url: https://raw.githubusercontent.com/LeeeLouch/v2ray-servers/master/rules/ir.yaml
+    interval: 259200
+
 rules:
-  - MATCH, Select
+  - RULE-SET,ad,Ad-Block
+  - RULE-SET,ir,Bypass-IR
+  - GEOIP,IR,Bypass-IR
+  - MATCH,Select
