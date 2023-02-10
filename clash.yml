@@ -291,14 +291,14 @@ proxy-groups:
   - name: Ad-Block
     type: select
     proxies:
-    - ON
     - OFF
+    - ON
 
   - name: Bypass-IR
     type: select
     proxies:
-    - On
     - OFF
+    - On
 
   - name: ON
     type: select
