@@ -118,8 +118,8 @@ proxies:
   - {name: "mainssh🇬🇧uk 02-17 (312)", type: "vmess", server: "51.89.139.59", port: 443, uuid: "903d2678-4c47-4f64-aa67-648ecbc2d47b", alterId: 0, cipher: "auto", network: "ws", tls: true, skip-cert-verify: true, ws-opts: {path: "/vmess", headers: {host: "sni.cloudflare.com"}}}
   - {name: "mainssh🇨🇦ca 02-17 (313)", type: "vmess", server: "51.222.156.142", port: 443, uuid: "b6da7077-2fd2-4b39-b7d5-ba417abd2f3e", alterId: 0, cipher: "auto", network: "ws", tls: true, skip-cert-verify: true, ws-opts: {path: "/vmess", headers: {host: "sni.cloudflare.com"}}}
   - {name: "mainssh🇬🇧uk 02-17 (314)", type: "vmess", server: "51.89.139.59", port: 443, uuid: "f2c55779-4522-4e56-aef5-dba2553596e4", alterId: 0, cipher: "auto", network: "ws", tls: true, skip-cert-verify: true, ws-opts: {path: "/vmess", headers: {host: "sni.cloudflare.com"}}}
-  - {name: "mainssh🇩🇪de 02-17 (315)", type: "vmess", server: "51.68.188.150", port: 443, uuid: "6c62419f-3938-4637-954b-5e7f42fb5311", alterId: 0, cipher: "auto", network: "ws", tls: true, skip-cert-verify: true, ws-opts: {path: "/vmess", headers: {host: "sni.cloudflare.com"}}}
-  - {name: "mainssh🇩🇪de 02-17 (316)", type: "vmess", server: "51.68.188.150", port: 443, uuid: "83baea90-75c6-4fa6-9e35-86c193a578ac", alterId: 0, cipher: "auto", network: "ws", tls: true, skip-cert-verify: true, ws-opts: {path: "/vmess", headers: {host: "sni.cloudflare.com"}}}
+  - {name: "mainssh🇩🇪de 02-17 (315)", type: "vmess", server: "51.68.188.150", port: 443, uuid: "6c62419f-3938-4637-954b-5e7f42fb5311", alterId: 0, cipher: "auto", network: "ws", tls: true, skip-cert-verify: true, ws-opts: {path: "/vmess", headers: {host: "www.google.com"}}}
+  - {name: "mainssh🇩🇪de 02-17 (316)", type: "vmess", server: "51.68.188.150", port: 443, uuid: "83baea90-75c6-4fa6-9e35-86c193a578ac", alterId: 0, cipher: "auto", network: "ws", tls: true, skip-cert-verify: true, ws-opts: {path: "/vmess", headers: {host: "www.google.com"}}}
   
   - {name: "FreeNode🇺🇸Atalanta (11)", type: "vmess", server: "irc.eqjgkx.xyz", port: 443, uuid: "983293EA-A96B-466F-BD92-F57CA0A75C52", alterId: 0, cipher: "auto", network: "ws", tls: true, ws-opts: {path: "/speedtest/Atlanta.v2ray.online", headers: {host: "cloudflare.dokov38577.workers.dev"}}}
   - {name: "FreeNode🇺🇸Phoenix (12)", type: "vmess", server: "irc.eqjgkx.xyz", port: 443, uuid: "983293EA-A96B-466F-BD92-F57CA0A75C52", alterId: 0, cipher: "auto", network: "ws", tls: true, ws-opts: {path: "/speedtest/Phoenix.v2ray.online", headers: {host: "cloudflare.dokov38577.workers.dev"}}}
@@ -146,8 +146,22 @@ proxies:
   - {name: "FreeNode🇯🇵Tokyo (38)", type: "vmess", server: "prs.eqjgkx.xyz", port: 443, uuid: "11A9BBCA-CCF2-4C84-9AE4-6E2CA1E66D2A", alterId: 0, cipher: "auto", network: "ws", tls: true, ws-opts: {path: "/speedtest/Tokyo.v2ray.online", headers: {host: "worker3.nofam71373.workers.dev"}}}
   - {name: "FreeNode🇺🇸Phoenix (32)", type: "vmess", server: "prs.eqjgkx.xyz", port: 443, uuid: "11A9BBCA-CCF2-4C84-9AE4-6E2CA1E66D2A", alterId: 0, cipher: "auto", network: "ws", tls: true, ws-opts: {path: "/speedtest/Phoenix.v2ray.online", headers: {host: "worker3.nofam71373.workers.dev"}}}
   - {name: "FreeNode🇺🇸Atalanta (31)", type: "vmess", server: "prs.eqjgkx.xyz", port: 443, uuid: "11A9BBCA-CCF2-4C84-9AE4-6E2CA1E66D2A", alterId: 0, cipher: "auto", network: "ws", tls: true, ws-opts: {path: "/speedtest/Atlanta.v2ray.online", headers: {host: "worker3.nofam71373.workers.dev"}}}
-  - {name: "FreeNode🇩🇪Dusseldorf (39)", type: "vmess", server: "prs.eqjgkx.xyz", port: 443, uuid: "11A9BBCA-CCF2-4C84-9AE4-6E2CA1E66D2A", alterId: 0, cipher: "auto", network: "ws", tls: true, ws-opts: {path: "/speedtest/Dusseldorf.v2ray.online", headers: {host: "worker3.nofam71373.workers.dev"}}}
+  - {name: "FreeNode🇩🇪Dusseldorf (39)", type: "vmess", server: "45.131.208.227", port: 443, uuid: "11A9BBCA-CCF2-4C84-9AE4-6E2CA1E66D2A", alterId: 0, cipher: "auto", network: "ws", tls: true, ws-opts: {path: "/speedtest/Dusseldorf.v2ray.online", headers: {host: "worker3.nofam71373.workers.dev"}}}
   - {name: "FreeNode🇱🇻Riga (37)", type: "vmess", server: "prs.eqjgkx.xyz", port: 443, uuid: "11A9BBCA-CCF2-4C84-9AE4-6E2CA1E66D2A", alterId: 0, cipher: "auto", network: "ws", tls: true, ws-opts: {path: "/speedtest/Riga.v2ray.online", headers: {host: "worker3.nofam71373.workers.dev"}}}
+
+  - {name: "jagoanssh🇫🇷fr 02-18 (351)", type: "vmess", server: "51.68.225.119", port: 443, uuid: "06a6d436-e4db-4431-9bc2-ad4aad96bb64", alterId: 0, cipher: "auto", network: "ws", servername: "www.namava.ir", tls: true, skip-cert-verify: true, ws-opts: {path: "/JAGOANSSH/"}}
+  - {name: "jagoanssh🇫🇷fr 02-18 (352)", type: "vmess", server: "51.68.225.119", port: 443, uuid: "a6ca6086-9030-467c-a95a-e2107ed80c26", alterId: 0, cipher: "auto", network: "ws", tls: true, skip-cert-verify: true, ws-opts: {path: "/JAGOANSSH/"}}
+  - {name: "jagoanssh🇫🇷fr 02-18 (353)", type: "vmess", server: "51.68.225.119", port: 443, uuid: "16fca6d3-1789-4c3c-ae75-195408ddf941", alterId: 0, cipher: "auto", network: "ws", tls: true, skip-cert-verify: true, ws-opts: {path: "/JAGOANSSH/"}}
+  - {name: "jagoanssh🇩🇪de 02-18 (354)", type: "vmess", server: "162.19.226.84", port: 443, uuid: "61b3f0f1-2de2-4325-84e1-9739c6955520", alterId: 0, cipher: "auto", network: "ws", tls: true, skip-cert-verify: true, ws-opts: {path: "/JAGOANSSH/"}}
+  - {name: "jagoanssh🇩🇪de 02-18 (355)", type: "vmess", server: "162.19.226.84", port: 443, uuid: "d6641c6f-94c0-4b2f-9632-9d4ffd3485f9", alterId: 0, cipher: "auto", network: "ws", tls: true, skip-cert-verify: true, ws-opts: {path: "/JAGOANSSH/"}}
+  - {name: "jagoanssh🇩🇪de 02-18 (356)", type: "vmess", server: "162.19.226.84", port: 443, uuid: "1f72a56c-215d-49fa-8f50-ff9e0ad7a506", alterId: 0, cipher: "auto", network: "ws", tls: true, skip-cert-verify: true, ws-opts: {path: "/JAGOANSSH/"}}
+  - {name: "jagoanssh🇩🇪de 02-18 (357)", type: "vmess", server: "162.19.226.84", port: 443, uuid: "7b3b456d-b786-4bba-9f66-15f446843d0a", alterId: 0, cipher: "auto", network: "ws", tls: true, skip-cert-verify: true, ws-opts: {path: "/JAGOANSSH/"}}
+  - {name: "jagoanssh🇩🇪de 02-18 (358)", type: "vmess", server: "162.19.226.84", port: 443, uuid: "c1d50858-ffb9-4ae9-81f3-03452f62c3dd", alterId: 0, cipher: "auto", network: "ws", tls: true, skip-cert-verify: true, ws-opts: {path: "/JAGOANSSH/"}}
+  - {name: "jagoanssh🇺🇸us 02-18 (359)", type: "vmess", server: "199.195.250.59", port: 443, uuid: "a6aa2800-c94a-4810-aa2f-2538d9c7e8a6", alterId: 0, cipher: "auto", network: "ws", tls: true, skip-cert-verify: true, ws-opts: {path: "/JAGOANSSH/"}}
+  - {name: "jagoanssh🇮🇩id 02-18 (360)", type: "vmess", server: "43.230.131.20", port: 443, uuid: "c549b306-3c32-4c44-8833-c6fad426c54d", alterId: 0, cipher: "auto", network: "ws", tls: true, skip-cert-verify: true, ws-opts: {path: "/JAGOANSSH/"}}
+  - {name: "jagoanssh🇨🇦ca 02-18 (361)", type: "vmess", server: "51.79.86.85", port: 443, uuid: "1bdfcc2a-3552-4771-bd66-e463686971df", alterId: 0, cipher: "auto", network: "ws", tls: true, skip-cert-verify: true, ws-opts: {path: "/JAGOANSSH/"}}
+  - {name: "jagoanssh🇦🇺au 02-18 (362)", type: "vmess", server: "51.161.130.141", port: 443, uuid: "3919670f-8102-4552-884c-977efcb444a6", alterId: 0, cipher: "auto", network: "ws", tls: true, skip-cert-verify: true, ws-opts: {path: "/JAGOANSSH/"}}
+  - {name: "jagoanssh🇨🇦ca 02-18 (363)", type: "vmess", server: "51.79.86.85", port: 443, uuid: "f12a1c3e-66bb-43c7-a7d9-9426507246fc", alterId: 0, cipher: "auto", network: "ws", tls: true, skip-cert-verify: true, ws-opts: {path: "/JAGOANSSH/"}}
 
 proxy-groups:
   - name: Select
@@ -190,6 +204,19 @@ proxy-groups:
       - mainssh🇩🇪de 02-17 (315)
       - mainssh🇩🇪de 02-17 (316)
       - opentunnel🇺🇸us 02-17 (301)
+      - jagoanssh🇫🇷fr 02-18 (351)
+      - jagoanssh🇫🇷fr 02-18 (352)
+      - jagoanssh🇫🇷fr 02-18 (353)
+      - jagoanssh🇩🇪de 02-18 (354)
+      - jagoanssh🇩🇪de 02-18 (355)
+      - jagoanssh🇩🇪de 02-18 (356)
+      - jagoanssh🇩🇪de 02-18 (357)
+      - jagoanssh🇩🇪de 02-18 (358)
+      - jagoanssh🇺🇸us 02-18 (359)
+      - jagoanssh🇮🇩id 02-18 (360)
+      - jagoanssh🇨🇦ca 02-18 (361)
+      - jagoanssh🇦🇺au 02-18 (362)
+      - jagoanssh🇨🇦ca 02-18 (363)
       - FreeNode🇺🇸Atalanta (11)
       - FreeNode🇺🇸Phoenix (12)
       - FreeNode🇺🇸Kansas (13)
@@ -259,6 +286,19 @@ proxy-groups:
       - mainssh🇬🇧uk 02-17 (314)
       - mainssh🇩🇪de 02-17 (315)
       - mainssh🇩🇪de 02-17 (316)
+      - jagoanssh🇫🇷fr 02-18 (351)
+      - jagoanssh🇫🇷fr 02-18 (352)
+      - jagoanssh🇫🇷fr 02-18 (353)
+      - jagoanssh🇩🇪de 02-18 (354)
+      - jagoanssh🇩🇪de 02-18 (355)
+      - jagoanssh🇩🇪de 02-18 (356)
+      - jagoanssh🇩🇪de 02-18 (357)
+      - jagoanssh🇩🇪de 02-18 (358)
+      - jagoanssh🇺🇸us 02-18 (359)
+      - jagoanssh🇮🇩id 02-18 (360)
+      - jagoanssh🇨🇦ca 02-18 (361)
+      - jagoanssh🇦🇺au 02-18 (362)
+      - jagoanssh🇨🇦ca 02-18 (363)
       - FreeNode🇺🇸Atalanta (11)
       - FreeNode🇺🇸Phoenix (12)
       - FreeNode🇺🇸Kansas (13)
