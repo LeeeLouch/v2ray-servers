@@ -163,31 +163,23 @@ proxies:
   - {name: "jagoanssh🇦🇺au 02-18 (362)", type: "vmess", server: "51.161.130.141", port: 443, uuid: "3919670f-8102-4552-884c-977efcb444a6", alterId: 0, cipher: "auto", network: "ws", tls: true, skip-cert-verify: true, ws-opts: {path: "/JAGOANSSH/"}}
   - {name: "jagoanssh🇨🇦ca 02-18 (363)", type: "vmess", server: "51.79.86.85", port: 443, uuid: "f12a1c3e-66bb-43c7-a7d9-9426507246fc", alterId: 0, cipher: "auto", network: "ws", tls: true, skip-cert-verify: true, ws-opts: {path: "/JAGOANSSH/"}}
 
+  - {name: "sshstores🇫🇷fr 02-23 (401)", type: "vmess", server: "51.38.191.123", port: 443, uuid: "3d5a3130-f33c-4b32-ae3f-8b47e4ece960", alterId: 0, cipher: "auto", network: "ws", servername: "sni.cloudflare.com", tls: true, skip-cert-verify: true, ws-opts: {path: "/vmess", headers: {host: "sni.cloudflare.com"}}}
+  - {name: "sshstores🇫🇷fr 02-23 (402)", type: "vmess", server: "51.38.186.32", port: 443, uuid: "d030a09e-ebaf-4a7c-92fc-265dea6fc0e8", alterId: 0, cipher: "auto", network: "ws", servername: "sni.cloudflare.com", tls: true, skip-cert-verify: true, ws-opts: {path: "/vmess", headers: {host: "sni.cloudflare.com"}}}
+  - {name: "sshstores🇬🇧uk 02-23 (403)", type: "vmess", server: "51.195.139.29", port: 443, uuid: "7fd79440-486a-4f8b-a45f-cf9af6fe144c", alterId: 0, cipher: "auto", network: "ws", servername: "sni.cloudflare.com", tls: true, skip-cert-verify: true, ws-opts: {path: "/vmess", headers: {host: "sni.cloudflare.com"}}}
+  - {name: "sshstores🇬🇧uk 02-23 (404)", type: "vmess", server: "51.195.139.29", port: 443, uuid: "e90f3f9a-61c0-4858-8368-7f5979071476", alterId: 0, cipher: "auto", network: "ws", servername: "sni.cloudflare.com", tls: true, skip-cert-verify: true, ws-opts: {path: "/vmess", headers: {host: "sni.cloudflare.com"}}}
+  - {name: "sshstores🇳🇱nl 02-23 (405)", type: "vmess", server: "185.246.152.81", port: 443, uuid: "82612b16-5a7d-45ed-a84e-215c4ae14c50", alterId: 0, cipher: "auto", network: "ws", servername: "sni.cloudflare.com", tls: true, skip-cert-verify: true, ws-opts: {path: "/vmess", headers: {host: "sni.cloudflare.com"}}}
+  - {name: "sshstores🇳🇱nl 02-23 (406)", type: "vmess", server: "185.246.152.81", port: 443, uuid: "7d4b5c09-d5f3-474b-93bc-36c4d5f5d158", alterId: 0, cipher: "auto", network: "ws", servername: "sni.cloudflare.com", tls: true, skip-cert-verify: true, ws-opts: {path: "/vmess", headers: {host: "sni.cloudflare.com"}}}
+  - {name: "sshstores🇳🇱nl 02-23 (407)", type: "vmess", server: "185.246.152.81", port: 443, uuid: "1a9c943c-46dc-4ebb-96d2-02e21929bc23", alterId: 0, cipher: "auto", network: "ws", servername: "sni.cloudflare.com", tls: true, skip-cert-verify: true, ws-opts: {path: "/vmess", headers: {host: "sni.cloudflare.com"}}}
+  - {name: "sshstores🇯🇵jp 02-23 (408)", type: "vmess", server: "172.104.103.91", port: 443, uuid: "42cc7a5c-1a52-4939-a328-9f2a6e20db02", alterId: 0, cipher: "auto", network: "ws", servername: "sni.cloudflare.com", tls: true, skip-cert-verify: true, ws-opts: {path: "/vmess", headers: {host: "sni.cloudflare.com"}}}
+  - {name: "sshstores🇯🇵jp 02-23 (409)", type: "vmess", server: "172.104.103.93", port: 443, uuid: "432dc1b8-1c08-42a0-a0dd-1eb3f6380f03", alterId: 0, cipher: "auto", network: "ws", servername: "sni.cloudflare.com", tls: true, skip-cert-verify: true, ws-opts: {path: "/vmess", headers: {host: "sni.cloudflare.com"}}}
+  - {name: "sshstores🇺🇸us 02-23 (410)", type: "vmess", server: "185.140.211.122", port: 443, uuid: "c1023cb8-a117-4d7f-963f-45997467bf25", alterId: 0, cipher: "auto", network: "ws", servername: "sni.cloudflare.com", tls: true, skip-cert-verify: true, ws-opts: {path: "/vmess", headers: {host: "sni.cloudflare.com"}}}
+  - {name: "sshstores🇺🇸us 02-23 (411)", type: "vmess", server: "147.135.112.248", port: 443, uuid: "151a905e-29d0-4eb3-b8b8-06f69d2a71ba", alterId: 0, cipher: "auto", network: "ws", servername: "sni.cloudflare.com", tls: true, skip-cert-verify: true, ws-opts: {path: "/vmess", headers: {host: "sni.cloudflare.com"}}}
+
 proxy-groups:
   - name: Select
     type: select
     # disable-udp: true
     proxies:
-      - jagoanssh🇩🇪 02-13 (251)
-      - akunssh🇨🇦 02-13 (252)
-      - akunssh🇩🇪 02-13 (253)
-      - akunssh🇮🇩 02-13 (254)
-      - akunssh🇩🇪 02-13 (255)
-      - akunssh🇩🇪 02-13 (256)
-      - akunssh🇩🇪 02-13 (257)
-      - akunssh🇸🇬 02-13 (258)
-      - mainssh🇨🇦 02-13 (259)
-      - mainssh🇬🇧 02-13 (260)
-      - mainssh🇬🇧 02-13 (261)
-      - mainssh🇬🇧 02-13 (262)
-      - mainssh🇨🇦 02-13 (263)
-      - mainssh🇩🇪 02-13 (264)
-      - mainssh🇩🇪 02-13 (265)
-      - mainssh🇩🇪 02-13 (266)
-      - mainssh🇩🇪 02-13 (267)
-      - mainssh🇸🇬 02-13 (268)
-      - mainssh🇫🇷 02-13 (269)
-      - mainssh🇫🇷 02-13 (270)
       - akunssh🇩🇪de 02-17 (302)
       - akunssh🇨🇦ca 02-17 (303)
       - akunssh🇩🇪de 02-17 (304)
@@ -244,6 +236,17 @@ proxy-groups:
       - FreeNode🇺🇸Atalanta (31)
       - FreeNode🇩🇪Dusseldorf (39)
       - FreeNode🇱🇻Riga (37)
+      - sshstores🇫🇷fr 02-23 (401)
+      - sshstores🇫🇷fr 02-23 (402)
+      - sshstores🇬🇧uk 02-23 (403)
+      - sshstores🇬🇧uk 02-23 (404)
+      - sshstores🇳🇱nl 02-23 (405)
+      - sshstores🇳🇱nl 02-23 (406)
+      - sshstores🇳🇱nl 02-23 (407)
+      - sshstores🇯🇵jp 02-23 (408)
+      - sshstores🇯🇵jp 02-23 (409)
+      - sshstores🇺🇸us 02-23 (410)
+      - sshstores🇺🇸us 02-23 (411)
       - ⚡️Auto⚡️
 
   - name: ⚡️Auto⚡️
@@ -251,26 +254,6 @@ proxy-groups:
     url: http://www.gstatic.com/generate_204
     interval: 300
     proxies:
-      - jagoanssh🇩🇪 02-13 (251)
-      - akunssh🇨🇦 02-13 (252)
-      - akunssh🇩🇪 02-13 (253)
-      - akunssh🇮🇩 02-13 (254)
-      - akunssh🇩🇪 02-13 (255)
-      - akunssh🇩🇪 02-13 (256)
-      - akunssh🇩🇪 02-13 (257)
-      - akunssh🇸🇬 02-13 (258)
-      - mainssh🇨🇦 02-13 (259)
-      - mainssh🇬🇧 02-13 (260)
-      - mainssh🇬🇧 02-13 (261)
-      - mainssh🇬🇧 02-13 (262)
-      - mainssh🇨🇦 02-13 (263)
-      - mainssh🇩🇪 02-13 (264)
-      - mainssh🇩🇪 02-13 (265)
-      - mainssh🇩🇪 02-13 (266)
-      - mainssh🇩🇪 02-13 (267)
-      - mainssh🇸🇬 02-13 (268)
-      - mainssh🇫🇷 02-13 (269)
-      - mainssh🇫🇷 02-13 (270)
       - akunssh🇩🇪de 02-17 (302)
       - akunssh🇨🇦ca 02-17 (303)
       - akunssh🇩🇪de 02-17 (304)
@@ -327,6 +310,17 @@ proxy-groups:
       - FreeNode🇩🇪Dusseldorf (39)
       - FreeNode🇱🇻Riga (37)
       - opentunnel🇺🇸us 02-17 (301)
+      - sshstores🇫🇷fr 02-23 (401)
+      - sshstores🇫🇷fr 02-23 (402)
+      - sshstores🇬🇧uk 02-23 (403)
+      - sshstores🇬🇧uk 02-23 (404)
+      - sshstores🇳🇱nl 02-23 (405)
+      - sshstores🇳🇱nl 02-23 (406)
+      - sshstores🇳🇱nl 02-23 (407)
+      - sshstores🇯🇵jp 02-23 (408)
+      - sshstores🇯🇵jp 02-23 (409)
+      - sshstores🇺🇸us 02-23 (410)
+      - sshstores🇺🇸us 02-23 (411)
 
   - name: Ad-Block
     type: select
