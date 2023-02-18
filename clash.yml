@@ -123,45 +123,7 @@ dns:
 
 ###flags###
 # de 🇩🇪 - id 🇮🇩 - ca 🇨🇦 - hk 🇭🇰 - my 🇲🇾 - jp 🇯🇵 - uk 🇬🇧 - ua 🇺🇦 - se 🇸🇪 - sp 🇪🇸 - us 🇺🇸 - za 🇿🇦 - sg 🇸🇬 - pl 🇵🇱 - fr 🇫🇷 - kr 🇰🇷 - nl 🇳🇱 - au 🇦🇺 - ae 🇦🇪 - th 🇹🇭 - vn 🇻🇳
-proxies: 
-  - {name: "jagoanssh🇩🇪 02-13 (251)", type: "vmess", server: "162.19.226.84", port: 443, uuid: "24659644-913a-4527-a1d7-99bba10c2908", alterId: 0, cipher: "auto", network: "ws", tls: true, skip-cert-verify: true, ws-opts: {path: "/JAGOANSSH/", headers: {host: "www.bing.com"}}}
-  - {name: "akunssh🇨🇦 02-13 (252)", type: "vmess", server: "158.69.1.79", port: 443, uuid: "8786227e-a576-11ed-a867-8384f36aa730", alterId: 0, cipher: "auto", network: "ws", tls: true, skip-cert-verify: true, ws-opts: {path: "/vmess", headers: {host: "www.bing.com"}}}
-  - {name: "akunssh🇩🇪 02-13 (253)", type: "vmess", server: "168.119.174.242", port: 443, uuid: "877469da-a576-11ed-8271-5fbbaa3ad1dd", alterId: 0, cipher: "auto", network: "ws", tls: true, skip-cert-verify: true, ws-opts: {path: "/vmess", headers: {host: "www.bing.com"}}}
-  - {name: "akunssh🇮🇩 02-13 (254)", type: "vmess", server: "103.227.255.25", port: 443, uuid: "879fb860-a576-11ed-8f97-77047d36321b", alterId: 0, cipher: "auto", network: "ws", tls: true, skip-cert-verify: true, ws-opts: {path: "/vmess", headers: {host: "www.bing.com"}}}
-  - {name: "akunssh🇩🇪 02-13 (255)", type: "vmess", server: "168.119.174.242", port: 443, uuid: "877469da-a576-11ed-8271-5fbbaa3ad1dd", alterId: 0, cipher: "auto", network: "ws", tls: true, skip-cert-verify: true, ws-opts: {path: "/vmess", headers: {host: "www.bing.com"}}}
-  - {name: "akunssh🇩🇪 02-13 (256)", type: "vmess", server: "168.119.174.242", port: 443, uuid: "877469da-a576-11ed-8271-5fbbaa3ad1dd", alterId: 0, cipher: "auto", network: "ws", tls: true, skip-cert-verify: true, ws-opts: {path: "/vmess", headers: {host: "www.bing.com"}}}
-  - {name: "akunssh🇩🇪 02-13 (257)", type: "vmess", server: "168.119.174.242", port: 443, uuid: "877469da-a576-11ed-8271-5fbbaa3ad1dd", alterId: 0, cipher: "auto", network: "ws", tls: true, skip-cert-verify: true, ws-opts: {path: "/vmess", headers: {host: "www.bing.com"}}}
-  - {name: "akunssh🇸🇬 02-13 (258)", type: "vmess", server: "51.79.223.202", port: 443, uuid: "87e735e6-a576-11ed-b36b-8b897f84732c", alterId: 0, cipher: "auto", network: "ws", tls: true, skip-cert-verify: true, ws-opts: {path: "/vmess", headers: {host: "www.bing.com"}}}
-  - {name: "mainssh🇨🇦 02-13 (259)", type: "vmess", server: "51.222.156.142", port: 443, uuid: "e3e1b16c-19c7-4d17-b49f-8b8bd642347d", alterId: 0, cipher: "auto", network: "ws", tls: true, skip-cert-verify: true, ws-opts: {path: "/vmess", headers: {host: "www.bing.com"}}}
-  - {name: "mainssh🇬🇧 02-13 (260)", type: "vmess", server: "51.89.139.59", port: 443, uuid: "cc6ae524-f013-492d-98d7-55beb72a8e87", alterId: 0, cipher: "auto", network: "ws", tls: true, skip-cert-verify: true, ws-opts: {path: "/vmess", headers: {host: "www.bing.com"}}}
-  - {name: "mainssh🇬🇧 02-13 (261)", type: "vmess", server: "51.89.139.59", port: 443, uuid: "2b3fb753-7dd5-4338-8de3-611ae68ee986", alterId: 0, cipher: "auto", network: "ws", tls: true, skip-cert-verify: true, ws-opts: {path: "/vmess", headers: {host: "www.bing.com"}}}
-  - {name: "mainssh🇬🇧 02-13 (262)", type: "vmess", server: "51.89.139.59", port: 443, uuid: "5ae1586f-8c27-4088-aab5-153f39e567d1", alterId: 0, cipher: "auto", network: "ws", tls: true, skip-cert-verify: true, ws-opts: {path: "/vmess", headers: {host: "www.bing.com"}}}
-  - {name: "mainssh🇨🇦 02-13 (263)", type: "vmess", server: "51.222.156.142", port: 443, uuid: "f78d1762-ff5a-425a-ad1f-ce2189ace10f", alterId: 0, cipher: "auto", network: "ws", tls: true, skip-cert-verify: true, ws-opts: {path: "/vmess", headers: {host: "www.bing.com"}}}
-  - {name: "mainssh🇩🇪 02-13 (264)", type: "vmess", server: "51.68.188.150", port: 443, uuid: "46558fa6-50cf-409e-819e-110e812e29d2", alterId: 0, cipher: "auto", network: "ws", tls: true, skip-cert-verify: true, ws-opts: {path: "/vmess", headers: {host: "www.bing.com"}}}
-  - {name: "mainssh🇩🇪 02-13 (265)", type: "vmess", server: "51.68.188.150", port: 443, uuid: "1324c0a0-a669-4e90-9f76-fc93b8004f78", alterId: 0, cipher: "auto", network: "ws", tls: true, skip-cert-verify: true, ws-opts: {path: "/vmess", headers: {host: "www.bing.com"}}}
-  - {name: "mainssh🇩🇪 02-13 (266)", type: "vmess", server: "51.68.188.150", port: 443, uuid: "12430786-18c7-4d2c-9ede-2c75d92c71ac", alterId: 0, cipher: "auto", network: "ws", tls: true, skip-cert-verify: true, ws-opts: {path: "/vmess", headers: {host: "www.bing.com"}}}
-  - {name: "mainssh🇩🇪 02-13 (267)", type: "vmess", server: "51.68.188.150", port: 443, uuid: "80e89769-21ec-43ed-9ffe-700d5819a1e7", alterId: 0, cipher: "auto", network: "ws", tls: true, skip-cert-verify: true, ws-opts: {path: "/vmess", headers: {host: "www.bing.com"}}}
-  - {name: "mainssh🇸🇬 02-13 (268)", type: "vmess", server: "103.83.159.248", port: 443, uuid: "ac7605d8-de98-4db3-9098-bbf2d954a1a0", alterId: 0, cipher: "auto", network: "ws", tls: true, skip-cert-verify: true, ws-opts: {path: "/vmess", headers: {host: "www.bing.com"}}}
-  - {name: "mainssh🇫🇷 02-13 (269)", type: "vmess", server: "51.77.200.137", port: 443, uuid: "914d7205-8577-4061-a84f-97da043933f3", alterId: 0, cipher: "auto", network: "ws", tls: true, skip-cert-verify: true, ws-opts: {path: "/vmess", headers: {host: "www.bing.com"}}}
-  - {name: "mainssh🇫🇷 02-13 (270)", type: "vmess", server: "51.77.200.137", port: 443, uuid: "e6542c1e-1f9d-40be-9c15-e2701762fc61", alterId: 0, cipher: "auto", network: "ws", tls: true, skip-cert-verify: true, ws-opts: {path: "/vmess", headers: {host: "www.bing.com"}}}
-  
-  - {name: "opentunnel🇺🇸us 02-17 (301)", type: "vmess", server: "51.81.220.224", port: 443, uuid: "a40d34c6-b77c-4648-9210-3e8d2f4226b5", alterId: 16, cipher: "auto", network: "ws", tls: true, skip-cert-verify: true, ws-opts: {path: "/opentunnel?user=opentunnel.net-nfdlkafsdjfo", headers: {host: "sni.cloudflare.com"}}}
-  - {name: "akunssh🇩🇪de 02-17 (302)", type: "vmess", server: "168.119.174.242", port: 80, uuid: "315b892a-a89b-11ed-9450-d71ef0e0e77b", alterId: 0, cipher: "auto", network: "ws", ws-opts: {path: "/vmess", headers: {host: "sni.cloudflare.com"}}}
-  - {name: "akunssh🇨🇦ca 02-17 (303)", type: "vmess", server: "158.69.1.79", port: 80, uuid: "31432bb4-a89b-11ed-8e49-1bd6b4226fc8", alterId: 0, cipher: "auto", network: "ws", ws-opts: {path: "/vmess", headers: {host: "sni.cloudflare.com"}}}
-  - {name: "akunssh🇩🇪de 02-17 (304)", type: "vmess", server: "168.119.174.242", port: 80, uuid: "315b892a-a89b-11ed-9450-d71ef0e0e77b", alterId: 0, cipher: "auto", network: "ws", ws-opts: {path: "/vmess", headers: {host: "sni.cloudflare.com"}}}
-  - {name: "akunssh🇮🇩id 02-17 (305)", type: "vmess", server: "103.227.255.25", port: 80, uuid: "31227ac2-a89b-11ed-991e-ff96dd48dbc5", alterId: 0, cipher: "auto", network: "ws", ws-opts: {path: "/vmess", headers: {host: "sni.cloudflare.com"}}}
-  - {name: "akunssh🇸🇬sg 02-17 (306)", type: "vmess", server: "51.79.223.202", port: 80, uuid: "317c4570-a89b-11ed-81b3-5bbc375476e8", alterId: 0, cipher: "auto", network: "ws", ws-opts: {path: "/vmess", headers: {host: "sni.cloudflare.com"}}}
-  - {name: "mainssh🇸🇬sg 02-17 (307)", type: "vmess", server: "103.83.159.164", port: 443, uuid: "a20fdb4f-8c45-41b3-80ae-270319758e74", alterId: 0, cipher: "auto", network: "ws", tls: true, skip-cert-verify: true, ws-opts: {path: "/vmess", headers: {host: "sni.cloudflare.com"}}}
-  - {name: "mainssh🇫🇷fr 02-17 (308)", type: "vmess", server: "51.77.200.137", port: 443, uuid: "11450f6e-a7ee-47a9-92d0-924bed11754b", alterId: 0, cipher: "auto", network: "ws", tls: true, skip-cert-verify: true, ws-opts: {path: "/vmess", headers: {host: "sni.cloudflare.com"}}}
-  - {name: "mainssh🇫🇷fr 02-17 (309)", type: "vmess", server: "51.77.200.137", port: 443, uuid: "4875f418-38b6-4c02-b00b-85d75f489fe6", alterId: 0, cipher: "auto", network: "ws", tls: true, skip-cert-verify: true, ws-opts: {path: "/vmess", headers: {host: "sni.cloudflare.com"}}}
-  - {name: "mainssh🇨🇦ca 02-17 (310)", type: "vmess", server: "51.222.156.142", port: 443, uuid: "df5a9e16-4285-483d-ae1e-a7b921165d94", alterId: 0, cipher: "auto", network: "ws", tls: true, skip-cert-verify: true, ws-opts: {path: "/vmess", headers: {host: "sni.cloudflare.com"}}}
-  - {name: "mainssh🇬🇧uk 02-17 (311)", type: "vmess", server: "51.89.139.59", port: 443, uuid: "6a04de75-8bfe-4790-aae3-bb9d0ab22e9a", alterId: 0, cipher: "auto", network: "ws", tls: true, skip-cert-verify: true, ws-opts: {path: "/vmess", headers: {host: "sni.cloudflare.com"}}}
-  - {name: "mainssh🇬🇧uk 02-17 (312)", type: "vmess", server: "51.89.139.59", port: 443, uuid: "903d2678-4c47-4f64-aa67-648ecbc2d47b", alterId: 0, cipher: "auto", network: "ws", tls: true, skip-cert-verify: true, ws-opts: {path: "/vmess", headers: {host: "sni.cloudflare.com"}}}
-  - {name: "mainssh🇨🇦ca 02-17 (313)", type: "vmess", server: "51.222.156.142", port: 443, uuid: "b6da7077-2fd2-4b39-b7d5-ba417abd2f3e", alterId: 0, cipher: "auto", network: "ws", tls: true, skip-cert-verify: true, ws-opts: {path: "/vmess", headers: {host: "sni.cloudflare.com"}}}
-  - {name: "mainssh🇬🇧uk 02-17 (314)", type: "vmess", server: "51.89.139.59", port: 443, uuid: "f2c55779-4522-4e56-aef5-dba2553596e4", alterId: 0, cipher: "auto", network: "ws", tls: true, skip-cert-verify: true, ws-opts: {path: "/vmess", headers: {host: "sni.cloudflare.com"}}}
-  - {name: "mainssh🇩🇪de 02-17 (315)", type: "vmess", server: "51.68.188.150", port: 443, uuid: "6c62419f-3938-4637-954b-5e7f42fb5311", alterId: 0, cipher: "auto", network: "ws", tls: true, skip-cert-verify: true, ws-opts: {path: "/vmess", headers: {host: "www.google.com"}}}
-  - {name: "mainssh🇩🇪de 02-17 (316)", type: "vmess", server: "51.68.188.150", port: 443, uuid: "83baea90-75c6-4fa6-9e35-86c193a578ac", alterId: 0, cipher: "auto", network: "ws", tls: true, skip-cert-verify: true, ws-opts: {path: "/vmess", headers: {host: "www.google.com"}}}
-  
+proxies:
   - {name: "FreeNode🇺🇸Atalanta (11)", type: "vmess", server: "45.85.118.241", port: 443, uuid: "59088BE1-AB52-99BA-4BE1-2B68AFECDF22", alterId: 0, cipher: "auto", network: "ws", tls: true, ws-opts: {path: "/speedtest/Atlanta.v2ray.online", headers: {host: "cloudflare.dokov38577.workers.dev"}}}
   - {name: "FreeNode🇺🇸Phoenix (12)", type: "vmess", server: "45.85.118.241", port: 443, uuid: "59088BE1-AB52-99BA-4BE1-2B68AFECDF22", alterId: 0, cipher: "auto", network: "ws", tls: true, ws-opts: {path: "/speedtest/Phoenix.v2ray.online", headers: {host: "cloudflare.dokov38577.workers.dev"}}}
   - {name: "FreeNode🇺🇸Kansas (13)", type: "vmess", server: "45.85.118.241", port: 443, uuid: "59088BE1-AB52-99BA-4BE1-2B68AFECDF22", alterId: 0, cipher: "auto", network: "ws", tls: true, ws-opts: {path: "/speedtest/Kansas.v2ray.online", headers: {host: "cloudflare.dokov38577.workers.dev"}}}
@@ -190,20 +152,6 @@ proxies:
   - {name: "FreeNode🇩🇪Dusseldorf (39)", type: "vmess", server: "45.131.208.227", port: 443, uuid: "11A9BBCA-CCF2-4C84-9AE4-6E2CA1E66D2A", alterId: 0, cipher: "auto", network: "ws", tls: true, ws-opts: {path: "/speedtest/Dusseldorf.v2ray.online", headers: {host: "worker3.nofam71373.workers.dev"}}}
   - {name: "FreeNode🇱🇻Riga (37)", type: "vmess", server: "45.131.208.227", port: 443, uuid: "11A9BBCA-CCF2-4C84-9AE4-6E2CA1E66D2A", alterId: 0, cipher: "auto", network: "ws", tls: true, ws-opts: {path: "/speedtest/Riga.v2ray.online", headers: {host: "worker3.nofam71373.workers.dev"}}}
 
-  - {name: "jagoanssh🇫🇷fr 02-18 (351)", type: "vmess", server: "51.68.225.119", port: 443, uuid: "06a6d436-e4db-4431-9bc2-ad4aad96bb64", alterId: 0, cipher: "auto", network: "ws", servername: "www.namava.ir", tls: true, skip-cert-verify: true, ws-opts: {path: "/JAGOANSSH/"}}
-  - {name: "jagoanssh🇫🇷fr 02-18 (352)", type: "vmess", server: "51.68.225.119", port: 443, uuid: "a6ca6086-9030-467c-a95a-e2107ed80c26", alterId: 0, cipher: "auto", network: "ws", tls: true, skip-cert-verify: true, ws-opts: {path: "/JAGOANSSH/"}}
-  - {name: "jagoanssh🇫🇷fr 02-18 (353)", type: "vmess", server: "51.68.225.119", port: 443, uuid: "16fca6d3-1789-4c3c-ae75-195408ddf941", alterId: 0, cipher: "auto", network: "ws", tls: true, skip-cert-verify: true, ws-opts: {path: "/JAGOANSSH/"}}
-  - {name: "jagoanssh🇩🇪de 02-18 (354)", type: "vmess", server: "162.19.226.84", port: 443, uuid: "61b3f0f1-2de2-4325-84e1-9739c6955520", alterId: 0, cipher: "auto", network: "ws", tls: true, skip-cert-verify: true, ws-opts: {path: "/JAGOANSSH/"}}
-  - {name: "jagoanssh🇩🇪de 02-18 (355)", type: "vmess", server: "162.19.226.84", port: 443, uuid: "d6641c6f-94c0-4b2f-9632-9d4ffd3485f9", alterId: 0, cipher: "auto", network: "ws", tls: true, skip-cert-verify: true, ws-opts: {path: "/JAGOANSSH/"}}
-  - {name: "jagoanssh🇩🇪de 02-18 (356)", type: "vmess", server: "162.19.226.84", port: 443, uuid: "1f72a56c-215d-49fa-8f50-ff9e0ad7a506", alterId: 0, cipher: "auto", network: "ws", tls: true, skip-cert-verify: true, ws-opts: {path: "/JAGOANSSH/"}}
-  - {name: "jagoanssh🇩🇪de 02-18 (357)", type: "vmess", server: "162.19.226.84", port: 443, uuid: "7b3b456d-b786-4bba-9f66-15f446843d0a", alterId: 0, cipher: "auto", network: "ws", tls: true, skip-cert-verify: true, ws-opts: {path: "/JAGOANSSH/"}}
-  - {name: "jagoanssh🇩🇪de 02-18 (358)", type: "vmess", server: "162.19.226.84", port: 443, uuid: "c1d50858-ffb9-4ae9-81f3-03452f62c3dd", alterId: 0, cipher: "auto", network: "ws", tls: true, skip-cert-verify: true, ws-opts: {path: "/JAGOANSSH/"}}
-  - {name: "jagoanssh🇺🇸us 02-18 (359)", type: "vmess", server: "199.195.250.59", port: 443, uuid: "a6aa2800-c94a-4810-aa2f-2538d9c7e8a6", alterId: 0, cipher: "auto", network: "ws", tls: true, skip-cert-verify: true, ws-opts: {path: "/JAGOANSSH/"}}
-  - {name: "jagoanssh🇮🇩id 02-18 (360)", type: "vmess", server: "43.230.131.20", port: 443, uuid: "c549b306-3c32-4c44-8833-c6fad426c54d", alterId: 0, cipher: "auto", network: "ws", tls: true, skip-cert-verify: true, ws-opts: {path: "/JAGOANSSH/"}}
-  - {name: "jagoanssh🇨🇦ca 02-18 (361)", type: "vmess", server: "51.79.86.85", port: 443, uuid: "1bdfcc2a-3552-4771-bd66-e463686971df", alterId: 0, cipher: "auto", network: "ws", tls: true, skip-cert-verify: true, ws-opts: {path: "/JAGOANSSH/"}}
-  - {name: "jagoanssh🇦🇺au 02-18 (362)", type: "vmess", server: "51.161.130.141", port: 443, uuid: "3919670f-8102-4552-884c-977efcb444a6", alterId: 0, cipher: "auto", network: "ws", tls: true, skip-cert-verify: true, ws-opts: {path: "/JAGOANSSH/"}}
-  - {name: "jagoanssh🇨🇦ca 02-18 (363)", type: "vmess", server: "51.79.86.85", port: 443, uuid: "f12a1c3e-66bb-43c7-a7d9-9426507246fc", alterId: 0, cipher: "auto", network: "ws", tls: true, skip-cert-verify: true, ws-opts: {path: "/JAGOANSSH/"}}
-
   - {name: "sshstores🇫🇷fr 02-23 (401)", type: "vmess", server: "51.38.191.123", port: 443, uuid: "3d5a3130-f33c-4b32-ae3f-8b47e4ece960", alterId: 0, cipher: "auto", network: "ws", servername: "sni.cloudflare.com", tls: true, skip-cert-verify: true, ws-opts: {path: "/vmess", headers: {host: "sni.cloudflare.com"}}}
   - {name: "sshstores🇫🇷fr 02-23 (402)", type: "vmess", server: "51.38.186.32", port: 443, uuid: "d030a09e-ebaf-4a7c-92fc-265dea6fc0e8", alterId: 0, cipher: "auto", network: "ws", servername: "sni.cloudflare.com", tls: true, skip-cert-verify: true, ws-opts: {path: "/vmess", headers: {host: "sni.cloudflare.com"}}}
   - {name: "sshstores🇬🇧uk 02-23 (403)", type: "vmess", server: "51.195.139.29", port: 443, uuid: "7fd79440-486a-4f8b-a45f-cf9af6fe144c", alterId: 0, cipher: "auto", network: "ws", servername: "sni.cloudflare.com", tls: true, skip-cert-verify: true, ws-opts: {path: "/vmess", headers: {host: "sni.cloudflare.com"}}}
@@ -215,41 +163,24 @@ proxies:
   - {name: "sshstores🇯🇵jp 02-23 (409)", type: "vmess", server: "172.104.103.93", port: 443, uuid: "432dc1b8-1c08-42a0-a0dd-1eb3f6380f03", alterId: 0, cipher: "auto", network: "ws", servername: "sni.cloudflare.com", tls: true, skip-cert-verify: true, ws-opts: {path: "/vmess", headers: {host: "sni.cloudflare.com"}}}
   - {name: "sshstores🇺🇸us 02-23 (410)", type: "vmess", server: "185.140.211.122", port: 443, uuid: "c1023cb8-a117-4d7f-963f-45997467bf25", alterId: 0, cipher: "auto", network: "ws", servername: "sni.cloudflare.com", tls: true, skip-cert-verify: true, ws-opts: {path: "/vmess", headers: {host: "sni.cloudflare.com"}}}
   - {name: "sshstores🇺🇸us 02-23 (411)", type: "vmess", server: "147.135.112.248", port: 443, uuid: "151a905e-29d0-4eb3-b8b8-06f69d2a71ba", alterId: 0, cipher: "auto", network: "ws", servername: "sni.cloudflare.com", tls: true, skip-cert-verify: true, ws-opts: {path: "/vmess", headers: {host: "sni.cloudflare.com"}}}
+  
+  - {name: "akunssh🇨🇦ca 02-26 (523)", type: "vmess", server: "51.79.49.161", port: 443, uuid: "aec0d2d0-afad-11ed-b819-4f12c1dc2fb1", alterId: 0, cipher: "auto", network: "ws", servername: "sni.cloudflare.com", tls: true, skip-cert-verify: true, ws-opts: {path: "/vmess"}}
+  - {name: "akunssh🇨🇦ca 02-26 (524)", type: "vmess", server: "51.79.49.161", port: 443, uuid: "aec0d2d0-afad-11ed-b819-4f12c1dc2fb1", alterId: 0, cipher: "auto", network: "ws", servername: "sni.cloudflare.com", tls: true, skip-cert-verify: true, ws-opts: {path: "/vmess"}}
+  - {name: "akunssh🇩🇪de 02-26 (525)", type: "vmess", server: "168.119.174.242", port: 443, uuid: "aeb2c082-afad-11ed-87df-47076335c7a9", alterId: 0, cipher: "auto", network: "ws", servername: "sni.cloudflare.com", tls: true, skip-cert-verify: true, ws-opts: {path: "/vmess"}}
+  - {name: "akunssh🇩🇪de 02-26 (526)", type: "vmess", server: "168.119.174.242", port: 443, uuid: "aeb2c082-afad-11ed-87df-47076335c7a9", alterId: 0, cipher: "auto", network: "ws", servername: "sni.cloudflare.com", tls: true, skip-cert-verify: true, ws-opts: {path: "/vmess"}}
+  - {name: "akunssh🇩🇪de 02-26 (527)", type: "vmess", server: "168.119.174.242", port: 443, uuid: "aeb2c082-afad-11ed-87df-47076335c7a9", alterId: 0, cipher: "auto", network: "ws", servername: "sni.cloudflare.com", tls: true, skip-cert-verify: true, ws-opts: {path: "/vmess"}}
+  - {name: "akunssh🇩🇪de 02-26 (528)", type: "vmess", server: "168.119.174.242", port: 443, uuid: "aeb2c082-afad-11ed-87df-47076335c7a9", alterId: 0, cipher: "auto", network: "ws", servername: "sni.cloudflare.com", tls: true, skip-cert-verify: true, ws-opts: {path: "/vmess"}}
+  - {name: "akunssh🇮🇩id 02-26 (529)", type: "vmess", server: "103.227.255.25", port: 443, uuid: "af02acd2-afad-11ed-9a3c-3702ce9d44a5", alterId: 0, cipher: "auto", network: "ws", servername: "sni.cloudflare.com", tls: true, skip-cert-verify: true, ws-opts: {path: "/vmess"}}
+  - {name: "akunssh🇮🇩id 02-26 (530)", type: "vmess", server: "103.227.255.25", port: 443, uuid: "af02acd2-afad-11ed-9a3c-3702ce9d44a5", alterId: 0, cipher: "auto", network: "ws", servername: "sni.cloudflare.com", tls: true, skip-cert-verify: true, ws-opts: {path: "/vmess"}}
+  - {name: "akunssh🇸🇬sg 02-26 (531)", type: "vmess", server: "103.83.159.110", port: 443, uuid: "aef32ad2-afad-11ed-aff7-77e9c024c5ef", alterId: 0, cipher: "auto", network: "ws", servername: "sni.cloudflare.com", tls: true, skip-cert-verify: true, ws-opts: {path: "/vmess"}}
+  - {name: "akunssh🇸🇬sg 02-26 (532)", type: "vmess", server: "103.83.159.110", port: 443, uuid: "aef32ad2-afad-11ed-aff7-77e9c024c5ef", alterId: 0, cipher: "auto", network: "ws", servername: "sni.cloudflare.com", tls: true, skip-cert-verify: true, ws-opts: {path: "/vmess"}}
+  - {name: "akunssh🇩🇪de 02-26 (533)", type: "vmess", server: "168.119.174.242", port: 443, uuid: "aeb2c082-afad-11ed-87df-47076335c7a9", alterId: 0, cipher: "auto", network: "ws", servername: "sni.cloudflare.com", tls: true, skip-cert-verify: true, ws-opts: {path: "/vmess"}}
 
 proxy-groups:
   - name: Select
     type: select
     # disable-udp: true
     proxies:
-      - akunssh🇩🇪de 02-17 (302)
-      - akunssh🇨🇦ca 02-17 (303)
-      - akunssh🇩🇪de 02-17 (304)
-      - akunssh🇮🇩id 02-17 (305)
-      - akunssh🇸🇬sg 02-17 (306)
-      - mainssh🇸🇬sg 02-17 (307)
-      - mainssh🇫🇷fr 02-17 (308)
-      - mainssh🇫🇷fr 02-17 (309)
-      - mainssh🇨🇦ca 02-17 (310)
-      - mainssh🇬🇧uk 02-17 (311)
-      - mainssh🇬🇧uk 02-17 (312)
-      - mainssh🇨🇦ca 02-17 (313)
-      - mainssh🇬🇧uk 02-17 (314)
-      - mainssh🇩🇪de 02-17 (315)
-      - mainssh🇩🇪de 02-17 (316)
-      - opentunnel🇺🇸us 02-17 (301)
-      - jagoanssh🇫🇷fr 02-18 (351)
-      - jagoanssh🇫🇷fr 02-18 (352)
-      - jagoanssh🇫🇷fr 02-18 (353)
-      - jagoanssh🇩🇪de 02-18 (354)
-      - jagoanssh🇩🇪de 02-18 (355)
-      - jagoanssh🇩🇪de 02-18 (356)
-      - jagoanssh🇩🇪de 02-18 (357)
-      - jagoanssh🇩🇪de 02-18 (358)
-      - jagoanssh🇺🇸us 02-18 (359)
-      - jagoanssh🇮🇩id 02-18 (360)
-      - jagoanssh🇨🇦ca 02-18 (361)
-      - jagoanssh🇦🇺au 02-18 (362)
-      - jagoanssh🇨🇦ca 02-18 (363)
       - FreeNode🇺🇸Atalanta (11)
       - FreeNode🇺🇸Phoenix (12)
       - FreeNode🇺🇸Kansas (13)
@@ -288,6 +219,17 @@ proxy-groups:
       - sshstores🇯🇵jp 02-23 (409)
       - sshstores🇺🇸us 02-23 (410)
       - sshstores🇺🇸us 02-23 (411)
+      - akunssh🇨🇦ca 02-26 (523)
+      - akunssh🇨🇦ca 02-26 (524)
+      - akunssh🇩🇪de 02-26 (525)
+      - akunssh🇩🇪de 02-26 (526)
+      - akunssh🇩🇪de 02-26 (527)
+      - akunssh🇩🇪de 02-26 (528)
+      - akunssh🇮🇩id 02-26 (529)
+      - akunssh🇮🇩id 02-26 (530)
+      - akunssh🇸🇬sg 02-26 (531)
+      - akunssh🇸🇬sg 02-26 (532)
+      - akunssh🇩🇪de 02-26 (533)
       - ⚡️Auto⚡️
 
   - name: ⚡️Auto⚡️
@@ -295,34 +237,6 @@ proxy-groups:
     url: http://www.gstatic.com/generate_204
     interval: 300
     proxies:
-      - akunssh🇩🇪de 02-17 (302)
-      - akunssh🇨🇦ca 02-17 (303)
-      - akunssh🇩🇪de 02-17 (304)
-      - akunssh🇮🇩id 02-17 (305)
-      - akunssh🇸🇬sg 02-17 (306)
-      - mainssh🇸🇬sg 02-17 (307)
-      - mainssh🇫🇷fr 02-17 (308)
-      - mainssh🇫🇷fr 02-17 (309)
-      - mainssh🇨🇦ca 02-17 (310)
-      - mainssh🇬🇧uk 02-17 (311)
-      - mainssh🇬🇧uk 02-17 (312)
-      - mainssh🇨🇦ca 02-17 (313)
-      - mainssh🇬🇧uk 02-17 (314)
-      - mainssh🇩🇪de 02-17 (315)
-      - mainssh🇩🇪de 02-17 (316)
-      - jagoanssh🇫🇷fr 02-18 (351)
-      - jagoanssh🇫🇷fr 02-18 (352)
-      - jagoanssh🇫🇷fr 02-18 (353)
-      - jagoanssh🇩🇪de 02-18 (354)
-      - jagoanssh🇩🇪de 02-18 (355)
-      - jagoanssh🇩🇪de 02-18 (356)
-      - jagoanssh🇩🇪de 02-18 (357)
-      - jagoanssh🇩🇪de 02-18 (358)
-      - jagoanssh🇺🇸us 02-18 (359)
-      - jagoanssh🇮🇩id 02-18 (360)
-      - jagoanssh🇨🇦ca 02-18 (361)
-      - jagoanssh🇦🇺au 02-18 (362)
-      - jagoanssh🇨🇦ca 02-18 (363)
       - FreeNode🇺🇸Atalanta (11)
       - FreeNode🇺🇸Phoenix (12)
       - FreeNode🇺🇸Kansas (13)
@@ -350,7 +264,6 @@ proxy-groups:
       - FreeNode🇺🇸Atalanta (31)
       - FreeNode🇩🇪Dusseldorf (39)
       - FreeNode🇱🇻Riga (37)
-      - opentunnel🇺🇸us 02-17 (301)
       - sshstores🇫🇷fr 02-23 (401)
       - sshstores🇫🇷fr 02-23 (402)
       - sshstores🇬🇧uk 02-23 (403)
@@ -362,6 +275,17 @@ proxy-groups:
       - sshstores🇯🇵jp 02-23 (409)
       - sshstores🇺🇸us 02-23 (410)
       - sshstores🇺🇸us 02-23 (411)
+      - akunssh🇨🇦ca 02-26 (523)
+      - akunssh🇨🇦ca 02-26 (524)
+      - akunssh🇩🇪de 02-26 (525)
+      - akunssh🇩🇪de 02-26 (526)
+      - akunssh🇩🇪de 02-26 (527)
+      - akunssh🇩🇪de 02-26 (528)
+      - akunssh🇮🇩id 02-26 (529)
+      - akunssh🇮🇩id 02-26 (530)
+      - akunssh🇸🇬sg 02-26 (531)
+      - akunssh🇸🇬sg 02-26 (532)
+      - akunssh🇩🇪de 02-26 (533)
 
   - name: Ad-Block
     type: select
