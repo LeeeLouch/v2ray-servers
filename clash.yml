@@ -322,15 +322,8 @@ rule-providers:
     url: https://raw.githubusercontent.com/Loyalsoldier/clash-rules/release/reject.txt
     interval: 259200
 
-  ir:
-    type: http
-    behavior: domain
-    path: ./customRules/irLinks.yaml
-    url: https://raw.githubusercontent.com/LeeeLouch/v2ray-servers/master/rules/ir.yaml
-    interval: 259200
-
 rules:
   - RULE-SET,ad,Ad-Block
-  - RULE-SET,ir,Bypass-IR
+  - DOMAIN-SUFFIX,ir,Bypass-IR
   - GEOIP,IR,Bypass-IR
   - MATCH,Select
