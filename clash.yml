@@ -5,7 +5,7 @@ ipv6: false
 dns:
   enable: true
   ipv6: false
-  enhanced-mode: fake-ip
+  # enhanced-mode: fake-ip
   fallback-filter:
     geoip: true
     geoip-code: IR
@@ -317,9 +317,9 @@ proxy-groups:
 rule-providers:
   ad:
     type: http
-    behavior: classical
+    behavior: domain
     path: ./customRules/rejectLinks.yaml
-    url: https://raw.githubusercontent.com/LeeeLouch/v2ray-servers/master/rules/reject.yaml
+    url: https://raw.githubusercontent.com/Loyalsoldier/clash-rules/release/reject.txt
     interval: 259200
 
   ir:
