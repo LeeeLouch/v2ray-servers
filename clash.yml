@@ -5,7 +5,7 @@ ipv6: false
 dns:
   enable: true
   ipv6: false
-  # enhanced-mode: fake-ip
+  enhanced-mode: fake-ip
   fallback-filter:
     geoip: true
     geoip-code: IR
