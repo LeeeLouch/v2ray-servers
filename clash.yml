@@ -5,8 +5,7 @@ ipv6: false
 dns:
   enable: true
   ipv6: false
-  listen: localhost:7874
-  enhanced-mode: fake-ip
+  listen: localhost:7874198.18.0.21-ip
   fallback-filter:
     geoip: true
     geoip-code: IR
@@ -125,33 +124,42 @@ dns:
 ###flags###
 # de 🇩🇪 - id 🇮🇩 - ca 🇨🇦 - hk 🇭🇰 - my 🇲🇾 - jp 🇯🇵 - uk 🇬🇧 - ua 🇺🇦 - se 🇸🇪 - sp 🇪🇸 - us 🇺🇸 - za 🇿🇦 - sg 🇸🇬 - pl 🇵🇱 - fr 🇫🇷 - kr 🇰🇷 - nl 🇳🇱 - au 🇦🇺 - ae 🇦🇪 - th 🇹🇭 - vn 🇻🇳
 proxies:
-  - {name: "FreeNode🇺🇸Atalanta (11)", type: "vmess", server: "45.85.118.241", port: 443, uuid: "59088BE1-AB52-99BA-4BE1-2B68AFECDF22", alterId: 0, cipher: "auto", network: "ws", tls: true, ws-opts: {path: "/speedtest/Atlanta.v2ray.online", headers: {host: "cloudflare.dokov38577.workers.dev"}}}
-  - {name: "FreeNode🇺🇸Phoenix (12)", type: "vmess", server: "45.85.118.241", port: 443, uuid: "59088BE1-AB52-99BA-4BE1-2B68AFECDF22", alterId: 0, cipher: "auto", network: "ws", tls: true, ws-opts: {path: "/speedtest/Phoenix.v2ray.online", headers: {host: "cloudflare.dokov38577.workers.dev"}}}
-  - {name: "FreeNode🇺🇸Kansas (13)", type: "vmess", server: "45.85.118.241", port: 443, uuid: "59088BE1-AB52-99BA-4BE1-2B68AFECDF22", alterId: 0, cipher: "auto", network: "ws", tls: true, ws-opts: {path: "/speedtest/Kansas.v2ray.online", headers: {host: "cloudflare.dokov38577.workers.dev"}}}
-  - {name: "FreeNode🇫🇷Paris (15)", type: "vmess", server: "45.85.118.241", port: 443, uuid: "59088BE1-AB52-99BA-4BE1-2B68AFECDF22", alterId: 0, cipher: "auto", network: "ws", tls: true, ws-opts: {path: "/speedtest/Paris.v2ray.online", headers: {host: "cloudflare.dokov38577.workers.dev"}}}
-  - {name: "FreeNode🇱🇻Riga (17)", type: "vmess", server: "45.85.118.241", port: 443, uuid: "59088BE1-AB52-99BA-4BE1-2B68AFECDF22", alterId: 0, cipher: "auto", network: "ws", tls: true, ws-opts: {path: "/speedtest/Riga.v2ray.online", headers: {host: "cloudflare.dokov38577.workers.dev"}}}
-  - {name: "FreeNode🇳🇱Amsterdam (16)", type: "vmess", server: "45.85.118.241", port: 443, uuid: "59088BE1-AB52-99BA-4BE1-2B68AFECDF22", alterId: 0, cipher: "auto", network: "ws", tls: true, ws-opts: {path: "/speedtest/Amsterdam.v2ray.online", headers: {host: "cloudflare.dokov38577.workers.dev"}}}
-  - {name: "FreeNode🇺🇸Seattle (14)", type: "vmess", server: "45.85.118.241", port: 443, uuid: "59088BE1-AB52-99BA-4BE1-2B68AFECDF22", alterId: 0, cipher: "auto", network: "ws", tls: true, ws-opts: {path: "/speedtest/Seattle.v2ray.online", headers: {host: "cloudflare.dokov38577.workers.dev"}}}
-  - {name: "FreeNode🇯🇵Tokyo (18)", type: "vmess", server: "45.85.118.241", port: 443, uuid: "59088BE1-AB52-99BA-4BE1-2B68AFECDF22", alterId: 0, cipher: "auto", network: "ws", tls: true, ws-opts: {path: "/speedtest/Tokyo.v2ray.online", headers: {host: "cloudflare.dokov38577.workers.dev"}}}
-  - {name: "FreeNode🇩🇪Dusseldorf (19)", type: "vmess", server: "45.85.118.241", port: 443, uuid: "59088BE1-AB52-99BA-4BE1-2B68AFECDF22", alterId: 0, cipher: "auto", network: "ws", tls: true, ws-opts: {path: "/speedtest/Dusseldorf.v2ray.online", headers: {host: "cloudflare.dokov38577.workers.dev"}}}
-  - {name: "FreeNode🇺🇸Atalanta (21)", type: "vmess", server: "45.131.208.227", port: 443, uuid: "5642E751-6AC6-45FD-8809-FD3FA7B8A20F", alterId: 0, cipher: "auto", network: "ws", tls: true, ws-opts: {path: "/speedtest/Atlanta.v2ray.online", headers: {host: "worker2.casoget578.workers.dev"}}}
-  - {name: "FreeNode🇯🇵Tokyo (28)", type: "vmess", server: "45.131.208.227", port: 443, uuid: "5642E751-6AC6-45FD-8809-FD3FA7B8A20F", alterId: 0, cipher: "auto", network: "ws", tls: true, ws-opts: {path: "/speedtest/Tokyo.v2ray.online", headers: {host: "worker2.casoget578.workers.dev"}}}
-  - {name: "FreeNode🇺🇸Phoenix (22)", type: "vmess", server: "45.131.208.227", port: 443, uuid: "5642E751-6AC6-45FD-8809-FD3FA7B8A20F", alterId: 0, cipher: "auto", network: "ws", tls: true, ws-opts: {path: "/speedtest/Phoenix.v2ray.online", headers: {host: "worker2.casoget578.workers.dev"}}}
-  - {name: "FreeNode🇳🇱Amsterdam (26)", type: "vmess", server: "45.131.208.227", port: 443, uuid: "5642E751-6AC6-45FD-8809-FD3FA7B8A20F", alterId: 0, cipher: "auto", network: "ws", tls: true, ws-opts: {path: "/speedtest/Amsterdam.v2ray.online", headers: {host: "worker2.casoget578.workers.dev"}}}
-  - {name: "FreeNode🇺🇸Seattle (24)", type: "vmess", server: "45.131.208.227", port: 443, uuid: "5642E751-6AC6-45FD-8809-FD3FA7B8A20F", alterId: 0, cipher: "auto", network: "ws", tls: true, ws-opts: {path: "/speedtest/Seattle.v2ray.online", headers: {host: "worker2.casoget578.workers.dev"}}}
-  - {name: "FreeNode🇩🇪Dusseldorf (29)", type: "vmess", server: "45.131.208.227", port: 443, uuid: "5642E751-6AC6-45FD-8809-FD3FA7B8A20F", alterId: 0, cipher: "auto", network: "ws", tls: true, ws-opts: {path: "/speedtest/Dusseldorf.v2ray.online", headers: {host: "worker2.casoget578.workers.dev"}}}
-  - {name: "FreeNode🇺🇸Kansas (23)", type: "vmess", server: "45.131.208.227", port: 443, uuid: "5642E751-6AC6-45FD-8809-FD3FA7B8A20F", alterId: 0, cipher: "auto", network: "ws", tls: true, ws-opts: {path: "/speedtest/Kansas.v2ray.online", headers: {host: "worker2.casoget578.workers.dev"}}}
-  - {name: "FreeNode🇫🇷Paris (25)", type: "vmess", server: "45.131.208.227", port: 443, uuid: "5642E751-6AC6-45FD-8809-FD3FA7B8A20F", alterId: 0, cipher: "auto", network: "ws", tls: true, ws-opts: {path: "/speedtest/Paris.v2ray.online", headers: {host: "worker2.casoget578.workers.dev"}}}
-  - {name: "FreeNode🇱🇻Riga (27)", type: "vmess", server: "45.131.208.227", port: 443, uuid: "5642E751-6AC6-45FD-8809-FD3FA7B8A20F", alterId: 0, cipher: "auto", network: "ws", tls: true, ws-opts: {path: "/speedtest/Riga.v2ray.online", headers: {host: "worker2.casoget578.workers.dev"}}}
-  - {name: "FreeNode🇺🇸Seattle (34)", type: "vmess", server: "45.131.208.227", port: 443, uuid: "11A9BBCA-CCF2-4C84-9AE4-6E2CA1E66D2A", alterId: 0, cipher: "auto", network: "ws", tls: true, ws-opts: {path: "/speedtest/Seattle.v2ray.online", headers: {host: "worker3.nofam71373.workers.dev"}}}
-  - {name: "FreeNode🇫🇷Paris (35)", type: "vmess", server: "45.131.208.227", port: 443, uuid: "11A9BBCA-CCF2-4C84-9AE4-6E2CA1E66D2A", alterId: 0, cipher: "auto", network: "ws", tls: true, ws-opts: {path: "/speedtest/Paris.v2ray.online", headers: {host: "worker3.nofam71373.workers.dev"}}}
-  - {name: "FreeNode🇳🇱Amsterdam (36)", type: "vmess", server: "45.131.208.227", port: 443, uuid: "11A9BBCA-CCF2-4C84-9AE4-6E2CA1E66D2A", alterId: 0, cipher: "auto", network: "ws", tls: true, ws-opts: {path: "/speedtest/Amsterdam.v2ray.online", headers: {host: "worker3.nofam71373.workers.dev"}}}
-  - {name: "FreeNode🇺🇸Kansas (33)", type: "vmess", server: "45.131.208.227", port: 443, uuid: "11A9BBCA-CCF2-4C84-9AE4-6E2CA1E66D2A", alterId: 0, cipher: "auto", network: "ws", tls: true, ws-opts: {path: "/speedtest/Kansas.v2ray.online", headers: {host: "worker3.nofam71373.workers.dev"}}}
-  - {name: "FreeNode🇯🇵Tokyo (38)", type: "vmess", server: "45.131.208.227", port: 443, uuid: "11A9BBCA-CCF2-4C84-9AE4-6E2CA1E66D2A", alterId: 0, cipher: "auto", network: "ws", tls: true, ws-opts: {path: "/speedtest/Tokyo.v2ray.online", headers: {host: "worker3.nofam71373.workers.dev"}}}
-  - {name: "FreeNode🇺🇸Phoenix (32)", type: "vmess", server: "45.131.208.227", port: 443, uuid: "11A9BBCA-CCF2-4C84-9AE4-6E2CA1E66D2A", alterId: 0, cipher: "auto", network: "ws", tls: true, ws-opts: {path: "/speedtest/Phoenix.v2ray.online", headers: {host: "worker3.nofam71373.workers.dev"}}}
-  - {name: "FreeNode🇺🇸Atalanta (31)", type: "vmess", server: "45.131.208.227", port: 443, uuid: "11A9BBCA-CCF2-4C84-9AE4-6E2CA1E66D2A", alterId: 0, cipher: "auto", network: "ws", tls: true, ws-opts: {path: "/speedtest/Atlanta.v2ray.online", headers: {host: "worker3.nofam71373.workers.dev"}}}
-  - {name: "FreeNode🇩🇪Dusseldorf (39)", type: "vmess", server: "45.131.208.227", port: 443, uuid: "11A9BBCA-CCF2-4C84-9AE4-6E2CA1E66D2A", alterId: 0, cipher: "auto", network: "ws", tls: true, ws-opts: {path: "/speedtest/Dusseldorf.v2ray.online", headers: {host: "worker3.nofam71373.workers.dev"}}}
-  - {name: "FreeNode🇱🇻Riga (37)", type: "vmess", server: "45.131.208.227", port: 443, uuid: "11A9BBCA-CCF2-4C84-9AE4-6E2CA1E66D2A", alterId: 0, cipher: "auto", network: "ws", tls: true, ws-opts: {path: "/speedtest/Riga.v2ray.online", headers: {host: "worker3.nofam71373.workers.dev"}}}
+  - {name: "FreeNode🇺🇸Atlanta (11)", type: vmess, server: "v2ray.online", port: 443, uuid: "59088BE1-AB52-99BA-4BE1-2B68AFECDF22", alterId: 0, cipher: "auto", tls: true, servername: "Atlanta.v2ray.online", network: "ws", ws-opts: {path: "/speedtest", headers: {host: "Atlanta.v2ray.online"}}}
+  - {name: "FreeNode🇺🇸Phoenix (12)", type: vmess, server: "v2ray.online", port: 443, uuid: "59088BE1-AB52-99BA-4BE1-2B68AFECDF22", alterId: 0, cipher: "auto", tls: true, servername: "Phoenix.v2ray.online", network: "ws", ws-opts: {path: "/speedtest", headers: {host: "Phoenix.v2ray.online"}}}
+  - {name: "FreeNode🇺🇸Kansas (13)", type: vmess, server: "v2ray.online", port: 443, uuid: "59088BE1-AB52-99BA-4BE1-2B68AFECDF22", alterId: 0, cipher: "auto", tls: true, servername: "Kansas.v2ray.online", network: "ws", ws-opts: {path: "/speedtest", headers: {host: "Kansas.v2ray.online"}}}
+  - {name: "FreeNode🇫🇷Paris (15)", type: vmess, server: "v2ray.online", port: 443, uuid: "59088BE1-AB52-99BA-4BE1-2B68AFECDF22", alterId: 0, cipher: "auto", tls: true, servername: "Paris.v2ray.online", network: "ws", ws-opts: {path: "/speedtest", headers: {host: "Paris.v2ray.online"}}}
+  - {name: "FreeNode🇱🇻Riga (17)", type: vmess, server: "v2ray.online", port: 443, uuid: "59088BE1-AB52-99BA-4BE1-2B68AFECDF22", alterId: 0, cipher: "auto", tls: true, servername: "Riga.v2ray.online", network: "ws", ws-opts: {path: "/speedtest", headers: {host: "Riga.v2ray.online"}}}
+  - {name: "FreeNode🇳🇱Amsterdam (16)", type: vmess, server: "v2ray.online", port: 443, uuid: "59088BE1-AB52-99BA-4BE1-2B68AFECDF22", alterId: 0, cipher: "auto", tls: true, servername: "Amsterdam.v2ray.online", network: "ws", ws-opts: {path: "/speedtest", headers: {host: "Amsterdam.v2ray.online"}}}
+  - {name: "FreeNode🇺🇸Seattle (14)", type: vmess, server: "v2ray.online", port: 443, uuid: "59088BE1-AB52-99BA-4BE1-2B68AFECDF22", alterId: 0, cipher: "auto", tls: true, servername: "Seattle.v2ray.online", network: "ws", ws-opts: {path: "/speedtest", headers: {host: "Seattle.v2ray.online"}}}
+  - {name: "FreeNode🇯🇵Tokyo (18)", type: vmess, server: "v2ray.online", port: 443, uuid: "59088BE1-AB52-99BA-4BE1-2B68AFECDF22", alterId: 0, cipher: "auto", tls: true, servername: "Tokyo.v2ray.online", network: "ws", ws-opts: {path: "/speedtest", headers: {host: "Tokyo.v2ray.online"}}}
+  - {name: "FreeNode🇩🇪Dusseldorf (19)", type: vmess, server: "v2ray.online", port: 443, uuid: "59088BE1-AB52-99BA-4BE1-2B68AFECDF22", alterId: 0, cipher: "auto", tls: true, servername: "Dusseldorf.v2ray.online", network: "ws", ws-opts: {path: "/speedtest", headers: {host: "Dusseldorf.v2ray.online"}}}
+  - {name: "FreeNode🇺🇸Atlanta (21)", type: "vmess", server: "v2ray.online", port: 443, uuid: "5642E751-6AC6-45FD-8809-FD3FA7B8A20F", alterId: 0, cipher: "auto", tls: true, servername: "Atlanta.v2ray.online", network: "ws", ws-opts: {path: "/speedtest", headers: {host: "Atlanta.v2ray.online"}}}
+  - {name: "FreeNode🇯🇵Tokyo (28)", type: "vmess", server: "v2ray.online", port: 443, uuid: "5642E751-6AC6-45FD-8809-FD3FA7B8A20F", alterId: 0, cipher: "auto", tls: true, servername: "Tokyo.v2ray.online", network: "ws", ws-opts: {path: "/speedtest", headers: {host: "Tokyo.v2ray.online"}}}
+  - {name: "FreeNode🇺🇸Phoenix (22)", type: "vmess", server: "v2ray.online", port: 443, uuid: "5642E751-6AC6-45FD-8809-FD3FA7B8A20F", alterId: 0, cipher: "auto", tls: true, servername: "Phoenix.v2ray.online", network: "ws", ws-opts: {path: "/speedtest", headers: {host: "Phoenix.v2ray.online"}}}
+  - {name: "FreeNode🇳🇱Amsterdam (26)", type: "vmess", server: "v2ray.online", port: 443, uuid: "5642E751-6AC6-45FD-8809-FD3FA7B8A20F", alterId: 0, cipher: "auto", tls: true, servername: "Amsterdam.v2ray.online", network: "ws", ws-opts: {path: "/speedtest", headers: {host: "Amsterdam.v2ray.online"}}}
+  - {name: "FreeNode🇺🇸Seattle (24)", type: "vmess", server: "v2ray.online", port: 443, uuid: "5642E751-6AC6-45FD-8809-FD3FA7B8A20F", alterId: 0, cipher: "auto", tls: true, servername: "Seattle.v2ray.online", network: "ws", ws-opts: {path: "/speedtest", headers: {host: "Seattle.v2ray.online"}}}
+  - {name: "FreeNode🇩🇪Dusseldorf (29)", type: "vmess", server: "v2ray.online", port: 443, uuid: "5642E751-6AC6-45FD-8809-FD3FA7B8A20F", alterId: 0, cipher: "auto", tls: true, servername: "Dusseldorf.v2ray.online", network: "ws", ws-opts: {path: "/speedtest", headers: {host: "Dusseldorf.v2ray.online"}}}
+  - {name: "FreeNode🇺🇸Kansas (23)", type: "vmess", server: "v2ray.online", port: 443, uuid: "5642E751-6AC6-45FD-8809-FD3FA7B8A20F", alterId: 0, cipher: "auto", tls: true, servername: "Kansas.v2ray.online", network: "ws", ws-opts: {path: "/speedtest", headers: {host: "Kansas.v2ray.online"}}}
+  - {name: "FreeNode🇫🇷Paris (25)", type: "vmess", server: "v2ray.online", port: 443, uuid: "5642E751-6AC6-45FD-8809-FD3FA7B8A20F", alterId: 0, cipher: "auto", tls: true, servername: "Paris.v2ray.online", network: "ws", ws-opts: {path: "/speedtest", headers: {host: "Paris.v2ray.online"}}}
+  - {name: "FreeNode🇱🇻Riga (27)", type: "vmess", server: "v2ray.online", port: 443, uuid: "5642E751-6AC6-45FD-8809-FD3FA7B8A20F", alterId: 0, cipher: "auto", tls: true, servername: "Riga.v2ray.online", network: "ws", ws-opts: {path: "/speedtest", headers: {host: "Riga.v2ray.online"}}}
+  - {name: "FreeNode🇺🇸Seattle (34)", type: "vmess", server: "v2ray.online", port: 443, uuid: "11A9BBCA-CCF2-4C84-9AE4-6E2CA1E66D2A", alterId: 0, cipher: "auto", tls: true, servername: "Seattle.v2ray.online", network: "ws", ws-opts: {path: "/speedtest", headers: {host: "Seattle.v2ray.online"}}}
+  - {name: "FreeNode🇫🇷Paris (35)", type: "vmess", server: "v2ray.online", port: 443, uuid: "11A9BBCA-CCF2-4C84-9AE4-6E2CA1E66D2A", alterId: 0, cipher: "auto", tls: true, servername: "Paris.v2ray.online", network: "ws", ws-opts: {path: "/speedtest", headers: {host: "Paris.v2ray.online"}}}
+  - {name: "FreeNode🇳🇱Amsterdam (36)", type: "vmess", server: "v2ray.online", port: 443, uuid: "11A9BBCA-CCF2-4C84-9AE4-6E2CA1E66D2A", alterId: 0, cipher: "auto", tls: true, servername: "Amsterdam.v2ray.online", network: "ws", ws-opts: {path: "/speedtest", headers: {host: "Amsterdam.v2ray.online"}}}
+  - {name: "FreeNode🇺🇸Kansas (33)", type: "vmess", server: "v2ray.online", port: 443, uuid: "11A9BBCA-CCF2-4C84-9AE4-6E2CA1E66D2A", alterId: 0, cipher: "auto", tls: true, servername: "Kansas.v2ray.online", network: "ws", ws-opts: {path: "/speedtest", headers: {host: "Kansas.v2ray.online"}}}
+  - {name: "FreeNode🇯🇵Tokyo (38)", type: "vmess", server: "v2ray.online", port: 443, uuid: "11A9BBCA-CCF2-4C84-9AE4-6E2CA1E66D2A", alterId: 0, cipher: "auto", tls: true, servername: "Tokyo.v2ray.online", network: "ws", ws-opts: {path: "/speedtest", headers: {host: "Tokyo.v2ray.online"}}}
+  - {name: "FreeNode🇺🇸Phoenix (32)", type: "vmess", server: "v2ray.online", port: 443, uuid: "11A9BBCA-CCF2-4C84-9AE4-6E2CA1E66D2A", alterId: 0, cipher: "auto", tls: true, servername: "Phoenix.v2ray.online", network: "ws", ws-opts: {path: "/speedtest", headers: {host: "Phoenix.v2ray.online"}}}
+  - {name: "FreeNode🇺🇸Atlanta (31)", type: "vmess", server: "v2ray.online", port: 443, uuid: "11A9BBCA-CCF2-4C84-9AE4-6E2CA1E66D2A", alterId: 0, cipher: "auto", tls: true, servername: "Atlanta.v2ray.online", network: "ws", ws-opts: {path: "/speedtest", headers: {host: "Atlanta.v2ray.online"}}}
+  - {name: "FreeNode🇩🇪Dusseldorf (39)", type: "vmess", server: "v2ray.online", port: 443, uuid: "11A9BBCA-CCF2-4C84-9AE4-6E2CA1E66D2A", alterId: 0, cipher: "auto", tls: true, servername: "Dusseldorf.v2ray.online", network: "ws", ws-opts: {path: "/speedtest", headers: {host: "Dusseldorf.v2ray.online"}}}
+  - {name: "FreeNode🇱🇻Riga (37)", type: "vmess", server: "v2ray.online", port: 443, uuid: "11A9BBCA-CCF2-4C84-9AE4-6E2CA1E66D2A", alterId: 0, cipher: "auto", tls: true, servername: "Riga.v2ray.online", network: "ws", ws-opts: {path: "/speedtest", headers: {host: "Riga.v2ray.online"}}}
+  - {name: "FreeNode🇺🇸Seattle (44)", type: "vmess", server: "v2ray.online", port: 443, uuid: "7223AFD7-FF67-4B1E-978E-EE0F019B5442", alterId: 0, cipher: "auto", tls: true, servername: "Seattle.v2ray.online", network: "ws", ws-opts: {path: "/speedtest", headers: {host: "Seattle.v2ray.online"}}}
+  - {name: "FreeNode🇫🇷Paris (45)", type: "vmess", server: "v2ray.online", port: 443, uuid: "7223AFD7-FF67-4B1E-978E-EE0F019B5442", alterId: 0, cipher: "auto", tls: true, servername: "Paris.v2ray.online", network: "ws", ws-opts: {path: "/speedtest", headers: {host: "Paris.v2ray.online"}}}
+  - {name: "FreeNode🇳🇱Amsterdam (46)", type: "vmess", server: "v2ray.online", port: 443, uuid: "7223AFD7-FF67-4B1E-978E-EE0F019B5442", alterId: 0, cipher: "auto", tls: true, servername: "Amsterdam.v2ray.online", network: "ws", ws-opts: {path: "/speedtest", headers: {host: "Amsterdam.v2ray.online"}}}
+  - {name: "FreeNode🇺🇸Kansas (43)", type: "vmess", server: "v2ray.online", port: 443, uuid: "7223AFD7-FF67-4B1E-978E-EE0F019B5442", alterId: 0, cipher: "auto", tls: true, servername: "Kansas.v2ray.online", network: "ws", ws-opts: {path: "/speedtest", headers: {host: "Kansas.v2ray.online"}}}
+  - {name: "FreeNode🇯🇵Tokyo (48)", type: "vmess", server: "v2ray.online", port: 443, uuid: "7223AFD7-FF67-4B1E-978E-EE0F019B5442", alterId: 0, cipher: "auto", tls: true, servername: "Tokyo.v2ray.online", network: "ws", ws-opts: {path: "/speedtest", headers: {host: "Tokyo.v2ray.online"}}}
+  - {name: "FreeNode🇺🇸Phoenix (42)", type: "vmess", server: "v2ray.online", port: 443, uuid: "7223AFD7-FF67-4B1E-978E-EE0F019B5442", alterId: 0, cipher: "auto", tls: true, servername: "Phoenix.v2ray.online", network: "ws", ws-opts: {path: "/speedtest", headers: {host: "Phoenix.v2ray.online"}}}
+  - {name: "FreeNode🇺🇸Atlanta (41)", type: "vmess", server: "v2ray.online", port: 443, uuid: "7223AFD7-FF67-4B1E-978E-EE0F019B5442", alterId: 0, cipher: "auto", tls: true, servername: "Atlanta.v2ray.online", network: "ws", ws-opts: {path: "/speedtest", headers: {host: "Atlanta.v2ray.online"}}}
+  - {name: "FreeNode🇩🇪Dusseldorf (49)", type: "vmess", server: "v2ray.online", port: 443, uuid: "7223AFD7-FF67-4B1E-978E-EE0F019B5442", alterId: 0, cipher: "auto", tls: true, servername: "Dusseldorf.v2ray.online", network: "ws", ws-opts: {path: "/speedtest", headers: {host: "Dusseldorf.v2ray.online"}}}
+  - {name: "FreeNode🇱🇻Riga (47)", type: "vmess", server: "v2ray.online", port: 443, uuid: "7223AFD7-FF67-4B1E-978E-EE0F019B5442", alterId: 0, cipher: "auto", tls: true, servername: "Riga.v2ray.online", network: "ws", ws-opts: {path: "/speedtest", headers: {host: "Riga.v2ray.online"}}}
 
   - {name: "sshstores🇫🇷fr 02-23 (401)", type: "vmess", server: "51.38.191.123", port: 443, uuid: "3d5a3130-f33c-4b32-ae3f-8b47e4ece960", alterId: 0, cipher: "auto", network: "ws", servername: "sni.cloudflare.com", tls: true, skip-cert-verify: true, ws-opts: {path: "/vmess", headers: {host: "sni.cloudflare.com"}}}
   - {name: "sshstores🇫🇷fr 02-23 (402)", type: "vmess", server: "51.38.186.32", port: 443, uuid: "d030a09e-ebaf-4a7c-92fc-265dea6fc0e8", alterId: 0, cipher: "auto", network: "ws", servername: "sni.cloudflare.com", tls: true, skip-cert-verify: true, ws-opts: {path: "/vmess", headers: {host: "sni.cloudflare.com"}}}
@@ -182,7 +190,7 @@ proxy-groups:
     type: select
     # disable-udp: true
     proxies:
-      - FreeNode🇺🇸Atalanta (11)
+      - FreeNode🇺🇸Atlanta (11)
       - FreeNode🇺🇸Phoenix (12)
       - FreeNode🇺🇸Kansas (13)
       - FreeNode🇫🇷Paris (15)
@@ -191,7 +199,7 @@ proxy-groups:
       - FreeNode🇺🇸Seattle (14)
       - FreeNode🇯🇵Tokyo (18)
       - FreeNode🇩🇪Dusseldorf (19)
-      - FreeNode🇺🇸Atalanta (21)
+      - FreeNode🇺🇸Atlanta (21)
       - FreeNode🇯🇵Tokyo (28)
       - FreeNode🇺🇸Phoenix (22)
       - FreeNode🇳🇱Amsterdam (26)
@@ -206,9 +214,18 @@ proxy-groups:
       - FreeNode🇺🇸Kansas (33)
       - FreeNode🇯🇵Tokyo (38)
       - FreeNode🇺🇸Phoenix (32)
-      - FreeNode🇺🇸Atalanta (31)
+      - FreeNode🇺🇸Atlanta (31)
       - FreeNode🇩🇪Dusseldorf (39)
       - FreeNode🇱🇻Riga (37)
+      - FreeNode🇺🇸Seattle (44)
+      - FreeNode🇫🇷Paris (45)
+      - FreeNode🇳🇱Amsterdam (46)
+      - FreeNode🇺🇸Kansas (43)
+      - FreeNode🇯🇵Tokyo (48)
+      - FreeNode🇺🇸Phoenix (42)
+      - FreeNode🇺🇸Atlanta (41)
+      - FreeNode🇩🇪Dusseldorf (49)
+      - FreeNode🇱🇻Riga (47)
       - sshstores🇫🇷fr 02-23 (401)
       - sshstores🇫🇷fr 02-23 (402)
       - sshstores🇬🇧uk 02-23 (403)
@@ -238,7 +255,7 @@ proxy-groups:
     url: http://www.gstatic.com/generate_204
     interval: 300
     proxies:
-      - FreeNode🇺🇸Atalanta (11)
+      - FreeNode🇺🇸Atlanta (11)
       - FreeNode🇺🇸Phoenix (12)
       - FreeNode🇺🇸Kansas (13)
       - FreeNode🇫🇷Paris (15)
@@ -247,7 +264,7 @@ proxy-groups:
       - FreeNode🇺🇸Seattle (14)
       - FreeNode🇯🇵Tokyo (18)
       - FreeNode🇩🇪Dusseldorf (19)
-      - FreeNode🇺🇸Atalanta (21)
+      - FreeNode🇺🇸Atlanta (21)
       - FreeNode🇯🇵Tokyo (28)
       - FreeNode🇺🇸Phoenix (22)
       - FreeNode🇳🇱Amsterdam (26)
@@ -262,9 +279,18 @@ proxy-groups:
       - FreeNode🇺🇸Kansas (33)
       - FreeNode🇯🇵Tokyo (38)
       - FreeNode🇺🇸Phoenix (32)
-      - FreeNode🇺🇸Atalanta (31)
+      - FreeNode🇺🇸Atlanta (31)
       - FreeNode🇩🇪Dusseldorf (39)
       - FreeNode🇱🇻Riga (37)
+      - FreeNode🇺🇸Seattle (44)
+      - FreeNode🇫🇷Paris (45)
+      - FreeNode🇳🇱Amsterdam (46)
+      - FreeNode🇺🇸Kansas (43)
+      - FreeNode🇯🇵Tokyo (48)
+      - FreeNode🇺🇸Phoenix (42)
+      - FreeNode🇺🇸Atlanta (41)
+      - FreeNode🇩🇪Dusseldorf (49)
+      - FreeNode🇱🇻Riga (47)
       - sshstores🇫🇷fr 02-23 (401)
       - sshstores🇫🇷fr 02-23 (402)
       - sshstores🇬🇧uk 02-23 (403)
