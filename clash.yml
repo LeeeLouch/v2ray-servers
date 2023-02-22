@@ -116,10 +116,9 @@ dns:
     # - https://nsc.torgues.net/dns-query
     # - https://ipv4-zepto-mci-1.edge.nextdns.io/dns-query
   fallback:
-    - 1.1.1.1
     - tcp://1.1.1.1
+    - tcp://9.9.9.9
     - 8.8.8.8
-    - 9.9.9.9
 
 ###flags###
 # de 🇩🇪 - id 🇮🇩 - ca 🇨🇦 - hk 🇭🇰 - my 🇲🇾 - jp 🇯🇵 - uk 🇬🇧 - ua 🇺🇦 - se 🇸🇪 - sp 🇪🇸 - us 🇺🇸 - za 🇿🇦 - sg 🇸🇬 - pl 🇵🇱 - fr 🇫🇷 - kr 🇰🇷 - nl 🇳🇱 - au 🇦🇺 - ae 🇦🇪 - th 🇹🇭 - vn 🇻🇳
