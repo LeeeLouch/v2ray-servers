@@ -6,6 +6,7 @@ dns:
   enable: true
   ipv6: false
   listen: localhost:7874
+  enhanced-mode: fake-ip
   fallback-filter:
     geoip: true
     geoip-code: IR
