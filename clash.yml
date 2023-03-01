@@ -2,6 +2,9 @@ mode: rule
 log-level: info
 # ignore-resolve-fail: false
 ipv6: false
+profile:
+store-selected: true
+store-fake-ip: true
 dns:
   enable: true
   ipv6: false
@@ -124,24 +127,24 @@ dns:
 ###flags###
 # de 🇩🇪 - id 🇮🇩 - ca 🇨🇦 - hk 🇭🇰 - my 🇲🇾 - jp 🇯🇵 - uk 🇬🇧 - ua 🇺🇦 - se 🇸🇪 - sp 🇪🇸 - us 🇺🇸 - za 🇿🇦 - sg 🇸🇬 - pl 🇵🇱 - fr 🇫🇷 - kr 🇰🇷 - nl 🇳🇱 - au 🇦🇺 - ae 🇦🇪 - th 🇹🇭 - vn 🇻🇳
 proxies:
-  - {name: "FreeNode🇺🇸Atlanta (11)", type: vmess, server: "v2ray.online", port: 443, uuid: "59088BE1-AB52-99BA-4BE1-2B68AFECDF22", alterId: 0, cipher: "auto", tls: true, servername: "Atlanta.v2ray.online", network: "ws", ws-opts: {path: "/speedtest", headers: {host: "Atlanta.v2ray.online"}}}
-  - {name: "FreeNode🇺🇸Phoenix (12)", type: vmess, server: "v2ray.online", port: 443, uuid: "59088BE1-AB52-99BA-4BE1-2B68AFECDF22", alterId: 0, cipher: "auto", tls: true, servername: "Phoenix.v2ray.online", network: "ws", ws-opts: {path: "/speedtest", headers: {host: "Phoenix.v2ray.online"}}}
-  - {name: "FreeNode🇺🇸Kansas (13)", type: vmess, server: "v2ray.online", port: 443, uuid: "59088BE1-AB52-99BA-4BE1-2B68AFECDF22", alterId: 0, cipher: "auto", tls: true, servername: "Kansas.v2ray.online", network: "ws", ws-opts: {path: "/speedtest", headers: {host: "Kansas.v2ray.online"}}}
-  - {name: "FreeNode🇫🇷Paris (15)", type: vmess, server: "v2ray.online", port: 443, uuid: "59088BE1-AB52-99BA-4BE1-2B68AFECDF22", alterId: 0, cipher: "auto", tls: true, servername: "Paris.v2ray.online", network: "ws", ws-opts: {path: "/speedtest", headers: {host: "Paris.v2ray.online"}}}
-  - {name: "FreeNode🇱🇻Riga (17)", type: vmess, server: "v2ray.online", port: 443, uuid: "59088BE1-AB52-99BA-4BE1-2B68AFECDF22", alterId: 0, cipher: "auto", tls: true, servername: "Riga.v2ray.online", network: "ws", ws-opts: {path: "/speedtest", headers: {host: "Riga.v2ray.online"}}}
-  - {name: "FreeNode🇳🇱Amsterdam (16)", type: vmess, server: "v2ray.online", port: 443, uuid: "59088BE1-AB52-99BA-4BE1-2B68AFECDF22", alterId: 0, cipher: "auto", tls: true, servername: "Amsterdam.v2ray.online", network: "ws", ws-opts: {path: "/speedtest", headers: {host: "Amsterdam.v2ray.online"}}}
-  - {name: "FreeNode🇺🇸Seattle (14)", type: vmess, server: "v2ray.online", port: 443, uuid: "59088BE1-AB52-99BA-4BE1-2B68AFECDF22", alterId: 0, cipher: "auto", tls: true, servername: "Seattle.v2ray.online", network: "ws", ws-opts: {path: "/speedtest", headers: {host: "Seattle.v2ray.online"}}}
-  - {name: "FreeNode🇯🇵Tokyo (18)", type: vmess, server: "v2ray.online", port: 443, uuid: "59088BE1-AB52-99BA-4BE1-2B68AFECDF22", alterId: 0, cipher: "auto", tls: true, servername: "Tokyo.v2ray.online", network: "ws", ws-opts: {path: "/speedtest", headers: {host: "Tokyo.v2ray.online"}}}
-  - {name: "FreeNode🇩🇪Dusseldorf (19)", type: vmess, server: "v2ray.online", port: 443, uuid: "59088BE1-AB52-99BA-4BE1-2B68AFECDF22", alterId: 0, cipher: "auto", tls: true, servername: "Dusseldorf.v2ray.online", network: "ws", ws-opts: {path: "/speedtest", headers: {host: "Dusseldorf.v2ray.online"}}}
-  - {name: "FreeNode🇺🇸Atlanta (21)", type: "vmess", server: "v2ray.online", port: 443, uuid: "5642E751-6AC6-45FD-8809-FD3FA7B8A20F", alterId: 0, cipher: "auto", tls: true, servername: "Atlanta.v2ray.online", network: "ws", ws-opts: {path: "/speedtest", headers: {host: "Atlanta.v2ray.online"}}}
-  - {name: "FreeNode🇯🇵Tokyo (28)", type: "vmess", server: "v2ray.online", port: 443, uuid: "5642E751-6AC6-45FD-8809-FD3FA7B8A20F", alterId: 0, cipher: "auto", tls: true, servername: "Tokyo.v2ray.online", network: "ws", ws-opts: {path: "/speedtest", headers: {host: "Tokyo.v2ray.online"}}}
-  - {name: "FreeNode🇺🇸Phoenix (22)", type: "vmess", server: "v2ray.online", port: 443, uuid: "5642E751-6AC6-45FD-8809-FD3FA7B8A20F", alterId: 0, cipher: "auto", tls: true, servername: "Phoenix.v2ray.online", network: "ws", ws-opts: {path: "/speedtest", headers: {host: "Phoenix.v2ray.online"}}}
-  - {name: "FreeNode🇳🇱Amsterdam (26)", type: "vmess", server: "v2ray.online", port: 443, uuid: "5642E751-6AC6-45FD-8809-FD3FA7B8A20F", alterId: 0, cipher: "auto", tls: true, servername: "Amsterdam.v2ray.online", network: "ws", ws-opts: {path: "/speedtest", headers: {host: "Amsterdam.v2ray.online"}}}
-  - {name: "FreeNode🇺🇸Seattle (24)", type: "vmess", server: "v2ray.online", port: 443, uuid: "5642E751-6AC6-45FD-8809-FD3FA7B8A20F", alterId: 0, cipher: "auto", tls: true, servername: "Seattle.v2ray.online", network: "ws", ws-opts: {path: "/speedtest", headers: {host: "Seattle.v2ray.online"}}}
-  - {name: "FreeNode🇩🇪Dusseldorf (29)", type: "vmess", server: "v2ray.online", port: 443, uuid: "5642E751-6AC6-45FD-8809-FD3FA7B8A20F", alterId: 0, cipher: "auto", tls: true, servername: "Dusseldorf.v2ray.online", network: "ws", ws-opts: {path: "/speedtest", headers: {host: "Dusseldorf.v2ray.online"}}}
-  - {name: "FreeNode🇺🇸Kansas (23)", type: "vmess", server: "v2ray.online", port: 443, uuid: "5642E751-6AC6-45FD-8809-FD3FA7B8A20F", alterId: 0, cipher: "auto", tls: true, servername: "Kansas.v2ray.online", network: "ws", ws-opts: {path: "/speedtest", headers: {host: "Kansas.v2ray.online"}}}
-  - {name: "FreeNode🇫🇷Paris (25)", type: "vmess", server: "v2ray.online", port: 443, uuid: "5642E751-6AC6-45FD-8809-FD3FA7B8A20F", alterId: 0, cipher: "auto", tls: true, servername: "Paris.v2ray.online", network: "ws", ws-opts: {path: "/speedtest", headers: {host: "Paris.v2ray.online"}}}
-  - {name: "FreeNode🇱🇻Riga (27)", type: "vmess", server: "v2ray.online", port: 443, uuid: "5642E751-6AC6-45FD-8809-FD3FA7B8A20F", alterId: 0, cipher: "auto", tls: true, servername: "Riga.v2ray.online", network: "ws", ws-opts: {path: "/speedtest", headers: {host: "Riga.v2ray.online"}}}
+  - {name: "FreeNode🇺🇸Atlanta (11)", type: vmess, server: "discord.com", port: 443, uuid: "59088BE1-AB52-99BA-4BE1-2B68AFECDF22", alterId: 0, cipher: "auto", tls: true, servername: "worker2.casoget578.workers.dev", network: "ws", ws-opts: {path: "/Atlanta.v2ray.online:443/speedtest", headers: {host: "worker2.casoget578.workers.dev"}}}
+  - {name: "FreeNode🇺🇸Phoenix (12)", type: vmess, server: "discord.com", port: 443, uuid: "59088BE1-AB52-99BA-4BE1-2B68AFECDF22", alterId: 0, cipher: "auto", tls: true, servername: "worker2.casoget578.workers.dev", network: "ws", ws-opts: {path: "/Phoenix.v2ray.online:443/speedtest", headers: {host: "worker2.casoget578.workers.dev"}}}
+  - {name: "FreeNode🇺🇸Kansas (13)", type: vmess, server: "discord.com", port: 443, uuid: "59088BE1-AB52-99BA-4BE1-2B68AFECDF22", alterId: 0, cipher: "auto", tls: true, servername: "worker2.casoget578.workers.dev", network: "ws", ws-opts: {path: "/Kansas.v2ray.online:443/speedtest", headers: {host: "worker2.casoget578.workers.dev"}}}
+  - {name: "FreeNode🇫🇷Paris (15)", type: vmess, server: "discord.com", port: 443, uuid: "59088BE1-AB52-99BA-4BE1-2B68AFECDF22", alterId: 0, cipher: "auto", tls: true, servername: "worker2.casoget578.workers.dev", network: "ws", ws-opts: {path: "/Paris.v2ray.online:443/speedtest", headers: {host: "worker2.casoget578.workers.dev"}}}
+  - {name: "FreeNode🇱🇻Riga (17)", type: vmess, server: "discord.com", port: 443, uuid: "59088BE1-AB52-99BA-4BE1-2B68AFECDF22", alterId: 0, cipher: "auto", tls: true, servername: "worker2.casoget578.workers.dev", network: "ws", ws-opts: {path: "/Riga.v2ray.online:443/speedtest", headers: {host: "worker2.casoget578.workers.dev"}}}
+  - {name: "FreeNode🇳🇱Amsterdam (16)", type: vmess, server: "discord.com", port: 443, uuid: "59088BE1-AB52-99BA-4BE1-2B68AFECDF22", alterId: 0, cipher: "auto", tls: true, servername: "worker2.casoget578.workers.dev", network: "ws", ws-opts: {path: "/Amsterdam.v2ray.online:443/speedtest", headers: {host: "worker2.casoget578.workers.dev"}}}
+  - {name: "FreeNode🇺🇸Seattle (14)", type: vmess, server: "discord.com", port: 443, uuid: "59088BE1-AB52-99BA-4BE1-2B68AFECDF22", alterId: 0, cipher: "auto", tls: true, servername: "worker2.casoget578.workers.dev", network: "ws", ws-opts: {path: "/Seattle.v2ray.online:443/speedtest", headers: {host: "worker2.casoget578.workers.dev"}}}
+  - {name: "FreeNode🇯🇵Tokyo (18)", type: vmess, server: "discord.com", port: 443, uuid: "59088BE1-AB52-99BA-4BE1-2B68AFECDF22", alterId: 0, cipher: "auto", tls: true, servername: "worker2.casoget578.workers.dev", network: "ws", ws-opts: {path: "/Tokyo.v2ray.online:443/speedtest", headers: {host: "worker2.casoget578.workers.dev"}}}
+  - {name: "FreeNode🇩🇪Dusseldorf (19)", type: vmess, server: "discord.com", port: 443, uuid: "59088BE1-AB52-99BA-4BE1-2B68AFECDF22", alterId: 0, cipher: "auto", tls: true, servername: "worker2.casoget578.workers.dev", network: "ws", ws-opts: {path: "/Dusseldorf.v2ray.online:443/speedtest", headers: {host: "worker2.casoget578.workers.dev"}}}
+  - {name: "FreeNode🇺🇸Atlanta (21)", type: "vmess", server: "vimeo.com", port: 443, uuid: "5642E751-6AC6-45FD-8809-FD3FA7B8A20F", alterId: 0, cipher: "auto", tls: true, servername: "worker2.casoget578.workers.dev", network: "ws", ws-opts: {path: "/Atlanta.v2ray.online:443/speedtest", headers: {host: "worker2.casoget578.workers.dev"}}}
+  - {name: "FreeNode🇯🇵Tokyo (28)", type: "vmess", server: "vimeo.com", port: 443, uuid: "5642E751-6AC6-45FD-8809-FD3FA7B8A20F", alterId: 0, cipher: "auto", tls: true, servername: "worker2.casoget578.workers.dev", network: "ws", ws-opts: {path: "/Tokyo.v2ray.online:443/speedtest", headers: {host: "worker2.casoget578.workers.dev"}}}
+  - {name: "FreeNode🇺🇸Phoenix (22)", type: "vmess", server: "vimeo.com", port: 443, uuid: "5642E751-6AC6-45FD-8809-FD3FA7B8A20F", alterId: 0, cipher: "auto", tls: true, servername: "worker2.casoget578.workers.dev", network: "ws", ws-opts: {path: "/Phoenix.v2ray.online:443/speedtest", headers: {host: "worker2.casoget578.workers.dev"}}}
+  - {name: "FreeNode🇳🇱Amsterdam (26)", type: "vmess", server: "vimeo.com", port: 443, uuid: "5642E751-6AC6-45FD-8809-FD3FA7B8A20F", alterId: 0, cipher: "auto", tls: true, servername: "worker2.casoget578.workers.dev", network: "ws", ws-opts: {path: "/Amsterdam.v2ray.online:443/speedtest", headers: {host: "worker2.casoget578.workers.dev"}}}
+  - {name: "FreeNode🇺🇸Seattle (24)", type: "vmess", server: "vimeo.com", port: 443, uuid: "5642E751-6AC6-45FD-8809-FD3FA7B8A20F", alterId: 0, cipher: "auto", tls: true, servername: "worker2.casoget578.workers.dev", network: "ws", ws-opts: {path: "/Seattle.v2ray.online:443/speedtest", headers: {host: "worker2.casoget578.workers.dev"}}}
+  - {name: "FreeNode🇩🇪Dusseldorf (29)", type: "vmess", server: "vimeo.com", port: 443, uuid: "5642E751-6AC6-45FD-8809-FD3FA7B8A20F", alterId: 0, cipher: "auto", tls: true, servername: "worker2.casoget578.workers.dev", network: "ws", ws-opts: {path: "/Dusseldorf.v2ray.online:443/speedtest", headers: {host: "worker2.casoget578.workers.dev"}}}
+  - {name: "FreeNode🇺🇸Kansas (23)", type: "vmess", server: "vimeo.com", port: 443, uuid: "5642E751-6AC6-45FD-8809-FD3FA7B8A20F", alterId: 0, cipher: "auto", tls: true, servername: "worker2.casoget578.workers.dev", network: "ws", ws-opts: {path: "/Kansas.v2ray.online:443/speedtest", headers: {host: "worker2.casoget578.workers.dev"}}}
+  - {name: "FreeNode🇫🇷Paris (25)", type: "vmess", server: "vimeo.com", port: 443, uuid: "5642E751-6AC6-45FD-8809-FD3FA7B8A20F", alterId: 0, cipher: "auto", tls: true, servername: "worker2.casoget578.workers.dev", network: "ws", ws-opts: {path: "/Paris.v2ray.online:443/speedtest", headers: {host: "worker2.casoget578.workers.dev"}}}
+  - {name: "FreeNode🇱🇻Riga (27)", type: "vmess", server: "vimeo.com", port: 443, uuid: "5642E751-6AC6-45FD-8809-FD3FA7B8A20F", alterId: 0, cipher: "auto", tls: true, servername: "worker2.casoget578.workers.dev", network: "ws", ws-opts: {path: "/Riga.v2ray.online:443/speedtest", headers: {host: "worker2.casoget578.workers.dev"}}}
   - {name: "FreeNode🇺🇸Seattle (34)", type: "vmess", server: "v2ray.online", port: 443, uuid: "11A9BBCA-CCF2-4C84-9AE4-6E2CA1E66D2A", alterId: 0, cipher: "auto", tls: true, servername: "Seattle.v2ray.online", network: "ws", ws-opts: {path: "/speedtest", headers: {host: "Seattle.v2ray.online"}}}
   - {name: "FreeNode🇫🇷Paris (35)", type: "vmess", server: "v2ray.online", port: 443, uuid: "11A9BBCA-CCF2-4C84-9AE4-6E2CA1E66D2A", alterId: 0, cipher: "auto", tls: true, servername: "Paris.v2ray.online", network: "ws", ws-opts: {path: "/speedtest", headers: {host: "Paris.v2ray.online"}}}
   - {name: "FreeNode🇳🇱Amsterdam (36)", type: "vmess", server: "v2ray.online", port: 443, uuid: "11A9BBCA-CCF2-4C84-9AE4-6E2CA1E66D2A", alterId: 0, cipher: "auto", tls: true, servername: "Amsterdam.v2ray.online", network: "ws", ws-opts: {path: "/speedtest", headers: {host: "Amsterdam.v2ray.online"}}}
@@ -161,69 +164,28 @@ proxies:
   - {name: "FreeNode🇩🇪Dusseldorf (49)", type: "vmess", server: "v2ray.online", port: 443, uuid: "7223AFD7-FF67-4B1E-978E-EE0F019B5442", alterId: 0, cipher: "auto", tls: true, servername: "Dusseldorf.v2ray.online", network: "ws", ws-opts: {path: "/speedtest", headers: {host: "Dusseldorf.v2ray.online"}}}
   - {name: "FreeNode🇱🇻Riga (47)", type: "vmess", server: "v2ray.online", port: 443, uuid: "7223AFD7-FF67-4B1E-978E-EE0F019B5442", alterId: 0, cipher: "auto", tls: true, servername: "Riga.v2ray.online", network: "ws", ws-opts: {path: "/speedtest", headers: {host: "Riga.v2ray.online"}}}
 
-  - {name: "sshstores🇫🇷fr 02-23 (401)", type: "vmess", server: "51.38.191.123", port: 443, uuid: "3d5a3130-f33c-4b32-ae3f-8b47e4ece960", alterId: 0, cipher: "auto", network: "ws", servername: "sni.cloudflare.com", tls: true, skip-cert-verify: true, ws-opts: {path: "/vmess", headers: {host: "sni.cloudflare.com"}}}
-  - {name: "sshstores🇫🇷fr 02-23 (402)", type: "vmess", server: "51.38.186.32", port: 443, uuid: "d030a09e-ebaf-4a7c-92fc-265dea6fc0e8", alterId: 0, cipher: "auto", network: "ws", servername: "sni.cloudflare.com", tls: true, skip-cert-verify: true, ws-opts: {path: "/vmess", headers: {host: "sni.cloudflare.com"}}}
-  - {name: "sshstores🇬🇧uk 02-23 (403)", type: "vmess", server: "51.195.139.29", port: 443, uuid: "7fd79440-486a-4f8b-a45f-cf9af6fe144c", alterId: 0, cipher: "auto", network: "ws", servername: "sni.cloudflare.com", tls: true, skip-cert-verify: true, ws-opts: {path: "/vmess", headers: {host: "sni.cloudflare.com"}}}
-  - {name: "sshstores🇬🇧uk 02-23 (404)", type: "vmess", server: "51.195.139.29", port: 443, uuid: "e90f3f9a-61c0-4858-8368-7f5979071476", alterId: 0, cipher: "auto", network: "ws", servername: "sni.cloudflare.com", tls: true, skip-cert-verify: true, ws-opts: {path: "/vmess", headers: {host: "sni.cloudflare.com"}}}
-  - {name: "sshstores🇳🇱nl 02-23 (405)", type: "vmess", server: "185.246.152.81", port: 443, uuid: "82612b16-5a7d-45ed-a84e-215c4ae14c50", alterId: 0, cipher: "auto", network: "ws", servername: "sni.cloudflare.com", tls: true, skip-cert-verify: true, ws-opts: {path: "/vmess", headers: {host: "sni.cloudflare.com"}}}
-  - {name: "sshstores🇳🇱nl 02-23 (406)", type: "vmess", server: "185.246.152.81", port: 443, uuid: "7d4b5c09-d5f3-474b-93bc-36c4d5f5d158", alterId: 0, cipher: "auto", network: "ws", servername: "sni.cloudflare.com", tls: true, skip-cert-verify: true, ws-opts: {path: "/vmess", headers: {host: "sni.cloudflare.com"}}}
-  - {name: "sshstores🇳🇱nl 02-23 (407)", type: "vmess", server: "185.246.152.81", port: 443, uuid: "1a9c943c-46dc-4ebb-96d2-02e21929bc23", alterId: 0, cipher: "auto", network: "ws", servername: "sni.cloudflare.com", tls: true, skip-cert-verify: true, ws-opts: {path: "/vmess", headers: {host: "sni.cloudflare.com"}}}
-  - {name: "sshstores🇯🇵jp 02-23 (408)", type: "vmess", server: "172.104.103.91", port: 443, uuid: "42cc7a5c-1a52-4939-a328-9f2a6e20db02", alterId: 0, cipher: "auto", network: "ws", servername: "sni.cloudflare.com", tls: true, skip-cert-verify: true, ws-opts: {path: "/vmess", headers: {host: "sni.cloudflare.com"}}}
-  - {name: "sshstores🇯🇵jp 02-23 (409)", type: "vmess", server: "172.104.103.93", port: 443, uuid: "432dc1b8-1c08-42a0-a0dd-1eb3f6380f03", alterId: 0, cipher: "auto", network: "ws", servername: "sni.cloudflare.com", tls: true, skip-cert-verify: true, ws-opts: {path: "/vmess", headers: {host: "sni.cloudflare.com"}}}
-  - {name: "sshstores🇺🇸us 02-23 (410)", type: "vmess", server: "185.140.211.122", port: 443, uuid: "c1023cb8-a117-4d7f-963f-45997467bf25", alterId: 0, cipher: "auto", network: "ws", servername: "sni.cloudflare.com", tls: true, skip-cert-verify: true, ws-opts: {path: "/vmess", headers: {host: "sni.cloudflare.com"}}}
-  - {name: "sshstores🇺🇸us 02-23 (411)", type: "vmess", server: "147.135.112.248", port: 443, uuid: "151a905e-29d0-4eb3-b8b8-06f69d2a71ba", alterId: 0, cipher: "auto", network: "ws", servername: "sni.cloudflare.com", tls: true, skip-cert-verify: true, ws-opts: {path: "/vmess", headers: {host: "sni.cloudflare.com"}}}
+  - {name: "akunssh🇩🇪de 03-09 (651)", type: "vmess", server: "discord.com", port: 443, uuid: "8182ff70-b852-11ed-995e-871597bc5916", alterId: 0, cipher: "auto", network: "ws", servername: "worker4.denin68336.workers.dev", tls: true, ws-opts: {path: "/de1-vmess.tunnel.cx:443/vmess", headers: {host: "worker4-in.denin68336.workers.dev"}}}
+  - {name: "akunssh🇩🇪de 03-09 (652)", type: "vmess", server: "discord.com", port: 443, uuid: "8182ff70-b852-11ed-995e-871597bc5916", alterId: 0, cipher: "auto", network: "ws", servername: "worker4.denin68336.workers.dev", tls: true, ws-opts: {path: "/de1-vmess.tunnel.cx:443/vmess", headers: {host: "worker4-in.denin68336.workers.dev"}}}
+  - {name: "akunssh🇩🇪de 03-09 (653)", type: "vmess", server: "discord.com", port: 443, uuid: "8182ff70-b852-11ed-995e-871597bc5916", alterId: 0, cipher: "auto", network: "ws", servername: "worker4.denin68336.workers.dev", tls: true, ws-opts: {path: "/de1-vmess.tunnel.cx:443/vmess", headers: {host: "worker4-in.denin68336.workers.dev"}}}
+  - {name: "akunssh🇮🇩id 03-09 (655)", type: "vmess", server: "discord.com", port: 443, uuid: "813af3e2-b852-11ed-9ac5-834bfa5befe5", alterId: 0, cipher: "auto", network: "ws", servername: "worker4.denin68336.workers.dev", tls: true, ws-opts: {path: "/id1-vmess.tunnel.cx:443/vmess", headers: {host: "worker4-in.denin68336.workers.dev"}}}
+  - {name: "sshstores🇩🇪de 03-09 (656)", type: "vmess", server: "discord.com", port: 443, uuid: "96cfeb53-1453-465e-8f31-82302163a0ac", alterId: 0, cipher: "auto", network: "ws", servername: "worker4.denin68336.workers.dev", tls: true, ws-opts: {path: "/de.vmess1.xservs.xyz:443/vmess", headers: {host: "worker4-in.denin68336.workers.dev"}}}
+  - {name: "sshstores🇩🇪de 03-09 (657)", type: "vmess", server: "discord.com", port: 443, uuid: "243000e9-8b26-423a-b4a3-4cdba569987e", alterId: 0, cipher: "auto", network: "ws", servername: "worker4.denin68336.workers.dev", tls: true, ws-opts: {path: "/de.vmess2.xservs.xyz:443/vmess", headers: {host: "worker4-in.denin68336.workers.dev"}}}
+  - {name: "sshstores🇫🇷fr 03-09 (658)", type: "vmess", server: "discord.com", port: 443, uuid: "3d5a3130-f33c-4b32-ae3f-8b47e4ece960", alterId: 0, cipher: "auto", network: "ws", servername: "worker4.denin68336.workers.dev", tls: true, ws-opts: {path: "/fr.vmess2.xservs.xyz:443/vmess", headers: {host: "worker4-in.denin68336.workers.dev"}}}
+  - {name: "sshstores🇫🇷fr 03-09 (659)", type: "vmess", server: "discord.com", port: 443, uuid: "492a62b9-e587-46c1-bf18-185117ea2b73", alterId: 0, cipher: "auto", network: "ws", servername: "worker4.denin68336.workers.dev", tls: true, ws-opts: {path: "/fr.vmess1.xservs.xyz:443/vmess", headers: {host: "worker4-in.denin68336.workers.dev"}}}
+  - {name: "sshstores🇬🇧uk 03-09 (660)", type: "vmess", server: "discord.com", port: 443, uuid: "89b50399-d2db-454e-8804-29a439487c55", alterId: 0, cipher: "auto", network: "ws", servername: "worker4.denin68336.workers.dev", tls: true, ws-opts: {path: "/ln.vmess1.xservs.xyz:443/vmess", headers: {host: "worker4-in.denin68336.workers.dev"}}}
+  - {name: "sshstores🇳🇱nl 03-09 (661)", type: "vmess", server: "discord.com", port: 443, uuid: "da514e8b-4354-4adb-a72f-39b6f24cc169", alterId: 0, cipher: "auto", network: "ws", servername: "worker4.denin68336.workers.dev", tls: true, ws-opts: {path: "/nl.vmess1.xservs.xyz:443/vmess", headers: {host: "worker4-in.denin68336.workers.dev"}}}
+  - {name: "sshstores🇨🇦ca 03-09 (662)", type: "vmess", server: "vimeo.com", port: 443, uuid: "3e4961a9-4912-4f56-8dad-2a73412b4ac3", alterId: 0, cipher: "auto", network: "ws", servername: "worker4.denin68336.workers.dev", tls: true, ws-opts: {path: "/ca.vmess2.xservs.xyz:443/vmess", headers: {host: "worker4-in.denin68336.workers.dev"}}}
+  - {name: "sshstores🇨🇦ca 03-09 (663)", type: "vmess", server: "vimeo.com", port: 443, uuid: "3d96b19f-c9d1-4aad-89a5-025659418a9d", alterId: 0, cipher: "auto", network: "ws", servername: "worker5-in.tipage6563.workers.dev", tls: true, ws-opts: {path: "/ca.vmess1.xservs.xyz:443/vmess", headers: {host: "worker5-in.tipage6563.workers.dev"}}}
+  - {name: "opentunnel🇮🇩id 03-09 (664)", type: "vmess", server: "vimeo.com", port: 443, uuid: "a40d34c6-b77c-4648-9210-3e8d2f4226b5", alterId: 16, cipher: "auto", network: "ws", tls: true, servername: "worker5-in.tipage6563.workers.dev", ws-opts: {path: "/idv-3.openv2ray.com:443/opentunnel?user=opentunnel.net-tewasdgva", headers: {host: "worker5-in.tipage6563.workers.dev"}}}
+  - {name: "opentunnel🇺🇸us 03-09 (665)", type: "vmess", server: "vimeo.com", port: 443, uuid: "a40d34c6-b77c-4648-9210-3e8d2f4226b5", alterId: 16, cipher: "auto", network: "ws", tls: true, servername: "worker5-in.tipage6563.workers.dev", ws-opts: {path: "/usv-4.openv2ray.com:443/opentunnel?user=opentunnel.net-egasdgsd", headers: {host: "worker5-in.tipage6563.workers.dev"}}}
+  - {name: "opentunnel🇳🇱nl 03-09 (666)", type: "vmess", server: "vimeo.com", port: 443, uuid: "a40d34c6-b77c-4648-9210-3e8d2f4226b5", alterId: 16, cipher: "auto", network: "ws", tls: true, servername: "worker5-in.tipage6563.workers.dev", ws-opts: {path: "/nlv-6.openv2ray.com:443/opentunnel?user=opentunnel.net-fdsfsfw", headers: {host: "worker5-in.tipage6563.workers.dev"}}}
+  - {name: "opentunnel🇳🇱nl 03-09 (667)", type: "vmess", server: "vimeo.com", port: 443, uuid: "a40d34c6-b77c-4648-9210-3e8d2f4226b5", alterId: 16, cipher: "auto", network: "ws", tls: true, servername: "worker5-in.tipage6563.workers.dev", ws-opts: {path: "/nlv-1.openv2ray.com:443/opentunnel?user=opentunnel.net-edsbadsfw", headers: {host: "worker5-in.tipage6563.workers.dev"}}}
+  - {name: "opentunnel🇭🇰hk 03-09 (668)", type: "vmess", server: "vimeo.com", port: 443, uuid: "a40d34c6-b77c-4648-9210-3e8d2f4226b5", alterId: 16, cipher: "auto", network: "ws", tls: true, servername: "worker5-in.tipage6563.workers.dev", ws-opts: {path: "/hkv-1.openv2ray.com:443/opentunnel?user=opentunnel.net-fdfsvdsf", headers: {host: "worker5-in.tipage6563.workers.dev"}}}
+  - {name: "opentunnel🇸🇬sg 03-09 (669)", type: "vmess", server: "vimeo.com", port: 443, uuid: "a40d34c6-b77c-4648-9210-3e8d2f4226b5", alterId: 16, cipher: "auto", network: "ws", tls: true, servername: "worker5-in.tipage6563.workers.dev", ws-opts: {path: "/sgv-6.openv2ray.com:443/opentunnel?user=opentunnel.net-fasfcvsdvs", headers: {host: "worker5-in.tipage6563.workers.dev"}}}
+  - {name: "opentunnel🇮🇩id 03-09 (670)", type: "vmess", server: "vimeo.com", port: 443, uuid: "a40d34c6-b77c-4648-9210-3e8d2f4226b5", alterId: 16, cipher: "auto", network: "ws", tls: true, servername: "worker5-in.tipage6563.workers.dev", ws-opts: {path: "/idv-2.openv2ray.com:443/opentunnel?user=opentunnel.net-ewfsdvbfd", headers: {host: "worker5-in.tipage6563.workers.dev"}}}
+  - {name: "opentunnel🇦🇺au 03-09 (671)", type: "vmess", server: "vimeo.com", port: 443, uuid: "a40d34c6-b77c-4648-9210-3e8d2f4226b5", alterId: 16, cipher: "auto", network: "ws", tls: true, servername: "worker5-in.tipage6563.workers.dev", ws-opts: {path: "/auv-1.openv2ray.com:443/opentunnel?user=opentunnel.net-efdsvewfsdaz", headers: {host: "worker5-in.tipage6563.workers.dev"}}}
+  - {name: "opentunnel🇻🇳vn 03-09 (672)", type: "vmess", server: "vimeo.com", port: 443, uuid: "a40d34c6-b77c-4648-9210-3e8d2f4226b5", alterId: 16, cipher: "auto", network: "ws", tls: true, servername: "worker5-in.tipage6563.workers.dev", ws-opts: {path: "/vnv-1.openv2ray.com:443/opentunnel?user=opentunnel.net-dsvsdffsad", headers: {host: "worker5-in.tipage6563.workers.dev"}}}
   
-  - {name: "akunssh🇨🇦ca 02-26 (523)", type: "vmess", server: "51.79.49.161", port: 443, uuid: "aec0d2d0-afad-11ed-b819-4f12c1dc2fb1", alterId: 0, cipher: "auto", network: "ws", servername: "sni.cloudflare.com", tls: true, skip-cert-verify: true, ws-opts: {path: "/vmess"}}
-  - {name: "akunssh🇨🇦ca 02-26 (524)", type: "vmess", server: "51.79.49.161", port: 443, uuid: "aec0d2d0-afad-11ed-b819-4f12c1dc2fb1", alterId: 0, cipher: "auto", network: "ws", servername: "sni.cloudflare.com", tls: true, skip-cert-verify: true, ws-opts: {path: "/vmess"}}
-  - {name: "akunssh🇩🇪de 02-26 (525)", type: "vmess", server: "168.119.174.242", port: 443, uuid: "aeb2c082-afad-11ed-87df-47076335c7a9", alterId: 0, cipher: "auto", network: "ws", servername: "sni.cloudflare.com", tls: true, skip-cert-verify: true, ws-opts: {path: "/vmess"}}
-  - {name: "akunssh🇩🇪de 02-26 (526)", type: "vmess", server: "168.119.174.242", port: 443, uuid: "aeb2c082-afad-11ed-87df-47076335c7a9", alterId: 0, cipher: "auto", network: "ws", servername: "sni.cloudflare.com", tls: true, skip-cert-verify: true, ws-opts: {path: "/vmess"}}
-  - {name: "akunssh🇩🇪de 02-26 (527)", type: "vmess", server: "168.119.174.242", port: 443, uuid: "aeb2c082-afad-11ed-87df-47076335c7a9", alterId: 0, cipher: "auto", network: "ws", servername: "sni.cloudflare.com", tls: true, skip-cert-verify: true, ws-opts: {path: "/vmess"}}
-  - {name: "akunssh🇩🇪de 02-26 (528)", type: "vmess", server: "168.119.174.242", port: 443, uuid: "aeb2c082-afad-11ed-87df-47076335c7a9", alterId: 0, cipher: "auto", network: "ws", servername: "sni.cloudflare.com", tls: true, skip-cert-verify: true, ws-opts: {path: "/vmess"}}
-  - {name: "akunssh🇮🇩id 02-26 (529)", type: "vmess", server: "103.227.255.25", port: 443, uuid: "af02acd2-afad-11ed-9a3c-3702ce9d44a5", alterId: 0, cipher: "auto", network: "ws", servername: "sni.cloudflare.com", tls: true, skip-cert-verify: true, ws-opts: {path: "/vmess"}}
-  - {name: "akunssh🇮🇩id 02-26 (530)", type: "vmess", server: "103.227.255.25", port: 443, uuid: "af02acd2-afad-11ed-9a3c-3702ce9d44a5", alterId: 0, cipher: "auto", network: "ws", servername: "sni.cloudflare.com", tls: true, skip-cert-verify: true, ws-opts: {path: "/vmess"}}
-  - {name: "akunssh🇸🇬sg 02-26 (531)", type: "vmess", server: "103.83.159.110", port: 443, uuid: "aef32ad2-afad-11ed-aff7-77e9c024c5ef", alterId: 0, cipher: "auto", network: "ws", servername: "sni.cloudflare.com", tls: true, skip-cert-verify: true, ws-opts: {path: "/vmess"}}
-  - {name: "akunssh🇸🇬sg 02-26 (532)", type: "vmess", server: "103.83.159.110", port: 443, uuid: "aef32ad2-afad-11ed-aff7-77e9c024c5ef", alterId: 0, cipher: "auto", network: "ws", servername: "sni.cloudflare.com", tls: true, skip-cert-verify: true, ws-opts: {path: "/vmess"}}
-  - {name: "akunssh🇩🇪de 02-26 (533)", type: "vmess", server: "168.119.174.242", port: 443, uuid: "aeb2c082-afad-11ed-87df-47076335c7a9", alterId: 0, cipher: "auto", network: "ws", servername: "sni.cloudflare.com", tls: true, skip-cert-verify: true, ws-opts: {path: "/vmess"}}
-
-  - {name: "mainssh🇮🇩id 03-01 (551)", type: "vmess", server: "43.229.254.96", port: 443, uuid: "4857f925-fab7-4fbc-bc17-d1d4637a65bc", alterId: 0, cipher: "auto", network: "ws", servername: "sni.cloudflare.com", tls: true, skip-cert-verify: true, ws-opts: {path: "/vmess"}}
-  - {name: "mainssh🇸🇬sg 03-01 (552)", type: "vmess", server: "103.83.159.164", port: 443, uuid: "5f9d99b4-384b-4464-96cc-1906c57abe5d", alterId: 0, cipher: "auto", network: "ws", servername: "sni.cloudflare.com", tls: true, skip-cert-verify: true, ws-opts: {path: "/vmess"}}
-  - {name: "mainssh🇫🇷fr 03-01 (553)", type: "vmess", server: "51.77.200.137", port: 443, uuid: "1b1ce5e4-869c-4c5c-a800-b6cbd906311a", alterId: 0, cipher: "auto", network: "ws", servername: "sni.cloudflare.com", tls: true, skip-cert-verify: true, ws-opts: {path: "/vmess"}}
-  - {name: "mainssh🇫🇷fr 03-01 (554)", type: "vmess", server: "51.77.200.137", port: 443, uuid: "b3db746a-c63a-4b57-9d61-9bdec6d08141", alterId: 0, cipher: "auto", network: "ws", servername: "sni.cloudflare.com", tls: true, skip-cert-verify: true, ws-opts: {path: "/vmess"}}
-  - {name: "mainssh🇨🇦ca 03-01 (555)", type: "vmess", server: "51.222.156.142", port: 443, uuid: "8e705abc-c3ef-4b29-9fb6-0c3793c8577a", alterId: 0, cipher: "auto", network: "ws", servername: "sni.cloudflare.com", tls: true, skip-cert-verify: true, ws-opts: {path: "/vmess"}}
-  - {name: "mainssh🇬🇧uk 03-01 (556)", type: "vmess", server: "51.89.139.59", port: 443, uuid: "bcb10102-4634-4bf1-92b2-2c9c6b54f049", alterId: 0, cipher: "auto", network: "ws", servername: "sni.cloudflare.com", tls: true, skip-cert-verify: true, ws-opts: {path: "/vmess"}}
-  - {name: "mainssh🇬🇧uk 03-01 (557)", type: "vmess", server: "51.89.139.59", port: 443, uuid: "d9d126af-a0ce-4a0f-92b9-f49a62c83e54", alterId: 0, cipher: "auto", network: "ws", servername: "sni.cloudflare.com", tls: true, skip-cert-verify: true, ws-opts: {path: "/vmess"}}
-  - {name: "mainssh🇺🇸us 03-01 (558)", type: "vmess", server: "198.98.61.117", port: 443, uuid: "1d8d8023-a5d6-4245-adec-d86f2bdda481", alterId: 0, cipher: "auto", network: "ws", servername: "sni.cloudflare.com", tls: true, skip-cert-verify: true, ws-opts: {path: "/vmess"}}
-  - {name: "mainssh🇩🇪de 03-01 (559)", type: "vmess", server: "51.68.188.150", port: 443, uuid: "69523c61-0a1c-4a01-9d19-433e5a686631", alterId: 0, cipher: "auto", network: "ws", servername: "sni.cloudflare.com", tls: true, skip-cert-verify: true, ws-opts: {path: "/vmess"}}
-  - {name: "mainssh🇩🇪de 03-01 (560)", type: "vmess", server: "51.68.188.150", port: 443, uuid: "e4294f4e-abfd-48c7-8431-cfd990bd6308", alterId: 0, cipher: "auto", network: "ws", servername: "sni.cloudflare.com", tls: true, skip-cert-verify: true, ws-opts: {path: "/vmess"}}
-  - {name: "mainssh🇩🇪de 03-01 (561)", type: "vmess", server: "51.68.188.150", port: 443, uuid: "5e8f5c4b-4714-49cc-bd5f-1beb91d8d537", alterId: 0, cipher: "auto", network: "ws", servername: "sni.cloudflare.com", tls: true, skip-cert-verify: true, ws-opts: {path: "/vmess"}}
-  - {name: "freevmess🇩🇪de 02-27 (562)", type: "vmess", server: "51.38.99.96", port: 443, uuid: "b7793807-b6bb-4827-aaec-d41a8817110a", alterId: 0, cipher: "auto", network: "ws", tls: true, servername: "sni.cloudflare.com", skip-cert-verify: true, ws-opts: {path: "/freevmess"}}
-  - {name: "freevmess🇩🇪de 02-27 (563)", type: "vmess", server: "51.38.99.96", port: 443, uuid: "b7793807-b6bb-4827-aaec-d41a8817110a", alterId: 0, cipher: "auto", network: "ws", tls: true, servername: "sni.cloudflare.com", skip-cert-verify: true, ws-opts: {path: "/freevmess"}}
-  - {name: "freevmess🇳🇱nl 02-27 (564)", type: "vmess", server: "167.99.32.151", port: 443, uuid: "016f8cdf-a78f-4979-bb4d-a94ba80e693d", alterId: 0, cipher: "auto", network: "ws", tls: true, servername: "sni.cloudflare.com", skip-cert-verify: true, ws-opts: {path: "/racevpn"}}
-  - {name: "freevmess🇫🇷fr 02-27 (565)", type: "vmess", server: "51.255.49.192", port: 443, uuid: "4f397aa7-af98-4c2c-b80e-4acd32f0659a", alterId: 0, cipher: "auto", network: "ws", tls: true, servername: "sni.cloudflare.com", skip-cert-verify: true, ws-opts: {path: "/freevmess"}}
-  - {name: "freevmess🇨🇦ca 02-27 (566)", type: "vmess", server: "51.161.35.200", port: 443, uuid: "9ec0fa0b-c50d-4ddf-a2d2-c98298641e96", alterId: 0, cipher: "auto", network: "ws", tls: true, servername: "sni.cloudflare.com", skip-cert-verify: true, ws-opts: {path: "/freevmess"}}
-  - {name: "freevmess🇸🇬sg 02-27 (567)", type: "vmess", server: "51.79.241.221", port: 443, uuid: "3b93d543-dd88-41a7-baa2-78f4cb39f152", alterId: 0, cipher: "auto", network: "ws", tls: true, servername: "sni.cloudflare.com", skip-cert-verify: true, ws-opts: {path: "/freevmess"}}
-  - {name: "freevmess🇩🇪de 02-27 (568)", type: "vmess", server: "51.38.99.96", port: 443, uuid: "b7793807-b6bb-4827-aaec-d41a8817110a", alterId: 0, cipher: "auto", network: "ws", tls: true, servername: "sni.cloudflare.com", skip-cert-verify: true, ws-opts: {path: "/freevmess"}}
-  - {name: "freevmess🇫🇷fr 02-27 (569)", type: "vmess", server: "51.255.49.192", port: 443, uuid: "4f397aa7-af98-4c2c-b80e-4acd32f0659a", alterId: 0, cipher: "auto", network: "ws", tls: true, servername: "sni.cloudflare.com", skip-cert-verify: true, ws-opts: {path: "/freevmess"}}
-  - {name: "freevmess🇬🇧uk 02-27 (570)", type: "vmess", server: "57.128.173.6", port: 443, uuid: "1015775e-618c-49d9-be99-7ec04e1a572e", alterId: 0, cipher: "auto", network: "ws", tls: true, servername: "sni.cloudflare.com", skip-cert-verify: true, ws-opts: {path: "/freevmess"}}
-  - {name: "freevmess🇺🇸us 02-27 (571)", type: "vmess", server: "137.184.19.36", port: 443, uuid: "204daabf-6826-4c4d-8a95-84b2ea80b1c8", alterId: 0, cipher: "auto", network: "ws", tls: true, servername: "sni.cloudflare.com", skip-cert-verify: true, ws-opts: {path: "/freevmess"}}
-  - {name: "vpnjantit🇮🇩id 02-27 (572)", type: "vmess", server: "103.150.197.217", port: 10001, uuid: "7d5d0fcc-b275-11ed-a756-eb82f957b47e", alterId: 0, cipher: "auto", network: "ws", tls: true, skip-cert-verify: true, ws-opts: {path: "/vpnjantit"}}
-  - {name: "vpnjantit🇮🇩id 02-27 (573)", type: "vmess", server: "41.216.177.178", port: 10000, uuid: "ad99bbfe-b275-11ed-bb00-00163e870a9c", alterId: 0, cipher: "auto", network: "ws", ws-opts: {path: "/vpnjantit"}}
-  - {name: "vpnjantit🇩🇪de 02-27 (574)", type: "vmess", server: "217.160.33.100", port: 10000, uuid: "aae9b3e6-b275-11ed-8872-b3c4498300e6", alterId: 0, cipher: "auto", network: "ws", ws-opts: {path: "/vpnjantit"}}
-  - {name: "vpnjantit🇩🇪de 02-27 (575)", type: "vmess", server: "213.202.216.212", port: 10000, uuid: "aaec9a3e-b275-11ed-b3af-00163c082f65", alterId: 0, cipher: "auto", network: "ws", ws-opts: {path: "/vpnjantit"}}
-  - {name: "vpnjantit🇩🇪de 02-27 (576)", type: "vmess", server: "87.106.198.110", port: 10000, uuid: "c09d8460-b275-11ed-8fa7-b3e3c710636b", alterId: 0, cipher: "auto", network: "ws", ws-opts: {path: "/vpnjantit"}}
-  - {name: "vpnjantit🇬🇧uk 02-27 (577)", type: "vmess", server: "77.68.12.207", port: 10000, uuid: "c0b895d4-b275-11ed-810b-cb96f7095c13", alterId: 0, cipher: "auto", network: "ws", ws-opts: {path: "/vpnjantit"}}
-  - {name: "vpnjantit🇬🇧uk 02-27 (578)", type: "vmess", server: "194.146.49.166", port: 10000, uuid: "bb04db48-b275-11ed-aa2e-00163e7a9696", alterId: 0, cipher: "auto", network: "ws", ws-opts: {path: "/vpnjantit"}}
-  - {name: "vpnjantit🇺🇦ua 02-27 (579)", type: "vmess", server: "193.238.153.61", port: 10000, uuid: "dfa7aa66-b275-11ed-aa79-8b80df19a269", alterId: 0, cipher: "auto", network: "ws", ws-opts: {path: "/vpnjantit"}}
-  - {name: "vpnjantit🇺🇦ua 02-27 (580)", type: "vmess", server: "5.34.182.153", port: 10000, uuid: "df41bb98-b275-11ed-9ae5-435f8f3c6c82", alterId: 0, cipher: "auto", network: "ws", ws-opts: {path: "/vpnjantit"}}
-  - {name: "vpnjantit🇵🇱pl 02-27 (581)", type: "vmess", server: "146.59.44.159", port: 10000, uuid: "de4c16ac-b275-11ed-b01d-8b8379cd249d", alterId: 0, cipher: "auto", network: "ws", ws-opts: {path: "/vpnjantit"}}
-  - {name: "vpnjantit🇫🇷fr 02-27 (582)", type: "vmess", server: "212.129.20.7", port: 10000, uuid: "e3fb99ec-b275-11ed-88b4-52540000fafa", alterId: 0, cipher: "auto", network: "ws", ws-opts: {path: "/vpnjantit"}}
-  - {name: "vpnjantit🇫🇷fr 02-27 (583)", type: "vmess", server: "51.91.248.209", port: 10000, uuid: "ff7c5648-b275-11ed-8842-2f75954514f8", alterId: 0, cipher: "auto", network: "ws", ws-opts: {path: "/vpnjantit"}}
-  - {name: "vpnjantit🇺🇸us 02-27 (584)", type: "vmess", server: "107.181.187.213", port: 10000, uuid: "f852e472-b275-11ed-b93a-df1d9f3073fe", alterId: 0, cipher: "auto", network: "ws", ws-opts: {path: "/vpnjantit"}}
-  - {name: "vpnjantit🇺🇸us 02-27 (585)", type: "vmess", server: "195.123.242.216", port: 10000, uuid: "07263d64-b276-11ed-a68c-52ac0051152b", alterId: 0, cipher: "auto", network: "ws", ws-opts: {path: "/vpnjantit"}}
-  - {name: "vpnjantit🇨🇦ca 02-27 (586)", type: "vmess", server: "51.79.70.147", port: 10000, uuid: "05cad6fa-b276-11ed-925d-abbbd15f49a0", alterId: 0, cipher: "auto", network: "ws", ws-opts: {path: "/vpnjantit"}}
-  - {name: "vpnjantit🇨🇦ca 02-27 (587)", type: "vmess", server: "192.99.247.52", port: 10000, uuid: "fef4291c-b275-11ed-bdb4-33c8770a4026", alterId: 0, cipher: "auto", network: "ws", ws-opts: {path: "/vpnjantit"}}
-  - {name: "vpnjantit🇮🇩id 02-27 (588)", type: "vmess", server: "103.150.197.217", port: 10000, uuid: "2c3e5e06-b276-11ed-81c5-7bef90df81a6", alterId: 0, cipher: "auto", network: "ws", ws-opts: {path: "/vpnjantit"}}
-
 proxy-groups:
   - name: Select
     type: select
@@ -265,66 +227,27 @@ proxy-groups:
       - FreeNode🇺🇸Atlanta (41)
       - FreeNode🇩🇪Dusseldorf (49)
       - FreeNode🇱🇻Riga (47)
-      - sshstores🇫🇷fr 02-23 (401)
-      - sshstores🇫🇷fr 02-23 (402)
-      - sshstores🇬🇧uk 02-23 (403)
-      - sshstores🇬🇧uk 02-23 (404)
-      - sshstores🇳🇱nl 02-23 (405)
-      - sshstores🇳🇱nl 02-23 (406)
-      - sshstores🇳🇱nl 02-23 (407)
-      - sshstores🇯🇵jp 02-23 (408)
-      - sshstores🇯🇵jp 02-23 (409)
-      - sshstores🇺🇸us 02-23 (410)
-      - sshstores🇺🇸us 02-23 (411)
-      - akunssh🇨🇦ca 02-26 (523)
-      - akunssh🇨🇦ca 02-26 (524)
-      - akunssh🇩🇪de 02-26 (525)
-      - akunssh🇩🇪de 02-26 (526)
-      - akunssh🇩🇪de 02-26 (527)
-      - akunssh🇩🇪de 02-26 (528)
-      - akunssh🇮🇩id 02-26 (529)
-      - akunssh🇮🇩id 02-26 (530)
-      - akunssh🇸🇬sg 02-26 (531)
-      - akunssh🇸🇬sg 02-26 (532)
-      - akunssh🇩🇪de 02-26 (533)
-      - mainssh🇮🇩id 03-01 (551)
-      - mainssh🇸🇬sg 03-01 (552)
-      - mainssh🇫🇷fr 03-01 (553)
-      - mainssh🇫🇷fr 03-01 (554)
-      - mainssh🇨🇦ca 03-01 (555)
-      - mainssh🇬🇧uk 03-01 (556)
-      - mainssh🇬🇧uk 03-01 (557)
-      - mainssh🇺🇸us 03-01 (558)
-      - mainssh🇩🇪de 03-01 (559)
-      - mainssh🇩🇪de 03-01 (560)
-      - mainssh🇩🇪de 03-01 (561)
-      - freevmess🇩🇪de 02-27 (562)
-      - freevmess🇩🇪de 02-27 (563)
-      - freevmess🇳🇱nl 02-27 (564)
-      - freevmess🇫🇷fr 02-27 (565)
-      - freevmess🇨🇦ca 02-27 (566)
-      - freevmess🇸🇬sg 02-27 (567)
-      - freevmess🇩🇪de 02-27 (568)
-      - freevmess🇫🇷fr 02-27 (569)
-      - freevmess🇬🇧uk 02-27 (570)
-      - freevmess🇺🇸us 02-27 (571)
-      - vpnjantit🇮🇩id 02-27 (572)
-      - vpnjantit🇮🇩id 02-27 (573)
-      - vpnjantit🇩🇪de 02-27 (574)
-      - vpnjantit🇩🇪de 02-27 (575)
-      - vpnjantit🇩🇪de 02-27 (576)
-      - vpnjantit🇬🇧uk 02-27 (577)
-      - vpnjantit🇬🇧uk 02-27 (578)
-      - vpnjantit🇺🇦ua 02-27 (579)
-      - vpnjantit🇺🇦ua 02-27 (580)
-      - vpnjantit🇵🇱pl 02-27 (581)
-      - vpnjantit🇫🇷fr 02-27 (582)
-      - vpnjantit🇫🇷fr 02-27 (583)
-      - vpnjantit🇺🇸us 02-27 (584)
-      - vpnjantit🇺🇸us 02-27 (585)
-      - vpnjantit🇨🇦ca 02-27 (586)
-      - vpnjantit🇨🇦ca 02-27 (587)
-      - vpnjantit🇮🇩id 02-27 (588)
+      - akunssh🇩🇪de 03-09 (651)
+      - akunssh🇩🇪de 03-09 (652)
+      - akunssh🇩🇪de 03-09 (653)
+      - akunssh🇮🇩id 03-09 (655)
+      - sshstores🇩🇪de 03-09 (656)
+      - sshstores🇩🇪de 03-09 (657)
+      - sshstores🇫🇷fr 03-09 (658)
+      - sshstores🇫🇷fr 03-09 (659)
+      - sshstores🇬🇧uk 03-09 (660)
+      - sshstores🇳🇱nl 03-09 (661)
+      - sshstores🇨🇦ca 03-09 (662)
+      - sshstores🇨🇦ca 03-09 (663)
+      - opentunnel🇮🇩id 03-09 (664)
+      - opentunnel🇺🇸us 03-09 (665)
+      - opentunnel🇳🇱nl 03-09 (666)
+      - opentunnel🇳🇱nl 03-09 (667)
+      - opentunnel🇭🇰hk 03-09 (668)
+      - opentunnel🇸🇬sg 03-09 (669)
+      - opentunnel🇮🇩id 03-09 (670)
+      - opentunnel🇦🇺au 03-09 (671)
+      - opentunnel🇻🇳vn 03-09 (672)
       - ⚡️Auto⚡️
 
   - name: ⚡️Auto⚡️
@@ -368,66 +291,27 @@ proxy-groups:
       - FreeNode🇺🇸Atlanta (41)
       - FreeNode🇩🇪Dusseldorf (49)
       - FreeNode🇱🇻Riga (47)
-      - sshstores🇫🇷fr 02-23 (401)
-      - sshstores🇫🇷fr 02-23 (402)
-      - sshstores🇬🇧uk 02-23 (403)
-      - sshstores🇬🇧uk 02-23 (404)
-      - sshstores🇳🇱nl 02-23 (405)
-      - sshstores🇳🇱nl 02-23 (406)
-      - sshstores🇳🇱nl 02-23 (407)
-      - sshstores🇯🇵jp 02-23 (408)
-      - sshstores🇯🇵jp 02-23 (409)
-      - sshstores🇺🇸us 02-23 (410)
-      - sshstores🇺🇸us 02-23 (411)
-      - akunssh🇨🇦ca 02-26 (523)
-      - akunssh🇨🇦ca 02-26 (524)
-      - akunssh🇩🇪de 02-26 (525)
-      - akunssh🇩🇪de 02-26 (526)
-      - akunssh🇩🇪de 02-26 (527)
-      - akunssh🇩🇪de 02-26 (528)
-      - akunssh🇮🇩id 02-26 (529)
-      - akunssh🇮🇩id 02-26 (530)
-      - akunssh🇸🇬sg 02-26 (531)
-      - akunssh🇸🇬sg 02-26 (532)
-      - akunssh🇩🇪de 02-26 (533)
-      - mainssh🇮🇩id 03-01 (551)
-      - mainssh🇸🇬sg 03-01 (552)
-      - mainssh🇫🇷fr 03-01 (553)
-      - mainssh🇫🇷fr 03-01 (554)
-      - mainssh🇨🇦ca 03-01 (555)
-      - mainssh🇬🇧uk 03-01 (556)
-      - mainssh🇬🇧uk 03-01 (557)
-      - mainssh🇺🇸us 03-01 (558)
-      - mainssh🇩🇪de 03-01 (559)
-      - mainssh🇩🇪de 03-01 (560)
-      - mainssh🇩🇪de 03-01 (561)
-      - freevmess🇩🇪de 02-27 (562)
-      - freevmess🇩🇪de 02-27 (563)
-      - freevmess🇳🇱nl 02-27 (564)
-      - freevmess🇫🇷fr 02-27 (565)
-      - freevmess🇨🇦ca 02-27 (566)
-      - freevmess🇸🇬sg 02-27 (567)
-      - freevmess🇩🇪de 02-27 (568)
-      - freevmess🇫🇷fr 02-27 (569)
-      - freevmess🇬🇧uk 02-27 (570)
-      - freevmess🇺🇸us 02-27 (571)
-      - vpnjantit🇮🇩id 02-27 (572)
-      - vpnjantit🇮🇩id 02-27 (573)
-      - vpnjantit🇩🇪de 02-27 (574)
-      - vpnjantit🇩🇪de 02-27 (575)
-      - vpnjantit🇩🇪de 02-27 (576)
-      - vpnjantit🇬🇧uk 02-27 (577)
-      - vpnjantit🇬🇧uk 02-27 (578)
-      - vpnjantit🇺🇦ua 02-27 (579)
-      - vpnjantit🇺🇦ua 02-27 (580)
-      - vpnjantit🇵🇱pl 02-27 (581)
-      - vpnjantit🇫🇷fr 02-27 (582)
-      - vpnjantit🇫🇷fr 02-27 (583)
-      - vpnjantit🇺🇸us 02-27 (584)
-      - vpnjantit🇺🇸us 02-27 (585)
-      - vpnjantit🇨🇦ca 02-27 (586)
-      - vpnjantit🇨🇦ca 02-27 (587)
-      - vpnjantit🇮🇩id 02-27 (588)
+      - akunssh🇩🇪de 03-09 (651)
+      - akunssh🇩🇪de 03-09 (652)
+      - akunssh🇩🇪de 03-09 (653)
+      - akunssh🇮🇩id 03-09 (655)
+      - sshstores🇩🇪de 03-09 (656)
+      - sshstores🇩🇪de 03-09 (657)
+      - sshstores🇫🇷fr 03-09 (658)
+      - sshstores🇫🇷fr 03-09 (659)
+      - sshstores🇬🇧uk 03-09 (660)
+      - sshstores🇳🇱nl 03-09 (661)
+      - sshstores🇨🇦ca 03-09 (662)
+      - sshstores🇨🇦ca 03-09 (663)
+      - opentunnel🇮🇩id 03-09 (664)
+      - opentunnel🇺🇸us 03-09 (665)
+      - opentunnel🇳🇱nl 03-09 (666)
+      - opentunnel🇳🇱nl 03-09 (667)
+      - opentunnel🇭🇰hk 03-09 (668)
+      - opentunnel🇸🇬sg 03-09 (669)
+      - opentunnel🇮🇩id 03-09 (670)
+      - opentunnel🇦🇺au 03-09 (671)
+      - opentunnel🇻🇳vn 03-09 (672)
 
   - name: Ad-Block
     type: select
