@@ -127,6 +127,12 @@ dns:
 ###flags###
 # de 🇩🇪 - id 🇮🇩 - ca 🇨🇦 - hk 🇭🇰 - my 🇲🇾 - jp 🇯🇵 - uk 🇬🇧 - ua 🇺🇦 - se 🇸🇪 - sp 🇪🇸 - us 🇺🇸 - za 🇿🇦 - sg 🇸🇬 - pl 🇵🇱 - fr 🇫🇷 - kr 🇰🇷 - nl 🇳🇱 - au 🇦🇺 - ae 🇦🇪 - th 🇹🇭 - vn 🇻🇳
 proxies:
+  - {name: "Doprax (01)", type: "vmess", server: "104.16.118.221", port: 443, uuid: "3445bb7a-7dcb-408e-be51-a8912bad94ea", alterId: 0, cipher: "auto", network: "ws", servername: "worker4.denin68336.workers.dev", tls: true, ws-opts: {path: "/domaindemom4xe.eu-ffaqrvbjixds.dopraxrocks.net:443/vmess", headers: {host: "worker4-in.denin68336.workers.dev"}}}
+  - {name: "Doprax (02)", type: "vmess", server: "104.16.126.200", port: 443, uuid: "3445bb7a-7dcb-408e-be51-a8912bad94ea", alterId: 0, cipher: "auto", network: "ws", servername: "worker4.denin68336.workers.dev", tls: true, ws-opts: {path: "/domaindemom4xe.eu-ffaqrvbjixds.dopraxrocks.net:443/vmess", headers: {host: "worker4-in.denin68336.workers.dev"}}}
+  - {name: "Doprax (03)", type: "vmess", server: "104.16.71.244", port: 443, uuid: "3445bb7a-7dcb-408e-be51-a8912bad94ea", alterId: 0, cipher: "auto", network: "ws", servername: "worker4.denin68336.workers.dev", tls: true, ws-opts: {path: "/domaindemom4xe.eu-ffaqrvbjixds.dopraxrocks.net:443/vmess", headers: {host: "worker4-in.denin68336.workers.dev"}}}
+  - {name: "Doprax (04)", type: "vmess", server: "104.16.61.170", port: 443, uuid: "3445bb7a-7dcb-408e-be51-a8912bad94ea", alterId: 0, cipher: "auto", network: "ws", servername: "worker4.denin68336.workers.dev", tls: true, ws-opts: {path: "/domaindemom4xe.eu-ffaqrvbjixds.dopraxrocks.net:443/vmess", headers: {host: "worker4-in.denin68336.workers.dev"}}}
+  - {name: "Doprax (05)", type: "vmess", server: "104.16.31.2", port: 443, uuid: "3445bb7a-7dcb-408e-be51-a8912bad94ea", alterId: 0, cipher: "auto", network: "ws", servername: "worker4.denin68336.workers.dev", tls: true, ws-opts: {path: "/domaindemom4xe.eu-ffaqrvbjixds.dopraxrocks.net:443/vmess", headers: {host: "worker4-in.denin68336.workers.dev"}}}
+  
   - {name: "FreeNode🇺🇸Atlanta (11)", type: vmess, server: "discord.com", port: 443, uuid: "59088BE1-AB52-99BA-4BE1-2B68AFECDF22", alterId: 0, cipher: "auto", tls: true, servername: "worker2.casoget578.workers.dev", network: "ws", ws-opts: {path: "/Atlanta.v2ray.online:443/speedtest", headers: {host: "worker2.casoget578.workers.dev"}}}
   - {name: "FreeNode🇺🇸Phoenix (12)", type: vmess, server: "discord.com", port: 443, uuid: "59088BE1-AB52-99BA-4BE1-2B68AFECDF22", alterId: 0, cipher: "auto", tls: true, servername: "worker2.casoget578.workers.dev", network: "ws", ws-opts: {path: "/Phoenix.v2ray.online:443/speedtest", headers: {host: "worker2.casoget578.workers.dev"}}}
   - {name: "FreeNode🇺🇸Kansas (13)", type: vmess, server: "discord.com", port: 443, uuid: "59088BE1-AB52-99BA-4BE1-2B68AFECDF22", alterId: 0, cipher: "auto", tls: true, servername: "worker2.casoget578.workers.dev", network: "ws", ws-opts: {path: "/Kansas.v2ray.online:443/speedtest", headers: {host: "worker2.casoget578.workers.dev"}}}
@@ -248,6 +254,7 @@ proxy-groups:
       - opentunnel🇮🇩id 03-09 (670)
       - opentunnel🇦🇺au 03-09 (671)
       - opentunnel🇻🇳vn 03-09 (672)
+      - ☘️Doprax☘️
       - ⚡️Auto⚡️
 
   - name: ⚡️Auto⚡️
@@ -312,6 +319,17 @@ proxy-groups:
       - opentunnel🇮🇩id 03-09 (670)
       - opentunnel🇦🇺au 03-09 (671)
       - opentunnel🇻🇳vn 03-09 (672)
+
+  - name: ☘️Doprax☘️
+    type: fallback
+    url: http://www.gstatic.com/generate_204
+    interval: 300
+    proxies:
+    - Doprax (01)
+    - Doprax (02)
+    - Doprax (03)
+    - Doprax (04)
+    - Doprax (05)
 
   - name: Ad-Block
     type: select
