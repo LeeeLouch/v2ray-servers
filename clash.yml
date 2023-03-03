@@ -134,7 +134,7 @@ dns:
 ###flags###
 # de 🇩🇪 - id 🇮🇩 - ca 🇨🇦 - hk 🇭🇰 - my 🇲🇾 - jp 🇯🇵 - uk 🇬🇧 - ua 🇺🇦 - se 🇸🇪 - sp 🇪🇸 - us 🇺🇸 - za 🇿🇦 - sg 🇸🇬 - pl 🇵🇱 - fr 🇫🇷 - kr 🇰🇷 - nl 🇳🇱 - au 🇦🇺 - ae 🇦🇪 - th 🇹🇭 - vn 🇻🇳
 proxies:
-  - {name: "Doprax (01)", type: "vmess", server: "104.16.118.221", port: 443, uuid: "3445bb7a-7dcb-408e-be51-a8912bad94ea", alterId: 0, cipher: "auto", network: "ws", servername: "worker4.denin68336.workers.dev", tls: true, ws-opts: {path: "/    domaindemom4xe.eu-ffaqrvbjixds.dopraxrocks.net:443/vmess"}}
+  - {name: "Doprax (01)", type: "vmess", server: "104.16.118.221", port: 443, uuid: "3445bb7a-7dcb-408e-be51-a8912bad94ea", alterId: 0, cipher: "auto", network: "ws", servername: "worker4.denin68336.workers.dev", tls: true, ws-opts: {path: "/domaindemom4xe.eu-ffaqrvbjixds.dopraxrocks.net:443/vmess"}}
   - {name: "Doprax (02)", type: "vmess", server: "104.16.126.200", port: 443, uuid: "3445bb7a-7dcb-408e-be51-a8912bad94ea", alterId: 0, cipher: "auto", network: "ws", servername: "worker4.denin68336.workers.dev", tls: true, ws-opts: {path: "/domaindemom4xe.eu-ffaqrvbjixds.dopraxrocks.net:443/vmess", headers: {host: "worker4-in.denin68336.workers.dev"}}}
   - {name: "Doprax (03)", type: "vmess", server: "104.16.71.244", port: 443, uuid: "3445bb7a-7dcb-408e-be51-a8912bad94ea", alterId: 0, cipher: "auto", network: "ws", tls: true, ws-opts: {path: "/domaindemom4xe.eu-ffaqrvbjixds.dopraxrocks.net:443/vmess", headers: {host: "worker4-in.denin68336.workers.dev"}}}
   - {name: "Doprax (04)", type: "vmess", server: "104.16.61.170", port: 443, uuid: "3445bb7a-7dcb-408e-be51-a8912bad94ea", alterId: 0, cipher: "auto", network: "ws", servername: "worker4.denin68336.workers.dev", tls: true, ws-opts: {path: "/domaindemom4xe.eu-ffaqrvbjixds.dopraxrocks.net:443/vmess", headers: {host: "worker4-in.denin68336.workers.dev"}}}
@@ -206,6 +206,12 @@ proxies:
   - {name: "opentunnel🇸🇬sg 03-09 (715)", type: "vmess", server: "139.99.78.2", port: 443, uuid: "a40d34c6-b77c-4648-9210-3e8d2f4226b5", alterId: 16, cipher: "auto", network: "ws", servername: "sni.cloudflrae.com", tls: true, skip-cert-verify: true, ws-opts: {path: "/opentunnel?user=opentunnel.net-fasfcvsdvs", headers: {host: "sni.cloudflrae.com"}}}
   - {name: "opentunnel🇦🇺au 03-09 (716)", type: "vmess", server: "51.161.204.239", port: 443, uuid: "a40d34c6-b77c-4648-9210-3e8d2f4226b5", alterId: 16, cipher: "auto", network: "ws", servername: "sni.cloudflrae.com", tls: true, skip-cert-verify: true, ws-opts: {path: "/opentunnel?user=opentunnel.net-efdsvewfsdaz", headers: {host: "sni.cloudflrae.com"}}}
   - {name: "opentunnel🇻🇳vn 03-09 (717)", type: "vmess", server: "103.143.143.190", port: 443, uuid: "a40d34c6-b77c-4648-9210-3e8d2f4226b5", alterId: 16, cipher: "auto", network: "ws", servername: "sni.cloudflrae.com", tls: true, skip-cert-verify: true, ws-opts: {path: "/opentunnel?user=opentunnel.net-dsvsdffsad", headers: {host: "sni.cloudflrae.com"}}}
+  - {"name":"mainssh🇮🇩id 03-10 (751)","type":"trojan","server":"idtws.mainssh.xyz","port":443,"udp":true,"password":"mainssh-noewiafnlsad","sni":"sni.cloudflare.com","skip-cert-verify":true,"network":"ws","ws-opts":{"path":"/trojan","headers":{"host":"sni.cloudflare.com"}}}
+  - {"name":"mainssh🇫🇷fr 03-10 (752)","type":"trojan","server":"frtws.mainssh.xyz","port":443,"udp":true,"password":"mainssh-werfsdxc","sni":"sni.cloudflare.com","skip-cert-verify":true,"network":"ws","ws-opts":{"path":"/trojan","headers":{"host":"sni.cloudflare.com"}}}
+  - {"name":"mainssh🇨🇦ca 03-10 (753)","type":"trojan","server":"catws.mainssh.xyz","port":443,"udp":true,"password":"mainssh-dsavzsedasdf","sni":"sni.cloudflare.com","skip-cert-verify":true,"network":"ws","ws-opts":{"path":"/trojan","headers":{"host":"sni.cloudflare.com"}}}
+  - {"name":"mainssh🇬🇧uk 03-10 (754)","type":"trojan","server":"uktws.mainssh.xyz","port":443,"udp":true,"password":"mainssh-sdfadvdasf","sni":"sni.cloudflare.com","skip-cert-verify":true,"network":"ws","ws-opts":{"path":"/trojan","headers":{"host":"sni.cloudflare.com"}}}
+  - {"name":"mainssh🇩🇪de 03-10 (755)","type":"trojan","server":"getws.mainssh.xyz","port":443,"udp":true,"password":"mainssh-efasdvasdfw","sni":"sni.cloudflare.com","skip-cert-verify":true,"network":"ws","ws-opts":{"path":"/trojan","headers":{"host":"sni.cloudflare.com"}}}
+
 
 proxy-groups:
   - name: Select
@@ -276,6 +282,11 @@ proxy-groups:
       - opentunnel🇸🇬sg 03-09 (715)
       - opentunnel🇦🇺au 03-09 (716)
       - opentunnel🇻🇳vn 03-09 (717)
+      - mainssh🇮🇩id 03-10 (751)
+      - mainssh🇫🇷fr 03-10 (752)
+      - mainssh🇨🇦ca 03-10 (753)
+      - mainssh🇬🇧uk 03-10 (754)
+      - mainssh🇩🇪de 03-10 (755)
       - ☘️Doprax☘️
       - ⚡️Auto⚡️
 
@@ -348,6 +359,11 @@ proxy-groups:
       - opentunnel🇸🇬sg 03-09 (715)
       - opentunnel🇦🇺au 03-09 (716)
       - opentunnel🇻🇳vn 03-09 (717)
+      - mainssh🇮🇩id 03-10 (751)
+      - mainssh🇫🇷fr 03-10 (752)
+      - mainssh🇨🇦ca 03-10 (753)
+      - mainssh🇬🇧uk 03-10 (754)
+      - mainssh🇩🇪de 03-10 (755)
 
   - name: ☘️Doprax☘️
     type: url-test
