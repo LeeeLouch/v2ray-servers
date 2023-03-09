@@ -235,16 +235,14 @@ proxies:
   - {name: "vpnjantit🇬🇧uk 03-15 (833)", type: "vmess", server: "77.68.12.207", port: 10000, uuid: "c528c20e-bdd5-11ed-9e66-dbe3c7dec272", alterId: 0, cipher: "auto", network: "ws", ws-opts: {path: "/vpnjantit", headers: {host: "sni.cloudflare.com"}}}
   - {name: "vpnjantit🇬🇧uk 03-15 (834)", type: "vmess", server: "77.68.12.207", port: 10001, uuid: "c528c20e-bdd5-11ed-9e66-dbe3c7dec272", alterId: 0, cipher: "auto", network: "ws", servername: "sni.cloudflare.com", tls: true, skip-cert-verify: true, ws-opts: {path: "/vpnjantit", headers: {host: "sni.cloudflare.com"}}}
 
-  - {name: "mainssh🇸🇬sg 03-16 (835)", type: "vmess", server: "104.16.0.214", port: 443, uuid: "89a32fc2-c5ef-4fb1-911f-263131dd3021", alterId: 0, cipher: "auto", network: "ws", servername: "worker4-in.fhsdalenas.yn.to", tls: true, ws-opts: {path: "/sgmws.mainssh.xyz:443/vmess", headers: {host: "worker4-in.fhsdalenas.yn.to"}}}
-  - {name: "mainssh🇫🇷fr 03-16 (836)", type: "vmess", server: "104.16.0.214", port: 443, uuid: "8594ca50-a8fc-455c-b6dc-d90a1f35adb5", alterId: 0, cipher: "auto", network: "ws", servername: "worker4-in.fhsdalenas.yn.to", tls: true, ws-opts: {path: "/frmws.mainssh.xyz:443/vmess", headers: {host: "worker4-in.fhsdalenas.yn.to"}}}
-  - {name: "mainssh🇨🇦ca 03-16 (837)", type: "vmess", server: "104.16.0.214", port: 443, uuid: "88ba9258-b2ac-4481-a428-ca9dae440a6d", alterId: 0, cipher: "auto", network: "ws", servername: "worker4-in.fhsdalenas.yn.to", tls: true, ws-opts: {path: "/camws.mainssh.xyz:443/vmess", headers: {host: "worker4-in.fhsdalenas.yn.to"}}}
-  - {name: "mainssh🇬🇧uk 03-16 (838)", type: "vmess", server: "104.16.0.214", port: 443, uuid: "49d60ae6-6463-4b5a-bbd5-b99d8709ea0b", alterId: 0, cipher: "auto", network: "ws", servername: "worker4-in.fhsdalenas.yn.to", tls: true, ws-opts: {path: "/ukmws.mainssh.xyz:443/vmess", headers: {host: "worker4-in.fhsdalenas.yn.to"}}}
-  - {name: "mainssh🇬🇧uk 03-16 (839)", type: "vmess", server: "104.16.0.214", port: 443, uuid: "549502bb-48ee-4b1c-87d0-1723441aec96", alterId: 0, cipher: "auto", network: "ws", servername: "worker4-in.fhsdalenas.yn.to", tls: true, ws-opts: {path: "/ukmws.mainssh.xyz:443/vmess", headers: {host: "worker4-in.fhsdalenas.yn.to"}}}
-  - {name: "mainssh🇩🇪de 03-16 (840)", type: "vmess", server: "104.16.0.214", port: 443, uuid: "e69aee9e-0a37-4c5e-a904-3ea9cf701a71", alterId: 0, cipher: "auto", network: "ws", servername: "worker4-in.fhsdalenas.yn.to", tls: true, ws-opts: {path: "/gemws.mainssh.xyz:443/vmess", headers: {host: "worker4-in.fhsdalenas.yn.to"}}}
-  - {name: "mainssh🇩🇪de 03-16 (841)", type: "vmess", server: "104.16.0.214", port: 443, uuid: "2f98741b-e0a4-454b-976f-efed2df25702", alterId: 0, cipher: "auto", network: "ws", servername: "worker4-in.fhsdalenas.yn.to", tls: true, ws-opts: {path: "/gemws.mainssh.xyz:443/vmess", headers: {host: "worker4-in.fhsdalenas.yn.to"}}}
-  - {name: "mainssh🇩🇪de 03-16 (842)", type: "vmess", server: "104.16.0.214", port: 443, uuid: "80355f04-708b-4579-be54-c379ac492797", alterId: 0, cipher: "auto", network: "ws", servername: "worker4-in.fhsdalenas.yn.to", tls: true, ws-opts: {path: "/gemws.mainssh.xyz:443/vmess", headers: {host: "worker4-in.fhsdalenas.yn.to"}}}
-  - {name: "mainssh🇺🇸us 03-16 (843)", type: "vmess", server: "104.16.0.214", port: 443, uuid: "e57e21b2-5abc-41a0-8a86-c273be4377eb", alterId: 0, cipher: "auto", network: "ws", servername: "worker4-in.fhsdalenas.yn.to", tls: true, ws-opts: {path: "/usmws.mainssh.xyz:443/vmess", headers: {host: "worker4-in.fhsdalenas.yn.to"}}}
-
+  - {name: "mainssh🇸🇬sg 03-16 (835)", type: "vmess", server: "103.83.159.164", port: 443, uuid: "89a32fc2-c5ef-4fb1-911f-263131dd3021", alterId: 0, cipher: "auto", network: "ws", servername: "sgmws.mainssh.xyz", tls: true, skip-cert-verify: true, ws-opts: {path: "/vmess", headers: {host: "sgmws.mainssh.xyz"}}}
+  - {name: "mainssh🇫🇷fr 03-16 (836)", type: "vmess", server: "51.77.200.137", port: 443, uuid: "8594ca50-a8fc-455c-b6dc-d90a1f35adb5", alterId: 0, cipher: "auto", network: "ws", servername: "frmws.mainssh.xyz", tls: true, skip-cert-verify: true, ws-opts: {path: "/vmess", headers: {host: "frmws.mainssh.xyz"}}}
+  - {name: "mainssh🇨🇦ca 03-16 (837)", type: "vmess", server: "51.222.156.142", port: 443, uuid: "88ba9258-b2ac-4481-a428-ca9dae440a6d", alterId: 0, cipher: "auto", network: "ws", servername: "camws.mainssh.xyz", tls: true, skip-cert-verify: true, ws-opts: {path: "/vmess", headers: {host: "camws.mainssh.xyz"}}}
+  - {name: "mainssh🇬🇧uk 03-16 (838)", type: "vmess", server: "51.89.139.59", port: 443, uuid: "49d60ae6-6463-4b5a-bbd5-b99d8709ea0b", alterId: 0, cipher: "auto", network: "ws", servername: "sni.cloudflare.com", tls: true, skip-cert-verify: true, ws-opts: {path: "/vmess", headers: {host: "sni.cloudflare.com"}}}
+  - {name: "mainssh🇬🇧uk 03-16 (839)", type: "vmess", server: "51.89.139.59", port: 443, uuid: "549502bb-48ee-4b1c-87d0-1723441aec96", alterId: 0, cipher: "auto", network: "ws", servername: "ukmws.mainssh.xyz", tls: true, skip-cert-verify: true, ws-opts: {path: "/vmess", headers: {host: "ukmws.mainssh.xyz"}}}
+  - {name: "mainssh🇩🇪de 03-16 (840)", type: "vmess", server: "51.68.188.150", port: 443, uuid: "e69aee9e-0a37-4c5e-a904-3ea9cf701a71", alterId: 0, cipher: "auto", network: "ws", servername: "gemws.mainssh.xyz", tls: true, skip-cert-verify: true, ws-opts: {path: "/vmess", headers: {host: "gemws.mainssh.xyz"}}}
+  - {name: "mainssh🇩🇪de 03-16 (841)", type: "vmess", server: "51.68.188.150", port: 443, uuid: "2f98741b-e0a4-454b-976f-efed2df25702", alterId: 0, cipher: "auto", network: "ws", servername: "gemws.mainssh.xyz", tls: true, skip-cert-verify: true, ws-opts: {path: "/vmess", headers: {host: "gemws.mainssh.xyz"}}}
+  - {name: "mainssh🇺🇸us 03-16 (842)", type: "vmess", server: "198.98.61.117", port: 443, uuid: "e57e21b2-5abc-41a0-8a86-c273be4377eb", alterId: 0, cipher: "auto", network: "ws", servername: "usmws.mainssh.xyz", tls: true, skip-cert-verify: true, ws-opts: {path: "/vmess", headers: {host: "usmws.mainssh.xyz"}}}
 
 proxy-groups:
   - name: Select
@@ -348,8 +346,7 @@ proxy-groups:
       - mainssh🇬🇧uk 03-16 (839)
       - mainssh🇩🇪de 03-16 (840)
       - mainssh🇩🇪de 03-16 (841)
-      - mainssh🇩🇪de 03-16 (842)
-      - mainssh🇺🇸us 03-16 (843)
+      - mainssh🇺🇸us 03-16 (842)
       - ☘️Doprax☘️
       - ⚡️Auto⚡️
 
@@ -455,8 +452,7 @@ proxy-groups:
       - mainssh🇬🇧uk 03-16 (839)
       - mainssh🇩🇪de 03-16 (840)
       - mainssh🇩🇪de 03-16 (841)
-      - mainssh🇩🇪de 03-16 (842)
-      - mainssh🇺🇸us 03-16 (843)
+      - mainssh🇺🇸us 03-16 (842)
 
 
   - name: ☘️Doprax☘️
