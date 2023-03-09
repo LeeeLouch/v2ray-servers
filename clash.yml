@@ -140,42 +140,42 @@ proxies:
   # - {name: "Doprax (04)", type: "vmess", server: "104.16.61.170", port: 443, uuid: "3445bb7a-7dcb-408e-be51-a8912bad94ea", alterId: 0, cipher: "auto", network: "ws", servername: "worker4.denin68336.workers.dev", tls: true, ws-opts: {path: "/domaindemom4xe.eu-ffaqrvbjixds.dopraxrocks.net:443/vmess", headers: {host: "worker4-in.denin68336.workers.dev"}}}
   # - {name: "Doprax (05)", type: "vmess", server: "104.16.31.2", port: 443, uuid: "3445bb7a-7dcb-408e-be51-a8912bad94ea", alterId: 0, cipher: "auto", network: "ws", servername: "worker4.denin68336.workers.dev", tls: true, ws-opts: {path: "/domaindemom4xe.eu-ffaqrvbjixds.dopraxrocks.net:443/vmess", headers: {host: "worker4-in.denin68336.workers.dev"}}}
   
-  - {name: "FreeNode🇺🇸Atlanta (11)", type: vmess, server: "104.16.2.197", port: 443, uuid: "59088BE1-AB52-99BA-4BE1-2B68AFECDF22", alterId: 0, cipher: "auto", tls: true, servername: "worker2.xdsworker2.xi.to", network: "ws", ws-opts: {path: "/Atlanta.v2ray.online:443/speedtest", headers: {host: "worker2.xdsworker2.xi.to"}}}
-  - {name: "FreeNode🇺🇸Phoenix (12)", type: vmess, server: "104.16.2.197", port: 443, uuid: "59088BE1-AB52-99BA-4BE1-2B68AFECDF22", alterId: 0, cipher: "auto", tls: true, servername: "worker2.xdsworker2.xi.to", network: "ws", ws-opts: {path: "/Phoenix.v2ray.online:443/speedtest", headers: {host: "worker2.xdsworker2.xi.to"}}}
-  - {name: "FreeNode🇺🇸Kansas (13)", type: vmess, server: "104.16.2.197", port: 443, uuid: "59088BE1-AB52-99BA-4BE1-2B68AFECDF22", alterId: 0, cipher: "auto", tls: true, servername: "worker2.xdsworker2.xi.to", network: "ws", ws-opts: {path: "/Kansas.v2ray.online:443/speedtest", headers: {host: "worker2.xdsworker2.xi.to"}}}
-  - {name: "FreeNode🇫🇷Paris (15)", type: vmess, server: "104.16.2.197", port: 443, uuid: "59088BE1-AB52-99BA-4BE1-2B68AFECDF22", alterId: 0, cipher: "auto", tls: true, servername: "worker2.xdsworker2.xi.to", network: "ws", ws-opts: {path: "/Paris.v2ray.online:443/speedtest", headers: {host: "worker2.xdsworker2.xi.to"}}}
-  - {name: "FreeNode🇱🇻Riga (17)", type: vmess, server: "104.16.2.197", port: 443, uuid: "59088BE1-AB52-99BA-4BE1-2B68AFECDF22", alterId: 0, cipher: "auto", tls: true, servername: "worker2.xdsworker2.xi.to", network: "ws", ws-opts: {path: "/Riga.v2ray.online:443/speedtest", headers: {host: "worker2.xdsworker2.xi.to"}}}
-  - {name: "FreeNode🇳🇱Amsterdam (16)", type: vmess, server: "104.16.2.197", port: 443, uuid: "59088BE1-AB52-99BA-4BE1-2B68AFECDF22", alterId: 0, cipher: "auto", tls: true, servername: "worker2.xdsworker2.xi.to", network: "ws", ws-opts: {path: "/Amsterdam.v2ray.online:443/speedtest", headers: {host: "worker2.xdsworker2.xi.to"}}}
-  - {name: "FreeNode🇺🇸Seattle (14)", type: vmess, server: "104.16.2.197", port: 443, uuid: "59088BE1-AB52-99BA-4BE1-2B68AFECDF22", alterId: 0, cipher: "auto", tls: true, servername: "worker2.xdsworker2.xi.to", network: "ws", ws-opts: {path: "/Seattle.v2ray.online:443/speedtest", headers: {host: "worker2.xdsworker2.xi.to"}}}
-  - {name: "FreeNode🇯🇵Tokyo (18)", type: vmess, server: "104.16.2.197", port: 443, uuid: "59088BE1-AB52-99BA-4BE1-2B68AFECDF22", alterId: 0, cipher: "auto", tls: true, servername: "worker2.xdsworker2.xi.to", network: "ws", ws-opts: {path: "/Tokyo.v2ray.online:443/speedtest", headers: {host: "worker2.xdsworker2.xi.to"}}}
-  - {name: "FreeNode🇩🇪Dusseldorf (19)", type: vmess, server: "104.16.2.197", port: 443, uuid: "59088BE1-AB52-99BA-4BE1-2B68AFECDF22", alterId: 0, cipher: "auto", tls: true, servername: "worker2.xdsworker2.xi.to", network: "ws", ws-opts: {path: "/Dusseldorf.v2ray.online:443/speedtest", headers: {host: "worker2.xdsworker2.xi.to"}}}
-  - {name: "FreeNode🇺🇸Atlanta (21)", type: "vmess", server: "104.16.0.214", port: 443, uuid: "5642E751-6AC6-45FD-8809-FD3FA7B8A20F", alterId: 0, cipher: "auto", tls: true, servername: "worker4.fhsdalenas.yn.to", network: "ws", ws-opts: {path: "/Atlanta.v2ray.online:443/speedtest", headers: {host: "worker4.fhsdalenas.yn.to"}}}
-  - {name: "FreeNode🇯🇵Tokyo (28)", type: "vmess", server: "104.16.0.214", port: 443, uuid: "5642E751-6AC6-45FD-8809-FD3FA7B8A20F", alterId: 0, cipher: "auto", tls: true, servername: "worker4.fhsdalenas.yn.to", network: "ws", ws-opts: {path: "/Tokyo.v2ray.online:443/speedtest", headers: {host: "worker4.fhsdalenas.yn.to"}}}
-  - {name: "FreeNode🇺🇸Phoenix (22)", type: "vmess", server: "104.16.0.214", port: 443, uuid: "5642E751-6AC6-45FD-8809-FD3FA7B8A20F", alterId: 0, cipher: "auto", tls: true, servername: "worker4.fhsdalenas.yn.to", network: "ws", ws-opts: {path: "/Phoenix.v2ray.online:443/speedtest", headers: {host: "worker4.fhsdalenas.yn.to"}}}
-  - {name: "FreeNode🇳🇱Amsterdam (26)", type: "vmess", server: "104.16.0.214", port: 443, uuid: "5642E751-6AC6-45FD-8809-FD3FA7B8A20F", alterId: 0, cipher: "auto", tls: true, servername: "worker4.fhsdalenas.yn.to", network: "ws", ws-opts: {path: "/Amsterdam.v2ray.online:443/speedtest", headers: {host: "worker4.fhsdalenas.yn.to"}}}
-  - {name: "FreeNode🇺🇸Seattle (24)", type: "vmess", server: "104.16.0.214", port: 443, uuid: "5642E751-6AC6-45FD-8809-FD3FA7B8A20F", alterId: 0, cipher: "auto", tls: true, servername: "worker4.fhsdalenas.yn.to", network: "ws", ws-opts: {path: "/Seattle.v2ray.online:443/speedtest", headers: {host: "worker4.fhsdalenas.yn.to"}}}
-  - {name: "FreeNode🇩🇪Dusseldorf (29)", type: "vmess", server: "104.16.0.214", port: 443, uuid: "5642E751-6AC6-45FD-8809-FD3FA7B8A20F", alterId: 0, cipher: "auto", tls: true, servername: "worker4.fhsdalenas.yn.to", network: "ws", ws-opts: {path: "/Dusseldorf.v2ray.online:443/speedtest", headers: {host: "worker4.fhsdalenas.yn.to"}}}
-  - {name: "FreeNode🇺🇸Kansas (23)", type: "vmess", server: "104.16.0.214", port: 443, uuid: "5642E751-6AC6-45FD-8809-FD3FA7B8A20F", alterId: 0, cipher: "auto", tls: true, servername: "worker4.fhsdalenas.yn.to", network: "ws", ws-opts: {path: "/Kansas.v2ray.online:443/speedtest", headers: {host: "worker4.fhsdalenas.yn.to"}}}
-  - {name: "FreeNode🇫🇷Paris (25)", type: "vmess", server: "104.16.0.214", port: 443, uuid: "5642E751-6AC6-45FD-8809-FD3FA7B8A20F", alterId: 0, cipher: "auto", tls: true, servername: "worker4.fhsdalenas.yn.to", network: "ws", ws-opts: {path: "/Paris.v2ray.online:443/speedtest", headers: {host: "worker4.fhsdalenas.yn.to"}}}
-  - {name: "FreeNode🇱🇻Riga (27)", type: "vmess", server: "104.16.0.214", port: 443, uuid: "5642E751-6AC6-45FD-8809-FD3FA7B8A20F", alterId: 0, cipher: "auto", tls: true, servername: "worker4.fhsdalenas.yn.to", network: "ws", ws-opts: {path: "/Riga.v2ray.online:443/speedtest", headers: {host: "worker4.fhsdalenas.yn.to"}}}
-  - {name: "FreeNode🇺🇸Seattle (34)", type: "vmess", server: "104.16.0.101", port: 443, uuid: "11A9BBCA-CCF2-4C84-9AE4-6E2CA1E66D2A", alterId: 0, cipher: "auto", tls: true, servername: "worker5.xdsworker4.yn.to", network: "ws", ws-opts: {path: "/speedtest", headers: {host: "worker5.xdsworker4.yn.to"}}}
-  - {name: "FreeNode🇫🇷Paris (35)", type: "vmess", server: "104.16.0.101", port: 443, uuid: "11A9BBCA-CCF2-4C84-9AE4-6E2CA1E66D2A", alterId: 0, cipher: "auto", tls: true, servername: "worker5.xdsworker4.yn.to", network: "ws", ws-opts: {path: "/speedtest", headers: {host: "worker5.xdsworker4.yn.to"}}}
-  - {name: "FreeNode🇳🇱Amsterdam (36)", type: "vmess", server: "104.16.0.101", port: 443, uuid: "11A9BBCA-CCF2-4C84-9AE4-6E2CA1E66D2A", alterId: 0, cipher: "auto", tls: true, servername: "worker5.xdsworker4.yn.to", network: "ws", ws-opts: {path: "/speedtest", headers: {host: "worker5.xdsworker4.yn.to"}}}
-  - {name: "FreeNode🇺🇸Kansas (33)", type: "vmess", server: "104.16.0.101", port: 443, uuid: "11A9BBCA-CCF2-4C84-9AE4-6E2CA1E66D2A", alterId: 0, cipher: "auto", tls: true, servername: "worker5.xdsworker4.yn.to", network: "ws", ws-opts: {path: "/speedtest", headers: {host: "worker5.xdsworker4.yn.to"}}}
-  - {name: "FreeNode🇯🇵Tokyo (38)", type: "vmess", server: "104.16.0.101", port: 443, uuid: "11A9BBCA-CCF2-4C84-9AE4-6E2CA1E66D2A", alterId: 0, cipher: "auto", tls: true, servername: "worker5.xdsworker4.yn.to", network: "ws", ws-opts: {path: "/speedtest", headers: {host: "worker5.xdsworker4.yn.to"}}}
-  - {name: "FreeNode🇺🇸Phoenix (32)", type: "vmess", server: "104.16.0.101", port: 443, uuid: "11A9BBCA-CCF2-4C84-9AE4-6E2CA1E66D2A", alterId: 0, cipher: "auto", tls: true, servername: "worker5.xdsworker4.yn.to", network: "ws", ws-opts: {path: "/speedtest", headers: {host: "worker5.xdsworker4.yn.to"}}}
-  - {name: "FreeNode🇺🇸Atlanta (31)", type: "vmess", server: "104.16.0.101", port: 443, uuid: "11A9BBCA-CCF2-4C84-9AE4-6E2CA1E66D2A", alterId: 0, cipher: "auto", tls: true, servername: "worker5.xdsworker4.yn.to", network: "ws", ws-opts: {path: "/speedtest", headers: {host: "worker5.xdsworker4.yn.to"}}}
-  - {name: "FreeNode🇩🇪Dusseldorf (39)", type: "vmess", server: "104.16.0.101", port: 443, uuid: "11A9BBCA-CCF2-4C84-9AE4-6E2CA1E66D2A", alterId: 0, cipher: "auto", tls: true, servername: "worker5.xdsworker4.yn.to", network: "ws", ws-opts: {path: "/speedtest", headers: {host: "worker5.xdsworker4.yn.to"}}}
-  - {name: "FreeNode🇱🇻Riga (37)", type: "vmess", server: "104.16.0.101", port: 443, uuid: "11A9BBCA-CCF2-4C84-9AE4-6E2CA1E66D2A", alterId: 0, cipher: "auto", tls: true, servername: "worker5.xdsworker4.yn.to", network: "ws", ws-opts: {path: "/speedtest", headers: {host: "worker5.xdsworker4.yn.to"}}}
-  - {name: "FreeNode🇺🇸Seattle (44)", type: "vmess", server: "104.16.0.170", port: 443, uuid: "7223AFD7-FF67-4B1E-978E-EE0F019B5442", alterId: 0, cipher: "auto", tls: true, servername: "worker5.xdsworker4.yn.to", network: "ws", ws-opts: {path: "/speedtest", headers: {host: "worker5.xdsworker4.yn.to"}}}
-  - {name: "FreeNode🇫🇷Paris (45)", type: "vmess", server: "104.16.0.170", port: 443, uuid: "7223AFD7-FF67-4B1E-978E-EE0F019B5442", alterId: 0, cipher: "auto", tls: true, servername: "worker5.xdsworker4.yn.to", network: "ws", ws-opts: {path: "/speedtest", headers: {host: "worker5.xdsworker4.yn.to"}}}
-  - {name: "FreeNode🇳🇱Amsterdam (46)", type: "vmess", server: "104.16.0.170", port: 443, uuid: "7223AFD7-FF67-4B1E-978E-EE0F019B5442", alterId: 0, cipher: "auto", tls: true, servername: "worker5.xdsworker4.yn.to", network: "ws", ws-opts: {path: "/speedtest", headers: {host: "worker5.xdsworker4.yn.to"}}}
-  - {name: "FreeNode🇺🇸Kansas (43)", type: "vmess", server: "104.16.0.170", port: 443, uuid: "7223AFD7-FF67-4B1E-978E-EE0F019B5442", alterId: 0, cipher: "auto", tls: true, servername: "worker5.xdsworker4.yn.to", network: "ws", ws-opts: {path: "/speedtest", headers: {host: "worker5.xdsworker4.yn.to"}}}
-  - {name: "FreeNode🇯🇵Tokyo (48)", type: "vmess", server: "104.16.0.170", port: 443, uuid: "7223AFD7-FF67-4B1E-978E-EE0F019B5442", alterId: 0, cipher: "auto", tls: true, servername: "worker5.xdsworker4.yn.to", network: "ws", ws-opts: {path: "/speedtest", headers: {host: "worker5.xdsworker4.yn.to"}}}
-  - {name: "FreeNode🇺🇸Phoenix (42)", type: "vmess", server: "104.16.0.170", port: 443, uuid: "7223AFD7-FF67-4B1E-978E-EE0F019B5442", alterId: 0, cipher: "auto", tls: true, servername: "worker5.xdsworker4.yn.to", network: "ws", ws-opts: {path: "/speedtest", headers: {host: "worker5.xdsworker4.yn.to"}}}
-  - {name: "FreeNode🇺🇸Atlanta (41)", type: "vmess", server: "104.16.0.170", port: 443, uuid: "7223AFD7-FF67-4B1E-978E-EE0F019B5442", alterId: 0, cipher: "auto", tls: true, servername: "worker5.xdsworker4.yn.to", network: "ws", ws-opts: {path: "/speedtest", headers: {host: "worker5.xdsworker4.yn.to"}}}
-  - {name: "FreeNode🇩🇪Dusseldorf (49)", type: "vmess", server: "104.16.0.170", port: 443, uuid: "7223AFD7-FF67-4B1E-978E-EE0F019B5442", alterId: 0, cipher: "auto", tls: true, servername: "worker5.xdsworker4.yn.to", network: "ws", ws-opts: {path: "/speedtest", headers: {host: "worker5.xdsworker4.yn.to"}}}
-  - {name: "FreeNode🇱🇻Riga (47)", type: "vmess", server: "104.16.0.170", port: 443, uuid: "7223AFD7-FF67-4B1E-978E-EE0F019B5442", alterId: 0, cipher: "auto", tls: true, servername: "worker5.xdsworker4.yn.to", network: "ws", ws-opts: {path: "/speedtest", headers: {host: "worker5.xdsworker4.yn.to"}}}
+  - {name: "FreeNode🇺🇸Atlanta🛠(11)", type: vmess, server: "104.16.2.197", port: 443, uuid: "59088BE1-AB52-99BA-4BE1-2B68AFECDF22", alterId: 0, cipher: "auto", tls: true, servername: "worker2.xdsworker2.xi.to", network: "ws", ws-opts: {path: "/Atlanta.v2ray.online:443/speedtest", headers: {host: "worker2.xdsworker2.xi.to"}}}
+  - {name: "FreeNode🇺🇸Phoenix🛠(12)", type: vmess, server: "104.16.2.197", port: 443, uuid: "59088BE1-AB52-99BA-4BE1-2B68AFECDF22", alterId: 0, cipher: "auto", tls: true, servername: "worker2.xdsworker2.xi.to", network: "ws", ws-opts: {path: "/Phoenix.v2ray.online:443/speedtest", headers: {host: "worker2.xdsworker2.xi.to"}}}
+  - {name: "FreeNode🇺🇸Kansas🛠(13)", type: vmess, server: "104.16.2.197", port: 443, uuid: "59088BE1-AB52-99BA-4BE1-2B68AFECDF22", alterId: 0, cipher: "auto", tls: true, servername: "worker2.xdsworker2.xi.to", network: "ws", ws-opts: {path: "/Kansas.v2ray.online:443/speedtest", headers: {host: "worker2.xdsworker2.xi.to"}}}
+  - {name: "FreeNode🇫🇷Paris🛠(15)", type: vmess, server: "104.16.2.197", port: 443, uuid: "59088BE1-AB52-99BA-4BE1-2B68AFECDF22", alterId: 0, cipher: "auto", tls: true, servername: "worker2.xdsworker2.xi.to", network: "ws", ws-opts: {path: "/Paris.v2ray.online:443/speedtest", headers: {host: "worker2.xdsworker2.xi.to"}}}
+  - {name: "FreeNode🇱🇻Riga🛠(17)", type: vmess, server: "104.16.2.197", port: 443, uuid: "59088BE1-AB52-99BA-4BE1-2B68AFECDF22", alterId: 0, cipher: "auto", tls: true, servername: "worker2.xdsworker2.xi.to", network: "ws", ws-opts: {path: "/Riga.v2ray.online:443/speedtest", headers: {host: "worker2.xdsworker2.xi.to"}}}
+  - {name: "FreeNode🇳🇱Amsterdam🛠(16)", type: vmess, server: "104.16.2.197", port: 443, uuid: "59088BE1-AB52-99BA-4BE1-2B68AFECDF22", alterId: 0, cipher: "auto", tls: true, servername: "worker2.xdsworker2.xi.to", network: "ws", ws-opts: {path: "/Amsterdam.v2ray.online:443/speedtest", headers: {host: "worker2.xdsworker2.xi.to"}}}
+  - {name: "FreeNode🇺🇸Seattle🛠(14)", type: vmess, server: "104.16.2.197", port: 443, uuid: "59088BE1-AB52-99BA-4BE1-2B68AFECDF22", alterId: 0, cipher: "auto", tls: true, servername: "worker2.xdsworker2.xi.to", network: "ws", ws-opts: {path: "/Seattle.v2ray.online:443/speedtest", headers: {host: "worker2.xdsworker2.xi.to"}}}
+  - {name: "FreeNode🇯🇵Tokyo🛠(18)", type: vmess, server: "104.16.2.197", port: 443, uuid: "59088BE1-AB52-99BA-4BE1-2B68AFECDF22", alterId: 0, cipher: "auto", tls: true, servername: "worker2.xdsworker2.xi.to", network: "ws", ws-opts: {path: "/Tokyo.v2ray.online:443/speedtest", headers: {host: "worker2.xdsworker2.xi.to"}}}
+  - {name: "FreeNode🇩🇪Dusseldorf🛠(19)", type: vmess, server: "104.16.2.197", port: 443, uuid: "59088BE1-AB52-99BA-4BE1-2B68AFECDF22", alterId: 0, cipher: "auto", tls: true, servername: "worker2.xdsworker2.xi.to", network: "ws", ws-opts: {path: "/Dusseldorf.v2ray.online:443/speedtest", headers: {host: "worker2.xdsworker2.xi.to"}}}
+  - {name: "FreeNode🇺🇸Atlanta🛠(21)", type: "vmess", server: "104.16.0.214", port: 443, uuid: "5642E751-6AC6-45FD-8809-FD3FA7B8A20F", alterId: 0, cipher: "auto", tls: true, servername: "worker4.fhsdalenas.yn.to", network: "ws", ws-opts: {path: "/Atlanta.v2ray.online:443/speedtest", headers: {host: "worker4.fhsdalenas.yn.to"}}}
+  - {name: "FreeNode🇯🇵Tokyo🛠(28)", type: "vmess", server: "104.16.0.214", port: 443, uuid: "5642E751-6AC6-45FD-8809-FD3FA7B8A20F", alterId: 0, cipher: "auto", tls: true, servername: "worker4.fhsdalenas.yn.to", network: "ws", ws-opts: {path: "/Tokyo.v2ray.online:443/speedtest", headers: {host: "worker4.fhsdalenas.yn.to"}}}
+  - {name: "FreeNode🇺🇸Phoenix🛠(22)", type: "vmess", server: "104.16.0.214", port: 443, uuid: "5642E751-6AC6-45FD-8809-FD3FA7B8A20F", alterId: 0, cipher: "auto", tls: true, servername: "worker4.fhsdalenas.yn.to", network: "ws", ws-opts: {path: "/Phoenix.v2ray.online:443/speedtest", headers: {host: "worker4.fhsdalenas.yn.to"}}}
+  - {name: "FreeNode🇳🇱Amsterdam🛠(26)", type: "vmess", server: "104.16.0.214", port: 443, uuid: "5642E751-6AC6-45FD-8809-FD3FA7B8A20F", alterId: 0, cipher: "auto", tls: true, servername: "worker4.fhsdalenas.yn.to", network: "ws", ws-opts: {path: "/Amsterdam.v2ray.online:443/speedtest", headers: {host: "worker4.fhsdalenas.yn.to"}}}
+  - {name: "FreeNode🇺🇸Seattle🛠(24)", type: "vmess", server: "104.16.0.214", port: 443, uuid: "5642E751-6AC6-45FD-8809-FD3FA7B8A20F", alterId: 0, cipher: "auto", tls: true, servername: "worker4.fhsdalenas.yn.to", network: "ws", ws-opts: {path: "/Seattle.v2ray.online:443/speedtest", headers: {host: "worker4.fhsdalenas.yn.to"}}}
+  - {name: "FreeNode🇩🇪Dusseldorf🛠(29)", type: "vmess", server: "104.16.0.214", port: 443, uuid: "5642E751-6AC6-45FD-8809-FD3FA7B8A20F", alterId: 0, cipher: "auto", tls: true, servername: "worker4.fhsdalenas.yn.to", network: "ws", ws-opts: {path: "/Dusseldorf.v2ray.online:443/speedtest", headers: {host: "worker4.fhsdalenas.yn.to"}}}
+  - {name: "FreeNode🇺🇸Kansas🛠(23)", type: "vmess", server: "104.16.0.214", port: 443, uuid: "5642E751-6AC6-45FD-8809-FD3FA7B8A20F", alterId: 0, cipher: "auto", tls: true, servername: "worker4.fhsdalenas.yn.to", network: "ws", ws-opts: {path: "/Kansas.v2ray.online:443/speedtest", headers: {host: "worker4.fhsdalenas.yn.to"}}}
+  - {name: "FreeNode🇫🇷Paris🛠(25)", type: "vmess", server: "104.16.0.214", port: 443, uuid: "5642E751-6AC6-45FD-8809-FD3FA7B8A20F", alterId: 0, cipher: "auto", tls: true, servername: "worker4.fhsdalenas.yn.to", network: "ws", ws-opts: {path: "/Paris.v2ray.online:443/speedtest", headers: {host: "worker4.fhsdalenas.yn.to"}}}
+  - {name: "FreeNode🇱🇻Riga🛠(27)", type: "vmess", server: "104.16.0.214", port: 443, uuid: "5642E751-6AC6-45FD-8809-FD3FA7B8A20F", alterId: 0, cipher: "auto", tls: true, servername: "worker4.fhsdalenas.yn.to", network: "ws", ws-opts: {path: "/Riga.v2ray.online:443/speedtest", headers: {host: "worker4.fhsdalenas.yn.to"}}}
+  - {name: "FreeNode🇺🇸Seattle🛠(34)", type: "vmess", server: "104.16.0.101", port: 443, uuid: "11A9BBCA-CCF2-4C84-9AE4-6E2CA1E66D2A", alterId: 0, cipher: "auto", tls: true, servername: "worker5.xdsworker4.yn.to", network: "ws", ws-opts: {path: "/speedtest", headers: {host: "worker5.xdsworker4.yn.to"}}}
+  - {name: "FreeNode🇫🇷Paris🛠(35)", type: "vmess", server: "104.16.0.101", port: 443, uuid: "11A9BBCA-CCF2-4C84-9AE4-6E2CA1E66D2A", alterId: 0, cipher: "auto", tls: true, servername: "worker5.xdsworker4.yn.to", network: "ws", ws-opts: {path: "/speedtest", headers: {host: "worker5.xdsworker4.yn.to"}}}
+  - {name: "FreeNode🇳🇱Amsterdam🛠(36)", type: "vmess", server: "104.16.0.101", port: 443, uuid: "11A9BBCA-CCF2-4C84-9AE4-6E2CA1E66D2A", alterId: 0, cipher: "auto", tls: true, servername: "worker5.xdsworker4.yn.to", network: "ws", ws-opts: {path: "/speedtest", headers: {host: "worker5.xdsworker4.yn.to"}}}
+  - {name: "FreeNode🇺🇸Kansas🛠(33)", type: "vmess", server: "104.16.0.101", port: 443, uuid: "11A9BBCA-CCF2-4C84-9AE4-6E2CA1E66D2A", alterId: 0, cipher: "auto", tls: true, servername: "worker5.xdsworker4.yn.to", network: "ws", ws-opts: {path: "/speedtest", headers: {host: "worker5.xdsworker4.yn.to"}}}
+  - {name: "FreeNode🇯🇵Tokyo🛠(38)", type: "vmess", server: "104.16.0.101", port: 443, uuid: "11A9BBCA-CCF2-4C84-9AE4-6E2CA1E66D2A", alterId: 0, cipher: "auto", tls: true, servername: "worker5.xdsworker4.yn.to", network: "ws", ws-opts: {path: "/speedtest", headers: {host: "worker5.xdsworker4.yn.to"}}}
+  - {name: "FreeNode🇺🇸Phoenix🛠(32)", type: "vmess", server: "104.16.0.101", port: 443, uuid: "11A9BBCA-CCF2-4C84-9AE4-6E2CA1E66D2A", alterId: 0, cipher: "auto", tls: true, servername: "worker5.xdsworker4.yn.to", network: "ws", ws-opts: {path: "/speedtest", headers: {host: "worker5.xdsworker4.yn.to"}}}
+  - {name: "FreeNode🇺🇸Atlanta🛠(31)", type: "vmess", server: "104.16.0.101", port: 443, uuid: "11A9BBCA-CCF2-4C84-9AE4-6E2CA1E66D2A", alterId: 0, cipher: "auto", tls: true, servername: "worker5.xdsworker4.yn.to", network: "ws", ws-opts: {path: "/speedtest", headers: {host: "worker5.xdsworker4.yn.to"}}}
+  - {name: "FreeNode🇩🇪Dusseldorf🛠(39)", type: "vmess", server: "104.16.0.101", port: 443, uuid: "11A9BBCA-CCF2-4C84-9AE4-6E2CA1E66D2A", alterId: 0, cipher: "auto", tls: true, servername: "worker5.xdsworker4.yn.to", network: "ws", ws-opts: {path: "/speedtest", headers: {host: "worker5.xdsworker4.yn.to"}}}
+  - {name: "FreeNode🇱🇻Riga🛠(37)", type: "vmess", server: "104.16.0.101", port: 443, uuid: "11A9BBCA-CCF2-4C84-9AE4-6E2CA1E66D2A", alterId: 0, cipher: "auto", tls: true, servername: "worker5.xdsworker4.yn.to", network: "ws", ws-opts: {path: "/speedtest", headers: {host: "worker5.xdsworker4.yn.to"}}}
+  - {name: "FreeNode🇺🇸Seattle🛠(44)", type: "vmess", server: "104.16.0.170", port: 443, uuid: "7223AFD7-FF67-4B1E-978E-EE0F019B5442", alterId: 0, cipher: "auto", tls: true, servername: "worker5.xdsworker4.yn.to", network: "ws", ws-opts: {path: "/speedtest", headers: {host: "worker5.xdsworker4.yn.to"}}}
+  - {name: "FreeNode🇫🇷Paris🛠(45)", type: "vmess", server: "104.16.0.170", port: 443, uuid: "7223AFD7-FF67-4B1E-978E-EE0F019B5442", alterId: 0, cipher: "auto", tls: true, servername: "worker5.xdsworker4.yn.to", network: "ws", ws-opts: {path: "/speedtest", headers: {host: "worker5.xdsworker4.yn.to"}}}
+  - {name: "FreeNode🇳🇱Amsterdam🛠(46)", type: "vmess", server: "104.16.0.170", port: 443, uuid: "7223AFD7-FF67-4B1E-978E-EE0F019B5442", alterId: 0, cipher: "auto", tls: true, servername: "worker5.xdsworker4.yn.to", network: "ws", ws-opts: {path: "/speedtest", headers: {host: "worker5.xdsworker4.yn.to"}}}
+  - {name: "FreeNode🇺🇸Kansas🛠(43)", type: "vmess", server: "104.16.0.170", port: 443, uuid: "7223AFD7-FF67-4B1E-978E-EE0F019B5442", alterId: 0, cipher: "auto", tls: true, servername: "worker5.xdsworker4.yn.to", network: "ws", ws-opts: {path: "/speedtest", headers: {host: "worker5.xdsworker4.yn.to"}}}
+  - {name: "FreeNode🇯🇵Tokyo🛠(48)", type: "vmess", server: "104.16.0.170", port: 443, uuid: "7223AFD7-FF67-4B1E-978E-EE0F019B5442", alterId: 0, cipher: "auto", tls: true, servername: "worker5.xdsworker4.yn.to", network: "ws", ws-opts: {path: "/speedtest", headers: {host: "worker5.xdsworker4.yn.to"}}}
+  - {name: "FreeNode🇺🇸Phoenix🛠(42)", type: "vmess", server: "104.16.0.170", port: 443, uuid: "7223AFD7-FF67-4B1E-978E-EE0F019B5442", alterId: 0, cipher: "auto", tls: true, servername: "worker5.xdsworker4.yn.to", network: "ws", ws-opts: {path: "/speedtest", headers: {host: "worker5.xdsworker4.yn.to"}}}
+  - {name: "FreeNode🇺🇸Atlanta🛠(41)", type: "vmess", server: "104.16.0.170", port: 443, uuid: "7223AFD7-FF67-4B1E-978E-EE0F019B5442", alterId: 0, cipher: "auto", tls: true, servername: "worker5.xdsworker4.yn.to", network: "ws", ws-opts: {path: "/speedtest", headers: {host: "worker5.xdsworker4.yn.to"}}}
+  - {name: "FreeNode🇩🇪Dusseldorf🛠(49)", type: "vmess", server: "104.16.0.170", port: 443, uuid: "7223AFD7-FF67-4B1E-978E-EE0F019B5442", alterId: 0, cipher: "auto", tls: true, servername: "worker5.xdsworker4.yn.to", network: "ws", ws-opts: {path: "/speedtest", headers: {host: "worker5.xdsworker4.yn.to"}}}
+  - {name: "FreeNode🇱🇻Riga🛠(47)", type: "vmess", server: "104.16.0.170", port: 443, uuid: "7223AFD7-FF67-4B1E-978E-EE0F019B5442", alterId: 0, cipher: "auto", tls: true, servername: "worker5.xdsworker4.yn.to", network: "ws", ws-opts: {path: "/speedtest", headers: {host: "worker5.xdsworker4.yn.to"}}}
 
   - {name: "akunssh🇩🇪de 03-09 (651)", type: "vmess", server: "104.16.2.137", port: 443, uuid: "8182ff70-b852-11ed-995e-871597bc5916", alterId: 0, cipher: "auto", network: "ws", servername: "worker4-in.denin68336.workers.dev", tls: true, ws-opts: {path: "/de1-vmess.tunnel.cx:443/vmess", headers: {host: "worker4-in.denin68336.workers.dev"}}}
   - {name: "akunssh🇩🇪de 03-09 (652)", type: "vmess", server: "104.16.2.137", port: 443, uuid: "8182ff70-b852-11ed-995e-871597bc5916", alterId: 0, cipher: "auto", network: "ws", servername: "worker4-in.denin68336.workers.dev", tls: true, ws-opts: {path: "/de1-vmess.tunnel.cx:443/vmess", headers: {host: "worker4-in.denin68336.workers.dev"}}}
@@ -212,13 +212,13 @@ proxies:
   - {"name":"mainssh🇬🇧uk 03-10 (754)","type":"trojan","server":"uktws.mainssh.xyz","port":443,"udp":true,"password":"mainssh-sdfadvdasf","sni":"sni.cloudflare.com","skip-cert-verify":true,"network":"ws","ws-opts":{"path":"/trojan","headers":{"host":"sni.cloudflare.com"}}}
   - {"name":"mainssh🇩🇪de 03-10 (755)","type":"trojan","server":"getws.mainssh.xyz","port":443,"udp":true,"password":"mainssh-efasdvasdfw","sni":"sni.cloudflare.com","skip-cert-verify":true,"network":"ws","ws-opts":{"path":"/trojan","headers":{"host":"sni.cloudflare.com"}}}
   
-  - {name: "akunssh🇩🇪de 03-15 (801)", type: "vmess", server: "104.16.0.160", port: 443, uuid: "7fb10366-bd09-11ed-b706-836435c9b822", alterId: 0, cipher: "auto", network: "ws", servername: "worker2-in.xdsworker2.xi.to", tls: true, ws-opts: {path: "/de1-vmess.tunnel.cx:443/vmess", headers: {host: "worker2-in.xdsworker2.xi.to"}}}
-  - {name: "akunssh🇨🇦ca 03-15 (802)", type: "vmess", server: "104.16.0.160", port: 443, uuid: "7fae751a-bd09-11ed-a9d9-ebbd243b3f39", alterId: 0, cipher: "auto", network: "ws", servername: "worker4.fhsdalenas.yn.to", tls: true, ws-opts: {path: "/ca1-vmess.tunnel.cx:443/vmess", headers: {host: "worker4.fhsdalenas.yn.to"}}}
-  - {name: "akunssh🇦🇪ae 03-15 (803)", type: "vmess", server: "104.16.0.160", port: 443, uuid: "7fa405b2-bd09-11ed-8e71-0016b061439e", alterId: 0, cipher: "auto", network: "ws", servername: "worker4.fhsdalenas.yn.to", tls: true, ws-opts: {path: "/ae1-vmess.tunnel.cx:443/vmess", headers: {host: "worker4.fhsdalenas.yn.to"}}}
-  - {name: "akunssh🇫🇷fr 03-15 (804)", type: "vmess", server: "104.16.0.160", port: 443, uuid: "7fd82432-bd09-11ed-864d-4e2d01d45164", alterId: 0, cipher: "auto", network: "ws", servername: "worker4.fhsdalenas.yn.to", tls: true, ws-opts: {path: "/fr1-vmess.tunnel.cx:443/vmess", headers: {host: "worker4.fhsdalenas.yn.to"}}}
-  - {name: "akunssh🇮🇩id 03-15 (805)", type: "vmess", server: "104.16.0.160", port: 443, uuid: "7fb492e2-bd09-11ed-9876-139f3a0872a6", alterId: 0, cipher: "auto", network: "ws", servername: "worker4.fhsdalenas.yn.to", tls: true, ws-opts: {path: "/id1-vmess.tunnel.cx:443/vmess", headers: {host: "worker4.fhsdalenas.yn.to"}}}
-  - {name: "akunssh🇸🇬sg 03-15 (806)", type: "vmess", server: "104.16.0.160", port: 443, uuid: "7ff0f30e-bd09-11ed-b2c3-138faf2a6b1f", alterId: 0, cipher: "auto", network: "ws", servername: "worker4.fhsdalenas.yn.to", tls: true, ws-opts: {path: "/sg1-vmess.tunnel.cx:443/vmess", headers: {host: "worker4.fhsdalenas.yn.to"}}}
-  - {name: "akunssh🇺🇸us 03-15 (807)", type: "vmess", server: "104.16.0.160", port: 443, uuid: "80164abe-bd09-11ed-b397-5695fe55cd5d", alterId: 0, cipher: "auto", network: "ws", servername: "worker4.fhsdalenas.yn.to", tls: true, ws-opts: {path: "/us1-vmess.tunnel.cx:443/vmess", headers: {host: "worker4.fhsdalenas.yn.to"}}}
+  - {name: "akunssh🇩🇪de🛠03-15 (801)", type: "vmess", server: "104.16.0.160", port: 443, uuid: "7fb10366-bd09-11ed-b706-836435c9b822", alterId: 0, cipher: "auto", network: "ws", servername: "worker2-in.xdsworker2.xi.to", tls: true, ws-opts: {path: "/de1-vmess.tunnel.cx:443/vmess", headers: {host: "worker2-in.xdsworker2.xi.to"}}}
+  - {name: "akunssh🇨🇦ca🛠03-15 (802)", type: "vmess", server: "104.16.0.160", port: 443, uuid: "7fae751a-bd09-11ed-a9d9-ebbd243b3f39", alterId: 0, cipher: "auto", network: "ws", servername: "worker4.fhsdalenas.yn.to", tls: true, ws-opts: {path: "/ca1-vmess.tunnel.cx:443/vmess", headers: {host: "worker4.fhsdalenas.yn.to"}}}
+  - {name: "akunssh🇦🇪ae🛠03-15 (803)", type: "vmess", server: "104.16.0.160", port: 443, uuid: "7fa405b2-bd09-11ed-8e71-0016b061439e", alterId: 0, cipher: "auto", network: "ws", servername: "worker4.fhsdalenas.yn.to", tls: true, ws-opts: {path: "/ae1-vmess.tunnel.cx:443/vmess", headers: {host: "worker4.fhsdalenas.yn.to"}}}
+  - {name: "akunssh🇫🇷fr🛠03-15 (804)", type: "vmess", server: "104.16.0.160", port: 443, uuid: "7fd82432-bd09-11ed-864d-4e2d01d45164", alterId: 0, cipher: "auto", network: "ws", servername: "worker4.fhsdalenas.yn.to", tls: true, ws-opts: {path: "/fr1-vmess.tunnel.cx:443/vmess", headers: {host: "worker4.fhsdalenas.yn.to"}}}
+  - {name: "akunssh🇮🇩id🛠03-15 (805)", type: "vmess", server: "104.16.0.160", port: 443, uuid: "7fb492e2-bd09-11ed-9876-139f3a0872a6", alterId: 0, cipher: "auto", network: "ws", servername: "worker4.fhsdalenas.yn.to", tls: true, ws-opts: {path: "/id1-vmess.tunnel.cx:443/vmess", headers: {host: "worker4.fhsdalenas.yn.to"}}}
+  - {name: "akunssh🇸🇬sg🛠03-15 (806)", type: "vmess", server: "104.16.0.160", port: 443, uuid: "7ff0f30e-bd09-11ed-b2c3-138faf2a6b1f", alterId: 0, cipher: "auto", network: "ws", servername: "worker4.fhsdalenas.yn.to", tls: true, ws-opts: {path: "/sg1-vmess.tunnel.cx:443/vmess", headers: {host: "worker4.fhsdalenas.yn.to"}}}
+  - {name: "akunssh🇺🇸us🛠03-15 (807)", type: "vmess", server: "104.16.0.160", port: 443, uuid: "80164abe-bd09-11ed-b397-5695fe55cd5d", alterId: 0, cipher: "auto", network: "ws", servername: "worker4.fhsdalenas.yn.to", tls: true, ws-opts: {path: "/us1-vmess.tunnel.cx:443/vmess", headers: {host: "worker4.fhsdalenas.yn.to"}}}
 
   - {name: "vpnjantit🇦🇪ae 03-15 (821)", type: "vmess", server: "5.44.42.16", port: 10000, uuid: "00a9cb2c-bdd4-11ed-a805-bb9ea6e1adda", alterId: 0, cipher: "auto", network: "ws", ws-opts: {path: "/vpnjantit", headers: {host: "sni.cloudflare.com"}}}
   - {name: "vpnjantit🇩🇪de 03-15 (822)", type: "vmess", server: "87.106.198.110", port: 10000, uuid: "06a7b53e-bdd4-11ed-955a-6703a471cb10", alterId: 0, cipher: "auto", network: "ws", ws-opts: {path: "/vpnjantit", headers: {host: "sni.cloudflare.com"}}}
@@ -251,42 +251,42 @@ proxy-groups:
     type: select
     # disable-udp: true
     proxies:
-      - FreeNode🇺🇸Atlanta (11)
-      - FreeNode🇺🇸Phoenix (12)
-      - FreeNode🇺🇸Kansas (13)
-      - FreeNode🇫🇷Paris (15)
-      - FreeNode🇱🇻Riga (17)
-      - FreeNode🇳🇱Amsterdam (16)
-      - FreeNode🇺🇸Seattle (14)
-      - FreeNode🇯🇵Tokyo (18)
-      - FreeNode🇩🇪Dusseldorf (19)
-      - FreeNode🇺🇸Atlanta (21)
-      - FreeNode🇯🇵Tokyo (28)
-      - FreeNode🇺🇸Phoenix (22)
-      - FreeNode🇳🇱Amsterdam (26)
-      - FreeNode🇺🇸Seattle (24)
-      - FreeNode🇩🇪Dusseldorf (29)
-      - FreeNode🇺🇸Kansas (23)
-      - FreeNode🇫🇷Paris (25)
-      - FreeNode🇱🇻Riga (27)
-      - FreeNode🇺🇸Seattle (34)
-      - FreeNode🇫🇷Paris (35)
-      - FreeNode🇳🇱Amsterdam (36)
-      - FreeNode🇺🇸Kansas (33)
-      - FreeNode🇯🇵Tokyo (38)
-      - FreeNode🇺🇸Phoenix (32)
-      - FreeNode🇺🇸Atlanta (31)
-      - FreeNode🇩🇪Dusseldorf (39)
-      - FreeNode🇱🇻Riga (37)
-      - FreeNode🇺🇸Seattle (44)
-      - FreeNode🇫🇷Paris (45)
-      - FreeNode🇳🇱Amsterdam (46)
-      - FreeNode🇺🇸Kansas (43)
-      - FreeNode🇯🇵Tokyo (48)
-      - FreeNode🇺🇸Phoenix (42)
-      - FreeNode🇺🇸Atlanta (41)
-      - FreeNode🇩🇪Dusseldorf (49)
-      - FreeNode🇱🇻Riga (47)
+      - FreeNode🇺🇸Atlanta🛠(11)
+      - FreeNode🇺🇸Phoenix🛠(12)
+      - FreeNode🇺🇸Kansas🛠(13)
+      - FreeNode🇫🇷Paris🛠(15)
+      - FreeNode🇱🇻Riga🛠(17)
+      - FreeNode🇳🇱Amsterdam🛠(16)
+      - FreeNode🇺🇸Seattle🛠(14)
+      - FreeNode🇯🇵Tokyo🛠(18)
+      - FreeNode🇩🇪Dusseldorf🛠(19)
+      - FreeNode🇺🇸Atlanta🛠(21)
+      - FreeNode🇯🇵Tokyo🛠(28)
+      - FreeNode🇺🇸Phoenix🛠(22)
+      - FreeNode🇳🇱Amsterdam🛠(26)
+      - FreeNode🇺🇸Seattle🛠(24)
+      - FreeNode🇩🇪Dusseldorf🛠(29)
+      - FreeNode🇺🇸Kansas🛠(23)
+      - FreeNode🇫🇷Paris🛠(25)
+      - FreeNode🇱🇻Riga🛠(27)
+      - FreeNode🇺🇸Seattle🛠(34)
+      - FreeNode🇫🇷Paris🛠(35)
+      - FreeNode🇳🇱Amsterdam🛠(36)
+      - FreeNode🇺🇸Kansas🛠(33)
+      - FreeNode🇯🇵Tokyo🛠(38)
+      - FreeNode🇺🇸Phoenix🛠(32)
+      - FreeNode🇺🇸Atlanta🛠(31)
+      - FreeNode🇩🇪Dusseldorf🛠(39)
+      - FreeNode🇱🇻Riga🛠(37)
+      - FreeNode🇺🇸Seattle🛠(44)
+      - FreeNode🇫🇷Paris🛠(45)
+      - FreeNode🇳🇱Amsterdam🛠(46)
+      - FreeNode🇺🇸Kansas🛠(43)
+      - FreeNode🇯🇵Tokyo🛠(48)
+      - FreeNode🇺🇸Phoenix🛠(42)
+      - FreeNode🇺🇸Atlanta🛠(41)
+      - FreeNode🇩🇪Dusseldorf🛠(49)
+      - FreeNode🇱🇻Riga🛠(47)
       - akunssh🇩🇪de 03-09 (651)
       - akunssh🇩🇪de 03-09 (652)
       - akunssh🇩🇪de 03-09 (653)
@@ -320,13 +320,13 @@ proxy-groups:
       - mainssh🇨🇦ca 03-10 (753)
       - mainssh🇬🇧uk 03-10 (754)
       - mainssh🇩🇪de 03-10 (755)
-      - akunssh🇩🇪de 03-15 (801)
-      - akunssh🇨🇦ca 03-15 (802)
-      - akunssh🇦🇪ae 03-15 (803)
-      - akunssh🇫🇷fr 03-15 (804)
-      - akunssh🇮🇩id 03-15 (805)
-      - akunssh🇸🇬sg 03-15 (806)
-      - akunssh🇺🇸us 03-15 (807)
+      - akunssh🇩🇪de🛠03-15 (801)
+      - akunssh🇨🇦ca🛠03-15 (802)
+      - akunssh🇦🇪ae🛠03-15 (803)
+      - akunssh🇫🇷fr🛠03-15 (804)
+      - akunssh🇮🇩id🛠03-15 (805)
+      - akunssh🇸🇬sg🛠03-15 (806)
+      - akunssh🇺🇸us🛠03-15 (807)
       - vpnjantit🇦🇪ae 03-15 (821)
       - vpnjantit🇩🇪de 03-15 (822)
       - vpnjantit🇩🇪de 03-15 (823)
@@ -358,42 +358,42 @@ proxy-groups:
     url: http://www.gstatic.com/generate_204
     interval: 300
     proxies:
-      - FreeNode🇺🇸Atlanta (11)
-      - FreeNode🇺🇸Phoenix (12)
-      - FreeNode🇺🇸Kansas (13)
-      - FreeNode🇫🇷Paris (15)
-      - FreeNode🇱🇻Riga (17)
-      - FreeNode🇳🇱Amsterdam (16)
-      - FreeNode🇺🇸Seattle (14)
-      - FreeNode🇯🇵Tokyo (18)
-      - FreeNode🇩🇪Dusseldorf (19)
-      - FreeNode🇺🇸Atlanta (21)
-      - FreeNode🇯🇵Tokyo (28)
-      - FreeNode🇺🇸Phoenix (22)
-      - FreeNode🇳🇱Amsterdam (26)
-      - FreeNode🇺🇸Seattle (24)
-      - FreeNode🇩🇪Dusseldorf (29)
-      - FreeNode🇺🇸Kansas (23)
-      - FreeNode🇫🇷Paris (25)
-      - FreeNode🇱🇻Riga (27)
-      - FreeNode🇺🇸Seattle (34)
-      - FreeNode🇫🇷Paris (35)
-      - FreeNode🇳🇱Amsterdam (36)
-      - FreeNode🇺🇸Kansas (33)
-      - FreeNode🇯🇵Tokyo (38)
-      - FreeNode🇺🇸Phoenix (32)
-      - FreeNode🇺🇸Atlanta (31)
-      - FreeNode🇩🇪Dusseldorf (39)
-      - FreeNode🇱🇻Riga (37)
-      - FreeNode🇺🇸Seattle (44)
-      - FreeNode🇫🇷Paris (45)
-      - FreeNode🇳🇱Amsterdam (46)
-      - FreeNode🇺🇸Kansas (43)
-      - FreeNode🇯🇵Tokyo (48)
-      - FreeNode🇺🇸Phoenix (42)
-      - FreeNode🇺🇸Atlanta (41)
-      - FreeNode🇩🇪Dusseldorf (49)
-      - FreeNode🇱🇻Riga (47)
+      - FreeNode🇺🇸Atlanta🛠(11)
+      - FreeNode🇺🇸Phoenix🛠(12)
+      - FreeNode🇺🇸Kansas🛠(13)
+      - FreeNode🇫🇷Paris🛠(15)
+      - FreeNode🇱🇻Riga🛠(17)
+      - FreeNode🇳🇱Amsterdam🛠(16)
+      - FreeNode🇺🇸Seattle🛠(14)
+      - FreeNode🇯🇵Tokyo🛠(18)
+      - FreeNode🇩🇪Dusseldorf🛠(19)
+      - FreeNode🇺🇸Atlanta🛠(21)
+      - FreeNode🇯🇵Tokyo🛠(28)
+      - FreeNode🇺🇸Phoenix🛠(22)
+      - FreeNode🇳🇱Amsterdam🛠(26)
+      - FreeNode🇺🇸Seattle🛠(24)
+      - FreeNode🇩🇪Dusseldorf🛠(29)
+      - FreeNode🇺🇸Kansas🛠(23)
+      - FreeNode🇫🇷Paris🛠(25)
+      - FreeNode🇱🇻Riga🛠(27)
+      - FreeNode🇺🇸Seattle🛠(34)
+      - FreeNode🇫🇷Paris🛠(35)
+      - FreeNode🇳🇱Amsterdam🛠(36)
+      - FreeNode🇺🇸Kansas🛠(33)
+      - FreeNode🇯🇵Tokyo🛠(38)
+      - FreeNode🇺🇸Phoenix🛠(32)
+      - FreeNode🇺🇸Atlanta🛠(31)
+      - FreeNode🇩🇪Dusseldorf🛠(39)
+      - FreeNode🇱🇻Riga🛠(37)
+      - FreeNode🇺🇸Seattle🛠(44)
+      - FreeNode🇫🇷Paris🛠(45)
+      - FreeNode🇳🇱Amsterdam🛠(46)
+      - FreeNode🇺🇸Kansas🛠(43)
+      - FreeNode🇯🇵Tokyo🛠(48)
+      - FreeNode🇺🇸Phoenix🛠(42)
+      - FreeNode🇺🇸Atlanta🛠(41)
+      - FreeNode🇩🇪Dusseldorf🛠(49)
+      - FreeNode🇱🇻Riga🛠(47)
       - akunssh🇩🇪de 03-09 (651)
       - akunssh🇩🇪de 03-09 (652)
       - akunssh🇩🇪de 03-09 (653)
@@ -427,13 +427,13 @@ proxy-groups:
       - mainssh🇨🇦ca 03-10 (753)
       - mainssh🇬🇧uk 03-10 (754)
       - mainssh🇩🇪de 03-10 (755)
-      - akunssh🇩🇪de 03-15 (801)
-      - akunssh🇨🇦ca 03-15 (802)
-      - akunssh🇦🇪ae 03-15 (803)
-      - akunssh🇫🇷fr 03-15 (804)
-      - akunssh🇮🇩id 03-15 (805)
-      - akunssh🇸🇬sg 03-15 (806)
-      - akunssh🇺🇸us 03-15 (807)
+      - akunssh🇩🇪de🛠03-15 (801)
+      - akunssh🇨🇦ca🛠03-15 (802)
+      - akunssh🇦🇪ae🛠03-15 (803)
+      - akunssh🇫🇷fr🛠03-15 (804)
+      - akunssh🇮🇩id🛠03-15 (805)
+      - akunssh🇸🇬sg🛠03-15 (806)
+      - akunssh🇺🇸us🛠03-15 (807)
       - vpnjantit🇦🇪ae 03-15 (821)
       - vpnjantit🇩🇪de 03-15 (822)
       - vpnjantit🇩🇪de 03-15 (823)
