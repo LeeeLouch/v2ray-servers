@@ -128,7 +128,8 @@ dns:
   fallback:
     - tcp://1.1.1.1
     - tcp://9.9.9.9
-    - 8.8.8.8
+    - 1.1.1.1
+    # - 8.8.8.8
     # - https://ipv4-zepto-mci-1.edge.nextdns.io/dns-query
 
 ###flags###
@@ -441,4 +442,5 @@ rules:
   - RULE-SET,ad,Ad-Block
   - DOMAIN-SUFFIX,ir,Bypass-IR
   - GEOIP,IR,Bypass-IR
+  - DOMAIN-SUFFIX,instagram.com,Select
   - MATCH,Select
