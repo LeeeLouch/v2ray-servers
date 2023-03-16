@@ -8,6 +8,7 @@ ipv6: false
 dns:
   enable: true
   ipv6: false
+  use-host: false
   # listen: localhost:7874
   enhanced-mode: fake-ip
   fallback-filter:
