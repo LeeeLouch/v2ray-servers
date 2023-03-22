@@ -1,6 +1,6 @@
 mode: rule
 log-level: info
-# ignore-resolve-fail: false
+ignore-resolve-fail: false
 ipv6: false
 # profile:
 # store-selected: true
@@ -9,11 +9,16 @@ dns:
   enable: true
   ipv6: false
   use-host: false
-  # listen: localhost:7874
+  listen: 127.0.0.1:7874
   enhanced-mode: fake-ip
   fallback-filter:
     geoip: true
     geoip-code: IR
+    ipcidr:
+      - 240.0.0.0/4
+      - 10.10.34.34/31
+      - 10.10.34.36/32
+
   fake-ip-filter:
     - "*.lan"
     - "*.localdomain"
@@ -109,13 +114,18 @@ dns:
     - "+.media.dssott.com"
 
   default-nameserver:
+    # - 1.71.1.21
     - 1.1.1.1
     - 8.8.8.8
+    # - tcp://1.1.1.1
+    # - tcp://1.0.0.1
+    # - 8.8.8.8
 
   nameserver:
     - 1.1.1.1
-    - 8.8.4.4
-    - 9.9.9.9
+    - 1.0.0.1
+    # - 8.8.8.8
+    # - 9.9.9.9
     # - 208.67.222.222
     # - https://basic.rethinkdns.com/dns-query
     # - https://dns.google/dns-query
@@ -128,10 +138,13 @@ dns:
     
   fallback:
     - tcp://1.1.1.1
-    - tcp://9.9.9.9
-    - 1.1.1.1
-    # - 8.8.8.8
+    # - tcp://9.9.9.9
+    # - 185.145.125.145
+    - tcp://1.0.0.1
+    # - tcp://8.8.8.8
+    # - 9.9.9.9
     # - https://ipv4-zepto-mci-1.edge.nextdns.io/dns-query
+    # - https://cloudflare-dns.com/dns-query
 
 ###flags###
 # de 🇩🇪 - id 🇮🇩 - ca 🇨🇦 - hk 🇭🇰 - my 🇲🇾 - jp 🇯🇵 - uk 🇬🇧 - ua 🇺🇦 - se 🇸🇪 - sp 🇪🇸 - us 🇺🇸 - za 🇿🇦 - sg 🇸🇬 - pl 🇵🇱 - fr 🇫🇷 - kr 🇰🇷 - nl 🇳🇱 - au 🇦🇺 - ae 🇦🇪 - th 🇹🇭 - vn 🇻🇳 - it 🇮🇹
@@ -141,7 +154,8 @@ proxies:
   # - {name: "Doprax (03)", type: "vmess", server: "104.16.71.244", port: 443, uuid: "3445bb7a-7dcb-408e-be51-a8912bad94ea", alterId: 0, cipher: "auto", network: "ws", servername: "worker5.xdsworker4.yn.to", tls: true, ws-opts: {path: "/domaindemom4xe.eu-ffaqrvbjixds.dopraxrocks.net:443/vmess", headers: {host: "worker5.xdsworker4.yn.to"}}}
   # - {name: "Doprax (04)", type: "vmess", server: "104.16.61.170", port: 443, uuid: "3445bb7a-7dcb-408e-be51-a8912bad94ea", alterId: 0, cipher: "auto", network: "ws", servername: "worker4.denin68336.workers.dev", tls: true, ws-opts: {path: "/domaindemom4xe.eu-ffaqrvbjixds.dopraxrocks.net:443/vmess", headers: {host: "worker4-in.denin68336.workers.dev"}}}
   # - {name: "Doprax (05)", type: "vmess", server: "104.16.31.2", port: 443, uuid: "3445bb7a-7dcb-408e-be51-a8912bad94ea", alterId: 0, cipher: "auto", network: "ws", servername: "worker4.denin68336.workers.dev", tls: true, ws-opts: {path: "/domaindemom4xe.eu-ffaqrvbjixds.dopraxrocks.net:443/vmess", headers: {host: "worker4-in.denin68336.workers.dev"}}}
-  
+  - {name: "☘️Doprax☘️", type: "vmess", server: "domaindemom4xe.eu-ffaqrvbjixds.dopraxrocks.net", port: 443, uuid: "3445bb7a-7dcb-408e-be51-a8912bad94ea", alterId: 0, cipher: "auto", network: "ws", tls: true, skip-cert-verify: false, ws-opts: {path: "/vmess"}}
+
   - {name: "FreeNode🇺🇸Atlanta🛠(11)", type: vmess, server: "104.16.0.170", port: 443, uuid: "59088BE1-AB52-99BA-4BE1-2B68AFECDF22", alterId: 0, cipher: "auto", tls: true, servername: "worker4.denin68336.workers.dev", network: "ws", ws-opts: {path: "/Atlanta.v2ray.online:443/speedtest", headers: {host: "worker4.denin68336.workers.dev"}}}
   - {name: "FreeNode🇺🇸Phoenix🛠(12)", type: vmess, server: "104.16.0.170", port: 443, uuid: "59088BE1-AB52-99BA-4BE1-2B68AFECDF22", alterId: 0, cipher: "auto", tls: true, servername: "worker4.denin68336.workers.dev", network: "ws", ws-opts: {path: "/Phoenix.v2ray.online:443/speedtest", headers: {host: "worker4.denin68336.workers.dev"}}}
   - {name: "FreeNode🇺🇸Kansas🛠(13)", type: vmess, server: "104.16.0.170", port: 443, uuid: "59088BE1-AB52-99BA-4BE1-2B68AFECDF22", alterId: 0, cipher: "auto", tls: true, servername: "worker4.denin68336.workers.dev", network: "ws", ws-opts: {path: "/Kansas.v2ray.online:443/speedtest", headers: {host: "worker4.denin68336.workers.dev"}}}
@@ -202,6 +216,7 @@ proxy-groups:
     type: select
     # disable-udp: true
     proxies:
+      - ☘️Doprax☘️
       - FreeNode🇺🇸Atlanta🛠(11)
       - FreeNode🇺🇸Phoenix🛠(12)
       - FreeNode🇺🇸Kansas🛠(13)
@@ -238,23 +253,6 @@ proxy-groups:
       - FreeNode🇺🇸Atlanta🛠(41)
       - FreeNode🇩🇪Dusseldorf🛠(49)
       - FreeNode🇱🇻Riga🛠(47)
-      - sshocean🇦🇺au 03-23 (902)
-      - sshocean🇫🇷fr 03-23 (903)
-      - sshocean🇫🇷fr 03-23 (904)
-      - sshocean🇭🇰hk 03-23 (905)
-      - sshocean🇮🇩id 03-23 (906)
-      - sshocean🇯🇵jp 03-23 (907)
-      - sshocean🇳🇱nl 03-23 (908)
-      - sshocean🇳🇱nl 03-23 (909)
-      - sshocean🇵🇱pl 03-23 (910)
-      - sshocean🇬🇧uk 03-23 (911)
-      - sshocean🇬🇧uk 03-23 (912)
-      - sshocean🇺🇦ua 03-23 (913)
-      - sshocean🇨🇭ch 03-23 (914)
-      - sshocean🇺🇸us 03-23 (915)
-      - sshocean🇺🇸us 03-23 (916)
-      - opentunnel🇮🇩id 03-23 (917)
-      - 104.18.195.41 03-23 (901)
       - ⚡️Auto⚡️
 
   - name: ⚡️Auto⚡️
@@ -262,6 +260,7 @@ proxy-groups:
     url: http://www.gstatic.com/generate_204
     interval: 300
     proxies:
+      - ☘️Doprax☘️
       - FreeNode🇺🇸Atlanta🛠(11)
       - FreeNode🇺🇸Phoenix🛠(12)
       - FreeNode🇺🇸Kansas🛠(13)
@@ -298,23 +297,6 @@ proxy-groups:
       - FreeNode🇺🇸Atlanta🛠(41)
       - FreeNode🇩🇪Dusseldorf🛠(49)
       - FreeNode🇱🇻Riga🛠(47)
-      - sshocean🇦🇺au 03-23 (902)
-      - sshocean🇫🇷fr 03-23 (903)
-      - sshocean🇫🇷fr 03-23 (904)
-      - sshocean🇭🇰hk 03-23 (905)
-      - sshocean🇮🇩id 03-23 (906)
-      - sshocean🇯🇵jp 03-23 (907)
-      - sshocean🇳🇱nl 03-23 (908)
-      - sshocean🇳🇱nl 03-23 (909)
-      - sshocean🇵🇱pl 03-23 (910)
-      - sshocean🇬🇧uk 03-23 (911)
-      - sshocean🇬🇧uk 03-23 (912)
-      - sshocean🇺🇦ua 03-23 (913)
-      - sshocean🇨🇭ch 03-23 (914)
-      - sshocean🇺🇸us 03-23 (915)
-      - sshocean🇺🇸us 03-23 (916)
-      - opentunnel🇮🇩id 03-23 (917)
-      - 104.18.195.41 03-23 (901)
 
 
   # - name: ☘️Doprax☘️
