@@ -149,11 +149,6 @@ dns:
 ###flags###
 # de 🇩🇪 - id 🇮🇩 - ca 🇨🇦 - hk 🇭🇰 - my 🇲🇾 - jp 🇯🇵 - uk 🇬🇧 - ua 🇺🇦 - se 🇸🇪 - sp 🇪🇸 - us 🇺🇸 - za 🇿🇦 - sg 🇸🇬 - pl 🇵🇱 - fr 🇫🇷 - kr 🇰🇷 - nl 🇳🇱 - au 🇦🇺 - ae 🇦🇪 - th 🇹🇭 - vn 🇻🇳 - it 🇮🇹
 proxies:
-  # - {name: "Doprax (01)", type: "vmess", server: "104.16.118.221", port: 443, uuid: "3445bb7a-7dcb-408e-be51-a8912bad94ea", alterId: 0, cipher: "auto", network: "ws", servername: "worker2.xdsworker2.xi.to", tls: true, ws-opts: {path: "/domaindemom4xe.eu-ffaqrvbjixds.dopraxrocks.net:443/vmess", headers: {host: "worker2.xdsworker2.xi.to"}}}
-  # - {name: "Doprax (02)", type: "vmess", server: "104.16.126.200", port: 443, uuid: "3445bb7a-7dcb-408e-be51-a8912bad94ea", alterId: 0, cipher: "auto", network: "ws", servername: "worker4.fhsdalenas.yn.to", tls: true, ws-opts: {path: "/domaindemom4xe.eu-ffaqrvbjixds.dopraxrocks.net:443/vmess", headers: {host: "worker4.fhsdalenas.yn.to"}}}
-  # - {name: "Doprax (03)", type: "vmess", server: "104.16.71.244", port: 443, uuid: "3445bb7a-7dcb-408e-be51-a8912bad94ea", alterId: 0, cipher: "auto", network: "ws", servername: "worker5.xdsworker4.yn.to", tls: true, ws-opts: {path: "/domaindemom4xe.eu-ffaqrvbjixds.dopraxrocks.net:443/vmess", headers: {host: "worker5.xdsworker4.yn.to"}}}
-  # - {name: "Doprax (04)", type: "vmess", server: "104.16.61.170", port: 443, uuid: "3445bb7a-7dcb-408e-be51-a8912bad94ea", alterId: 0, cipher: "auto", network: "ws", servername: "worker4.denin68336.workers.dev", tls: true, ws-opts: {path: "/domaindemom4xe.eu-ffaqrvbjixds.dopraxrocks.net:443/vmess", headers: {host: "worker4-in.denin68336.workers.dev"}}}
-  # - {name: "Doprax (05)", type: "vmess", server: "104.16.31.2", port: 443, uuid: "3445bb7a-7dcb-408e-be51-a8912bad94ea", alterId: 0, cipher: "auto", network: "ws", servername: "worker4.denin68336.workers.dev", tls: true, ws-opts: {path: "/domaindemom4xe.eu-ffaqrvbjixds.dopraxrocks.net:443/vmess", headers: {host: "worker4-in.denin68336.workers.dev"}}}
   - {name: "☘️Doprax☘️", type: "vmess", server: "domaindemom4xe.eu-ffaqrvbjixds.dopraxrocks.net", port: 443, uuid: "3445bb7a-7dcb-408e-be51-a8912bad94ea", alterId: 0, cipher: "auto", network: "ws", tls: true, skip-cert-verify: false, ws-opts: {path: "/vmess"}}
 
   - {name: "FreeNode🇺🇸Atlanta🛠(11)", type: vmess, server: "104.16.0.170", port: 443, uuid: "59088BE1-AB52-99BA-4BE1-2B68AFECDF22", alterId: 0, cipher: "auto", tls: true, servername: "worker4.denin68336.workers.dev", network: "ws", ws-opts: {path: "/Atlanta.v2ray.online:443/speedtest", headers: {host: "worker4.denin68336.workers.dev"}}}
@@ -192,24 +187,31 @@ proxies:
   - {name: "FreeNode🇺🇸Atlanta🛠(41)", type: "vmess", server: "104.16.0.170", port: 443, uuid: "7223AFD7-FF67-4B1E-978E-EE0F019B5442", alterId: 0, cipher: "auto", tls: true, servername: "worker5.tipage6563.workers.dev", network: "ws", ws-opts: {path: "/Atlanta.v2ray.online:443/speedtest", headers: {host: "worker5.tipage6563.workers.dev"}}}
   - {name: "FreeNode🇩🇪Dusseldorf🛠(49)", type: "vmess", server: "104.16.0.170", port: 443, uuid: "7223AFD7-FF67-4B1E-978E-EE0F019B5442", alterId: 0, cipher: "auto", tls: true, servername: "worker5.tipage6563.workers.dev", network: "ws", ws-opts: {path: "/Dusseldorf.v2ray.online:443/speedtest", headers: {host: "worker5.tipage6563.workers.dev"}}}
   - {name: "FreeNode🇱🇻Riga🛠(47)", type: "vmess", server: "104.16.0.170", port: 443, uuid: "7223AFD7-FF67-4B1E-978E-EE0F019B5442", alterId: 0, cipher: "auto", tls: true, servername: "worker5.tipage6563.workers.dev", network: "ws", ws-opts: {path: "/Riga.v2ray.online:443/speedtest", headers: {host: "worker5.tipage6563.workers.dev"}}}
-
-  - {name: "104.18.195.41 03-23 (901)", type: "vmess", server: "104.18.195.41", port: 443, uuid: "6beb9a25-2c34-4512-93c5-5bb7b0e5f611", alterId: 0, cipher: "auto", network: "ws", servername: "www.bing.com", tls: true, skip-cert-verify: true, ws-opts: {path: "/vmess", headers: {host: "www.bing.com"}}}
-  - {name: "sshocean🇦🇺au 03-23 (902)", type: "vmess", server: "139.99.135.181", port: 443, uuid: "2f6d1a3b-1270-4fe3-a9de-3cb9707f4de5", alterId: 0, cipher: "auto", network: "ws", servername: "sni.cloudflare.com", tls: true, skip-cert-verify: true, ws-opts: {path: "/vmess", headers: {host: "sni.cloudflare.com"}}}
-  - {name: "sshocean🇫🇷fr 03-23 (903)", type: "vmess", server: "92.222.217.16", port: 443, uuid: "be9dc46e-b0cf-4146-8bfc-d5f5b58f3025", alterId: 0, cipher: "auto", network: "ws", servername: "sni.cloudflare.com", tls: true, skip-cert-verify: true, ws-opts: {path: "/vmess", headers: {host: "sni.cloudflare.com"}}}
-  - {name: "sshocean🇫🇷fr 03-23 (904)", type: "vmess", server: "92.222.217.16", port: 443, uuid: "9df6fddf-4ec3-44e6-9f67-d8204c7ba2d0", alterId: 0, cipher: "auto", network: "ws", servername: "sni.cloudflare.com", tls: true, skip-cert-verify: true, ws-opts: {path: "/vmess", headers: {host: "sni.cloudflare.com"}}}
-  - {name: "sshocean🇭🇰hk 03-23 (905)", type: "vmess", server: "194.156.99.166", port: 443, uuid: "24d8b11c-3335-4692-96df-dbb07e08bea9", alterId: 0, cipher: "auto", network: "ws", servername: "sni.cloudflare.com", tls: true, skip-cert-verify: true, ws-opts: {path: "/vmess", headers: {host: "sni.cloudflare.com"}}}
-  - {name: "sshocean🇮🇩id 03-23 (906)", type: "vmess", server: "43.229.254.177", port: 443, uuid: "87dcaf61-1ace-4b0f-87c9-66466d4ac0a1", alterId: 0, cipher: "auto", network: "ws", servername: "sni.cloudflare.com", tls: true, skip-cert-verify: true, ws-opts: {path: "/vmess", headers: {host: "sni.cloudflare.com"}}}
-  - {name: "sshocean🇯🇵jp 03-23 (907)", type: "vmess", server: "139.180.198.21", port: 443, uuid: "dc9fa6e2-c314-45a1-9bbf-492296c749fa", alterId: 0, cipher: "auto", network: "ws", servername: "sni.cloudflare.com", tls: true, skip-cert-verify: true, ws-opts: {path: "/vmess", headers: {host: "sni.cloudflare.com"}}}
-  - {name: "sshocean🇳🇱nl 03-23 (908)", type: "vmess", server: "51.15.81.240", port: 443, uuid: "b3a291b2-f399-4708-bb8a-ee21cc383ad5", alterId: 0, cipher: "auto", network: "ws", servername: "sni.cloudflare.com", tls: true, skip-cert-verify: true, ws-opts: {path: "/vmess", headers: {host: "sni.cloudflare.com"}}}
-  - {name: "sshocean🇳🇱nl 03-23 (909)", type: "vmess", server: "51.15.81.240", port: 443, uuid: "737e622d-92fc-4ea6-bda3-0a83f89cc4d5", alterId: 0, cipher: "auto", network: "ws", servername: "sni.cloudflare.com", tls: true, skip-cert-verify: true, ws-opts: {path: "/vmess", headers: {host: "sni.cloudflare.com"}}}
-  - {name: "sshocean🇵🇱pl 03-23 (910)", type: "vmess", server: "77.91.102.27", port: 443, uuid: "801a64e9-4330-4509-849f-6034348d5074", alterId: 0, cipher: "auto", network: "ws", servername: "sni.cloudflare.com", tls: true, skip-cert-verify: true, ws-opts: {path: "/vmess", headers: {host: "sni.cloudflare.com"}}}
-  - {name: "sshocean🇬🇧uk 03-23 (911)", type: "vmess", server: "51.195.217.20", port: 443, uuid: "f6d43b81-f825-4692-956a-4e81d82329fd", alterId: 0, cipher: "auto", network: "ws", servername: "sni.cloudflare.com", tls: true, skip-cert-verify: true, ws-opts: {path: "/vmess", headers: {host: "sni.cloudflare.com"}}}
-  - {name: "sshocean🇬🇧uk 03-23 (912)", type: "vmess", server: "54.37.18.98", port: 443, uuid: "67d19076-f86b-495e-95e6-c214084564e6", alterId: 0, cipher: "auto", network: "ws", servername: "sni.cloudflare.com", tls: true, skip-cert-verify: true, ws-opts: {path: "/vmess", headers: {host: "sni.cloudflare.com"}}}
-  - {name: "sshocean🇺🇦ua 03-23 (913)", type: "vmess", server: "5.34.182.218", port: 443, uuid: "a3c75b41-3a82-4b40-9845-c9602812d84d", alterId: 0, cipher: "auto", network: "ws", servername: "sni.cloudflare.com", tls: true, skip-cert-verify: true, ws-opts: {path: "/vmess", headers: {host: "sni.cloudflare.com"}}}
-  - {name: "sshocean🇨🇭ch 03-23 (914)", type: "vmess", server: "45.90.57.107", port: 443, uuid: "fcde9cfb-65d9-41ba-897d-39f0b3023730", alterId: 0, cipher: "auto", network: "ws", servername: "sni.cloudflare.com", tls: true, skip-cert-verify: true, ws-opts: {path: "/vmess", headers: {host: "sni.cloudflare.com"}}}
-  - {name: "sshocean🇺🇸us 03-23 (915)", type: "vmess", server: "15.204.8.218", port: 443, uuid: "5f89166d-defe-49a0-884c-1979010102c6", alterId: 0, cipher: "auto", network: "ws", servername: "sni.cloudflare.com", tls: true, skip-cert-verify: true, ws-opts: {path: "/vmess", headers: {host: "sni.cloudflare.com"}}}
-  - {name: "sshocean🇺🇸us 03-23 (916)", type: "vmess", server: "51.81.211.0", port: 443, uuid: "cc73f505-8b0e-4d8c-8f55-35682aa12e47", alterId: 0, cipher: "auto", network: "ws", servername: "sni.cloudflare.com", tls: true, skip-cert-verify: true, ws-opts: {path: "/vmess", headers: {host: "sni.cloudflare.com"}}}
-  - {name: "opentunnel🇮🇩id 03-23 (917)", type: "vmess", server: "41.216.177.122", port: 443, uuid: "a40d34c6-b77c-4648-9210-3e8d2f4226b5", alterId: 16, cipher: "auto", network: "ws", servername: "www.bing.com", tls: true, skip-cert-verify: true, ws-opts: {path: "/opentunnel?user=opentunnel.net-fenklfsan", headers: {host: "www.bing.com"}}}
+  
+  - {name: "freevmess🇯🇵jp🚀(1311)", type: "vmess", server: "104.24.154.97", port: 443, uuid: "3009f475-ddd4-4bc5-afec-4ca039047b44", alterId: 0, cipher: "auto", network: "ws", servername: "303.namava-irib.edu.eu.org", tls: true, skip-cert-verify: false, ws-opts: {path: "/freevmess", headers: {host: "303.namava-irib.edu.eu.org"}}}
+  - {name: "freevmess🇫🇷fr🚀(1511)", type: "vmess", server: "104.20.223.2", port: 443, uuid: "5ccfce2e-9b1f-4c61-ac24-b7d3b49e7d63", alterId: 0, cipher: "auto", network: "ws", servername: "201.namava-irib.edu.eu.org", tls: true, skip-cert-verify: false, ws-opts: {path: "/freevmess", headers: {host: "201.namava-irib.edu.eu.org"}}}
+  - {name: "freevmess🇨🇦ca🚀(1711)", type: "vmess", server: "104.20.223.2", port: 443, uuid: "ae0f4b46-839c-4968-970c-2aa9247491f6", alterId: 0, cipher: "auto", network: "ws", servername: "402.namava-irib.edu.eu.org", tls: true, skip-cert-verify: false, ws-opts: {path: "/freevmess", headers: {host: "402.namava-irib.edu.eu.org"}}}
+  - {name: "freevmess🇬🇧uk🚀(1411)", type: "vmess", server: "141.193.213.218", port: 443, uuid: "5fa38383-9713-4f32-a174-f1ddbc19294f", alterId: 0, cipher: "auto", network: "ws", servername: "404.namava-irib.edu.eu.org", tls: true, skip-cert-verify: false, ws-opts: {path: "/freevmess", headers: {host: "404.namava-irib.edu.eu.org"}}}
+  - {name: "freevmess🇩🇪de🚀(1111)", type: "vmess", server: "141.193.213.218", port: 443, uuid: "086bf72a-b070-4fd2-bc1d-7f1fb164cd2e", alterId: 0, cipher: "auto", network: "ws", servername: "502.namava-irib.edu.eu.org", tls: true, skip-cert-verify: false, ws-opts: {path: "/freevmess", headers: {host: "502.namava-irib.edu.eu.org"}}}
+  - {name: "freevmess🇺🇸us🚀(1611)", type: "vmess", server: "104.25.251.69", port: 443, uuid: "09c5c47f-2f48-4ecc-ace9-ae5800a3b2d8", alterId: 0, cipher: "auto", network: "ws", servername: "200.namava-irib.edu.eu.org", tls: true, skip-cert-verify: false, ws-opts: {path: "/freevmess", headers: {host: "200.namava-irib.edu.eu.org"}}}
+  - {name: "mainssh🇮🇩id🚀(3211)", type: "vmess", server: "104.24.154.97", port: 443, uuid: "0ea7c558-e18f-4814-abf1-15f010c7450c", alterId: 0, cipher: "auto", network: "ws", servername: "500.namava-irib.edu.eu.org", tls: true, skip-cert-verify: false, ws-opts: {path: "/vmess", headers: {host: "500.namava-irib.edu.eu.org"}}}
+  - {name: "mainssh🇬🇧uk🚀(3411)", type: "vmess", server: "141.193.213.218", port: 443, uuid: "96dadd1c-3cdf-4280-9faf-c8bddcc5e77c", alterId: 0, cipher: "auto", network: "ws", servername: "301.namava-irib.edu.eu.org", tls: true, skip-cert-verify: false, ws-opts: {path: "/vmess", headers: {host: "301.namava-irib.edu.eu.org"}}}
+  - {name: "mainssh🇨🇦ca🚀(3711)", type: "vmess", server: "141.193.213.218", port: 443, uuid: "0bce254b-400f-4230-8408-2d46f5ffa4c4", alterId: 0, cipher: "auto", network: "ws", servername: "403.namava-irib.edu.eu.org", tls: true, skip-cert-verify: false, ws-opts: {path: "/vmess", headers: {host: "403.namava-irib.edu.eu.org"}}}
+  - {name: "mainssh🇫🇷fr🚀(3511)", type: "vmess", server: "104.16.208.130", port: 443, uuid: "d01bf26e-6d6d-4620-bb17-c00d41907cfc", alterId: 0, cipher: "auto", network: "ws", servername: "405.namava-irib.edu.eu.org", tls: true, skip-cert-verify: false, ws-opts: {path: "/vmess", headers: {host: "405.namava-irib.edu.eu.org"}}}
+  - {name: "mainssh🇩🇪de🚀(3111)", type: "vmess", server: "141.193.213.218", port: 443, uuid: "61b23016-8c92-4b11-8c29-6fd87dc6c9b0", alterId: 0, cipher: "auto", network: "ws", servername: "203.namava-irib.edu.eu.org", tls: true, skip-cert-verify: false, ws-opts: {path: "/vmess", headers: {host: "203.namava-irib.edu.eu.org"}}}
+  - {name: "mainssh🇺🇸us🚀(3611)", type: "vmess", server: "162.159.24.16", port: 443, uuid: "0deef0da-71e6-45b3-8e06-d95bc9f09a69", alterId: 0, cipher: "auto", network: "ws", servername: "418.namava-irib.edu.eu.org", tls: true, skip-cert-verify: false, ws-opts: {path: "/vmess", headers: {host: "418.namava-irib.edu.eu.org"}}}
+  - {name: "opentunnel🇮🇩id🚀(2331)", type: "vmess", server: "198.41.200.138", port: 443, uuid: "a40d34c6-b77c-4648-9210-3e8d2f4226b5", alterId: 16, cipher: "auto", network: "ws", servername: "501.namava-irib.edu.eu.org", tls: true, skip-cert-verify: false, ws-opts: {path: "/opentunnel?user=opentunnel.net-fsdnfskfa", headers: {host: "501.namava-irib.edu.eu.org"}}}
+  - {name: "opentunnel🇺🇸us🚀(2141)", type: "vmess", server: "198.41.205.12", port: 443, uuid: "a40d34c6-b77c-4648-9210-3e8d2f4226b5", alterId: 16, cipher: "auto", network: "ws", servername: "302.namava-irib.edu.eu.org", tls: true, skip-cert-verify: false, ws-opts: {path: "/opentunnel?user=opentunnel.net-efnsdkflsdkn", headers: {host: "302.namava-irib.edu.eu.org"}}}
+  - {name: "opentunnel🇳🇱nl🚀(2211)", type: "vmess", server: "198.41.200.112", port: 443, uuid: "a40d34c6-b77c-4648-9210-3e8d2f4226b5", alterId: 16, cipher: "auto", network: "ws", servername: "503.namava-irib.edu.eu.org", tls: true, skip-cert-verify: false, ws-opts: {path: "/opentunnel?user=opentunnel.net-nfdklsafnksd", headers: {host: "503.namava-irib.edu.eu.org"}}}
+  - {name: "opentunnel🇳🇱nl🚀(2261)", type: "vmess", server: "190.93.246.75", port: 443, uuid: "a40d34c6-b77c-4648-9210-3e8d2f4226b5", alterId: 16, cipher: "auto", network: "ws", servername: "202.namava-irib.edu.eu.org", tls: true, skip-cert-verify: false, ws-opts: {path: "/opentunnel?user=opentunnel.net-dfsfdsvdsv", headers: {host: "202.namava-irib.edu.eu.org"}}}
+  - {name: "opentunnel🇭🇰hk🚀(2411)", type: "vmess", server: "198.41.200.112", port: 443, uuid: "a40d34c6-b77c-4648-9210-3e8d2f4226b5", alterId: 16, cipher: "auto", network: "ws", servername: "401.namava-irib.edu.eu.org", tls: true, skip-cert-verify: false, ws-opts: {path: "/opentunnel?user=opentunnel.net-nkelsdfks", headers: {host: "401.namava-irib.edu.eu.org"}}}
+  - {name: "opentunnel🇮🇩id🚀(2321)", type: "vmess", server: "198.41.196.128", port: 443, uuid: "a40d34c6-b77c-4648-9210-3e8d2f4226b5", alterId: 16, cipher: "auto", network: "ws", servername: "410.namava-irib.edu.eu.org", tls: true, skip-cert-verify: false, ws-opts: {path: "/opentunnel?user=opentunnel.net-kfndslafksdn", headers: {host: "410.namava-irib.edu.eu.org"}}}
+  - {name: "opentunnel🇺🇸us🚀(2131)", type: "vmess", server: "198.41.205.12", port: 443, uuid: "a40d34c6-b77c-4648-9210-3e8d2f4226b5", alterId: 16, cipher: "auto", network: "ws", servername: "504.namava-irib.edu.eu.org", tls: true, skip-cert-verify: false, ws-opts: {path: "/opentunnel?user=opentunnel.net-fdsnaksfn", headers: {host: "504.namava-irib.edu.eu.org"}}}
+  - {name: "opentunnel🇺🇸us🚀(2121)", type: "vmess", server: "198.41.196.128", port: 443, uuid: "a40d34c6-b77c-4648-9210-3e8d2f4226b5", alterId: 16, cipher: "auto", network: "ws", servername: "400.namava-irib.edu.eu.org", tls: true, skip-cert-verify: false, ws-opts: {path: "/opentunnel?user=opentunnel.net-nflskafks", headers: {host: "400.namava-irib.edu.eu.org"}}}
+  - {name: "mainssh🇩🇪de🚀(3112)", type: "vmess", server: "141.193.213.218", port: 443, uuid: "7a9fe348-8d13-4453-9c35-01819709ee2c", alterId: 0, cipher: "auto", network: "ws", servername: "pool.namava-irib.edu.eu.org", tls: true, skip-cert-verify: false, ws-opts: {path: "/vmess", headers: {host: "pool.namava-irib.edu.eu.org"}}}
+  - {name: "opentunnel🇫🇷fr🚀(2611)", type: "vmess", server: "190.93.246.1", port: 443, uuid: "a40d34c6-b77c-4648-9210-3e8d2f4226b5", alterId: 16, cipher: "auto", network: "ws", servername: "101.namava-irib.edu.eu.org ", tls: true, skip-cert-verify: false, ws-opts: {path: "/opentunnel?user=opentunnel.net-fsdnflsadf", headers: {host: "101.namava-irib.edu.eu.org"}}}
+  - {name: "opentunnel🇩🇪de🚀(2511)", type: "vmess", server: "172.64.197.105", port: 443, uuid: "a40d34c6-b77c-4648-9210-3e8d2f4226b5", alterId: 16, cipher: "auto", network: "ws", servername: "102.namava-irib.edu.eu.org", tls: true, skip-cert-verify: false, ws-opts: {path: "/opentunnel?user=opentunnel.net-nfslkfnsldf", headers: {host: "102.namava-irib.edu.eu.org"}}}
+  - {name: "opentunnel🇩🇪de🚀(2512)", type: "vmess", server: "190.93.246.1", port: 443, uuid: "a40d34c6-b77c-4648-9210-3e8d2f4226b5", alterId: 16, cipher: "auto", network: "ws", servername: "102.namava-irib.edu.eu.org", tls: true, skip-cert-verify: false, ws-opts: {path: "/opentunnel?user=opentunnel.net-fsjdkafnlskfl", headers: {host: "102.namava-irib.edu.eu.org"}}}
 
 proxy-groups:
   - name: Select
@@ -253,6 +255,30 @@ proxy-groups:
       - FreeNode🇺🇸Atlanta🛠(41)
       - FreeNode🇩🇪Dusseldorf🛠(49)
       - FreeNode🇱🇻Riga🛠(47)
+      - freevmess🇯🇵jp🚀(1311)
+      - freevmess🇫🇷fr🚀(1511)
+      - freevmess🇨🇦ca🚀(1711)
+      - freevmess🇬🇧uk🚀(1411)
+      - freevmess🇩🇪de🚀(1111)
+      - freevmess🇺🇸us🚀(1611)
+      - mainssh🇮🇩id🚀(3211)
+      - mainssh🇬🇧uk🚀(3411)
+      - mainssh🇨🇦ca🚀(3711)
+      - mainssh🇫🇷fr🚀(3511)
+      - mainssh🇩🇪de🚀(3111)
+      - mainssh🇺🇸us🚀(3611)
+      - opentunnel🇮🇩id🚀(2331)
+      - opentunnel🇺🇸us🚀(2141)
+      - opentunnel🇳🇱nl🚀(2211)
+      - opentunnel🇳🇱nl🚀(2261)
+      - opentunnel🇭🇰hk🚀(2411)
+      - opentunnel🇮🇩id🚀(2321)
+      - opentunnel🇺🇸us🚀(2131)
+      - opentunnel🇺🇸us🚀(2121)
+      - mainssh🇩🇪de🚀(3112)
+      - opentunnel🇫🇷fr🚀(2611)
+      - opentunnel🇩🇪de🚀(2511)
+      - opentunnel🇩🇪de🚀(2512)
       - ⚡️Auto⚡️
 
   - name: ⚡️Auto⚡️
@@ -297,16 +323,40 @@ proxy-groups:
       - FreeNode🇺🇸Atlanta🛠(41)
       - FreeNode🇩🇪Dusseldorf🛠(49)
       - FreeNode🇱🇻Riga🛠(47)
+      - freevmess🇯🇵jp🚀(1311)
+      - freevmess🇫🇷fr🚀(1511)
+      - freevmess🇨🇦ca🚀(1711)
+      - freevmess🇬🇧uk🚀(1411)
+      - freevmess🇩🇪de🚀(1111)
+      - freevmess🇺🇸us🚀(1611)
+      - mainssh🇮🇩id🚀(3211)
+      - mainssh🇬🇧uk🚀(3411)
+      - mainssh🇨🇦ca🚀(3711)
+      - mainssh🇫🇷fr🚀(3511)
+      - mainssh🇩🇪de🚀(3111)
+      - mainssh🇺🇸us🚀(3611)
+      - opentunnel🇮🇩id🚀(2331)
+      - opentunnel🇺🇸us🚀(2141)
+      - opentunnel🇳🇱nl🚀(2211)
+      - opentunnel🇳🇱nl🚀(2261)
+      - opentunnel🇭🇰hk🚀(2411)
+      - opentunnel🇮🇩id🚀(2321)
+      - opentunnel🇺🇸us🚀(2131)
+      - opentunnel🇺🇸us🚀(2121)
+      - mainssh🇩🇪de🚀(3112)
+      - opentunnel🇫🇷fr🚀(2611)
+      - opentunnel🇩🇪de🚀(2511)
+      - opentunnel🇩🇪de🚀(2512)
 
 
   # - name: ☘️Doprax☘️
-  #   type: url-test
-  #   url: http://www.gstatic.com/generate_204
-  #   interval: 300
-  #   proxies:
-  #   - Doprax (01)
-  #   - Doprax (02)
-  #   - Doprax (03)
+    # type: url-test
+    # url: http://www.gstatic.com/generate_204
+    # interval: 300
+    # proxies:
+    # - Doprax (01)
+    # - Doprax (02)
+    # - Doprax (03)
     # - Doprax (04)
     # - Doprax (05)
 
@@ -316,21 +366,21 @@ proxy-groups:
     - OFF
     - ON
 
-  - name: Bypass-IR
-    type: select
-    proxies:
-    - OFF
-    - On
+  # - name: Bypass-IR
+  #   type: select
+  #   proxies:
+  #   - OFF
+  #   - On
 
   - name: ON
     type: select
     proxies:
     - REJECT
 
-  - name: On
-    type: select
-    proxies:
-    - DIRECT
+  # - name: On
+  #   type: select
+  #   proxies:
+  #   - DIRECT
   
   - name: OFF
     type: select
@@ -347,7 +397,6 @@ rule-providers:
 
 rules:
   - RULE-SET,ad,Ad-Block
-  - DOMAIN-SUFFIX,ir,Bypass-IR
-  - GEOIP,IR,Bypass-IR
-  - DOMAIN-SUFFIX,instagram.com,Select
+  - DOMAIN-SUFFIX,ir,DIRECT
+  - GEOIP,IR,DIRECT
   - MATCH,Select
