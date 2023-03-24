@@ -40,3 +40,6 @@ trojan://mainssh-erfdzxvccvxz@104.19.74.130:443?sni=420.namava-irib.edu.eu.org&s
 trojan://mainssh-efdvzcvcxz@104.16.1.81:443?sni=421.namava-irib.edu.eu.org&security=tls&type=ws&path=/trojan&host=421.namava-irib.edu.eu.org#mainssh%F0%9F%87%BA%F0%9F%87%B8us%20(T3611)
 trojan://mainssh-eafsdzvcxv@104.16.1.77:443?sni=420.namava-irib.edu.eu.org&security=tls&type=ws&path=/trojan&host=420.namava-irib.edu.eu.org#mainssh%F0%9F%87%A9%F0%9F%87%AAde%20(T3112)
 trojan://mainssh-fdnebfsdaf@104.19.79.182:443?sni=422.namava-irib.edu.eu.org&security=tls&type=ws&path=/trojan&host=422.namava-irib.edu.eu.org#mainssh%F0%9F%87%A8%F0%9F%87%A6ca%20(T3711)
+trojan://zszszzzz@104.19.79.182:443?sni=425.namava-irib.edu.eu.org%20&security=tls&type=ws&path=/trojan-ws&host=425.namava-irib.edu.eu.org%20#globalssh%F0%9F%87%A9%F0%9F%87%AAde%20(T7111)
+trojan://sdvdvdsfv@104.17.129.1:443?sni=424.namava-irib.edu.eu.org%20&security=tls&type=ws&path=/trojan-ws&host=424.namava-irib.edu.eu.org%20#globalssh%F0%9F%87%BA%F0%9F%87%B8us%20(T7211)
+trojan://xres5xyr@104.17.81.137:443?sni=424.namava-irib.edu.eu.org%20&security=tls&type=ws&path=/trojan-ws&host=424.namava-irib.edu.eu.org%20#globalssh%F0%9F%87%BA%F0%9F%87%B8us%20(T7212)

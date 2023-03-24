@@ -236,6 +236,10 @@ proxies:
   - {name: "mainssh🇩🇪de (T3112)", type: "trojan", server: "104.16.1.77", port: 443, password: "mainssh-eafsdzvcxv", sni: "420.namava-irib.edu.eu.org", skip-cert-verify: false, network: "ws", ws-opts: {path: "/trojan", headers: {host: "420.namava-irib.edu.eu.org"}}}
   - {name: "mainssh🇨🇦ca (T3711)", type: "trojan", server: "104.19.79.182", port: 443, password: "mainssh-fdnebfsdaf", sni: "422.namava-irib.edu.eu.org", skip-cert-verify: false, network: "ws", ws-opts: {path: "/trojan", headers: {host: "422.namava-irib.edu.eu.org"}}}
 
+  - {name: "globalssh🇩🇪de (T7111)", type: "trojan", server: "104.19.79.182", port: 443, password: "zszszzzz", sni: "425.namava-irib.edu.eu.org", skip-cert-verify: false, network: "ws", ws-opts: {path: "/trojan-ws", headers: {host: "425.namava-irib.edu.eu.org "}}}
+  - {name: "globalssh🇺🇸us (T7211)", type: "trojan", server: "104.17.129.1", port: 443, password: "sdvdvdsfv", sni: "424.namava-irib.edu.eu.org", skip-cert-verify: false, network: "ws", ws-opts: {path: "/trojan-ws", headers: {host: "424.namava-irib.edu.eu.org "}}}
+  - {name: "globalssh🇺🇸us (T7212)", type: "trojan", server: "104.17.81.137", port: 443, password: "xres5xyr", sni: "424.namava-irib.edu.eu.org", skip-cert-verify: false, network: "ws", ws-opts: {path: "/trojan-ws", headers: {host: "424.namava-irib.edu.eu.org "}}}
+
 proxy-groups:
   - name: Select
     type: select
@@ -320,6 +324,9 @@ proxy-groups:
       - mainssh🇺🇸us (T3611)
       - mainssh🇩🇪de (T3112)
       - mainssh🇨🇦ca (T3711)
+      - globalssh🇩🇪de (T7111)
+      - globalssh🇺🇸us (T7211)
+      - globalssh🇺🇸us (T7212)
       - ⚡️Auto⚡️
 
   - name: ⚡️Auto⚡️
@@ -406,7 +413,9 @@ proxy-groups:
       - mainssh🇺🇸us (T3611)
       - mainssh🇩🇪de (T3112)
       - mainssh🇨🇦ca (T3711)
-
+      - globalssh🇩🇪de (T7111)
+      - globalssh🇺🇸us (T7211)
+      - globalssh🇺🇸us (T7212)
 
   # - name: ☘️Doprax☘️
     # type: url-test
