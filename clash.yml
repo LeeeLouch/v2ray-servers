@@ -234,6 +234,15 @@ proxies:
   - {name: "sshocean🇺🇸us (T5421)", type: "trojan", server: "104.19.91.75", port: 443, password: "1138d3e8-659e-4cbf-8571-86c709411557", sni: "1003.namava-irib.edu.eu.org", skip-cert-verify: false, network: "ws", ws-opts: {path: "/websocket", headers: {host: "1003.namava-irib.edu.eu.org"}}}
   - {name: "sshocean🇫🇷fr (T5521)", type: "trojan", server: "104.16.1.90", port: 443, password: "f742ee88-80ce-4d6e-9d5a-19feeb6fc01f", sni: "1004.namava-irib.edu.eu.org", skip-cert-verify: false, network: "ws", ws-opts: {path: "/websocket", headers: {host: "1004.namava-irib.edu.eu.org"}}}
   - {name: "sshocean🇫🇷fr (T5511)", type: "trojan", server: "104.16.1.81", port: 443, password: "f1cf02f1-522d-47bc-bc64-d1cef0544808", sni: "1005.namava-irib.edu.eu.org", skip-cert-verify: false, network: "ws", ws-opts: {path: "/websocket", headers: {host: "1005.namava-irib.edu.eu.org"}}}
+  - {name: "sshocean🇩🇪de (T5611)", type: "trojan", server: "104.23.97.16", port: 443, password: "57d7c1b8-30fd-471d-8e7b-06d13aff547a", sni: "1007.namava-irib.edu.eu.org", skip-cert-verify: false, network: "ws", ws-opts: {path: "/websocket", headers: {host: "1007.namava-irib.edu.eu.org"}}}
+  
+  - {name: "sshocean🇨🇦ca (T5122)", type: "trojan", server: "104.24.77.5", port: 443, password: "623d6a80-d746-44b7-9995-d0e062e0f328", sni: "1006.namava-irib.edu.eu.org", skip-cert-verify: false, network: "ws", ws-opts: {path: "/websocket", headers: {host: "1006.namava-irib.edu.eu.org"}}}
+  - {name: "sshocean🇬🇧uk (T5222)", type: "trojan", server: "104.19.85.70", port: 443, password: "57fc458d-6bf8-4752-a4d5-0be122386756", sni: "1001.namava-irib.edu.eu.org", skip-cert-verify: false, network: "ws", ws-opts: {path: "/websocket", headers: {host: "1001.namava-irib.edu.eu.org"}}}
+  - {name: "sshocean🇬🇧uk (T5332)", type: "trojan", server: "104.17.73.72", port: 443, password: "fb881ef4-8465-4c9c-8625-470448903f93", sni: "1002.namava-irib.edu.eu.org", skip-cert-verify: false, network: "ws", ws-opts: {path: "/websocket", headers: {host: "1002.namava-irib.edu.eu.org"}}}
+  - {name: "sshocean🇺🇸us (T5422)", type: "trojan", server: "104.17.67.137", port: 443, password: "abc073d1-8e8e-4255-97e5-f680a5ab4fa1", sni: "1003.namava-irib.edu.eu.org", skip-cert-verify: false, network: "ws", ws-opts: {path: "/websocket", headers: {host: "1003.namava-irib.edu.eu.org"}}}
+  - {name: "sshocean🇫🇷fr (T5522)", type: "trojan", server: "104.25.194.1", port: 443, password: "ffe98867-e6af-4d20-969e-b5b50c5ea94d", sni: "1004.namava-irib.edu.eu.org", skip-cert-verify: false, network: "ws", ws-opts: {path: "/websocket", headers: {host: "1004.namava-irib.edu.eu.org"}}}
+  - {name: "sshocean🇫🇷fr (T5512)", type: "trojan", server: "104.25.133.164", port: 443, password: "b66c0541-f4b8-4372-8e2c-bce338d4401c", sni: "1005.namava-irib.edu.eu.org", skip-cert-verify: false, network: "ws", ws-opts: {path: "/websocket", headers: {host: "1005.namava-irib.edu.eu.org"}}}
+
 
   - {name: "mainssh🇮🇩id (T3211)", type: "trojan", server: "104.19.79.182", port: 443, password: "mainssh-esdvxcvz", sni: "416.namava-irib.edu.eu.org", skip-cert-verify: false, network: "ws", ws-opts: {path: "/trojan", headers: {host: "416.namava-irib.edu.eu.org"}}}
   - {name: "mainssh🇫🇷fr (T3511)", type: "trojan", server: "104.19.93.65", port: 443, password: "mainssh-efdszvxczvzx", sni: "417.namava-irib.edu.eu.org", skip-cert-verify: false, network: "ws", ws-opts: {path: "/trojan", headers: {host: "417.namava-irib.edu.eu.org"}}}
@@ -340,6 +349,13 @@ proxy-groups:
       - globalssh🇩🇪de (T7111)
       - globalssh🇺🇸us (T7211)
       - globalssh🇺🇸us (T7212)
+      - sshocean🇩🇪de (T5611)
+      - sshocean🇨🇦ca (T5122)
+      - sshocean🇬🇧uk (T5222)
+      - sshocean🇬🇧uk (T5332)
+      - sshocean🇺🇸us (T5422)
+      - sshocean🇫🇷fr (T5522)
+      - sshocean🇫🇷fr (T5512)
       - ⚡️Auto⚡️
 
   - name: ⚡️Auto⚡️
@@ -435,6 +451,13 @@ proxy-groups:
       - globalssh🇩🇪de (T7111)
       - globalssh🇺🇸us (T7211)
       - globalssh🇺🇸us (T7212)
+      - sshocean🇩🇪de (T5611)
+      - sshocean🇨🇦ca (T5122)
+      - sshocean🇬🇧uk (T5222)
+      - sshocean🇬🇧uk (T5332)
+      - sshocean🇺🇸us (T5422)
+      - sshocean🇫🇷fr (T5522)
+      - sshocean🇫🇷fr (T5512)
 
   # - name: ☘️Doprax☘️
     # type: url-test
