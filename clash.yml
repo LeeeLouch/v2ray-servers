@@ -203,6 +203,13 @@ proxies:
   - {name: "mainssh🇺🇸us (3611)", type: "vmess", server: "162.159.24.16", port: 443, uuid: "0deef0da-71e6-45b3-8e06-d95bc9f09a69", alterId: 0, cipher: "auto", network: "ws", servername: "418.namava-irib.edu.eu.org", tls: true, skip-cert-verify: false, ws-opts: {path: "/vmess", headers: {host: "418.namava-irib.edu.eu.org"}}}
   - {name: "mainssh🇩🇪de (3112)", type: "vmess", server: "141.193.213.218", port: 443, uuid: "7a9fe348-8d13-4453-9c35-01819709ee2c", alterId: 0, cipher: "auto", network: "ws", servername: "pool.namava-irib.edu.eu.org", tls: true, skip-cert-verify: false, ws-opts: {path: "/vmess", headers: {host: "pool.namava-irib.edu.eu.org"}}}
   
+  - {name: "mainssh🇩🇪de (3113)", type: "vmess", server: "104.25.194.1", port: 443, uuid: "6faaec6c-ba24-44e6-964d-b7dec5667d39", alterId: 0, cipher: "auto", network: "ws", servername: "pool.namava-irib.edu.eu.org", tls: true, skip-cert-verify: false, ws-opts: {path: "/vmess", headers: {host: "pool.namava-irib.edu.eu.org"}}}
+  - {name: "mainssh🇩🇪de (3114)", type: "vmess", server: "104.23.97.16", port: 443, uuid: "4437823e-eb66-4ba5-b7a6-98f34599195e", alterId: 0, cipher: "auto", network: "ws", servername: "pool.namava-irib.edu.eu.org", tls: true, skip-cert-verify: false, ws-opts: {path: "/vmess", headers: {host: "pool.namava-irib.edu.eu.org"}}}
+  - {name: "mainssh🇺🇸us (3612)", type: "vmess", server: "162.159.24.16", port: 443, uuid: "78e4ab3d-c6bd-41cd-84a0-3352ae9d2b0a", alterId: 0, cipher: "auto", network: "ws", servername: "418.namava-irib.edu.eu.org", tls: true, skip-cert-verify: false, ws-opts: {path: "/vmess", headers: {host: "418.namava-irib.edu.eu.org"}}}
+  - {name: "mainssh🇨🇦ca (3712)", type: "vmess", server: "104.25.133.164", port: 443, uuid: "095c68b0-dc9a-471d-ad2e-4906fb8c15b2", alterId: 0, cipher: "auto", network: "ws", servername: "403.namava-irib.edu.eu.org", tls: true, skip-cert-verify: false, ws-opts: {path: "/vmess", headers: {host: "403.namava-irib.edu.eu.org"}}}
+  - {name: "mainssh🇬🇧uk (3412)", type: "vmess", server: "104.17.67.137", port: 443, uuid: "01d55014-ca6f-4496-98e7-8902e17cd963", alterId: 0, cipher: "auto", network: "ws", servername: "301.namava-irib.edu.eu.org", tls: true, skip-cert-verify: false, ws-opts: {path: "/vmess", headers: {host: "301.namava-irib.edu.eu.org"}}}
+  - {name: "mainssh🇫🇷fr (3512)", type: "vmess", server: "104.17.73.72", port: 443, uuid: "b6100780-66bd-4c63-9f22-3d5b8179ec67", alterId: 0, cipher: "auto", network: "ws", servername: "405.namava-irib.edu.eu.org", tls: true, skip-cert-verify: false, ws-opts: {path: "/vmess", headers: {host: "405.namava-irib.edu.eu.org"}}}
+  
   - {name: "opentunnel🇮🇩id (2331)", type: "vmess", server: "198.41.200.138", port: 443, uuid: "a40d34c6-b77c-4648-9210-3e8d2f4226b5", alterId: 16, cipher: "auto", network: "ws", servername: "501.namava-irib.edu.eu.org", tls: true, skip-cert-verify: false, ws-opts: {path: "/opentunnel?user=opentunnel.net-fsdnfskfa", headers: {host: "501.namava-irib.edu.eu.org"}}}
   - {name: "opentunnel🇺🇸us (2141)", type: "vmess", server: "198.41.205.12", port: 443, uuid: "a40d34c6-b77c-4648-9210-3e8d2f4226b5", alterId: 16, cipher: "auto", network: "ws", servername: "302.namava-irib.edu.eu.org", tls: true, skip-cert-verify: false, ws-opts: {path: "/opentunnel?user=opentunnel.net-efnsdkflsdkn", headers: {host: "302.namava-irib.edu.eu.org"}}}
   - {name: "opentunnel🇳🇱nl (2211)", type: "vmess", server: "190.93.246.4", port: 443, uuid: "a40d34c6-b77c-4648-9210-3e8d2f4226b5", alterId: 16, cipher: "auto", network: "ws", servername: "503.namava-irib.edu.eu.org", tls: true, skip-cert-verify: false, ws-opts: {path: "/opentunnel?user=opentunnel.net-nfdklsafnksd", headers: {host: "503.namava-irib.edu.eu.org"}}}
@@ -306,6 +313,12 @@ proxy-groups:
       - opentunnel🇫🇷fr (2611)
       - opentunnel🇩🇪de (2511)
       - opentunnel🇩🇪de (2512)
+      - mainssh🇩🇪de (3113)
+      - mainssh🇩🇪de (3114)
+      - mainssh🇺🇸us (3612)
+      - mainssh🇨🇦ca (3712)
+      - mainssh🇬🇧uk (3412)
+      - mainssh🇫🇷fr (3512)
       - createssh🇩🇪de (T7111)
       - createssh🇨🇦ca (T7211)
       - createssh🇬🇧uk (T7311)
@@ -395,6 +408,12 @@ proxy-groups:
       - opentunnel🇫🇷fr (2611)
       - opentunnel🇩🇪de (2511)
       - opentunnel🇩🇪de (2512)
+      - mainssh🇩🇪de (3113)
+      - mainssh🇩🇪de (3114)
+      - mainssh🇺🇸us (3612)
+      - mainssh🇨🇦ca (3712)
+      - mainssh🇬🇧uk (3412)
+      - mainssh🇫🇷fr (3512)
       - createssh🇩🇪de (T7111)
       - createssh🇨🇦ca (T7211)
       - createssh🇬🇧uk (T7311)
