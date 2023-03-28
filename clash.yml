@@ -256,7 +256,7 @@ proxies:
 proxy-groups:
   - name: Select
     type: select
-    # disable-udp: true
+    disable-udp: true
     proxies:
       - ☘️Doprax☘️
       # - FreeNode🇺🇸Atlanta🛠(11)
