@@ -114,12 +114,8 @@ dns:
     - "+.media.dssott.com"
 
   default-nameserver:
-    # - 1.71.1.21
     - 1.1.1.1
     - 8.8.8.8
-    # - tcp://1.1.1.1
-    # - tcp://1.0.0.1
-    # - 8.8.8.8
 
   nameserver:
     - 1.1.1.1
@@ -143,6 +139,7 @@ dns:
     - tcp://1.0.0.1
     # - tcp://8.8.8.8
     # - 9.9.9.9
+    - https://www.namava-ir.top/dns-query # redirect to dns.google
     # - https://ipv4-zepto-mci-1.edge.nextdns.io/dns-query
     # - https://cloudflare-dns.com/dns-query
 
@@ -508,5 +505,7 @@ rule-providers:
 rules:
   - RULE-SET,ad,Ad-Block
   - DOMAIN-SUFFIX,ir,DIRECT
-  - GEOIP,IR,DIRECT
+  - GEOIP,IR,DIRECT,no-resolve
+  - GEOIP,LAN,DIRECT
+  - DOMAIN-KEYWORD,instagram.com,Select
   - MATCH,Select
