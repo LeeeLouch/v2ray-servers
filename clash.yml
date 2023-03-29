@@ -175,7 +175,7 @@ proxy-providers:
   irancell:
     type: http
     url: https://www.dropbox.com/s/c5k95ed2ns050os/irancell.yml?dl=1
-    path: ./customRule/irancell.yml
+    path: ./proxies/irancell.yml
     interval: 86400
     health-check:
       enable: true
@@ -184,7 +184,7 @@ proxy-providers:
   mci:
     type: http
     url: https://www.dropbox.com/s/803mgad9vyxmq8w/mci.yml?dl=1
-    path: ./customRule/mci.yml
+    path: ./proxies/mci.yml
     interval: 86400
     health-check:
       enable: true
@@ -193,6 +193,7 @@ proxy-providers:
   adsl:
     type: http
     url: https://www.dropbox.com/s/70vm9i35y8ury3n/adsl.yml?dl=1
+    path: ./proxies/adsl.yml
     interval: 86400
     health-check:
       enable: true
