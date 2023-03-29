@@ -1,6 +1,6 @@
 mode: rule
 log-level: info
-ignore-resolve-fail: false
+# ignore-resolve-fail: false
 ipv6: false
 # profile:
 # store-selected: true
