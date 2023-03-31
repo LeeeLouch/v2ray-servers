@@ -310,5 +310,4 @@ rules:
   - RULE-SET,ad,Ad-Block
   - DOMAIN-SUFFIX,ir,DIRECT,no-resolve
   - GEOIP,IR,DIRECT,no-resolve
-  - GEOIP,LAN,DIRECT
   - MATCH,Select
