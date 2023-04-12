@@ -102,74 +102,6 @@ proxies:
   - {name: "FreeNode🇺🇸Atlanta🛠(41)", type: "vmess", server: "104.16.0.170", port: 443, uuid: "7223AFD7-FF67-4B1E-978E-EE0F019B5442", alterId: 0, cipher: "auto", udp: true, tls: true, servername: "worker5.tipage6563.workers.dev", network: "ws", ws-opts: {path: "/Atlanta.v2ray.online:443/speedtest", headers: {host: "worker5.tipage6563.workers.dev"}}}
   - {name: "FreeNode🇩🇪Dusseldorf🛠(49)", type: "vmess", server: "104.16.0.170", port: 443, uuid: "7223AFD7-FF67-4B1E-978E-EE0F019B5442", alterId: 0, cipher: "auto", udp: true, tls: true, servername: "worker5.tipage6563.workers.dev", network: "ws", ws-opts: {path: "/Dusseldorf.v2ray.online:443/speedtest", headers: {host: "worker5.tipage6563.workers.dev"}}}
   - {name: "FreeNode🇱🇻Riga🛠(47)", type: "vmess", server: "104.16.0.170", port: 443, uuid: "7223AFD7-FF67-4B1E-978E-EE0F019B5442", alterId: 0, cipher: "auto", udp: true, tls: true, servername: "worker5.tipage6563.workers.dev", network: "ws", ws-opts: {path: "/Riga.v2ray.online:443/speedtest", headers: {host: "worker5.tipage6563.workers.dev"}}}
-  
-  # - {name: "freevmess🇯🇵jp (1311)", type: "vmess", server: "104.24.154.97", port: 443, uuid: "3009f475-ddd4-4bc5-afec-4ca039047b44", alterId: 0, cipher: "auto", network: "ws", servername: "303.namava-irib.edu.eu.org", udp: true, tls: true, skip-cert-verify: false, ws-opts: {path: "/freevmess", headers: {host: "303.namava-irib.edu.eu.org"}}}
-  # - {name: "freevmess🇫🇷fr (1511)", type: "vmess", server: "190.93.246.75", port: 443, uuid: "5ccfce2e-9b1f-4c61-ac24-b7d3b49e7d63", alterId: 0, cipher: "auto", network: "ws", servername: "201.namava-irib.edu.eu.org", udp: true, tls: true, skip-cert-verify: false, ws-opts: {path: "/freevmess", headers: {host: "201.namava-irib.edu.eu.org"}}}
-  # - {name: "freevmess🇨🇦ca (1711)", type: "vmess", server: "172.65.3.69", port: 443, uuid: "ae0f4b46-839c-4968-970c-2aa9247491f6", alterId: 0, cipher: "auto", network: "ws", servername: "402.namava-irib.edu.eu.org", udp: true, tls: true, skip-cert-verify: false, ws-opts: {path: "/freevmess", headers: {host: "402.namava-irib.edu.eu.org"}}}
-  # - {name: "freevmess🇬🇧uk (1411)", type: "vmess", server: "190.93.244.16", port: 443, uuid: "5fa38383-9713-4f32-a174-f1ddbc19294f", alterId: 0, cipher: "auto", network: "ws", servername: "404.namava-irib.edu.eu.org", udp: true, tls: true, skip-cert-verify: false, ws-opts: {path: "/freevmess", headers: {host: "404.namava-irib.edu.eu.org"}}}
-  # - {name: "freevmess🇩🇪de (1111)", type: "vmess", server: "190.93.244.16", port: 443, uuid: "086bf72a-b070-4fd2-bc1d-7f1fb164cd2e", alterId: 0, cipher: "auto", network: "ws", servername: "502.namava-irib.edu.eu.org", udp: true, tls: true, skip-cert-verify: false, ws-opts: {path: "/freevmess", headers: {host: "502.namava-irib.edu.eu.org"}}}
-  # - {name: "freevmess🇺🇸us (1611)", type: "vmess", server: "104.25.251.69", port: 443, uuid: "09c5c47f-2f48-4ecc-ace9-ae5800a3b2d8", alterId: 0, cipher: "auto", network: "ws", servername: "200.namava-irib.edu.eu.org", udp: true, tls: true, skip-cert-verify: false, ws-opts: {path: "/freevmess", headers: {host: "200.namava-irib.edu.eu.org"}}}
-
-  # - {name: "mainssh🇮🇩id (3211)", type: "vmess", server: "104.24.154.97", port: 443, uuid: "0ea7c558-e18f-4814-abf1-15f010c7450c", alterId: 0, cipher: "auto", network: "ws", servername: "500.namava-irib.edu.eu.org", udp: true, tls: true, skip-cert-verify: false, ws-opts: {path: "/vmess", headers: {host: "500.namava-irib.edu.eu.org"}}}
-  # - {name: "mainssh🇬🇧uk (3411)", type: "vmess", server: "141.193.213.218", port: 443, uuid: "96dadd1c-3cdf-4280-9faf-c8bddcc5e77c", alterId: 0, cipher: "auto", network: "ws", servername: "301.namava-irib.edu.eu.org", udp: true, tls: true, skip-cert-verify: false, ws-opts: {path: "/vmess", headers: {host: "301.namava-irib.edu.eu.org"}}}
-  # - {name: "mainssh🇨🇦ca (3711)", type: "vmess", server: "141.193.213.218", port: 443, uuid: "0bce254b-400f-4230-8408-2d46f5ffa4c4", alterId: 0, cipher: "auto", network: "ws", servername: "403.namava-irib.edu.eu.org", udp: true, tls: true, skip-cert-verify: false, ws-opts: {path: "/vmess", headers: {host: "403.namava-irib.edu.eu.org"}}}
-  # - {name: "mainssh🇫🇷fr (3511)", type: "vmess", server: "104.16.208.130", port: 443, uuid: "d01bf26e-6d6d-4620-bb17-c00d41907cfc", alterId: 0, cipher: "auto", network: "ws", servername: "405.namava-irib.edu.eu.org", udp: true, tls: true, skip-cert-verify: false, ws-opts: {path: "/vmess", headers: {host: "405.namava-irib.edu.eu.org"}}}
-  # - {name: "mainssh🇩🇪de (3111)", type: "vmess", server: "172.65.3.69", port: 443, uuid: "61b23016-8c92-4b11-8c29-6fd87dc6c9b0", alterId: 0, cipher: "auto", network: "ws", servername: "203.namava-irib.edu.eu.org", udp: true, tls: true, skip-cert-verify: false, ws-opts: {path: "/vmess", headers: {host: "203.namava-irib.edu.eu.org"}}}
-  # - {name: "mainssh🇺🇸us (3611)", type: "vmess", server: "162.159.24.16", port: 443, uuid: "0deef0da-71e6-45b3-8e06-d95bc9f09a69", alterId: 0, cipher: "auto", network: "ws", servername: "418.namava-irib.edu.eu.org", udp: true, tls: true, skip-cert-verify: false, ws-opts: {path: "/vmess", headers: {host: "418.namava-irib.edu.eu.org"}}}
-  # - {name: "mainssh🇩🇪de (3112)", type: "vmess", server: "141.193.213.218", port: 443, uuid: "7a9fe348-8d13-4453-9c35-01819709ee2c", alterId: 0, cipher: "auto", network: "ws", servername: "203.namava-irib.edu.eu.org", udp: true, tls: true, skip-cert-verify: false, ws-opts: {path: "/vmess", headers: {host: "203.namava-irib.edu.eu.org"}}}
-  
-  # - {name: "mainssh🇩🇪de (3113)", type: "vmess", server: "104.25.194.1", port: 443, uuid: "6faaec6c-ba24-44e6-964d-b7dec5667d39", alterId: 0, cipher: "auto", network: "ws", servername: "203.namava-irib.edu.eu.org", udp: true, tls: true, skip-cert-verify: false, ws-opts: {path: "/vmess", headers: {host: "203.namava-irib.edu.eu.org"}}}
-  # - {name: "mainssh🇩🇪de (3114)", type: "vmess", server: "104.23.97.16", port: 443, uuid: "4437823e-eb66-4ba5-b7a6-98f34599195e", alterId: 0, cipher: "auto", network: "ws", servername: "203.namava-irib.edu.eu.org", udp: true, tls: true, skip-cert-verify: false, ws-opts: {path: "/vmess", headers: {host: "203.namava-irib.edu.eu.org"}}}
-  # - {name: "mainssh🇺🇸us (3612)", type: "vmess", server: "162.159.24.16", port: 443, uuid: "78e4ab3d-c6bd-41cd-84a0-3352ae9d2b0a", alterId: 0, cipher: "auto", network: "ws", servername: "418.namava-irib.edu.eu.org", udp: true, tls: true, skip-cert-verify: false, ws-opts: {path: "/vmess", headers: {host: "418.namava-irib.edu.eu.org"}}}
-  # - {name: "mainssh🇨🇦ca (3712)", type: "vmess", server: "104.25.133.164", port: 443, uuid: "095c68b0-dc9a-471d-ad2e-4906fb8c15b2", alterId: 0, cipher: "auto", network: "ws", servername: "403.namava-irib.edu.eu.org", udp: true, tls: true, skip-cert-verify: false, ws-opts: {path: "/vmess", headers: {host: "403.namava-irib.edu.eu.org"}}}
-  # - {name: "mainssh🇬🇧uk (3412)", type: "vmess", server: "104.17.67.137", port: 443, uuid: "01d55014-ca6f-4496-98e7-8902e17cd963", alterId: 0, cipher: "auto", network: "ws", servername: "301.namava-irib.edu.eu.org", udp: true, tls: true, skip-cert-verify: false, ws-opts: {path: "/vmess", headers: {host: "301.namava-irib.edu.eu.org"}}}
-  # - {name: "mainssh🇫🇷fr (3512)", type: "vmess", server: "104.17.73.72", port: 443, uuid: "b6100780-66bd-4c63-9f22-3d5b8179ec67", alterId: 0, cipher: "auto", network: "ws", servername: "405.namava-irib.edu.eu.org", udp: true, tls: true, skip-cert-verify: false, ws-opts: {path: "/vmess", headers: {host: "405.namava-irib.edu.eu.org"}}}
-  
-  # - {name: "opentunnel🇮🇩id (2331)", type: "vmess", server: "198.41.200.138", port: 443, uuid: "a40d34c6-b77c-4648-9210-3e8d2f4226b5", alterId: 16, cipher: "auto", network: "ws", servername: "501.namava-irib.edu.eu.org", udp: true, tls: true, skip-cert-verify: false, ws-opts: {path: "/opentunnel?user=opentunnel.net-fsdnfskfa", headers: {host: "501.namava-irib.edu.eu.org"}}}
-  # - {name: "opentunnel🇺🇸us (2141)", type: "vmess", server: "198.41.205.12", port: 443, uuid: "a40d34c6-b77c-4648-9210-3e8d2f4226b5", alterId: 16, cipher: "auto", network: "ws", servername: "302.namava-irib.edu.eu.org", udp: true, tls: true, skip-cert-verify: false, ws-opts: {path: "/opentunnel?user=opentunnel.net-efnsdkflsdkn", headers: {host: "302.namava-irib.edu.eu.org"}}}
-  # - {name: "opentunnel🇳🇱nl (2211)", type: "vmess", server: "190.93.246.4", port: 443, uuid: "a40d34c6-b77c-4648-9210-3e8d2f4226b5", alterId: 16, cipher: "auto", network: "ws", servername: "503.namava-irib.edu.eu.org", udp: true, tls: true, skip-cert-verify: false, ws-opts: {path: "/opentunnel?user=opentunnel.net-nfdklsafnksd", headers: {host: "503.namava-irib.edu.eu.org"}}}
-  # - {name: "opentunnel🇭🇰hk (2411)", type: "vmess", server: "198.41.200.112", port: 443, uuid: "a40d34c6-b77c-4648-9210-3e8d2f4226b5", alterId: 16, cipher: "auto", network: "ws", servername: "401.namava-irib.edu.eu.org", udp: true, tls: true, skip-cert-verify: false, ws-opts: {path: "/opentunnel?user=opentunnel.net-nkelsdfks", headers: {host: "401.namava-irib.edu.eu.org"}}}
-  # - {name: "opentunnel🇮🇩id (2321)", type: "vmess", server: "190.93.246.4", port: 443, uuid: "a40d34c6-b77c-4648-9210-3e8d2f4226b5", alterId: 16, cipher: "auto", network: "ws", servername: "410.namava-irib.edu.eu.org", udp: true, tls: true, skip-cert-verify: false, ws-opts: {path: "/opentunnel?user=opentunnel.net-kfndslafksdn", headers: {host: "410.namava-irib.edu.eu.org"}}}
-  # - {name: "opentunnel🇺🇸us (2131)", type: "vmess", server: "198.41.205.12", port: 443, uuid: "a40d34c6-b77c-4648-9210-3e8d2f4226b5", alterId: 16, cipher: "auto", network: "ws", servername: "504.namava-irib.edu.eu.org", udp: true, tls: true, skip-cert-verify: false, ws-opts: {path: "/opentunnel?user=opentunnel.net-fdsnaksfn", headers: {host: "504.namava-irib.edu.eu.org"}}}
-  # - {name: "opentunnel🇺🇸us (2121)", type: "vmess", server: "198.41.196.128", port: 443, uuid: "a40d34c6-b77c-4648-9210-3e8d2f4226b5", alterId: 16, cipher: "auto", network: "ws", servername: "400.namava-irib.edu.eu.org", udp: true, tls: true, skip-cert-verify: false, ws-opts: {path: "/opentunnel?user=opentunnel.net-nflskafks", headers: {host: "400.namava-irib.edu.eu.org"}}}
-  # - {name: "opentunnel🇫🇷fr (2611)", type: "vmess", server: "198.41.200.138", port: 443, uuid: "a40d34c6-b77c-4648-9210-3e8d2f4226b5", alterId: 16, cipher: "auto", network: "ws", servername: "101.namava-irib.edu.eu.org ", udp: true, tls: true, skip-cert-verify: false, ws-opts: {path: "/opentunnel?user=opentunnel.net-fsdnflsadf", headers: {host: "101.namava-irib.edu.eu.org"}}}
-  # - {name: "opentunnel🇩🇪de (2511)", type: "vmess", server: "190.93.246.4", port: 443, uuid: "a40d34c6-b77c-4648-9210-3e8d2f4226b5", alterId: 16, cipher: "auto", network: "ws", servername: "102.namava-irib.edu.eu.org", udp: true, tls: true, skip-cert-verify: false, ws-opts: {path: "/opentunnel?user=opentunnel.net-nfslkfnsldf", headers: {host: "102.namava-irib.edu.eu.org"}}}
-  # - {name: "opentunnel🇩🇪de (2512)", type: "vmess", server: "198.41.200.138", port: 443, uuid: "a40d34c6-b77c-4648-9210-3e8d2f4226b5", alterId: 16, cipher: "auto", network: "ws", servername: "102.namava-irib.edu.eu.org", udp: true, tls: true, skip-cert-verify: false, ws-opts: {path: "/opentunnel?user=opentunnel.net-fsjdkafnlskfl", headers: {host: "102.namava-irib.edu.eu.org"}}}
-  # - {name: "opentunnel🇳🇱nl (2261)", type: "vmess", server: "172.65.3.69", port: 443, uuid: "a40d34c6-b77c-4648-9210-3e8d2f4226b5", alterId: 16, cipher: "auto", network: "ws", servername: "202.namava-irib.edu.eu.org", udp: true, tls: true, skip-cert-verify: false, ws-opts: {path: "/opentunnel?user=opentunnel.net-dfsfdsvdsv", headers: {host: "202.namava-irib.edu.eu.org"}}}
-
-  # - {name: "createssh🇩🇪de (T7111)", type: "trojan", server: "104.16.1.77", port: 443, password: "182b386a-b620-4bd1-8d71-f23e78fcbc4b", sni: "103.namava-irib.edu.eu.org", skip-cert-verify: false, network: "ws", udp: true, ws-opts: {path: "/trojan-ws", headers: {host: "103.namava-irib.edu.eu.org"}}}
-  # - {name: "createssh🇨🇦ca (T7211)", type: "trojan", server: "104.16.1.70", port: 443, password: "2f14690a-6d1f-460b-b945-3a7c58615281", sni: "406.namava-irib.edu.eu.org", skip-cert-verify: false, network: "ws", udp: true, ws-opts: {path: "/trojan-ws", headers: {host: "406.namava-irib.edu.eu.org"}}}
-  # - {name: "createssh🇬🇧uk (T7311)", type: "trojan", server: "104.16.1.90", port: 443, password: "f2c0b1fe-3689-4453-bfe5-48b8c9fb5fe2", sni: "407.namava-irib.edu.eu.org", skip-cert-verify: false, network: "ws", udp: true, ws-opts: {path: "/trojan-ws", headers: {host: "407.namava-irib.edu.eu.org"}}}
-  # - {name: "createssh🇩🇪de (T7112)", type: "trojan", server: "104.19.74.130", port: 443, password: "1a29697e-0a3f-4480-92e5-363a9f9f9a03", sni: "103.namava-irib.edu.eu.org", skip-cert-verify: false, network: "ws", udp: true, ws-opts: {path: "/trojan-ws", headers: {host: "103.namava-irib.edu.eu.org"}}}
-  # - {name: "createssh🇨🇦ca (T7212)", type: "trojan", server: "104.16.1.81", port: 443, password: "71d6af07-e5d6-4033-82c2-f6d28425a006", sni: "406.namava-irib.edu.eu.org", skip-cert-verify: false, network: "ws", udp: true, ws-opts: {path: "/trojan-ws", headers: {host: "406.namava-irib.edu.eu.org"}}}
-
-  # - {name: "sshocean🇨🇦ca (T5121)", type: "trojan", server: "104.21.97.16", port: 443, password: "af2e507c-745d-456c-8899-ddf1aaddaf62", sni: "1006.namava-irib.edu.eu.org", skip-cert-verify: false, network: "ws", udp: true, ws-opts: {path: "/websocket", headers: {host: "1006.namava-irib.edu.eu.org"}}}
-  # - {name: "sshocean🇬🇧uk (T5221)", type: "trojan", server: "104.19.85.70", port: 443, password: "0c95d78a-40ba-46e3-bfff-5e7b2a626a68", sni: "1001.namava-irib.edu.eu.org", skip-cert-verify: false, network: "ws", udp: true, ws-opts: {path: "/websocket", headers: {host: "1001.namava-irib.edu.eu.org"}}}
-  # - {name: "sshocean🇬🇧uk (T5331)", type: "trojan", server: "104.16.1.77", port: 443, password: "ccc8c89c-389b-41cd-bb61-f691e84e5fba", sni: "1002.namava-irib.edu.eu.org", skip-cert-verify: false, network: "ws", udp: true, ws-opts: {path: "/websocket", headers: {host: "1002.namava-irib.edu.eu.org"}}}
-  # - {name: "sshocean🇺🇸us (T5421)", type: "trojan", server: "104.19.91.75", port: 443, password: "1138d3e8-659e-4cbf-8571-86c709411557", sni: "1003.namava-irib.edu.eu.org", skip-cert-verify: false, network: "ws", udp: true, ws-opts: {path: "/websocket", headers: {host: "1003.namava-irib.edu.eu.org"}}}
-  # - {name: "sshocean🇫🇷fr (T5521)", type: "trojan", server: "104.16.1.90", port: 443, password: "f742ee88-80ce-4d6e-9d5a-19feeb6fc01f", sni: "1004.namava-irib.edu.eu.org", skip-cert-verify: false, network: "ws", udp: true, ws-opts: {path: "/websocket", headers: {host: "1004.namava-irib.edu.eu.org"}}}
-  # - {name: "sshocean🇫🇷fr (T5511)", type: "trojan", server: "104.16.1.81", port: 443, password: "f1cf02f1-522d-47bc-bc64-d1cef0544808", sni: "1005.namava-irib.edu.eu.org", skip-cert-verify: false, network: "ws", udp: true, ws-opts: {path: "/websocket", headers: {host: "1005.namava-irib.edu.eu.org"}}}
-  # - {name: "sshocean🇩🇪de (T5611)", type: "trojan", server: "104.23.97.16", port: 443, password: "57d7c1b8-30fd-471d-8e7b-06d13aff547a", sni: "1007.namava-irib.edu.eu.org", skip-cert-verify: false, network: "ws", udp: true, ws-opts: {path: "/websocket", headers: {host: "1007.namava-irib.edu.eu.org"}}}
-  
-  # - {name: "sshocean🇨🇦ca (T5122)", type: "trojan", server: "104.24.77.5", port: 443, password: "623d6a80-d746-44b7-9995-d0e062e0f328", sni: "1006.namava-irib.edu.eu.org", skip-cert-verify: false, network: "ws", udp: true, ws-opts: {path: "/websocket", headers: {host: "1006.namava-irib.edu.eu.org"}}}
-  # - {name: "sshocean🇬🇧uk (T5222)", type: "trojan", server: "104.19.85.70", port: 443, password: "57fc458d-6bf8-4752-a4d5-0be122386756", sni: "1001.namava-irib.edu.eu.org", skip-cert-verify: false, network: "ws", udp: true, ws-opts: {path: "/websocket", headers: {host: "1001.namava-irib.edu.eu.org"}}}
-  # - {name: "sshocean🇬🇧uk (T5332)", type: "trojan", server: "104.17.73.72", port: 443, password: "fb881ef4-8465-4c9c-8625-470448903f93", sni: "1002.namava-irib.edu.eu.org", skip-cert-verify: false, network: "ws", udp: true, ws-opts: {path: "/websocket", headers: {host: "1002.namava-irib.edu.eu.org"}}}
-  # - {name: "sshocean🇺🇸us (T5422)", type: "trojan", server: "104.17.67.137", port: 443, password: "abc073d1-8e8e-4255-97e5-f680a5ab4fa1", sni: "1003.namava-irib.edu.eu.org", skip-cert-verify: false, network: "ws", udp: true, ws-opts: {path: "/websocket", headers: {host: "1003.namava-irib.edu.eu.org"}}}
-  # - {name: "sshocean🇫🇷fr (T5522)", type: "trojan", server: "104.25.194.1", port: 443, password: "ffe98867-e6af-4d20-969e-b5b50c5ea94d", sni: "1004.namava-irib.edu.eu.org", skip-cert-verify: false, network: "ws", udp: true, ws-opts: {path: "/websocket", headers: {host: "1004.namava-irib.edu.eu.org"}}}
-  # - {name: "sshocean🇫🇷fr (T5512)", type: "trojan", server: "104.25.133.164", port: 443, password: "b66c0541-f4b8-4372-8e2c-bce338d4401c", sni: "1005.namava-irib.edu.eu.org", skip-cert-verify: false, network: "ws", udp: true, ws-opts: {path: "/websocket", headers: {host: "1005.namava-irib.edu.eu.org"}}}
-
-
-  # - {name: "mainssh🇮🇩id (T3211)", type: "trojan", server: "104.19.79.182", port: 443, password: "mainssh-esdvxcvz", sni: "416.namava-irib.edu.eu.org", skip-cert-verify: false, network: "ws", udp: true, ws-opts: {path: "/trojan", headers: {host: "416.namava-irib.edu.eu.org"}}}
-  # - {name: "mainssh🇫🇷fr (T3511)", type: "trojan", server: "104.19.93.65", port: 443, password: "mainssh-efdszvxczvzx", sni: "417.namava-irib.edu.eu.org", skip-cert-verify: false, network: "ws", udp: true, ws-opts: {path: "/trojan", headers: {host: "417.namava-irib.edu.eu.org"}}}
-  # - {name: "mainssh🇬🇧uk (T3411)", type: "trojan", server: "104.16.1.90", port: 443, password: "mainssh-xczvefdsz", sni: "419.namava-irib.edu.eu.org", skip-cert-verify: false, network: "ws", udp: true, ws-opts: {path: "/trojan", headers: {host: "419.namava-irib.edu.eu.org"}}}
-  # - {name: "mainssh🇩🇪de (T3111)", type: "trojan", server: "104.19.74.130", port: 443, password: "mainssh-erfdzxvccvxz", sni: "420.namava-irib.edu.eu.org", skip-cert-verify: false, network: "ws", udp: true, ws-opts: {path: "/trojan", headers: {host: "420.namava-irib.edu.eu.org"}}}
-  # - {name: "mainssh🇺🇸us (T3611)", type: "trojan", server: "104.16.1.81", port: 443, password: "mainssh-efdvzcvcxz", sni: "421.namava-irib.edu.eu.org", skip-cert-verify: false, network: "ws", udp: true, ws-opts: {path: "/trojan", headers: {host: "421.namava-irib.edu.eu.org"}}}
-  # - {name: "mainssh🇩🇪de (T3112)", type: "trojan", server: "104.16.1.77", port: 443, password: "mainssh-eafsdzvcxv", sni: "420.namava-irib.edu.eu.org", skip-cert-verify: false, network: "ws", udp: true, ws-opts: {path: "/trojan", headers: {host: "420.namava-irib.edu.eu.org"}}}
-  # - {name: "mainssh🇨🇦ca (T3711)", type: "trojan", server: "104.19.79.182", port: 443, password: "mainssh-fdnebfsdaf", sni: "422.namava-irib.edu.eu.org", skip-cert-verify: false, network: "ws", udp: true, ws-opts: {path: "/trojan", headers: {host: "422.namava-irib.edu.eu.org"}}}
-
-  # - {name: "globalssh🇩🇪de (T7111)", type: "trojan", server: "104.19.79.182", port: 443, password: "zszszzzz", sni: "425.namava-irib.edu.eu.org", skip-cert-verify: false, network: "ws", udp: true, ws-opts: {path: "/trojan-ws", headers: {host: "425.namava-irib.edu.eu.org "}}}
-  # - {name: "globalssh🇺🇸us (T7211)", type: "trojan", server: "104.17.129.1", port: 443, password: "sdvdvdsfv", sni: "424.namava-irib.edu.eu.org", skip-cert-verify: false, network: "ws", udp: true, ws-opts: {path: "/trojan-ws", headers: {host: "424.namava-irib.edu.eu.org "}}}
-  # - {name: "globalssh🇺🇸us (T7212)", type: "trojan", server: "104.17.81.137", port: 443, password: "xres5xyr", sni: "424.namava-irib.edu.eu.org", skip-cert-verify: false, network: "ws", udp: true, ws-opts: {path: "/trojan-ws", headers: {host: "424.namava-irib.edu.eu.org "}}}
 
 proxy-providers:
   irancell:
@@ -181,6 +113,7 @@ proxy-providers:
       enable: true
       url: http://cp.cloudflare.com
       interval: 300
+  
   mci:
     type: http
     url: https://www.dropbox.com/s/803mgad9vyxmq8w/mci.yml?dl=1
@@ -190,12 +123,23 @@ proxy-providers:
       enable: true
       url: http://cp.cloudflare.com
       interval: 300
-  adsl:
+  
+  asiatech:
     type: http
-    url: https://www.dropbox.com/s/70vm9i35y8ury3n/adsl.yml?dl=1
-    path: ./proxies/adsl.yml
+    url: https://dropbox.com/s/m9ycrxsxrkkec7n/asiatech.yml?dl=1
+    path: ./proxies/asiatech.yml
     interval: 86400
     health-check:
+      enable: true
+      url: http://cp.cloudflare.com
+      interval: 300
+
+  pishgaman:
+    type: http
+    url: https://www.dropbox.com/s/dt9ksb1xeylotio/pishgaman.yml?dl=1
+    path: ./proxies/pishgaman.yml
+    interval: 86400
+    health-check: 
       enable: true
       url: http://cp.cloudflare.com
       interval: 300
@@ -205,20 +149,21 @@ proxy-groups:
     type: select
     # disable-udp: true
     proxies:
-      - ADSL
+      - Asiatech
       - MCI
       - Irancell
       - Worker
+      - Pishgaman
 
   # - name: ⚡️Auto⚡️
   #   type: fallback
   #   url: http://www.gstatic.com/generate_204
   #   interval: 300
   #   proxies:
-  - name: ADSL
+  - name: Asiatech
     type: select
     use:
-      - adsl
+      - asiatech
 
   - name: MCI
     type: select
@@ -229,6 +174,11 @@ proxy-groups:
     type: select
     use:
       - irancell
+  
+  - name: Pishgaman
+    type: select
+    use:
+      - pishgaman
 
   - name: Worker
     type: select
