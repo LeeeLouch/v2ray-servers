@@ -143,6 +143,16 @@ proxy-providers:
       enable: true
       url: http://cp.cloudflare.com
       interval: 300
+  
+  mokhaberat:
+    type: http
+    url: https://www.dropbox.com/s/qtu1lz5ss1uorg6/mokhaberat.yml?dl=1
+    path: ./proxies/mokhaberat.yml
+    interval: 86400
+    health-check: 
+      enable: true
+      url: http://cp.cloudflare.com
+      interval: 300
 
 proxy-groups:
   - name: Select
@@ -152,8 +162,9 @@ proxy-groups:
       - Asiatech
       - MCI
       - Irancell
-      - Worker
       - Pishgaman
+      - Mokhaberat
+      - Worker
 
   # - name: ⚡️Auto⚡️
   #   type: fallback
@@ -179,6 +190,11 @@ proxy-groups:
     type: select
     use:
       - pishgaman
+  
+  - name: Mokhaberat
+    type: select
+    use: 
+      - mokhaberat
 
   - name: Worker
     type: select
