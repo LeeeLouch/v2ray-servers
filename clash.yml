@@ -164,7 +164,7 @@ proxy-providers:
     health-check: 
       enable: true
       url: http://cp.cloudflare.com
-      interval: 300
+      interval: 30
 
 
 proxy-groups:
