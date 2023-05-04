@@ -156,6 +156,16 @@ proxy-providers:
       url: http://cp.cloudflare.com
       interval: 300
 
+  shatel:
+    type: http
+    url: https://www.dropbox.com/s/9qpz0j95amb65o8/shatel.yml?dl=1
+    path: ./proxies/shatel.yml
+    interval: 86400
+    health-check: 
+      enable: true
+      url: http://cp.cloudflare.com
+      interval: 300
+
   worker:
     type: http
     url: https://www.dropbox.com/s/av8nppa98x492ky/worker.yml?dl=1
@@ -177,6 +187,7 @@ proxy-groups:
       - Irancell
       - Pishgaman
       - Mokhaberat
+      - Shatel
       - Worker
 
   - name: Asiatech
@@ -203,6 +214,10 @@ proxy-groups:
     type: select
     use: 
       - mokhaberat
+  - name: Shatel
+    type: select
+    use:
+      - shatel
 
   - name: Worker
     type: select
