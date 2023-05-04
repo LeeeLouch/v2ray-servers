@@ -265,6 +265,5 @@ rules:
   - RULE-SET,ad,Ad-Block
   - DOMAIN-SUFFIX,ir,DIRECT
   - GEOIP,IR,DIRECT
-  - GEOIP,LAN,DIRECT
   - RULE-SET,unfiltered,Unfiltered-Sites
   - MATCH,Proxy
