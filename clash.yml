@@ -114,7 +114,7 @@ proxy-providers:
     health-check:
       enable: true
       url: http://cp.cloudflare.com
-      interval: 300
+      interval: 600
   
   mci:
     type: http
@@ -124,7 +124,7 @@ proxy-providers:
     health-check:
       enable: true
       url: http://cp.cloudflare.com
-      interval: 300
+      interval: 600
   
   asiatech:
     type: http
@@ -134,7 +134,7 @@ proxy-providers:
     health-check:
       enable: true
       url: http://cp.cloudflare.com
-      interval: 300
+      interval: 600
 
   pishgaman:
     type: http
@@ -144,7 +144,7 @@ proxy-providers:
     health-check: 
       enable: true
       url: http://cp.cloudflare.com
-      interval: 300
+      interval: 600
   
   mokhaberat:
     type: http
@@ -154,7 +154,7 @@ proxy-providers:
     health-check: 
       enable: true
       url: http://cp.cloudflare.com
-      interval: 300
+      interval: 600
 
   shatel:
     type: http
@@ -164,7 +164,7 @@ proxy-providers:
     health-check: 
       enable: true
       url: http://cp.cloudflare.com
-      interval: 300
+      interval: 600
 
   worker:
     type: http
@@ -174,7 +174,7 @@ proxy-providers:
     health-check: 
       enable: true
       url: http://cp.cloudflare.com
-      interval: 300
+      interval: 1800
 
 
 proxy-groups:
