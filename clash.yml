@@ -6,7 +6,7 @@ ipv6: false
 #   tracing: true
 #   store-selected: true
 #   store-fake-ip: true
-sniff-tls-sni: true
+# sniff-tls-sni: true
 dns:
   enable: true
   ipv6: false
