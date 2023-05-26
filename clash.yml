@@ -60,6 +60,8 @@ dns:
     # - 9.9.9.9
     - https://www.namava-ir.top/dns-query # redirect to dns.google
     - https://puredns.org/dns-query
+    - https://kronos.plan9-dns.com/dns-query
+    # - https://dnslow.me/dns-query # Working
     # - https://ipv4-zepto-mci-1.edge.nextdns.io/dns-query
     # - https://cloudflare-dns.com/dns-query
 
@@ -223,18 +225,18 @@ proxy-groups:
     type: select
     use:
       - worker
-
-  - name: Ad-Block
-    type: select
-    proxies:
-    - OFF
-    - ON
   
   - name: Unfiltered-Sites
     type: select
     proxies:
     - Proxy
     - DIRECT
+
+  - name: Ad-Block
+    type: select
+    proxies:
+    - OFF
+    - ON
 
   - name: ON
     type: select
@@ -262,6 +264,8 @@ rule-providers:
     interval: 259200
 
 rules:
+  - IP-CIDR,192.168.0.0/16,DIRECT
+  - IP-CIDR,127.0.0.0/8,DIRECT
   - RULE-SET,ad,Ad-Block
   - DOMAIN-SUFFIX,ir,DIRECT
   - GEOIP,IR,DIRECT
