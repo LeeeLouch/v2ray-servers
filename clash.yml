@@ -11,6 +11,7 @@ profile:
 ### Meta features ###
 tcp-concurrent: true
 global-client-fingerprint: chrome
+unified-delay: true
 
 dns:
   enable: true
