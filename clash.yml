@@ -2,11 +2,12 @@ mode: rule
 log-level: info
 # ignore-resolve-fail: false
 ipv6: false
-# profile:
+profile:
 #   tracing: true
-#   store-selected: true
+  store-selected: true
 #   store-fake-ip: true
 # sniff-tls-sni: true
+global-client-fingerprint: chrome
 dns:
   enable: true
   ipv6: false
