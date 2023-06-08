@@ -197,6 +197,7 @@ proxy-groups:
       - Mokhaberat
       - Shatel
       - Worker
+      - DIRECT
 
   - name: Asiatech
     type: select
