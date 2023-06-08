@@ -122,6 +122,7 @@ proxy-providers:
     health-check:
       enable: true
       url: http://cp.cloudflare.com
+      lazy: true
       interval: 600
   
   mci:
@@ -132,6 +133,7 @@ proxy-providers:
     health-check:
       enable: true
       url: http://cp.cloudflare.com
+      lazy: true
       interval: 600
   
   asiatech:
@@ -142,6 +144,7 @@ proxy-providers:
     health-check:
       enable: true
       url: http://cp.cloudflare.com
+      lazy: true
       interval: 600
 
   pishgaman:
@@ -152,6 +155,7 @@ proxy-providers:
     health-check: 
       enable: true
       url: http://cp.cloudflare.com
+      lazy: true
       interval: 600
   
   mokhaberat:
@@ -162,6 +166,7 @@ proxy-providers:
     health-check: 
       enable: true
       url: http://cp.cloudflare.com
+      lazy: true
       interval: 600
 
   shatel:
@@ -172,6 +177,7 @@ proxy-providers:
     health-check: 
       enable: true
       url: http://cp.cloudflare.com
+      lazy: true
       interval: 600
 
   worker:
@@ -182,7 +188,7 @@ proxy-providers:
     health-check: 
       enable: true
       url: http://cp.cloudflare.com
-      interval: 1800
+      interval: 300
 
 
 proxy-groups:
