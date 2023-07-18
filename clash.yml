@@ -182,7 +182,7 @@ proxy-providers:
 
   worker:
     type: http
-    url: https://auth.namava-ir.top/clash?max=200
+    url: https://lookup.eacvdgae3sa.eu.org/clash?max=200
     path: ./proxies/worker.yml
     # interval: 86400
     health-check: 
